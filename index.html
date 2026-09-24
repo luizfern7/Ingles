@@ -1,0 +1,2544 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Flashcards - Vocabulário Essencial</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+/* ==========================================================================
+   English Flashcards - Estilos Consolidados
+   ========================================================================== */
+:root {
+  --font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --bg-main: #f4f7fb;
+  --bg-card: #ffffff;
+  --bg-subtle: #f8fafc;
+  --border-color: #e2e8f0;
+  --border-focus: #3b82f6;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --primary-light: #eff6ff;
+  --success: #16a34a;
+  --success-hover: #15803d;
+  --success-light: #f0fdf4;
+  --danger: #dc2626;
+  --danger-hover: #b91c1c;
+  --danger-light: #fef2f2;
+  --warning: #d97706;
+  --warning-light: #fffbeb;
+  --accent: #8b5cf6;
+  --accent-light: #f5f3ff;
+  --card-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.03);
+  --card-shadow-hover: 0 20px 30px -10px rgba(0, 0, 0, 0.08);
+  --border-radius-sm: 8px;
+  --border-radius-md: 14px;
+  --border-radius-lg: 22px;
+  --transition-fast: 0.18s ease;
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme="dark"] {
+  --bg-main: #0b0f19;
+  --bg-card: #131b2e;
+  --bg-subtle: #1c263d;
+  --border-color: #2a3754;
+  --border-focus: #60a5fa;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #64748b;
+  --primary: #3b82f6;
+  --primary-hover: #60a5fa;
+  --primary-light: rgba(59, 130, 246, 0.15);
+  --success: #22c55e;
+  --success-hover: #4ade80;
+  --success-light: rgba(34, 197, 94, 0.15);
+  --danger: #ef4444;
+  --danger-hover: #f87171;
+  --danger-light: rgba(239, 68, 68, 0.15);
+  --warning: #f59e0b;
+  --warning-light: rgba(245, 158, 11, 0.15);
+  --accent: #a855f7;
+  --accent-light: rgba(168, 85, 247, 0.15);
+  --card-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+  --card-shadow-hover: 0 20px 30px -10px rgba(0, 0, 0, 0.6);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color var(--transition-normal), color var(--transition-normal);
+}
+
+.app-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.25rem 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.brand-icon {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.brand-text h1 {
+  font-size: 1.45rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+.brand-text p {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon-btn, .action-pill-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  border-radius: var(--border-radius-md);
+  padding: 0.5rem 0.75rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: all var(--transition-fast);
+}
+
+.icon-btn {
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+}
+
+.icon-btn:hover, .action-pill-btn:hover {
+  background: var(--bg-subtle);
+  color: var(--primary);
+  border-color: var(--primary);
+  transform: translateY(-1px);
+}
+
+.main-nav {
+  display: flex;
+  gap: 0.5rem;
+  background: var(--bg-card);
+  padding: 0.35rem;
+  border-radius: var(--border-radius-md);
+  border: 1px solid var(--border-color);
+  overflow-x: auto;
+  box-shadow: var(--card-shadow);
+}
+
+.nav-tab {
+  flex: 1;
+  min-width: fit-content;
+  background: transparent;
+  border: none;
+  padding: 0.65rem 1rem;
+  font-family: var(--font-family);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.nav-tab:hover {
+  color: var(--primary);
+  background: var(--primary-light);
+}
+
+.nav-tab.active {
+  background: var(--primary);
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+}
+
+.view-panel {
+  display: none;
+  animation: fadeIn 0.25s ease forwards;
+}
+
+.view-panel.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.hero-stats-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  padding: 1.75rem;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-header h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.overall-badge {
+  background: var(--primary-light);
+  color: var(--primary);
+  font-weight: 800;
+  font-size: 1.4rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: var(--border-radius-md);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.progress-bar-container {
+  height: 14px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #3b82f6, #10b981);
+  border-radius: 999px;
+  transition: width 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.progress-legend {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.stat-card {
+  padding: 1rem;
+  border-radius: var(--border-radius-md);
+  border: 1px solid var(--border-color);
+  background: var(--bg-subtle);
+  text-align: center;
+  transition: transform var(--transition-fast);
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+}
+
+.stat-value {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: 0.2rem;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+.stat-learned .stat-value { color: var(--success); }
+.stat-learning .stat-value { color: var(--primary); }
+.stat-review .stat-value { color: var(--warning); }
+.stat-unseen .stat-value { color: var(--text-secondary); }
+
+.quick-actions-section {
+  margin-top: 1.5rem;
+}
+
+.quick-actions-section h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.quick-actions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1rem;
+}
+
+.action-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-md);
+  padding: 1.25rem;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  transition: all var(--transition-fast);
+}
+
+.action-card:hover {
+  box-shadow: var(--card-shadow-hover);
+  border-color: var(--primary);
+  transform: translateY(-2px);
+}
+
+.action-card-icon {
+  font-size: 1.8rem;
+}
+
+.action-card h4 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.action-card p {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  flex-grow: 1;
+}
+
+.study-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.study-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.session-badge {
+  background: var(--primary-light);
+  color: var(--primary);
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--border-radius-sm);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.card-counter {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.study-options {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form-select-sm {
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-sm);
+  padding: 0.4rem 0.75rem;
+  font-family: var(--font-family);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.icon-btn-star {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  font-size: 1.3rem;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+}
+
+.icon-btn-star.favorited {
+  color: #f59e0b;
+  border-color: #f59e0b;
+  background: var(--warning-light);
+}
+
+.flashcard-scene {
+  perspective: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.flashcard {
+  width: 100%;
+  min-height: 340px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+  border-radius: var(--border-radius-lg);
+}
+
+.flashcard.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.flashcard-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  background: var(--bg-card);
+  border: 2px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--card-shadow);
+  padding: 2rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  user-select: none;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.flashcard:hover .flashcard-face {
+  border-color: var(--primary);
+  box-shadow: var(--card-shadow-hover);
+}
+
+.flashcard-back {
+  transform: rotateY(180deg);
+}
+
+.card-tag-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag-category, .tag-pos, .tag-mastery {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+}
+
+.tag-category {
+  background: var(--accent-light);
+  color: var(--accent);
+}
+
+.tag-pos {
+  background: var(--bg-subtle);
+  color: var(--text-muted);
+  border: 1px solid var(--border-color);
+}
+
+.tag-mastery {
+  background: var(--success-light);
+  color: var(--success);
+}
+
+.card-main-content {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.card-prompt-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.card-word-display {
+  font-size: 2.8rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.card-hint-text {
+  font-size: 1.15rem;
+  color: var(--primary);
+  font-weight: 600;
+  margin-top: 0.75rem;
+}
+
+.card-front-footer, .card-back-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flip-hint-pill {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  background: var(--bg-subtle);
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+}
+
+.speak-btn {
+  background: var(--primary-light);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  color: var(--primary);
+  padding: 0.45rem 0.9rem;
+  border-radius: var(--border-radius-md);
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: all var(--transition-fast);
+}
+
+.speak-btn:hover {
+  background: var(--primary);
+  color: #ffffff;
+  transform: scale(1.03);
+}
+
+.speak-btn.secondary {
+  background: var(--bg-subtle);
+  color: var(--text-secondary);
+  border-color: var(--border-color);
+}
+
+.speak-btn.secondary:hover {
+  background: var(--text-secondary);
+  color: #ffffff;
+}
+
+.back-main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  text-align: center;
+}
+
+.back-pair {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.back-en-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.back-pt-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.example-box {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-md);
+  padding: 1rem 1.25rem;
+  text-align: left;
+}
+
+.example-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+  margin-bottom: 0.4rem;
+}
+
+.example-en {
+  font-size: 1.05rem;
+  color: var(--text-primary);
+  margin-bottom: 0.35rem;
+  line-height: 1.4;
+}
+
+.example-pt {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.example-en strong, .example-pt strong {
+  color: var(--primary);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  font-weight: 700;
+}
+
+.rating-controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.btn-rating {
+  padding: 1rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  border-radius: var(--border-radius-md);
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all var(--transition-fast);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.btn-danger {
+  background: var(--danger-light);
+  color: var(--danger);
+  border: 2px solid rgba(220, 38, 38, 0.2);
+}
+
+.btn-danger:hover {
+  background: var(--danger);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(220, 38, 38, 0.25);
+}
+
+.btn-success {
+  background: var(--success-light);
+  color: var(--success);
+  border: 2px solid rgba(22, 163, 74, 0.2);
+}
+
+.btn-success:hover {
+  background: var(--success);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(22, 163, 74, 0.25);
+}
+
+.study-nav-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 0.5rem;
+}
+
+.btn-nav {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  border-radius: var(--border-radius-sm);
+  padding: 0.55rem 1.1rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.btn-nav:hover {
+  background: var(--bg-subtle);
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-nav.primary {
+  background: var(--bg-subtle);
+  border-color: var(--border-color);
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.keyboard-hints {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  margin-top: 1rem;
+}
+
+kbd {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 0.15rem 0.4rem;
+  font-family: inherit;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.list-controls-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  padding: 1.25rem;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  font-size: 1rem;
+  color: var(--text-muted);
+}
+
+.search-input-wrapper input {
+  width: 100%;
+  padding: 0.75rem 2.75rem 0.75rem 2.6rem;
+  border-radius: var(--border-radius-md);
+  border: 1px solid var(--border-color);
+  background: var(--bg-subtle);
+  color: var(--text-primary);
+  font-family: var(--font-family);
+  font-size: 0.95rem;
+  outline: none;
+  transition: all var(--transition-fast);
+}
+
+.search-input-wrapper input:focus {
+  border-color: var(--border-focus);
+  background: var(--bg-card);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.clear-btn {
+  position: absolute;
+  right: 0.8rem;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.2rem 0.4rem;
+}
+
+.filter-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.filter-group label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.filter-select {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-sm);
+  padding: 0.5rem 0.75rem;
+  font-family: var(--font-family);
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  outline: none;
+  cursor: pointer;
+}
+
+.filter-select:focus {
+  border-color: var(--border-focus);
+}
+
+.list-summary-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  border-top: 1px solid var(--border-color);
+  padding-top: 0.75rem;
+}
+
+.vocab-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.vocab-item-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-md);
+  padding: 1.15rem;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: all var(--transition-fast);
+  position: relative;
+}
+
+.vocab-item-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--card-shadow-hover);
+  border-color: var(--primary);
+}
+
+.item-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.item-card-en {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.item-card-pt {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-top: 0.15rem;
+}
+
+.item-card-example {
+  background: var(--bg-subtle);
+  border-radius: var(--border-radius-sm);
+  padding: 0.65rem 0.75rem;
+  font-size: 0.84rem;
+  line-height: 1.35;
+}
+
+.item-card-example-en {
+  color: var(--text-primary);
+  margin-bottom: 0.2rem;
+}
+
+.item-card-example-pt {
+  color: var(--text-muted);
+}
+
+.item-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--border-color);
+  padding-top: 0.6rem;
+}
+
+.item-card-meta {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.item-card-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.btn-icon-sm {
+  background: none;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-sm);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: var(--text-secondary);
+  transition: all var(--transition-fast);
+}
+
+.btn-icon-sm:hover {
+  background: var(--bg-subtle);
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-icon-sm.active-star {
+  color: #f59e0b;
+  border-color: #f59e0b;
+  background: var(--warning-light);
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem;
+  backdrop-filter: blur(4px);
+}
+
+.modal-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  max-width: 520px;
+  width: 100%;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  animation: modalScale 0.2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+@keyframes modalScale {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.modal-header h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.modal-close-btn {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.backup-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.backup-box {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-md);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.backup-box h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.backup-box p {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.danger-zone {
+  border-top: 1px dashed var(--danger);
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.danger-zone h4 {
+  color: var(--danger);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.danger-zone p {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.btn {
+  font-family: var(--font-family);
+  font-weight: 700;
+  border-radius: var(--border-radius-md);
+  padding: 0.65rem 1.25rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  transition: all var(--transition-fast);
+  border: none;
+  text-decoration: none;
+}
+
+.btn-sm {
+  padding: 0.4rem 0.85rem;
+  font-size: 0.8rem;
+  border-radius: var(--border-radius-sm);
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background: var(--primary-hover);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background: var(--accent-light);
+  color: var(--accent);
+  border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.btn-secondary:hover {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+.btn-warning {
+  background: var(--warning-light);
+  color: var(--warning);
+  border: 1px solid rgba(217, 119, 6, 0.2);
+}
+
+.btn-warning:hover {
+  background: var(--warning);
+  color: #ffffff;
+}
+
+.btn-outline {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+}
+
+.btn-outline:hover {
+  background: var(--bg-subtle);
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.btn-danger-outline {
+  background: var(--bg-card);
+  border: 1px solid var(--danger);
+  color: var(--danger);
+}
+
+.btn-danger-outline:hover {
+  background: var(--danger);
+  color: #ffffff;
+}
+
+.toast {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(100px);
+  background: #0f172a;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  z-index: 2000;
+}
+
+.toast.show {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .desktop-only { display: none; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .flashcard { min-height: 380px; }
+  .card-word-display { font-size: 2.2rem; }
+  .rating-controls { grid-template-columns: 1fr; }
+  .filter-row { grid-template-columns: 1fr; }
+}
+  </style>
+</head>
+<body>
+  <div class="app-container">
+    <header class="app-header">
+      <div class="brand">
+        <div class="brand-icon">🇬🇧</div>
+        <div class="brand-text">
+          <h1>English Flashcards</h1>
+          <p>Memorização espaçada &amp; vocabulário contextual</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="icon-btn" title="Alternar tema claro/escuro (T)" aria-label="Alternar tema">
+          <span class="theme-icon">🌙</span>
+        </button>
+        <button id="statsSummaryBtn" class="action-pill-btn" title="Ver estatísticas">
+          📊 <span class="desktop-only">Estatísticas</span>
+        </button>
+        <button id="backupModalBtn" class="action-pill-btn" title="Exportar ou Importar dados">
+          ⚙️ <span class="desktop-only">Dados</span>
+        </button>
+      </div>
+    </header>
+
+    <nav class="main-nav">
+      <button class="nav-tab active" data-view="dashboard">🏠 Início</button>
+      <button class="nav-tab" data-view="study">🗂️ Estudar Agora</button>
+      <button class="nav-tab" data-view="list">📚 Todas as Palavras</button>
+      <button class="nav-tab" data-view="favorites">⭐ Favoritas</button>
+      <button class="nav-tab" data-view="review">🔁 Revisar Erros</button>
+    </nav>
+
+    <!-- VIEW 1: DASHBOARD -->
+    <main id="viewDashboard" class="view-panel active">
+      <section class="hero-stats-card">
+        <div class="hero-header">
+          <div>
+            <h2>Seu Progresso Geral</h2>
+            <p class="hero-subtitle">Domine as 336 palavras e expressões mais importantes</p>
+          </div>
+          <div class="overall-badge" id="overallPercentage">0%</div>
+        </div>
+
+        <div class="progress-bar-container">
+          <div class="progress-bar-fill" id="mainProgressBar" style="width: 0%;"></div>
+        </div>
+        <div class="progress-legend">
+          <span id="learnedRatioText">0 / 336 aprendidas</span>
+          <span id="remainingCountText">336 para aprender</span>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card stat-learned">
+            <div class="stat-value" id="statLearnedCount">0</div>
+            <div class="stat-label">Dominadas (≥80%)</div>
+          </div>
+          <div class="stat-card stat-learning">
+            <div class="stat-value" id="statLearningCount">0</div>
+            <div class="stat-label">Em Aprendizado</div>
+          </div>
+          <div class="stat-card stat-review">
+            <div class="stat-value" id="statReviewCount">0</div>
+            <div class="stat-label">Precisam de Revisão</div>
+          </div>
+          <div class="stat-card stat-unseen">
+            <div class="stat-value" id="statUnseenCount">336</div>
+            <div class="stat-label">Não Estudadas</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-actions-section">
+        <h3>Modos Rápidos de Estudo</h3>
+        <div class="quick-actions-grid">
+          <div class="action-card" id="startMainStudyCard">
+            <div class="action-card-icon">🚀</div>
+            <h4>Estudo Geral</h4>
+            <p>Cards prioritários com repetição espaçada</p>
+            <button class="btn btn-primary">Estudar Agora</button>
+          </div>
+          <div class="action-card" id="startReviewCard">
+            <div class="action-card-icon">⚠️</div>
+            <h4>Revisar Dificuldades</h4>
+            <p>Foque exclusivamente nas palavras com erros</p>
+            <button class="btn btn-warning">Revisar Erros</button>
+          </div>
+          <div class="action-card" id="startFavoritesCard">
+            <div class="action-card-icon">⭐</div>
+            <h4>Palavras Favoritas</h4>
+            <p>Revise os termos que você marcou com estrela</p>
+            <button class="btn btn-secondary">Estudar Favoritos</button>
+          </div>
+          <div class="action-card" id="exploreWordsCard">
+            <div class="action-card-icon">🔍</div>
+            <h4>Dicionário &amp; Filtros</h4>
+            <p>Consulte pronúncias, traduções e categorias</p>
+            <button class="btn btn-outline">Ver Todas (336)</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- VIEW 2: STUDY / FLASHCARD -->
+    <section id="viewStudy" class="view-panel">
+      <div class="study-header">
+        <div class="study-meta">
+          <span class="session-badge" id="studyModeLabel">Inglês → Português</span>
+          <span class="card-counter" id="cardCounterText">Card 1 de 20</span>
+        </div>
+        <div class="study-options">
+          <select id="studyModeSelect" class="form-select-sm" title="Selecione o modo de estudo">
+            <option value="en-pt">🔤 Inglês → Português</option>
+            <option value="pt-en">🇧🇷 Português → Inglês</option>
+            <option value="sentence">📝 Modo Frase (Contexto)</option>
+          </select>
+          <button id="cardFavoriteBtn" class="icon-btn-star" title="Favoritar palavra (F)" aria-label="Favoritar">
+            ☆
+          </button>
+        </div>
+      </div>
+
+      <div class="flashcard-scene" id="flashcardScene">
+        <div class="flashcard" id="flashcardElement" tabindex="0" role="button" aria-label="Clique para virar o card">
+          <div class="flashcard-face flashcard-front">
+            <div class="card-tag-row">
+              <span class="tag-category" id="frontCategoryTag">Lugares</span>
+              <span class="tag-pos" id="frontPosTag">Substantivo</span>
+            </div>
+            <div class="card-main-content">
+              <div class="card-prompt-label" id="frontPromptLabel">ENGLISH</div>
+              <h2 class="card-word-display" id="frontWordDisplay">fifteen</h2>
+              <p class="card-hint-text" id="frontHintText"></p>
+            </div>
+            <div class="card-front-footer">
+              <button class="speak-btn" id="frontAudioBtn" type="button" title="Ouvir pronúncia (S)">
+                🔊 <span class="speak-label">Ouvir</span>
+              </button>
+              <span class="flip-hint-pill">Clique ou [Espaço] para revelar</span>
+            </div>
+          </div>
+
+          <div class="flashcard-face flashcard-back">
+            <div class="card-tag-row">
+              <span class="tag-category" id="backCategoryTag">Lugares</span>
+              <span class="tag-mastery" id="backMasteryTag">Domínio: 0%</span>
+            </div>
+            <div class="back-main-content">
+              <div class="back-pair">
+                <div class="back-en-title" id="backEnglishText">fifteen</div>
+                <div class="back-pt-title" id="backPortugueseText">quinze</div>
+              </div>
+              <div class="example-box">
+                <div class="example-label">EXEMPLO EM CONTEXTO</div>
+                <div class="example-en" id="backExampleEn">I have <strong>fifteen</strong> books.</div>
+                <div class="example-pt" id="backExamplePt">Eu tenho <strong>quinze</strong> livros.</div>
+              </div>
+            </div>
+            <div class="card-back-footer">
+              <button class="speak-btn" id="backAudioBtn" type="button" title="Ouvir palavra (S)">
+                🔊 <span class="speak-label">Palavra</span>
+              </button>
+              <button class="speak-btn secondary" id="backAudioSentenceBtn" type="button" title="Ouvir frase completa">
+                🗣️ <span class="speak-label">Frase</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rating-controls">
+        <button id="btnWrong" class="btn btn-rating btn-danger" title="Ainda não sei (Atalho: 1)">
+          ❌ Ainda não sei
+        </button>
+        <button id="btnCorrect" class="btn btn-rating btn-success" title="Eu sei (Atalho: 2)">
+          ✓ Eu sei
+        </button>
+      </div>
+
+      <div class="study-nav-controls">
+        <button id="btnPrevCard" class="btn-nav" title="Anterior (Atalho: ←)">← Anterior</button>
+        <button id="btnFlipCard" class="btn-nav primary" title="Virar card (Atalho: Espaço)">🔄 Virar Card</button>
+        <button id="btnNextCard" class="btn-nav" title="Próximo (Atalho: →)">Próximo →</button>
+      </div>
+
+      <div class="keyboard-hints">
+        <span><kbd>Espaço</kbd> Virar</span>
+        <span><kbd>1</kbd> Ainda não sei</span>
+        <span><kbd>2</kbd> Eu sei</span>
+        <span><kbd>S</kbd> Ouvir</span>
+        <span><kbd>F</kbd> Favoritar</span>
+        <span><kbd>←</kbd> <kbd>→</kbd> Navegar</span>
+      </div>
+    </section>
+
+    <!-- VIEW 3: ALL WORDS LIST & SEARCH -->
+    <section id="viewList" class="view-panel">
+      <div class="list-controls-container">
+        <div class="search-input-wrapper">
+          <span class="search-icon">🔎</span>
+          <input type="text" id="searchInput" placeholder="Procurar palavra, tradução ou exemplo..." autocomplete="off">
+          <button id="clearSearchBtn" class="clear-btn" style="display:none;">✕</button>
+        </div>
+
+        <div class="filter-row">
+          <div class="filter-group">
+            <label for="filterCategory">Categoria:</label>
+            <select id="filterCategory" class="filter-select">
+              <option value="all">Todas as Categorias</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filterStatus">Status:</label>
+            <select id="filterStatus" class="filter-select">
+              <option value="all">Todos os Status</option>
+              <option value="unseen">Não Estudadas</option>
+              <option value="learning">Aprendendo</option>
+              <option value="mastered">Dominadas (≥80%)</option>
+              <option value="mistake">Errei Recentemente</option>
+              <option value="favorite">Apenas Favoritas</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filterType">Tipo:</label>
+            <select id="filterType" class="filter-select">
+              <option value="all">Todos os Tipos</option>
+              <option value="word">Palavras</option>
+              <option value="expression">Expressões</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="list-summary-bar">
+          <span id="filteredCountText">Mostrando 336 de 336 itens</span>
+          <button id="studyFilteredBtn" class="btn btn-sm btn-primary">Estudar Estes Cards</button>
+        </div>
+      </div>
+
+      <div class="vocab-cards-grid" id="vocabCardsGrid"></div>
+    </section>
+
+    <!-- MODAL DE BACKUP E DADOS -->
+    <div class="modal-backdrop" id="backupModal" style="display:none;">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h3>Gerenciar Dados e Progresso</h3>
+          <button class="modal-close-btn" id="closeBackupModalBtn">✕</button>
+        </div>
+        <div class="modal-body">
+          <p>Seu progresso é gravado automaticamente no navegador através do <code>localStorage</code>. Você pode exportar para fazer backup ou restaurar em outro dispositivo.</p>
+          <div class="backup-actions">
+            <div class="backup-box">
+              <h4>Exportar Backup</h4>
+              <p>Baixe um arquivo JSON com todas as suas estatísticas, repetições e favoritos.</p>
+              <button id="exportJsonBtn" class="btn btn-outline">📥 Exportar Progresso (.json)</button>
+            </div>
+            <div class="backup-box">
+              <h4>Importar Backup</h4>
+              <p>Selecione um arquivo de backup salvo anteriormente para restaurar.</p>
+              <input type="file" id="importFileInput" accept=".json" style="display:none;">
+              <button id="importJsonBtn" class="btn btn-outline">📤 Importar Progresso (.json)</button>
+            </div>
+          </div>
+          <div class="danger-zone">
+            <h4>Redefinir Dados</h4>
+            <p>Deseja zerar todo o seu histórico de acertos, erros e revisões?</p>
+            <button id="resetProgressBtn" class="btn btn-danger-outline">⚠️ Redefinir Todo o Progresso</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="toastNotification" class="toast"></div>
+  </div>
+
+  <script>
+/**
+ * BANCO DE DADOS INTEGRADO: 336 PALAVRAS E EXPRESSÕES ESSENCIAIS
+ */
+const vocabulary = [
+  {"id": 1, "english": "I'm", "portuguese": "eu sou / eu estou (I am)", "type": "word", "category": "contractions", "partOfSpeech": "contraction", "example": "I'm ready to learn English.", "exampleTranslation": "Eu estou pronto para aprender inglês."},
+  {"id": 2, "english": "you're", "portuguese": "você é / você está (you are)", "type": "word", "category": "contractions", "partOfSpeech": "contraction", "example": "You're doing a fantastic job.", "exampleTranslation": "Você está fazendo um trabalho fantástico."},
+  {"id": 3, "english": "he's", "portuguese": "ele é / ele está (he is)", "type": "word", "category": "contractions", "partOfSpeech": "contraction", "example": "He's our new English teacher.", "exampleTranslation": "Ele é o nosso novo professor de inglês."},
+  {"id": 4, "english": "she's", "portuguese": "ela é / ela está (she is)", "type": "word", "category": "contractions", "partOfSpeech": "contraction", "example": "She's at the airport right now.", "exampleTranslation": "Ela está no aeroporto agora."},
+  {"id": 5, "english": "it's", "portuguese": "é / está (it is)", "type": "word", "category": "contractions", "partOfSpeech": "contraction", "example": "It's time to review our cards.", "exampleTranslation": "É hora de revisar nossos cards."},
+  {"id": 6, "english": "we're", "portuguese": "nós somos / nós estamos (we are)", "type": "word", "category": "contractions", "partOfSpeech": "contraction", "example": "We're happy to see you here.", "exampleTranslation": "Nós estamos felizes em ver você aqui."},
+  {"id": 7, "english": "they're", "portuguese": "eles/elas são / estão (they are)", "type": "word", "category": "contractions", "partOfSpeech": "contraction", "example": "They're studying in the library.", "exampleTranslation": "Eles estão estudando na biblioteca."},
+  {"id": 8, "english": "isn't", "portuguese": "não é / não está (is not)", "type": "word", "category": "contractions", "partOfSpeech": "contraction", "example": "The store isn't open on Sunday.", "exampleTranslation": "A loja não está aberta no domingo."},
+  {"id": 9, "english": "aren't", "portuguese": "não são / não estão (are not)", "type": "word", "category": "contractions", "partOfSpeech": "contraction", "example": "They aren't tired after the walk.", "exampleTranslation": "Eles não estão cansados depois da caminhada."},
+  {"id": 10, "english": "don't", "portuguese": "não (do not)", "type": "word", "category": "contractions", "partOfSpeech": "contraction", "example": "I don't speak French yet.", "exampleTranslation": "Eu não falo francês ainda."},
+  {"id": 11, "english": "doesn't", "portuguese": "não (does not)", "type": "word", "category": "contractions", "partOfSpeech": "contraction", "example": "He doesn't eat meat.", "exampleTranslation": "Ele não come carne."},
+  {"id": 12, "english": "didn't", "portuguese": "não (passado - did not)", "type": "word", "category": "contractions", "partOfSpeech": "contraction", "example": "I didn't see the message yesterday.", "exampleTranslation": "Eu não vi a mensagem ontem."},
+  {"id": 13, "english": "can't", "portuguese": "não posso / não consigo (cannot)", "type": "word", "category": "contractions", "partOfSpeech": "contraction", "example": "I can't find my keys anywhere.", "exampleTranslation": "Não consigo encontrar minhas chaves em lugar nenhum."},
+  {"id": 14, "english": "won't", "portuguese": "não vai / não vou (will not)", "type": "word", "category": "contractions", "partOfSpeech": "contraction", "example": "I won't forget this lesson.", "exampleTranslation": "Eu não vou esquecer esta lição."},
+  {"id": 15, "english": "I'd", "portuguese": "eu gostaria / eu iria (I would)", "type": "word", "category": "contractions", "partOfSpeech": "contraction", "example": "I'd like a glass of water, please.", "exampleTranslation": "Eu gostaria de um copo de água, por favor."},
+  {"id": 16, "english": "I'd like", "portuguese": "eu gostaria de (I would like)", "type": "expression", "category": "contractions", "partOfSpeech": "phrase", "example": "I'd like to order lunch now.", "exampleTranslation": "Eu gostaria de pedir o almoço agora."},
+  {"id": 17, "english": "let's", "portuguese": "vamos (let us)", "type": "word", "category": "contractions", "partOfSpeech": "contraction", "example": "Let's study ten more cards today.", "exampleTranslation": "Vamos estudar mais dez cards hoje."},
+  {"id": 18, "english": "would like", "portuguese": "gostaria", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "Would you like some tea?", "exampleTranslation": "Você gostaria de um pouco de chá?"},
+  {"id": 19, "english": "piece of cake", "portuguese": "moleza / muito fácil", "type": "expression", "category": "expressions", "partOfSpeech": "idiom", "example": "This English quiz was a piece of cake.", "exampleTranslation": "Este teste de inglês foi uma moleza."},
+  {"id": 20, "english": "take your time", "portuguese": "não tenha pressa / use seu tempo", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "Take your time to answer the question.", "exampleTranslation": "Não tenha pressa para responder à pergunta."},
+  {"id": 21, "english": "make yourself at home", "portuguese": "sinta-se em casa", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "Come inside and make yourself at home.", "exampleTranslation": "Entre e sinta-se em casa."},
+  {"id": 22, "english": "by the way", "portuguese": "a propósito / por falar nisso", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "By the way, have you met Luiz?", "exampleTranslation": "A propósito, você já conhece o Luiz?"},
+  {"id": 23, "english": "as soon as possible", "portuguese": "assim que possível", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "Please send the email as soon as possible.", "exampleTranslation": "Por favor, envie o e-mail assim que possível."},
+  {"id": 24, "english": "never mind", "portuguese": "deixa para lá / não se preocupe", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "Never mind, we can fix it tomorrow.", "exampleTranslation": "Deixa para lá, nós podemos arrumar isso amanhã."},
+  {"id": 25, "english": "of course", "portuguese": "claro / com certeza", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "Of course I will help you study.", "exampleTranslation": "Claro que vou te ajudar a estudar."},
+  {"id": 26, "english": "no problem", "portuguese": "sem problemas / de nada", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "Thank you for the ride! — No problem!", "exampleTranslation": "Obrigado pela carona! — Sem problemas!"},
+  {"id": 27, "english": "how about", "portuguese": "que tal / e quanto a", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "How about having dinner at the restaurant?", "exampleTranslation": "Que tal jantarmos no restaurante?"},
+  {"id": 28, "english": "for example", "portuguese": "por exemplo", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "You can learn words, for example, numbers.", "exampleTranslation": "Você pode aprender palavras, por exemplo, números."},
+  {"id": 29, "english": "at all", "portuguese": "de modo algum / nem um pouco", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "I am not tired at all right now.", "exampleTranslation": "Não estou nem um pouco cansado agora."},
+  {"id": 30, "english": "right now", "portuguese": "agora mesmo / neste exato momento", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "I am studying my cards right now.", "exampleTranslation": "Estou estudando meus cards agora mesmo."},
+  {"id": 31, "english": "all day", "portuguese": "o dia todo", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "He worked on the computer all day.", "exampleTranslation": "Ele trabalhou no computador o dia todo."},
+  {"id": 32, "english": "so far so good", "portuguese": "até agora tudo bem", "type": "expression", "category": "expressions", "partOfSpeech": "idiom", "example": "How is your English course? — So far so good!", "exampleTranslation": "Como está o seu curso de inglês? — Até agora tudo bem!"},
+  {"id": 33, "english": "up to you", "portuguese": "você decide / fica a seu critério", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "Which restaurant should we go to? — It's up to you.", "exampleTranslation": "A qual restaurante devemos ir? — Você decide."},
+  {"id": 34, "english": "hold on", "portuguese": "espere um instante / aguente firme", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "Hold on a minute while I grab my coat.", "exampleTranslation": "Espere um instante enquanto pego meu casaco."},
+  {"id": 35, "english": "check in", "portuguese": "fazer check-in / registrar entrada", "type": "expression", "category": "expressions", "partOfSpeech": "phrasal verb", "example": "We must check in at the hotel before five.", "exampleTranslation": "Devemos fazer o check-in no hotel antes das cinco."},
+  {"id": 36, "english": "check out", "portuguese": "fazer check-out / liberar quarto", "type": "expression", "category": "expressions", "partOfSpeech": "phrasal verb", "example": "We will check out of the hotel tomorrow morning.", "exampleTranslation": "Nós faremos o check-out do hotel amanhã de manhã."},
+  {"id": 37, "english": "fall in love", "portuguese": "apaixonar-se", "type": "expression", "category": "expressions", "partOfSpeech": "idiom", "example": "They fall in love with the city.", "exampleTranslation": "Eles se apaixonam pela cidade."},
+  {"id": 38, "english": "feel like", "portuguese": "estar com vontade de", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "I feel like drinking a cup of coffee.", "exampleTranslation": "Estou com vontade de tomar uma xícara de café."},
+  {"id": 39, "english": "on the other hand", "portuguese": "por outro lado", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "It is raining; on the other hand, the air is cool.", "exampleTranslation": "Está chovendo; por outro lado, o ar está fresco."},
+  {"id": 40, "english": "in fact", "portuguese": "na verdade / de fato", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "In fact, I enjoy studying new words.", "exampleTranslation": "Na verdade, eu gosto de estudar palavras novas."},
+  {"id": 41, "english": "of all time", "portuguese": "de todos os tempos", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "This is my favorite song of all time.", "exampleTranslation": "Esta é minha canção favorita de todos os tempos."},
+  {"id": 42, "english": "out of order", "portuguese": "quebrado / fora de serviço", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "The elevator is out of order today.", "exampleTranslation": "O elevator está fora de serviço hoje."},
+  {"id": 43, "english": "right away", "portuguese": "imediatamente / já", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "I will do the homework right away.", "exampleTranslation": "Vou fazer o dever de casa imediatamente."},
+  {"id": 44, "english": "take a look", "portuguese": "dar uma olhada", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "Take a look at this flashcard.", "exampleTranslation": "Dê uma olhada neste flashcard."},
+  {"id": 45, "english": "pay attention", "portuguese": "prestar atenção", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "Pay attention to the teacher's pronunciation.", "exampleTranslation": "Preste atenção à pronúncia do professor."},
+  {"id": 46, "english": "make a mistake", "portuguese": "cometer um erro / errar", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "It is normal to make a mistake when learning.", "exampleTranslation": "É normal cometer um erro ao aprender."},
+  {"id": 47, "english": "have fun", "portuguese": "divertir-se", "type": "expression", "category": "expressions", "partOfSpeech": "phrase", "example": "Have fun while you study English!", "exampleTranslation": "Divirta-se enquanto estuda inglês!" },
+  {"id": 48, "english": "hello", "portuguese": "olá / oi", "type": "word", "category": "greetings", "partOfSpeech": "interjection", "example": "Hello, how are you today?", "exampleTranslation": "Olá, como você está hoje?"},
+  {"id": 49, "english": "hi", "portuguese": "oi", "type": "word", "category": "greetings", "partOfSpeech": "interjection", "example": "Hi, my name is Luiz.", "exampleTranslation": "Oi, meu nome é Luiz."},
+  {"id": 50, "english": "good morning", "portuguese": "bom dia", "type": "expression", "category": "greetings", "partOfSpeech": "phrase", "example": "Good morning, everyone!", "exampleTranslation": "Bom dia a todos!"},
+  {"id": 51, "english": "good afternoon", "portuguese": "boa tarde", "type": "expression", "category": "greetings", "partOfSpeech": "phrase", "example": "Good afternoon, sir.", "exampleTranslation": "Boa tarde, senhor."},
+  {"id": 52, "english": "good evening", "portuguese": "boa noite (ao chegar)", "type": "expression", "category": "greetings", "partOfSpeech": "phrase", "example": "Good evening, welcome to the hotel.", "exampleTranslation": "Boa noite, bem-vindo ao hotel."},
+  {"id": 53, "english": "good night", "portuguese": "boa noite (ao despedir-se)", "type": "expression", "category": "greetings", "partOfSpeech": "phrase", "example": "Good night, see you tomorrow.", "exampleTranslation": "Boa noite, até amanhã."},
+  {"id": 54, "english": "goodbye", "portuguese": "adeus / tchau", "type": "word", "category": "greetings", "partOfSpeech": "interjection", "example": "Goodbye and have a nice trip.", "exampleTranslation": "Tchau e tenha uma boa viagem."},
+  {"id": 55, "english": "bye", "portuguese": "tchau", "type": "word", "category": "greetings", "partOfSpeech": "interjection", "example": "Bye, see you later!", "exampleTranslation": "Tchau, até mais!"},
+  {"id": 56, "english": "see you later", "portuguese": "até mais / vejo você mais tarde", "type": "expression", "category": "greetings", "partOfSpeech": "phrase", "example": "I have to go now, see you later.", "exampleTranslation": "Eu tenho que ir agora, até mais."},
+  {"id": 57, "english": "see you tomorrow", "portuguese": "até amanhã", "type": "expression", "category": "greetings", "partOfSpeech": "phrase", "example": "Good night and see you tomorrow.", "exampleTranslation": "Boa noite e até amanhã."},
+  {"id": 58, "english": "good to see you", "portuguese": "bom te ver", "type": "expression", "category": "greetings", "partOfSpeech": "phrase", "example": "Good to see you again, my friend.", "exampleTranslation": "Bom te ver de novo, meu amigo."},
+  {"id": 59, "english": "nice to meet you", "portuguese": "prazer em conhecer você", "type": "expression", "category": "greetings", "partOfSpeech": "phrase", "example": "Nice to meet you, Luiz.", "exampleTranslation": "Prazer em conhecer você, Luiz."},
+  {"id": 60, "english": "welcome", "portuguese": "bem-vindo", "type": "word", "category": "greetings", "partOfSpeech": "adjective", "example": "Welcome to our home!", "exampleTranslation": "Bem-vindo à nossa casa!"},
+  {"id": 61, "english": "please", "portuguese": "por favor", "type": "word", "category": "greetings", "partOfSpeech": "adverb", "example": "Can you help me, please?", "exampleTranslation": "Você pode me ajudar, por favor?"},
+  {"id": 62, "english": "thank you", "portuguese": "obrigado / obrigada", "type": "expression", "category": "greetings", "partOfSpeech": "phrase", "example": "Thank you very much for the gift.", "exampleTranslation": "Muito obrigado pelo presente."},
+  {"id": 63, "english": "thanks", "portuguese": "obrigado / valeu", "type": "word", "category": "greetings", "partOfSpeech": "interjection", "example": "Thanks for your help.", "exampleTranslation": "Obrigado pela sua ajuda."},
+  {"id": 64, "english": "what", "portuguese": "o que / qual", "type": "word", "category": "questions", "partOfSpeech": "pronoun", "example": "What is your name?", "exampleTranslation": "Qual é o seu nome?"},
+  {"id": 65, "english": "where", "portuguese": "onde", "type": "word", "category": "questions", "partOfSpeech": "adverb", "example": "Where is the train station?", "exampleTranslation": "Onde fica a estação de trem?"},
+  {"id": 66, "english": "when", "portuguese": "quando", "type": "word", "category": "questions", "partOfSpeech": "adverb", "example": "When does the class start?", "exampleTranslation": "Quando começa a aula?"},
+  {"id": 67, "english": "who", "portuguese": "quem", "type": "word", "category": "questions", "partOfSpeech": "pronoun", "example": "Who is that person?", "exampleTranslation": "Quem é aquela pessoa?"},
+  {"id": 68, "english": "why", "portuguese": "por que (pergunta)", "type": "word", "category": "questions", "partOfSpeech": "adverb", "example": "Why are you studying English?", "exampleTranslation": "Por que você está estudando inglês?"},
+  {"id": 69, "english": "how", "portuguese": "como / quanto", "type": "word", "category": "questions", "partOfSpeech": "adverb", "example": "How are you doing?", "exampleTranslation": "Como você está?"},
+  {"id": 70, "english": "which", "portuguese": "qual / quais (entre opções)", "type": "word", "category": "questions", "partOfSpeech": "pronoun", "example": "Which color do you prefer?", "exampleTranslation": "Qual cor você prefere?"},
+  {"id": 71, "english": "how much", "portuguese": "quanto custa / quanto", "type": "expression", "category": "questions", "partOfSpeech": "phrase", "example": "How much is this bottle of water?", "exampleTranslation": "Quanto custa esta garrafa de água?"},
+  {"id": 72, "english": "how many", "portuguese": "quantos / quantas", "type": "expression", "category": "questions", "partOfSpeech": "phrase", "example": "How many brothers do you have?", "exampleTranslation": "Quantos irmãos você tem?"},
+  {"id": 73, "english": "what time is it", "portuguese": "que horas são", "type": "expression", "category": "questions", "partOfSpeech": "phrase", "example": "Excuse me, what time is it?", "exampleTranslation": "Com licença, que horas são?"},
+  {"id": 74, "english": "how old are you", "portuguese": "quantos anos você tem", "type": "expression", "category": "questions", "partOfSpeech": "phrase", "example": "How old are you, Sarah?", "exampleTranslation": "Quantos anos você tem, Sarah?"},
+  {"id": 75, "english": "where are you from", "portuguese": "de onde você é", "type": "expression", "category": "questions", "partOfSpeech": "phrase", "example": "Where are you from originally?", "exampleTranslation": "De onde você é originalmente?"},
+  {"id": 76, "english": "one", "portuguese": "um / uma", "type": "word", "category": "numbers", "partOfSpeech": "numeral", "example": "I have one brother.", "exampleTranslation": "Eu tenho um irmão."},
+  {"id": 77, "english": "two", "portuguese": "dois / duas", "type": "word", "category": "numbers", "partOfSpeech": "numeral", "example": "I need two tickets.", "exampleTranslation": "Eu preciso de duas passagens."},
+  {"id": 78, "english": "three", "portuguese": "três", "type": "word", "category": "numbers", "partOfSpeech": "numeral", "example": "There are three cats here.", "exampleTranslation": "Há três gatos aqui."},
+  {"id": 79, "english": "four", "portuguese": "quatro", "type": "word", "category": "numbers", "partOfSpeech": "numeral", "example": "The car has four doors.", "exampleTranslation": "O carro tem quatro portas."},
+  {"id": 80, "english": "five", "portuguese": "cinco", "type": "word", "category": "numbers", "partOfSpeech": "numeral", "example": "I work five days a week.", "exampleTranslation": "Eu trabalho cinco dias por semana."},
+  {"id": 81, "english": "six", "portuguese": "seis", "type": "word", "category": "numbers", "partOfSpeech": "numeral", "example": "Dinner is at six.", "exampleTranslation": "O jantar é às seis."},
+  {"id": 82, "english": "seven", "portuguese": "sete", "type": "word", "category": "numbers", "partOfSpeech": "numeral", "example": "I have breakfast at seven.", "exampleTranslation": "Eu tomo café da manhã às sete."},
+  {"id": 83, "english": "eight", "portuguese": "oito", "type": "word", "category": "numbers", "partOfSpeech": "numeral", "example": "She sleeps eight hours.", "exampleTranslation": "Ela dorme oito horas."},
+  {"id": 84, "english": "nine", "portuguese": "nove", "type": "word", "category": "numbers", "partOfSpeech": "numeral", "example": "The shop opens at nine.", "exampleTranslation": "A loja abre às nove."},
+  {"id": 85, "english": "ten", "portuguese": "dez", "type": "word", "category": "numbers", "partOfSpeech": "numeral", "example": "I will stay ten minutes.", "exampleTranslation": "Eu vou ficar dez minutos."},
+  {"id": 86, "english": "fifteen", "portuguese": "quinze", "type": "word", "category": "numbers", "partOfSpeech": "numeral", "example": "I have fifteen books.", "exampleTranslation": "Eu tenho quinze livros."},
+  {"id": 87, "english": "twenty", "portuguese": "vinte", "type": "word", "category": "numbers", "partOfSpeech": "numeral", "example": "The bus arrives in twenty minutes.", "exampleTranslation": "O ônibus chega em vinte minutos."},
+  {"id": 88, "english": "fifty", "portuguese": "cinquenta", "type": "word", "category": "numbers", "partOfSpeech": "numeral", "example": "This coffee costs fifty cents.", "exampleTranslation": "Este café custa cinquenta centavos."},
+  {"id": 89, "english": "hundred", "portuguese": "cem / cento", "type": "word", "category": "numbers", "partOfSpeech": "numeral", "example": "I walked one hundred meters.", "exampleTranslation": "Eu caminhei cem metros."},
+  {"id": 90, "english": "thousand", "portuguese": "mil", "type": "word", "category": "numbers", "partOfSpeech": "numeral", "example": "One thousand people live here.", "exampleTranslation": "Mil pessoas moram aqui."},
+  {"id": 91, "english": "first", "portuguese": "primeiro / primeira", "type": "word", "category": "numbers", "partOfSpeech": "adjective", "example": "This is my first time here.", "exampleTranslation": "Esta é minha primeira vez aqui."},
+  {"id": 92, "english": "second", "portuguese": "segundo / segunda", "type": "word", "category": "numbers", "partOfSpeech": "adjective", "example": "Turn right at the second street.", "exampleTranslation": "Vire à direita na segunda rua."},
+  {"id": 93, "english": "third", "portuguese": "terceiro / terceira", "type": "word", "category": "numbers", "partOfSpeech": "adjective", "example": "She lives on the third floor.", "exampleTranslation": "Ela mora no terceiro andar."},
+  {"id": 94, "english": "airport", "portuguese": "aeroporto", "type": "word", "category": "places", "partOfSpeech": "noun", "example": "I am at the airport.", "exampleTranslation": "Eu estou no aeroporto."},
+  {"id": 95, "english": "hotel", "portuguese": "hotel", "type": "word", "category": "places", "partOfSpeech": "noun", "example": "Our hotel is near the beach.", "exampleTranslation": "Nosso hotel fica perto da praia."},
+  {"id": 96, "english": "restaurant", "portuguese": "restaurante", "type": "word", "category": "places", "partOfSpeech": "noun", "example": "We eat at this restaurant every Friday.", "exampleTranslation": "Nós comemos neste restaurante toda sexta-feira."},
+  {"id": 97, "english": "hospital", "portuguese": "hospital", "type": "word", "category": "places", "partOfSpeech": "noun", "example": "The hospital is two blocks away.", "exampleTranslation": "O hospital fica a dois quarteirões."},
+  {"id": 98, "english": "pharmacy", "portuguese": "farmácia", "type": "word", "category": "places", "partOfSpeech": "noun", "example": "I need to buy medicine at the pharmacy.", "exampleTranslation": "Preciso comprar remédio na farmácia."},
+  {"id": 99, "english": "supermarket", "portuguese": "supermercado", "type": "word", "category": "places", "partOfSpeech": "noun", "example": "I go to the supermarket on weekends.", "exampleTranslation": "Eu vou ao supermercado nos fins de semana."},
+  {"id": 100, "english": "store", "portuguese": "loja", "type": "word", "category": "places", "partOfSpeech": "noun", "example": "She works in a clothes store.", "exampleTranslation": "Ela trabalha em uma loja de roupas."},
+  {"id": 101, "english": "school", "portuguese": "escola", "type": "word", "category": "places", "partOfSpeech": "noun", "example": "The children walk to school together.", "exampleTranslation": "As crianças caminham para a escola juntas."},
+  {"id": 102, "english": "university", "portuguese": "universidade", "type": "word", "category": "places", "partOfSpeech": "noun", "example": "He studies engineering at university.", "exampleTranslation": "Ele estuda engenharia na universidade."},
+  {"id": 103, "english": "library", "portuguese": "biblioteca", "type": "word", "category": "places", "partOfSpeech": "noun", "example": "The library is quiet and peaceful.", "exampleTranslation": "A biblioteca é silenciosa e tranquila."},
+  {"id": 104, "english": "bank", "portuguese": "banco (instituição)", "type": "word", "category": "places", "partOfSpeech": "noun", "example": "I need to withdraw money from the bank.", "exampleTranslation": "Preciso sacar dinheiro no banco."},
+  {"id": 105, "english": "park", "portuguese": "parque", "type": "word", "category": "places", "partOfSpeech": "noun", "example": "We walk in the park on Sundays.", "exampleTranslation": "Nós caminhamos no parque aos domingos."},
+  {"id": 106, "english": "beach", "portuguese": "praia", "type": "word", "category": "places", "partOfSpeech": "noun", "example": "The weather is warm at the beach.", "exampleTranslation": "O clima está quente na praia."},
+  {"id": 107, "english": "museum", "portuguese": "museu", "type": "word", "category": "places", "partOfSpeech": "noun", "example": "The art museum is closed on Mondays.", "exampleTranslation": "O museu de arte fecha às segundas-feiras."},
+  {"id": 108, "english": "cinema", "portuguese": "cinema", "type": "word", "category": "places", "partOfSpeech": "noun", "example": "Let's watch a movie at the cinema.", "exampleTranslation": "Vamos assistir a um filme no cinema."},
+  {"id": 109, "english": "station", "portuguese": "estação", "type": "word", "category": "places", "partOfSpeech": "noun", "example": "Meet me at the central station.", "exampleTranslation": "Encontre-me na estação central."},
+  {"id": 110, "english": "bakery", "portuguese": "padaria", "type": "word", "category": "places", "partOfSpeech": "noun", "example": "I buy fresh bread at the bakery.", "exampleTranslation": "Compro pão quentinho na padaria."},
+  {"id": 111, "english": "gym", "portuguese": "academia", "type": "word", "category": "places", "partOfSpeech": "noun", "example": "I exercise at the gym three days a week.", "exampleTranslation": "Eu me exercito na academia três dias por semana."},
+  {"id": 112, "english": "bus", "portuguese": "ônibus", "type": "word", "category": "transport", "partOfSpeech": "noun", "example": "I take the bus to work every morning.", "exampleTranslation": "Eu pego o ônibus para o trabalho toda manhã."},
+  {"id": 113, "english": "car", "portuguese": "carro", "type": "word", "category": "transport", "partOfSpeech": "noun", "example": "He drives an electric car.", "exampleTranslation": "Ele dirige um carro elétrico."},
+  {"id": 114, "english": "taxi", "portuguese": "táxi", "type": "word", "category": "transport", "partOfSpeech": "noun", "example": "I need a taxi to the airport.", "exampleTranslation": "Eu preciso de um táxi para o aeroporto."},
+  {"id": 115, "english": "train", "portuguese": "trem", "type": "word", "category": "transport", "partOfSpeech": "noun", "example": "The train arrives on time.", "exampleTranslation": "O trem chega no horário."},
+  {"id": 116, "english": "subway", "portuguese": "metrô", "type": "word", "category": "transport", "partOfSpeech": "noun", "example": "Taking the subway is fast and cheap.", "exampleTranslation": "Pegar o metrô é rápido e barato."},
+  {"id": 117, "english": "plane", "portuguese": "avião", "type": "word", "category": "transport", "partOfSpeech": "noun", "example": "The plane takes off at noon.", "exampleTranslation": "O avião decola ao meio-dia."},
+  {"id": 118, "english": "flight", "portuguese": "voo", "type": "word", "category": "transport", "partOfSpeech": "noun", "example": "Our flight is delayed twenty minutes.", "exampleTranslation": "Nosso voo está atrasado vinte minutos."},
+  {"id": 119, "english": "bicycle", "portuguese": "bicicleta", "type": "word", "category": "transport", "partOfSpeech": "noun", "example": "She rides her bicycle to school.", "exampleTranslation": "Ela anda de bicicleta para a escola."},
+  {"id": 120, "english": "ticket", "portuguese": "passagem / bilhete / ingresso", "type": "word", "category": "transport", "partOfSpeech": "noun", "example": "Do you have your bus ticket?", "exampleTranslation": "Você está com a sua passagem de ônibus?"},
+  {"id": 121, "english": "passport", "portuguese": "passaporte", "type": "word", "category": "transport", "partOfSpeech": "noun", "example": "Keep your passport in a safe place.", "exampleTranslation": "Guarde o seu passaporte em um lugar seguro."},
+  {"id": 122, "english": "luggage", "portuguese": "bagagem / malas", "type": "word", "category": "transport", "partOfSpeech": "noun", "example": "My luggage weighs fifteen kilos.", "exampleTranslation": "Minha bagagem pesa quinze quilos."},
+  {"id": 123, "english": "stop", "portuguese": "parada / ponto / parar", "type": "word", "category": "transport", "partOfSpeech": "noun", "example": "The bus stop is around the corner.", "exampleTranslation": "O ponto de ônibus fica virando a esquina."},
+  {"id": 124, "english": "water", "portuguese": "água", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "Please drink a glass of water.", "exampleTranslation": "Por favor, beba um copo de água."},
+  {"id": 125, "english": "bread", "portuguese": "pão", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "I eat fresh bread every morning.", "exampleTranslation": "Eu como pão fresco toda manhã."},
+  {"id": 126, "english": "coffee", "portuguese": "café", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "I drink hot coffee without sugar.", "exampleTranslation": "Eu bebo café quente sem açúcar."},
+  {"id": 127, "english": "tea", "portuguese": "chá", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "Would you like a cup of tea?", "exampleTranslation": "Você gostaria de uma xícara de chá?"},
+  {"id": 128, "english": "milk", "portuguese": "leite", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "Put some cold milk in the glass.", "exampleTranslation": "Coloque um pouco de leite gelado no copo."},
+  {"id": 129, "english": "juice", "portuguese": "suco", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "Orange juice is my favorite drink.", "exampleTranslation": "Suco de laranja é minha bebida favorita."},
+  {"id": 130, "english": "rice", "portuguese": "arroz", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "We eat rice and beans every day.", "exampleTranslation": "Nós comemos arroz e feijão todos os dias."},
+  {"id": 131, "english": "beans", "portuguese": "feijão", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "Black beans are traditional in Brazil.", "exampleTranslation": "Feijão preto é tradicional no Brasil."},
+  {"id": 132, "english": "meat", "portuguese": "carne", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "He cooks delicious meat on the grill.", "exampleTranslation": "Ele cozinha carne deliciosa na grelha."},
+  {"id": 133, "english": "chicken", "portuguese": "frango / galinha", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "I will order roasted chicken for dinner.", "exampleTranslation": "Vou pedir frango assado para o jantar."},
+  {"id": 134, "english": "fish", "portuguese": "peixe", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "Fresh fish is good for health.", "exampleTranslation": "Peixe fresco faz bem para a saúde."},
+  {"id": 135, "english": "egg", "portuguese": "ovo", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "I fried an egg for breakfast.", "exampleTranslation": "Eu fritei um ovo para o café da manhã."},
+  {"id": 136, "english": "cheese", "portuguese": "queijo", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "This sandwich has yellow cheese.", "exampleTranslation": "Este sanduíche tem queijo prato."},
+  {"id": 137, "english": "fruit", "portuguese": "fruta", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "Eating fresh fruit is healthy.", "exampleTranslation": "Comer fruta fresca é saudável."},
+  {"id": 138, "english": "apple", "portuguese": "maçã", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "She eats a red apple every afternoon.", "exampleTranslation": "Ela come uma maçã vermelha toda tarde."},
+  {"id": 139, "english": "banana", "portuguese": "banana", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "I like banana with oatmeal.", "exampleTranslation": "Eu gosto de banana com aveia."},
+  {"id": 140, "english": "sugar", "portuguese": "açúcar", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "I drink my coffee with little sugar.", "exampleTranslation": "Eu tomo meu café com pouco açúcar."},
+  {"id": 141, "english": "salt", "portuguese": "sal", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "Pass me the salt, please.", "exampleTranslation": "Passe o sal para mim, por favor."},
+  {"id": 142, "english": "salad", "portuguese": "salada", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "I ordered a green salad for lunch.", "exampleTranslation": "Pedi uma salada verde no almoço."},
+  {"id": 143, "english": "breakfast", "portuguese": "café da manhã", "type": "word", "category": "food", "partOfSpeech": "noun", "example": "I have breakfast at seven.", "exampleTranslation": "Eu tomo café da manhã às sete."},
+  {"id": 144, "english": "house", "portuguese": "casa", "type": "word", "category": "house", "partOfSpeech": "noun", "example": "My house is small and comfortable.", "exampleTranslation": "Minha casa é pequena e confortável."},
+  {"id": 145, "english": "home", "portuguese": "lar / casa", "type": "word", "category": "house", "partOfSpeech": "noun", "example": "I am happy to be home.", "exampleTranslation": "Estou feliz por estar em casa."},
+  {"id": 146, "english": "room", "portuguese": "quarto / cômodo / sala", "type": "word", "category": "house", "partOfSpeech": "noun", "example": "This room gets plenty of sunlight.", "exampleTranslation": "Este quarto recebe bastante luz do sol."},
+  {"id": 147, "english": "bedroom", "portuguese": "quarto de dormir", "type": "word", "category": "house", "partOfSpeech": "noun", "example": "My bedroom is painted light blue.", "exampleTranslation": "Meu quarto é pintado de azul claro."},
+  {"id": 148, "english": "bathroom", "portuguese": "banheiro", "type": "word", "category": "house", "partOfSpeech": "noun", "example": "The bathroom is down the hallway.", "exampleTranslation": "O banheiro fica no fim do corredor."},
+  {"id": 149, "english": "kitchen", "portuguese": "cozinha", "type": "word", "category": "house", "partOfSpeech": "noun", "example": "She is cooking soup in the kitchen.", "exampleTranslation": "Ela está cozinhando sopa na cozinha."},
+  {"id": 150, "english": "living room", "portuguese": "sala de estar", "type": "word", "category": "house", "partOfSpeech": "noun", "example": "We watch movies in the living room.", "exampleTranslation": "Nós assistimos a filmes na sala de estar."},
+  {"id": 151, "english": "door", "portuguese": "porta", "type": "word", "category": "house", "partOfSpeech": "noun", "example": "Please close the door behind you.", "exampleTranslation": "Por favor, feche a porta atrás de você."},
+  {"id": 152, "english": "window", "portuguese": "janela", "type": "word", "category": "house", "partOfSpeech": "noun", "example": "Open the window to let fresh air in.", "exampleTranslation": "Abra a janela para deixar o ar fresco entrar."},
+  {"id": 153, "english": "table", "portuguese": "mesa", "type": "word", "category": "house", "partOfSpeech": "noun", "example": "Put your notebook on the table.", "exampleTranslation": "Coloque seu caderno sobre a mesa."},
+  {"id": 154, "english": "chair", "portuguese": "cadeira", "type": "word", "category": "house", "partOfSpeech": "noun", "example": "Please take a comfortable chair.", "exampleTranslation": "Por favor, sente-se em uma cadeira confortável."},
+  {"id": 155, "english": "bed", "portuguese": "cama", "type": "word", "category": "house", "partOfSpeech": "noun", "example": "I like to read books in bed.", "exampleTranslation": "Eu gosto de ler livros na cama."},
+  {"id": 156, "english": "key", "portuguese": "chave", "type": "word", "category": "house", "partOfSpeech": "noun", "example": "I cannot find my car key.", "exampleTranslation": "Não consigo encontrar a chave do meu carro."},
+  {"id": 157, "english": "wallet", "portuguese": "carteira", "type": "word", "category": "house", "partOfSpeech": "noun", "example": "My wallet is here.", "exampleTranslation": "Minha carteira está aqui."},
+  {"id": 158, "english": "phone", "portuguese": "telefone / celular", "type": "word", "category": "house", "partOfSpeech": "noun", "example": "My phone battery is low.", "exampleTranslation": "A bateria do meu telefone está fraca."},
+  {"id": 159, "english": "computer", "portuguese": "computador", "type": "word", "category": "house", "partOfSpeech": "noun", "example": "This is my computer.", "exampleTranslation": "Este é o meu computador."},
+  {"id": 160, "english": "clock", "portuguese": "relógio de parede/mesa", "type": "word", "category": "house", "partOfSpeech": "noun", "example": "The clock on the wall shows three.", "exampleTranslation": "O relógio na parede marca três horas."},
+  {"id": 161, "english": "watch", "portuguese": "relógio de pulso / assistir", "type": "word", "category": "house", "partOfSpeech": "noun", "example": "I wear a black watch every day.", "exampleTranslation": "Uso um relógio preto todos os dias."},
+  {"id": 162, "english": "shirt", "portuguese": "camisa / camiseta", "type": "word", "category": "clothes", "partOfSpeech": "noun", "example": "I am wearing a white shirt today.", "exampleTranslation": "Estou vestindo uma camisa branca hoje."},
+  {"id": 163, "english": "t-shirt", "portuguese": "camiseta", "type": "word", "category": "clothes", "partOfSpeech": "noun", "example": "He likes to wear cotton t-shirts.", "exampleTranslation": "Ele gosta de usar camisetas de algodão."},
+  {"id": 164, "english": "pants", "portuguese": "calças", "type": "word", "category": "clothes", "partOfSpeech": "noun", "example": "These blue pants fit me well.", "exampleTranslation": "Estas calças azuis me servem bem."},
+  {"id": 165, "english": "shoes", "portuguese": "sapatos", "type": "word", "category": "clothes", "partOfSpeech": "noun", "example": "These walking shoes are very comfortable.", "exampleTranslation": "Estes sapatos de caminhada são muito confortáveis."},
+  {"id": 166, "english": "sock", "portuguese": "meia", "type": "word", "category": "clothes", "partOfSpeech": "noun", "example": "I lost my black sock under the bed.", "exampleTranslation": "Perdi minha meia preta embaixo da cama."},
+  {"id": 167, "english": "jacket", "portuguese": "jaqueta / casaco", "type": "word", "category": "clothes", "partOfSpeech": "noun", "example": "Bring a jacket because it is cold outside.", "exampleTranslation": "Traga uma jaqueta porque está frio lá fora."},
+  {"id": 168, "english": "dress", "portuguese": "vestido", "type": "word", "category": "clothes", "partOfSpeech": "noun", "example": "She bought a pretty green dress.", "exampleTranslation": "Ela comprou um lindo vestido verde."},
+  {"id": 169, "english": "hat", "portuguese": "chapéu / boné", "type": "word", "category": "clothes", "partOfSpeech": "noun", "example": "Wear a hat to protect yourself from the sun.", "exampleTranslation": "Use um chapéu para se proteger do sol."},
+  {"id": 170, "english": "glasses", "portuguese": "óculos", "type": "word", "category": "clothes", "partOfSpeech": "noun", "example": "I cannot read without my glasses.", "exampleTranslation": "Não consigo ler sem os meus óculos."},
+  {"id": 171, "english": "coat", "portuguese": "casaco / sobretudo", "type": "word", "category": "clothes", "partOfSpeech": "noun", "example": "Put on your heavy coat in winter.", "exampleTranslation": "Coloque seu casaco pesado no inverno."},
+  {"id": 172, "english": "book", "portuguese": "livro", "type": "word", "category": "school", "partOfSpeech": "noun", "example": "I read an English book every night.", "exampleTranslation": "Eu leio um livro de inglês toda noite."},
+  {"id": 173, "english": "notebook", "portuguese": "caderno / bloco de notas", "type": "word", "category": "school", "partOfSpeech": "noun", "example": "Write the new vocabulary in your notebook.", "exampleTranslation": "Escreva o novo vocabulário no seu caderno."},
+  {"id": 174, "english": "pencil", "portuguese": "lápis", "type": "word", "category": "school", "partOfSpeech": "noun", "example": "Do you have a pencil I can borrow?", "exampleTranslation": "Você tem um lápis que possa me emprestar?"},
+  {"id": 175, "english": "pen", "portuguese": "caneta", "type": "word", "category": "school", "partOfSpeech": "noun", "example": "Sign your signature with a blue pen.", "exampleTranslation": "Assine com uma caneta azul."},
+  {"id": 176, "english": "eraser", "portuguese": "borracha escolar", "type": "word", "category": "school", "partOfSpeech": "noun", "example": "Use this eraser to fix the mistake.", "exampleTranslation": "Use esta borracha para corrigir o erro."},
+  {"id": 177, "english": "paper", "portuguese": "papel", "type": "word", "category": "school", "partOfSpeech": "noun", "example": "I need a blank sheet of paper.", "exampleTranslation": "Preciso de uma folha de papel em branco."},
+  {"id": 178, "english": "word", "portuguese": "palavra", "type": "word", "category": "school", "partOfSpeech": "noun", "example": "What does this new word mean?", "exampleTranslation": "O que significa esta nova palavra?"},
+  {"id": 179, "english": "letter", "portuguese": "letra / carta", "type": "word", "category": "school", "partOfSpeech": "noun", "example": "He received a handwritten letter from a friend.", "exampleTranslation": "Ele recebeu uma carta escrita à mão de um amigo."},
+  {"id": 180, "english": "sentence", "portuguese": "frase", "type": "word", "category": "school", "partOfSpeech": "noun", "example": "Write a simple sentence in English.", "exampleTranslation": "Escreva uma frase simples em inglês."},
+  {"id": 181, "english": "question", "portuguese": "pergunta / questão", "type": "word", "category": "school", "partOfSpeech": "noun", "example": "Can I ask you a quick question?", "exampleTranslation": "Posso te fazer uma pergunta rápida?"},
+  {"id": 182, "english": "answer", "portuguese": "resposta / responder", "type": "word", "category": "school", "partOfSpeech": "noun", "example": "The teacher knows the correct answer.", "exampleTranslation": "O professor sabe a resposta correta."},
+  {"id": 183, "english": "lesson", "portuguese": "lição / aula", "type": "word", "category": "school", "partOfSpeech": "noun", "example": "Today's lesson is about verb tenses.", "exampleTranslation": "A lição de hoje é sobre tempos verbais."},
+  {"id": 184, "english": "homework", "portuguese": "dever de casa / lição de casa", "type": "word", "category": "school", "partOfSpeech": "noun", "example": "Finish your homework before watching TV.", "exampleTranslation": "Termine seu dever de casa antes de ver TV."},
+  {"id": 185, "english": "page", "portuguese": "página", "type": "word", "category": "school", "partOfSpeech": "noun", "example": "Open your textbook to page fifteen.", "exampleTranslation": "Abram seu livro didático na página quinze."},
+  {"id": 186, "english": "desk", "portuguese": "carteira escolar / escrivaninha", "type": "word", "category": "school", "partOfSpeech": "noun", "example": "Sit at your desk and open your folder.", "exampleTranslation": "Sente-se à sua escrivaninha e abra sua pasta."},
+  {"id": 187, "english": "game", "portuguese": "jogo", "type": "word", "category": "school", "partOfSpeech": "noun", "example": "We played a vocabulary game in class.", "exampleTranslation": "Nós jogamos um jogo de vocabulário na aula."},
+  {"id": 188, "english": "family", "portuguese": "família", "type": "word", "category": "family", "partOfSpeech": "noun", "example": "I love spending Sunday with my family.", "exampleTranslation": "Adoro passar o domingo com a minha família."},
+  {"id": 189, "english": "father", "portuguese": "pai", "type": "word", "category": "family", "partOfSpeech": "noun", "example": "My father taught me how to drive.", "exampleTranslation": "Meu pai me ensinou a dirigir."},
+  {"id": 190, "english": "mother", "portuguese": "mãe", "type": "word", "category": "family", "partOfSpeech": "noun", "example": "My mother cooks delicious food.", "exampleTranslation": "Minha mãe cozinha uma comida deliciosa."},
+  {"id": 191, "english": "parent", "portuguese": "pai ou mãe (progenitor)", "type": "word", "category": "family", "partOfSpeech": "noun", "example": "Every parent wants the best for their child.", "exampleTranslation": "Todo pai ou mãe quer o melhor para o seu filho."},
+  {"id": 192, "english": "son", "portuguese": "filho", "type": "word", "category": "family", "partOfSpeech": "noun", "example": "Their son is five years old.", "exampleTranslation": "O filho deles tem cinco anos."},
+  {"id": 193, "english": "daughter", "portuguese": "filha", "type": "word", "category": "family", "partOfSpeech": "noun", "example": "My daughter loves drawing animals.", "exampleTranslation": "Minha filha adora desenhar animais."},
+  {"id": 194, "english": "brother", "portuguese": "irmão", "type": "word", "category": "family", "partOfSpeech": "noun", "example": "My older brother lives in another city.", "exampleTranslation": "Meu irmão mais velho mora em outra cidade."},
+  {"id": 195, "english": "sister", "portuguese": "irmã", "type": "word", "category": "family", "partOfSpeech": "noun", "example": "I talk to my sister on the phone.", "exampleTranslation": "Eu converso com a minha irmã pelo telefone."},
+  {"id": 196, "english": "child", "portuguese": "criança", "type": "word", "category": "family", "partOfSpeech": "noun", "example": "The child is playing happily outside.", "exampleTranslation": "A criança está brincando alegremente lá fora."},
+  {"id": 197, "english": "children", "portuguese": "crianças / filhos", "type": "word", "category": "family", "partOfSpeech": "noun", "example": "The children are studying at school.", "exampleTranslation": "As crianças estão estudando na escola."},
+  {"id": 198, "english": "baby", "portuguese": "bebê", "type": "word", "category": "family", "partOfSpeech": "noun", "example": "The baby is sleeping peacefully.", "exampleTranslation": "O bebê está dormindo tranquilamente."},
+  {"id": 199, "english": "job", "portuguese": "trabalho / emprego", "type": "word", "category": "work", "partOfSpeech": "noun", "example": "I am looking for a remote job.", "exampleTranslation": "Estou procurando um emprego remoto."},
+  {"id": 200, "english": "work", "portuguese": "trabalho / trabalhar", "type": "word", "category": "work", "partOfSpeech": "noun", "example": "I have a lot of work today.", "exampleTranslation": "Tenho muito trabalho hoje."},
+  {"id": 201, "english": "worker", "portuguese": "trabalhador / funcionário", "type": "word", "category": "work", "partOfSpeech": "noun", "example": "He is a dedicated worker.", "exampleTranslation": "Ele é um trabalhador dedicado."},
+  {"id": 202, "english": "manager", "portuguese": "gerente", "type": "word", "category": "work", "partOfSpeech": "noun", "example": "Talk to the manager about your schedule.", "exampleTranslation": "Fale com o gerente sobre o seu horário."},
+  {"id": 203, "english": "teacher", "portuguese": "professor / professora", "type": "word", "category": "work", "partOfSpeech": "noun", "example": "The English teacher speaks clearly.", "exampleTranslation": "O professor de inglês fala com clareza."},
+  {"id": 204, "english": "student", "portuguese": "estudante / aluno", "type": "word", "category": "work", "partOfSpeech": "noun", "example": "Every student has a course book.", "exampleTranslation": "Cada estudante tem um livro do curso."},
+  {"id": 205, "english": "doctor", "portuguese": "médico / médica", "type": "word", "category": "work", "partOfSpeech": "noun", "example": "The doctor examined the patient carefully.", "exampleTranslation": "O médico examinou o paciente cuidadosamente."},
+  {"id": 206, "english": "nurse", "portuguese": "enfermeiro / enfermeira", "type": "word", "category": "work", "partOfSpeech": "noun", "example": "The nurse gave me medicine.", "exampleTranslation": "A enfermeira me deu o remédio."},
+  {"id": 207, "english": "engineer", "portuguese": "engenheiro / engenheira", "type": "word", "category": "work", "partOfSpeech": "noun", "example": "My cousin is a software engineer.", "exampleTranslation": "Meu primo é engenheiro de software."},
+  {"id": 208, "english": "driver", "portuguese": "motorista", "type": "word", "category": "work", "partOfSpeech": "noun", "example": "The bus driver was polite.", "exampleTranslation": "O motorista de ônibus foi educado."},
+  {"id": 209, "english": "colleague", "portuguese": "colega de trabalho", "type": "word", "category": "work", "partOfSpeech": "noun", "example": "I have lunch with my colleague.", "exampleTranslation": "Eu almoço com o meu colega de trabalho."},
+  {"id": 210, "english": "meeting", "portuguese": "reunião", "type": "word", "category": "work", "partOfSpeech": "noun", "example": "We have a team meeting at two.", "exampleTranslation": "Temos uma reunião de equipe às duas."},
+  {"id": 211, "english": "company", "portuguese": "empresa", "type": "word", "category": "work", "partOfSpeech": "noun", "example": "She works for a technology company.", "exampleTranslation": "Ela trabalha para uma empresa de tecnologia."},
+  {"id": 212, "english": "money", "portuguese": "dinheiro", "type": "word", "category": "work", "partOfSpeech": "noun", "example": "Save some money every month.", "exampleTranslation": "Guarde um pouco de dinheiro todo mês."},
+  {"id": 213, "english": "email", "portuguese": "e-mail", "type": "word", "category": "work", "partOfSpeech": "noun", "example": "Send me an email with the details.", "exampleTranslation": "Envie-me um e-mail com os detalhes."},
+  {"id": 214, "english": "password", "portuguese": "senha", "type": "word", "category": "work", "partOfSpeech": "noun", "example": "Enter your password to log in.", "exampleTranslation": "Digite sua senha para entrar."},
+  {"id": 215, "english": "pet", "portuguese": "animal de estimação", "type": "word", "category": "animals", "partOfSpeech": "noun", "example": "Do you have a pet at home?", "exampleTranslation": "Você tem um animal de estimação em casa?"},
+  {"id": 216, "english": "dog", "portuguese": "cachorro / cão", "type": "word", "category": "animals", "partOfSpeech": "noun", "example": "My dog barks when someone knocks.", "exampleTranslation": "Meu cachorro late quando alguém bate na porta."},
+  {"id": 217, "english": "cat", "portuguese": "gato", "type": "word", "category": "animals", "partOfSpeech": "noun", "example": "The black cat sleeps on the sofa.", "exampleTranslation": "O gato preto dorme no sofá."},
+  {"id": 218, "english": "bird", "portuguese": "pássaro / ave", "type": "word", "category": "animals", "partOfSpeech": "noun", "example": "A colorful bird is singing in the tree.", "exampleTranslation": "Um pássaro colorido está cantando na árvore."},
+  {"id": 219, "english": "horse", "portuguese": "cavalo", "type": "word", "category": "animals", "partOfSpeech": "noun", "example": "He learned how to ride a horse.", "exampleTranslation": "Ele aprendeu a montar a cavalo."},
+  {"id": 220, "english": "cow", "portuguese": "vaca", "type": "word", "category": "animals", "partOfSpeech": "noun", "example": "The cow provides fresh milk.", "exampleTranslation": "A vaca fornece leite fresco."},
+  {"id": 221, "english": "weather", "portuguese": "tempo / clima", "type": "word", "category": "weather", "partOfSpeech": "noun", "example": "The weather is sunny today.", "exampleTranslation": "O tempo está ensolarado hoje."},
+  {"id": 222, "english": "sun", "portuguese": "sol", "type": "word", "category": "weather", "partOfSpeech": "noun", "example": "The morning sun is shining bright.", "exampleTranslation": "O sol da manhã está brilhando forte."},
+  {"id": 223, "english": "rain", "portuguese": "chuva / chover", "type": "word", "category": "weather", "partOfSpeech": "noun", "example": "Take an umbrella because of the rain.", "exampleTranslation": "Leve um guarda-chuva por causa da chuva."},
+  {"id": 224, "english": "wind", "portuguese": "vento", "type": "word", "category": "weather", "partOfSpeech": "noun", "example": "A cool wind is blowing today.", "exampleTranslation": "Um vento fresco está soprando hoje."},
+  {"id": 225, "english": "hot", "portuguese": "quente", "type": "word", "category": "weather", "partOfSpeech": "adjective", "example": "It is very hot this afternoon.", "exampleTranslation": "Está muito quente nesta tarde."},
+  {"id": 226, "english": "cold", "portuguese": "frio", "type": "word", "category": "weather", "partOfSpeech": "adjective", "example": "Drink hot tea when you feel cold.", "exampleTranslation": "Beba chá quente quando sentir frio."},
+  {"id": 227, "english": "warm", "portuguese": "morno / agradavelmente quente", "type": "word", "category": "weather", "partOfSpeech": "adjective", "example": "The water in the pool is warm.", "exampleTranslation": "A água da piscina está morna."},
+  {"id": 228, "english": "cloud", "portuguese": "nuvem", "type": "word", "category": "weather", "partOfSpeech": "noun", "example": "There is not a single cloud in the sky.", "exampleTranslation": "Não há uma única nuvem no céu."},
+  {"id": 229, "english": "sky", "portuguese": "céu", "type": "word", "category": "weather", "partOfSpeech": "noun", "example": "The blue sky looks clear today.", "exampleTranslation": "O céu azul parece limpo hoje."},
+  {"id": 230, "english": "tree", "portuguese": "árvore", "type": "word", "category": "weather", "partOfSpeech": "noun", "example": "Birds are sitting in the tall tree.", "exampleTranslation": "Pássaros estão pousados na árvore alta."},
+  {"id": 231, "english": "flower", "portuguese": "flor", "type": "word", "category": "weather", "partOfSpeech": "noun", "example": "She gave me a yellow flower.", "exampleTranslation": "Ela me deu uma flor amarela."},
+  {"id": 232, "english": "friend", "portuguese": "amigo / amiga", "type": "word", "category": "people", "partOfSpeech": "noun", "example": "She is a trusted friend of mine.", "exampleTranslation": "Ela é uma amiga de confiança minha."},
+  {"id": 233, "english": "neighbor", "portuguese": "vizinho / vizinha", "type": "word", "category": "people", "partOfSpeech": "noun", "example": "My neighbor is friendly.", "exampleTranslation": "Meu vizinho é amigável."},
+  {"id": 234, "english": "people", "portuguese": "pessoas / povo", "type": "word", "category": "people", "partOfSpeech": "noun", "example": "Many people visit this city each year.", "exampleTranslation": "Muitas pessoas visitam esta cidade a cada ano."},
+  {"id": 235, "english": "person", "portuguese": "pessoa", "type": "word", "category": "people", "partOfSpeech": "noun", "example": "He is a very kind person.", "exampleTranslation": "Ele é uma pessoa muito gentil."},
+  {"id": 236, "english": "boy", "portuguese": "menino / garoto", "type": "word", "category": "people", "partOfSpeech": "noun", "example": "The little boy is eating an apple.", "exampleTranslation": "O garotinho está comendo uma maçã."},
+  {"id": 237, "english": "girl", "portuguese": "menina / garota", "type": "word", "category": "people", "partOfSpeech": "noun", "example": "The girl rides her bicycle every day.", "exampleTranslation": "A menina anda de bicicleta todos os dias."},
+  {"id": 238, "english": "man", "portuguese": "homem", "type": "word", "category": "people", "partOfSpeech": "noun", "example": "That tall man is our new teacher.", "exampleTranslation": "Aquele homem alto é nosso novo professor."},
+  {"id": 239, "english": "woman", "portuguese": "mulher", "type": "word", "category": "people", "partOfSpeech": "noun", "example": "She is an intelligent and hardworking woman.", "exampleTranslation": "Ela é uma mulher inteligente e trabalhadora."},
+  {"id": 240, "english": "name", "portuguese": "nome", "type": "word", "category": "people", "partOfSpeech": "noun", "example": "What is your full name?", "exampleTranslation": "Qual é o seu nome completo?"},
+  {"id": 241, "english": "party", "portuguese": "festa", "type": "word", "category": "people", "partOfSpeech": "noun", "example": "We had a birthday party for my mother.", "exampleTranslation": "Fizemos uma festa de aniversário para minha mãe."},
+  {"id": 242, "english": "life", "portuguese": "vida", "type": "word", "category": "people", "partOfSpeech": "noun", "example": "Music brings joy to everyday life.", "exampleTranslation": "A música traz alegria para a vida cotidiana."},
+  {"id": 243, "english": "body", "portuguese": "corpo", "type": "word", "category": "people", "partOfSpeech": "noun", "example": "Exercise keeps your body healthy.", "exampleTranslation": "O exercício mantém seu corpo saudável."},
+  {"id": 244, "english": "head", "portuguese": "cabeça", "type": "word", "category": "people", "partOfSpeech": "noun", "example": "I have a slight headache.", "exampleTranslation": "Estou com uma leve dor de cabeça."},
+  {"id": 245, "english": "eye", "portuguese": "olho", "type": "word", "category": "people", "partOfSpeech": "noun", "example": "She has bright brown eyes.", "exampleTranslation": "Ela tem olhos castanhos brilhantes."},
+  {"id": 246, "english": "be", "portuguese": "ser / estar", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I want to be fluent in English.", "exampleTranslation": "Quero ser fluente em inglês."},
+  {"id": 247, "english": "have", "portuguese": "ter", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I have two sisters and one brother.", "exampleTranslation": "Eu tenho duas irmãs e um irmão."},
+  {"id": 248, "english": "do", "portuguese": "fazer", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "What do you do on weekends?", "exampleTranslation": "O que você faz nos finais de semana?"},
+  {"id": 249, "english": "make", "portuguese": "fazer / criar / produzir", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I make breakfast every morning.", "exampleTranslation": "Eu faço o café da manhã toda manhã."},
+  {"id": 250, "english": "go", "portuguese": "ir", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I go to work by bus.", "exampleTranslation": "Eu vou para o trabalho de ônibus."},
+  {"id": 251, "english": "come", "portuguese": "vir", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "Come here and sit with us.", "exampleTranslation": "Venha aqui e sente-se conosco."},
+  {"id": 252, "english": "see", "portuguese": "ver / enxergar", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I see a blue bird in the garden.", "exampleTranslation": "Vejo um pássaro azul no jardim."},
+  {"id": 253, "english": "look", "portuguese": "olhar / parecer", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "Look at this beautiful sunset.", "exampleTranslation": "Olhe para este lindo pôr do sol."},
+  {"id": 254, "english": "say", "portuguese": "dizer", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "What did you say to the manager?", "exampleTranslation": "O que você disse ao gerente?"},
+  {"id": 255, "english": "tell", "portuguese": "contar / dizer para alguém", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "Please tell me the true story.", "exampleTranslation": "Por favor, me conte a história verdadeira."},
+  {"id": 256, "english": "speak", "portuguese": "falar (idioma, habilidade)", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I speak Portuguese and English.", "exampleTranslation": "Eu falo português e inglês."},
+  {"id": 257, "english": "talk", "portuguese": "conversar / bater papo", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "Let us talk about our plans.", "exampleTranslation": "Vamos conversar sobre nossos planos."},
+  {"id": 258, "english": "listen", "portuguese": "escutar / ouvir atentamente", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "Listen to the audio carefully.", "exampleTranslation": "Ouça o áudio com atenção."},
+  {"id": 259, "english": "hear", "portuguese": "ouvir (capacidade auditiva)", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "Can you hear the music playing?", "exampleTranslation": "Você consegue ouvir a música tocando?"},
+  {"id": 260, "english": "read", "portuguese": "ler", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I read an article every morning.", "exampleTranslation": "Eu leio um artigo toda manhã."},
+  {"id": 261, "english": "write", "portuguese": "escrever", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "Write your name on the paper.", "exampleTranslation": "Escreva seu nome no papel."},
+  {"id": 262, "english": "eat", "portuguese": "comer", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "We eat fresh fruit every day.", "exampleTranslation": "Comemos fruta fresca todos os dias."},
+  {"id": 263, "english": "drink", "portuguese": "beber", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "Drink eight glasses of water daily.", "exampleTranslation": "Beba oito copos de água diariamente."},
+  {"id": 264, "english": "sleep", "portuguese": "dormir", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I sleep eight hours every night.", "exampleTranslation": "Eu durmo oito horas toda noite."},
+  {"id": 265, "english": "wake up", "portuguese": "acordar", "type": "expression", "category": "verbs", "partOfSpeech": "phrasal verb", "example": "I wake up at six every day.", "exampleTranslation": "Eu acordo às seis todos os dias."},
+  {"id": 266, "english": "get up", "portuguese": "levantar-se", "type": "expression", "category": "verbs", "partOfSpeech": "phrasal verb", "example": "I get up right after waking up.", "exampleTranslation": "Eu me levanto logo após acordar."},
+  {"id": 267, "english": "study", "portuguese": "estudar", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I study vocabulary with flashcards.", "exampleTranslation": "Eu estudo vocabulário com flashcards."},
+  {"id": 268, "english": "learn", "portuguese": "aprender", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I want to learn new words.", "exampleTranslation": "Eu quero aprender palavras novas."},
+  {"id": 269, "english": "teach", "portuguese": "ensinar", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "Good teachers teach with passion.", "exampleTranslation": "Bons professores ensinam com paixão."},
+  {"id": 270, "english": "buy", "portuguese": "comprar", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I buy fresh bread at the bakery.", "exampleTranslation": "Eu compro pão fresco na padaria."},
+  {"id": 271, "english": "sell", "portuguese": "vender", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "They sell books and magazines here.", "exampleTranslation": "Eles vendem livros e revistas aqui."},
+  {"id": 272, "english": "pay", "portuguese": "pagar", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "Can I pay by credit card?", "exampleTranslation": "Posso pagar com cartão de crédito?"},
+  {"id": 273, "english": "need", "portuguese": "precisar", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I need a taxi to the airport.", "exampleTranslation": "Eu preciso de um táxi para o aeroporto."},
+  {"id": 274, "english": "want", "portuguese": "querer", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I want a cup of cold water.", "exampleTranslation": "Eu quero um copo de água gelada."},
+  {"id": 275, "english": "like", "portuguese": "gostar", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I like reading books before bed.", "exampleTranslation": "Eu gosto de ler livros antes de dormir."},
+  {"id": 276, "english": "love", "portuguese": "amar / adorar", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I love spending time with family.", "exampleTranslation": "Eu amo passar tempo com a família."},
+  {"id": 277, "english": "live", "portuguese": "viver / morar", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I live in a peaceful neighborhood.", "exampleTranslation": "Eu moro em um bairro tranquilo."},
+  {"id": 278, "english": "open", "portuguese": "abrir / aberto", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "Open the window, please.", "exampleTranslation": "Abra a janela, por favor."},
+  {"id": 279, "english": "close", "portuguese": "fechar", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "Close the door when you leave.", "exampleTranslation": "Feche a porta quando sair."},
+  {"id": 280, "english": "clean", "portuguese": "limpar / limpo", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I clean my room on Saturdays.", "exampleTranslation": "Eu limpo meu quarto aos sábados."},
+  {"id": 281, "english": "wash", "portuguese": "lavar", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "Wash your hands before eating.", "exampleTranslation": "Lave as mãos antes de comer."},
+  {"id": 282, "english": "help", "portuguese": "ajudar / ajuda", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "Can you help me with this bag?", "exampleTranslation": "Você pode me ajudar com esta sacola?"},
+  {"id": 283, "english": "try", "portuguese": "tentar / experimentar", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "Try to speak English every day.", "exampleTranslation": "Tente falar inglês todos os dias."},
+  {"id": 284, "english": "wait", "portuguese": "esperar (tempo)", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "Wait for the bus at the stop.", "exampleTranslation": "Espere pelo ônibus no ponto."},
+  {"id": 285, "english": "walk", "portuguese": "caminhar / andar", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I walk in the park every morning.", "exampleTranslation": "Eu caminho no parque toda manhã."},
+  {"id": 286, "english": "run", "portuguese": "correr", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "He likes to run on the beach.", "exampleTranslation": "Ele gosta de correr na praia."},
+  {"id": 287, "english": "drive", "portuguese": "dirigir", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I drive carefully on the highway.", "exampleTranslation": "Eu dirijo com cuidado na rodovia."},
+  {"id": 288, "english": "travel", "portuguese": "viajar", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "We love to travel on vacation.", "exampleTranslation": "Nós adoramos viajar nas férias."},
+  {"id": 289, "english": "stay", "portuguese": "ficar / permanecer", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "I will stay at this hotel for two nights.", "exampleTranslation": "Vou ficar neste hotel por duas noites."},
+  {"id": 290, "english": "give", "portuguese": "dar / entregar", "type": "word", "category": "verbs", "partOfSpeech": "verb", "example": "Give me your hand, please.", "exampleTranslation": "Dê-me sua mão, por favor."},
+  {"id": 291, "english": "good", "portuguese": "bom / boa", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "This coffee has a good flavor.", "exampleTranslation": "Este café tem um sabor bom."},
+  {"id": 292, "english": "bad", "portuguese": "ruim / mau", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "The weather was bad yesterday.", "exampleTranslation": "O tempo estava ruim ontem."},
+  {"id": 293, "english": "big", "portuguese": "grande", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "They live in a big house.", "exampleTranslation": "Eles moram em uma casa grande."},
+  {"id": 294, "english": "small", "portuguese": "pequeno / pequena", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "I carry a small backpack.", "exampleTranslation": "Eu carrego uma mochila pequena."},
+  {"id": 295, "english": "new", "portuguese": "novo / nova", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "I bought a new computer.", "exampleTranslation": "Eu comprei um computador novo."},
+  {"id": 296, "english": "old", "portuguese": "velho / antigo", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "This is an old library building.", "exampleTranslation": "Este é um prédio antigo de biblioteca."},
+  {"id": 297, "english": "young", "portuguese": "jovem", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "The young student asks many questions.", "exampleTranslation": "O estudante jovem faz muitas perguntas."},
+  {"id": 298, "english": "happy", "portuguese": "feliz", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "I am very happy with my progress.", "exampleTranslation": "Estou muito feliz com meu progresso."},
+  {"id": 299, "english": "sad", "portuguese": "triste", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "The movie had a sad ending.", "exampleTranslation": "O filme teve um final triste."},
+  {"id": 300, "english": "easy", "portuguese": "fácil", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "This English lesson is very easy.", "exampleTranslation": "Esta lição de inglês é muito fácil."},
+  {"id": 301, "english": "difficult", "portuguese": "difícil", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "Pronunciation can be difficult at first.", "exampleTranslation": "A pronúncia pode ser difícil no início."},
+  {"id": 302, "english": "hard", "portuguese": "difícil / duro", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "He works hard every single day.", "exampleTranslation": "Ele trabalha duro todo santo dia."},
+  {"id": 303, "english": "fast", "portuguese": "rápido / depressa", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "The subway is fast and reliable.", "exampleTranslation": "O metrô é rápido e confiável."},
+  {"id": 304, "english": "slow", "portuguese": "lento / devagar", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "Please speak in a slow voice.", "exampleTranslation": "Por favor, fale com uma voz lenta."},
+  {"id": 305, "english": "dirty", "portuguese": "sujo / suja", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "My shoes are dirty from the rain.", "exampleTranslation": "Meus sapatos estão sujos da chuva."},
+  {"id": 306, "english": "beautiful", "portuguese": "bonito / lindo / bela", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "She lives in a beautiful neighborhood.", "exampleTranslation": "Ela mora em um bairro bonito."},
+  {"id": 307, "english": "ugly", "portuguese": "feio / feia", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "That old wall is broken and ugly.", "exampleTranslation": "Aquele muro velho está quebrado e feio."},
+  {"id": 308, "english": "expensive", "portuguese": "caro / custoso", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "This watch is too expensive for me.", "exampleTranslation": "Este relógio é caro demais para mim."},
+  {"id": 309, "english": "cheap", "portuguese": "barato / acessível", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "Apples are cheap at the market.", "exampleTranslation": "Maçãs estão baratas na feira."},
+  {"id": 310, "english": "important", "portuguese": "importante", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "Practice is important for fluency.", "exampleTranslation": "A prática é importante para a fluência."},
+  {"id": 311, "english": "tired", "portuguese": "cansado / cansada", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "I am tired after a long day of work.", "exampleTranslation": "Estou cansado após um longo dia de trabalho."},
+  {"id": 312, "english": "hungry", "portuguese": "com fome", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "I am hungry, let us have dinner.", "exampleTranslation": "Estou com fome, vamos jantar."},
+  {"id": 313, "english": "thirsty", "portuguese": "com sede", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "Drink water when you are thirsty.", "exampleTranslation": "Beba água quando estiver com sede."},
+  {"id": 314, "english": "busy", "portuguese": "ocupado / movimentado", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "The manager is very busy right now.", "exampleTranslation": "O gerente está muito ocupado agora."},
+  {"id": 315, "english": "free", "portuguese": "livre / grátis", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "Are you free this Saturday evening?", "exampleTranslation": "Você está livre neste sábado à noite?"},
+  {"id": 316, "english": "ready", "portuguese": "pronto / preparado", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "I am ready to start my study session.", "exampleTranslation": "Estou pronto para começar minha sessão de estudos."},
+  {"id": 317, "english": "right", "portuguese": "certo / correto / direita", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "Your answer is right.", "exampleTranslation": "Sua resposta está certa."},
+  {"id": 318, "english": "wrong", "portuguese": "errado / equivocado", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "Don't worry if your answer is wrong.", "exampleTranslation": "Não se preocupe se sua resposta estiver errada."},
+  {"id": 319, "english": "safe", "portuguese": "seguro / a salvo", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "Keep your passport in a safe drawer.", "exampleTranslation": "Guarde seu passaporte em uma gaveta segura."},
+  {"id": 320, "english": "dangerous", "portuguese": "perigoso", "type": "word", "category": "adjectives", "partOfSpeech": "adjective", "example": "Driving fast in the rain is dangerous.", "exampleTranslation": "Dirigir rápido na chuva é perigoso."},
+  {"id": 321, "english": "I", "portuguese": "eu", "type": "word", "category": "pronouns", "partOfSpeech": "pronoun", "example": "I am learning English step by step.", "exampleTranslation": "Eu estou aprendendo inglês passo a passo."},
+  {"id": 322, "english": "you", "portuguese": "você / vocês", "type": "word", "category": "pronouns", "partOfSpeech": "pronoun", "example": "You can speak English very well.", "exampleTranslation": "Você pode falar inglês muito bem."},
+  {"id": 323, "english": "he", "portuguese": "ele", "type": "word", "category": "pronouns", "partOfSpeech": "pronoun", "example": "He works at a software company.", "exampleTranslation": "Ele trabalha em uma empresa de software."},
+  {"id": 324, "english": "she", "portuguese": "ela", "type": "word", "category": "pronouns", "partOfSpeech": "pronoun", "example": "She studies medicine at university.", "exampleTranslation": "Ela estuda medicina na universidade."},
+  {"id": 325, "english": "it", "portuguese": "ele / ela (objetos, animais, neutro)", "type": "word", "category": "pronouns", "partOfSpeech": "pronoun", "example": "It is raining outside today.", "exampleTranslation": "Está chovendo lá fora hoje."},
+  {"id": 326, "english": "we", "portuguese": "nós", "type": "word", "category": "pronouns", "partOfSpeech": "pronoun", "example": "We practice flashcards together.", "exampleTranslation": "Nós praticamos flashcards juntos."},
+  {"id": 327, "english": "they", "portuguese": "eles / elas", "type": "word", "category": "pronouns", "partOfSpeech": "pronoun", "example": "They live in a beautiful house.", "exampleTranslation": "Eles moram em uma casa bonita."},
+  {"id": 328, "english": "me", "portuguese": "mim / me", "type": "word", "category": "pronouns", "partOfSpeech": "pronoun", "example": "Please listen to me carefully.", "exampleTranslation": "Por favor, escute-me com atenção."},
+  {"id": 329, "english": "him", "portuguese": "ele / o / lhe", "type": "word", "category": "pronouns", "partOfSpeech": "pronoun", "example": "I saw him at the library yesterday.", "exampleTranslation": "Eu o vi na biblioteca ontem."},
+  {"id": 330, "english": "her", "portuguese": "ela / a / seu / sua", "type": "word", "category": "pronouns", "partOfSpeech": "pronoun", "example": "I gave her the notebook.", "exampleTranslation": "Eu dei o caderno para ela."},
+  {"id": 331, "english": "us", "portuguese": "nós / nos", "type": "word", "category": "pronouns", "partOfSpeech": "pronoun", "example": "The teacher invited us to join.", "exampleTranslation": "O professor nos convidou para participar."},
+  {"id": 332, "english": "them", "portuguese": "eles / elas / os / as", "type": "word", "category": "pronouns", "partOfSpeech": "pronoun", "example": "I will call them after lunch.", "exampleTranslation": "Vou ligar para eles depois do almoço."},
+  {"id": 333, "english": "my", "portuguese": "meu / minha / meus / minhas", "type": "word", "category": "pronouns", "partOfSpeech": "determiner", "example": "My wallet is on the desk.", "exampleTranslation": "Minha carteira está sobre a escrivaninha."},
+  {"id": 334, "english": "your", "portuguese": "seu / sua / seus / suas", "type": "word", "category": "pronouns", "partOfSpeech": "determiner", "example": "Is this your jacket?", "exampleTranslation": "Esta é a sua jaqueta?"},
+  {"id": 335, "english": "his", "portuguese": "dele / seu / sua", "type": "word", "category": "pronouns", "partOfSpeech": "determiner", "example": "His car is parked outside.", "exampleTranslation": "O carro dele está estacionado lá fora."},
+  {"id": 336, "english": "our", "portuguese": "nosso / nossa / nossos / nossas", "type": "word", "category": "pronouns", "partOfSpeech": "determiner", "example": "Our class starts at eight.", "exampleTranslation": "Nossa aula começa às oito."}
+];
+
+const CATEGORY_NAMES = {
+  numbers: "Números",
+  places: "Lugares",
+  transport: "Transporte",
+  school: "Escola & Estudos",
+  work: "Trabalho & Profissões",
+  family: "Família",
+  house: "Casa & Objetos",
+  food: "Comida & Bebida",
+  clothes: "Roupas & Acessórios",
+  animals: "Animais",
+  weather: "Clima & Natureza",
+  people: "Pessoas & Sociedade",
+  greetings: "Saudações & Cortesia",
+  questions: "Perguntas & Dúvidas",
+  expressions: "Expressões Comuns",
+  verbs: "Verbos",
+  adjectives: "Adjetivos",
+  pronouns: "Pronomes",
+  functional: "Palavras Funcionais",
+  contractions: "Contrações Verbais"
+};
+
+const POS_NAMES = {
+  noun: "Substantivo",
+  verb: "Verbo",
+  adjective: "Adjetivo",
+  adverb: "Advérbio",
+  pronoun: "Pronome",
+  numeral: "Numeral",
+  preposition: "Preposição",
+  conjunction: "Conjunção",
+  interjection: "Interjeição",
+  phrase: "Expressão",
+  contraction: "Contração",
+  "modal verb": "Verbo Modal",
+  "phrasal verb": "Phrasal Verb",
+  idiom: "Expressão Idiomática",
+  determiner: "Determinante"
+};
+
+/**
+ * MOTOR DO APLICATIVO
+ */
+class FlashcardApp {
+  constructor() {
+    this.vocab = vocabulary;
+    this.storageKey = 'english_flashcards_progress_v1';
+    this.themeKey = 'english_flashcards_theme';
+    this.progress = this.loadProgress();
+    this.currentDeck = [];
+    this.currentIndex = 0;
+    this.studyMode = 'en-pt';
+    this.isCardFlipped = false;
+    this.currentView = 'dashboard';
+    this.synth = window.speechSynthesis || null;
+
+    this.initElements();
+    this.initCategoriesFilter();
+    this.initTheme();
+    this.initEventListeners();
+    this.updateDashboardStats();
+    this.renderVocabList();
+  }
+
+  loadProgress() {
+    try {
+      const data = localStorage.getItem(this.storageKey);
+      if (data) return JSON.parse(data);
+    } catch (e) {
+      console.warn('Erro ao carregar dados do localStorage:', e);
+    }
+    const initial = {};
+    this.vocab.forEach(item => {
+      initial[item.id] = { reviews: 0, correct: 0, wrong: 0, lastReview: null, mastery: 0, favorite: false };
+    });
+    return initial;
+  }
+
+  saveProgress() {
+    try {
+      localStorage.setItem(this.storageKey, JSON.stringify(this.progress));
+      this.updateDashboardStats();
+    } catch (e) {
+      console.error('Falha ao gravar no localStorage:', e);
+    }
+  }
+
+  getItemProgress(id) {
+    if (!this.progress[id]) {
+      this.progress[id] = { reviews: 0, correct: 0, wrong: 0, lastReview: null, mastery: 0, favorite: false };
+    }
+    return this.progress[id];
+  }
+
+  initElements() {
+    this.navTabs = document.querySelectorAll('.nav-tab');
+    this.viewPanels = {
+      dashboard: document.getElementById('viewDashboard'),
+      study: document.getElementById('viewStudy'),
+      list: document.getElementById('viewList')
+    };
+
+    this.mainProgressBar = document.getElementById('mainProgressBar');
+    this.overallPercentage = document.getElementById('overallPercentage');
+    this.learnedRatioText = document.getElementById('learnedRatioText');
+    this.remainingCountText = document.getElementById('remainingCountText');
+    this.statLearnedCount = document.getElementById('statLearnedCount');
+    this.statLearningCount = document.getElementById('statLearningCount');
+    this.statReviewCount = document.getElementById('statReviewCount');
+    this.statUnseenCount = document.getElementById('statUnseenCount');
+
+    this.startMainStudyCard = document.getElementById('startMainStudyCard');
+    this.startReviewCard = document.getElementById('startReviewCard');
+    this.startFavoritesCard = document.getElementById('startFavoritesCard');
+    this.exploreWordsCard = document.getElementById('exploreWordsCard');
+
+    this.flashcard = document.getElementById('flashcardElement');
+    this.cardCounterText = document.getElementById('cardCounterText');
+    this.studyModeSelect = document.getElementById('studyModeSelect');
+    this.studyModeLabel = document.getElementById('studyModeLabel');
+    this.cardFavoriteBtn = document.getElementById('cardFavoriteBtn');
+
+    this.frontCategoryTag = document.getElementById('frontCategoryTag');
+    this.frontPosTag = document.getElementById('frontPosTag');
+    this.frontPromptLabel = document.getElementById('frontPromptLabel');
+    this.frontWordDisplay = document.getElementById('frontWordDisplay');
+    this.frontHintText = document.getElementById('frontHintText');
+    this.frontAudioBtn = document.getElementById('frontAudioBtn');
+
+    this.backCategoryTag = document.getElementById('backCategoryTag');
+    this.backMasteryTag = document.getElementById('backMasteryTag');
+    this.backEnglishText = document.getElementById('backEnglishText');
+    this.backPortugueseText = document.getElementById('backPortugueseText');
+    this.backExampleEn = document.getElementById('backExampleEn');
+    this.backExamplePt = document.getElementById('backExamplePt');
+    this.backAudioBtn = document.getElementById('backAudioBtn');
+    this.backAudioSentenceBtn = document.getElementById('backAudioSentenceBtn');
+
+    this.btnWrong = document.getElementById('btnWrong');
+    this.btnCorrect = document.getElementById('btnCorrect');
+    this.btnPrevCard = document.getElementById('btnPrevCard');
+    this.btnNextCard = document.getElementById('btnNextCard');
+    this.btnFlipCard = document.getElementById('btnFlipCard');
+
+    this.searchInput = document.getElementById('searchInput');
+    this.clearSearchBtn = document.getElementById('clearSearchBtn');
+    this.filterCategory = document.getElementById('filterCategory');
+    this.filterStatus = document.getElementById('filterStatus');
+    this.filterType = document.getElementById('filterType');
+    this.filteredCountText = document.getElementById('filteredCountText');
+    this.studyFilteredBtn = document.getElementById('studyFilteredBtn');
+    this.vocabCardsGrid = document.getElementById('vocabCardsGrid');
+
+    this.themeToggleBtn = document.getElementById('themeToggleBtn');
+    this.statsSummaryBtn = document.getElementById('statsSummaryBtn');
+    this.backupModalBtn = document.getElementById('backupModalBtn');
+    this.backupModal = document.getElementById('backupModal');
+    this.closeBackupModalBtn = document.getElementById('closeBackupModalBtn');
+    this.exportJsonBtn = document.getElementById('exportJsonBtn');
+    this.importJsonBtn = document.getElementById('importJsonBtn');
+    this.importFileInput = document.getElementById('importFileInput');
+    this.resetProgressBtn = document.getElementById('resetProgressBtn');
+    this.toastNotification = document.getElementById('toastNotification');
+  }
+
+  initCategoriesFilter() {
+    const cats = new Set(this.vocab.map(v => v.category));
+    cats.forEach(cat => {
+      const opt = document.createElement('option');
+      opt.value = cat;
+      opt.textContent = CATEGORY_NAMES[cat] || cat;
+      this.filterCategory.appendChild(opt);
+    });
+  }
+
+  initTheme() {
+    const savedTheme = localStorage.getItem(this.themeKey) || 'light';
+    if (savedTheme === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      this.themeToggleBtn.querySelector('.theme-icon').textContent = '☀️';
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+      this.themeToggleBtn.querySelector('.theme-icon').textContent = '🌙';
+    }
+  }
+
+  toggleTheme() {
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    if (isDark) {
+      document.documentElement.removeAttribute('data-theme');
+      localStorage.setItem(this.themeKey, 'light');
+      this.themeToggleBtn.querySelector('.theme-icon').textContent = '🌙';
+      this.showToast('Tema claro ativado');
+    } else {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      localStorage.setItem(this.themeKey, 'dark');
+      this.themeToggleBtn.querySelector('.theme-icon').textContent = '☀️';
+      this.showToast('Modo escuro ativado');
+    }
+  }
+
+  switchView(viewName) {
+    this.currentView = viewName;
+    this.navTabs.forEach(tab => {
+      if (tab.dataset.view === viewName) tab.classList.add('active');
+      else tab.classList.remove('active');
+    });
+
+    Object.keys(this.viewPanels).forEach(key => {
+      if (this.viewPanels[key]) this.viewPanels[key].classList.remove('active');
+    });
+
+    if (viewName === 'dashboard') {
+      this.viewPanels.dashboard.classList.add('active');
+      this.updateDashboardStats();
+    } else if (viewName === 'study') {
+      this.viewPanels.study.classList.add('active');
+      if (this.currentDeck.length === 0) this.prepareDeck('priority');
+      this.renderCurrentCard();
+    } else if (viewName === 'list' || viewName === 'favorites' || viewName === 'review') {
+      this.viewPanels.list.classList.add('active');
+      if (viewName === 'favorites') this.filterStatus.value = 'favorite';
+      else if (viewName === 'review') this.filterStatus.value = 'mistake';
+      else this.filterStatus.value = 'all';
+      this.renderVocabList();
+    }
+  }
+
+  updateDashboardStats() {
+    const total = this.vocab.length;
+    let learned = 0, learning = 0, reviewCount = 0, unseen = 0;
+
+    this.vocab.forEach(item => {
+      const p = this.getItemProgress(item.id);
+      if (p.reviews === 0) unseen++;
+      else if (p.mastery >= 80) learned++;
+      else learning++;
+
+      if (p.wrong > 0 && p.mastery < 70) reviewCount++;
+    });
+
+    const percent = Math.round((learned / total) * 100);
+    this.mainProgressBar.style.width = `${percent}%`;
+    this.overallPercentage.textContent = `${percent}%`;
+    this.learnedRatioText.textContent = `${learned} / ${total} aprendidas`;
+    this.remainingCountText.textContent = `${total - learned} para aprender`;
+
+    this.statLearnedCount.textContent = learned;
+    this.statLearningCount.textContent = learning;
+    this.statReviewCount.textContent = reviewCount;
+    this.statUnseenCount.textContent = unseen;
+  }
+
+  prepareDeck(mode = 'priority', customCards = null) {
+    if (customCards && customCards.length > 0) {
+      this.currentDeck = [...customCards];
+      this.currentIndex = 0;
+      return;
+    }
+
+    let candidates = [...this.vocab];
+
+    if (mode === 'favorites') {
+      candidates = candidates.filter(v => this.getItemProgress(v.id).favorite);
+      if (candidates.length === 0) {
+        this.showToast('Nenhuma palavra favoritada ainda. Carregando baralho geral.');
+        candidates = [...this.vocab];
+      }
+    } else if (mode === 'mistakes') {
+      candidates = candidates.filter(v => {
+        const p = this.getItemProgress(v.id);
+        return p.wrong > 0 && p.mastery < 80;
+      });
+      if (candidates.length === 0) {
+        this.showToast('Nenhum erro pendente! Baralho geral carregado.');
+        candidates = [...this.vocab];
+      }
+    }
+
+    candidates.sort((a, b) => {
+      const pA = this.getItemProgress(a.id);
+      const pB = this.getItemProgress(b.id);
+      const weightA = (pA.wrong * 4) + (pA.reviews === 0 ? 3 : 0) + (100 - pA.mastery) * 0.05;
+      const weightB = (pB.wrong * 4) + (pB.reviews === 0 ? 3 : 0) + (100 - pB.mastery) * 0.05;
+      return weightB - weightA;
+    });
+
+    this.currentDeck = candidates.slice(0, Math.min(candidates.length, 30));
+    this.currentIndex = 0;
+  }
+
+  renderCurrentCard() {
+    if (this.currentDeck.length === 0) this.prepareDeck('priority');
+
+    const item = this.currentDeck[this.currentIndex];
+    const progress = this.getItemProgress(item.id);
+
+    this.isCardFlipped = false;
+    this.flashcard.classList.remove('is-flipped');
+    this.cardCounterText.textContent = `Card ${this.currentIndex + 1} de ${this.currentDeck.length}`;
+
+    if (progress.favorite) {
+      this.cardFavoriteBtn.classList.add('favorited');
+      this.cardFavoriteBtn.textContent = '★';
+    } else {
+      this.cardFavoriteBtn.classList.remove('favorited');
+      this.cardFavoriteBtn.textContent = '☆';
+    }
+
+    const catLabel = CATEGORY_NAMES[item.category] || item.category;
+    const posLabel = POS_NAMES[item.partOfSpeech] || item.partOfSpeech;
+    this.frontCategoryTag.textContent = catLabel;
+    this.frontPosTag.textContent = posLabel;
+    this.backCategoryTag.textContent = catLabel;
+    this.backMasteryTag.textContent = `Domínio: ${progress.mastery}%`;
+
+    this.renderStudyModeFaces(item);
+
+    this.backEnglishText.textContent = item.english;
+    this.backPortugueseText.textContent = item.portuguese;
+    this.backExampleEn.innerHTML = this.highlightWord(item.example, item.english);
+    this.backExamplePt.innerHTML = this.highlightWord(item.exampleTranslation, item.portuguese);
+  }
+
+  renderStudyModeFaces(item) {
+    if (this.studyMode === 'en-pt') {
+      this.studyModeLabel.textContent = 'Inglês → Português';
+      this.frontPromptLabel.textContent = 'ENGLISH';
+      this.frontWordDisplay.textContent = item.english;
+      this.frontHintText.textContent = '';
+    } else if (this.studyMode === 'pt-en') {
+      this.studyModeLabel.textContent = 'Português → Inglês';
+      this.frontPromptLabel.textContent = 'PORTUGUÊS';
+      this.frontWordDisplay.textContent = item.portuguese;
+      this.frontHintText.textContent = 'Como se diz em inglês?';
+    } else if (this.studyMode === 'sentence') {
+      this.studyModeLabel.textContent = 'Modo Frase (Contexto)';
+      this.frontPromptLabel.textContent = 'COMPLETE A FRASE';
+      this.frontWordDisplay.textContent = this.createClozeSentence(item.example, item.english);
+      this.frontHintText.textContent = `Tradução: "${item.exampleTranslation}"`;
+    }
+  }
+
+  createClozeSentence(sentence, targetWord) {
+    const escaped = targetWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`\\b${escaped}\\b`, 'i');
+    if (regex.test(sentence)) return sentence.replace(regex, '______');
+    return sentence.replace(new RegExp(escaped, 'i'), '______');
+  }
+
+  highlightWord(sentence, target) {
+    if (!sentence || !target) return sentence || '';
+    const cleanTarget = target.split('/')[0].split('(')[0].trim();
+    const escaped = cleanTarget.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`(${escaped})`, 'gi');
+    return sentence.replace(regex, '<strong>$1</strong>');
+  }
+
+  flipCard() {
+    this.isCardFlipped = !this.isCardFlipped;
+    if (this.isCardFlipped) this.flashcard.classList.add('is-flipped');
+    else this.flashcard.classList.remove('is-flipped');
+  }
+
+  recordAnswer(isCorrect) {
+    const item = this.currentDeck[this.currentIndex];
+    const p = this.getItemProgress(item.id);
+
+    p.reviews++;
+    p.lastReview = new Date().toISOString();
+
+    if (isCorrect) {
+      p.correct++;
+      p.mastery = Math.min(100, Math.round(((p.correct * 1.2) / (p.reviews * 1.1)) * 100));
+      this.showToast(`✓ Ótimo! "${item.english}" registrado como correto.`);
+    } else {
+      p.wrong++;
+      p.mastery = Math.max(0, p.mastery - 25);
+      this.showToast(`❌ Revisaremos "${item.english}" em breve!`);
+      const reinsertIndex = Math.min(this.currentIndex + 4, this.currentDeck.length);
+      this.currentDeck.splice(reinsertIndex, 0, item);
+    }
+
+    this.saveProgress();
+    this.nextCard();
+  }
+
+  nextCard() {
+    if (this.currentIndex < this.currentDeck.length - 1) {
+      this.currentIndex++;
+      this.renderCurrentCard();
+    } else {
+      this.showToast('🎉 Parabéns! Você completou esta sessão de estudos!');
+      this.currentIndex = 0;
+      this.renderCurrentCard();
+    }
+  }
+
+  prevCard() {
+    if (this.currentIndex > 0) {
+      this.currentIndex--;
+      this.renderCurrentCard();
+    }
+  }
+
+  toggleCurrentFavorite() {
+    const item = this.currentDeck[this.currentIndex];
+    const p = this.getItemProgress(item.id);
+    p.favorite = !p.favorite;
+    this.saveProgress();
+
+    if (p.favorite) {
+      this.cardFavoriteBtn.classList.add('favorited');
+      this.cardFavoriteBtn.textContent = '★';
+      this.showToast(`⭐ "${item.english}" adicionada aos favoritos!`);
+    } else {
+      this.cardFavoriteBtn.classList.remove('favorited');
+      this.cardFavoriteBtn.textContent = '☆';
+      this.showToast(`Removida dos favoritos.`);
+    }
+  }
+
+  speakText(text) {
+    if (!this.synth) {
+      this.showToast('Seu navegador não suporta síntese de voz nativa.');
+      return;
+    }
+    try {
+      this.synth.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.92;
+      utterance.pitch = 1.0;
+      const voices = this.synth.getVoices();
+      const engVoice = voices.find(v => v.lang.startsWith('en-US') || v.lang.startsWith('en-GB'));
+      if (engVoice) utterance.voice = engVoice;
+      this.synth.speak(utterance);
+    } catch (e) {
+      console.error('Speech error:', e);
+    }
+  }
+
+  renderVocabList() {
+    const query = this.searchInput.value.trim().toLowerCase();
+    const cat = this.filterCategory.value;
+    const status = this.filterStatus.value;
+    const typ = this.filterType.value;
+
+    const filtered = this.vocab.filter(item => {
+      const p = this.getItemProgress(item.id);
+      if (cat !== 'all' && item.category !== cat) return false;
+      if (typ !== 'all' && item.type !== typ) return false;
+      if (status === 'unseen' && p.reviews > 0) return false;
+      if (status === 'learning' && (p.reviews === 0 || p.mastery >= 80)) return false;
+      if (status === 'mastered' && p.mastery < 80) return false;
+      if (status === 'mistake' && (p.wrong === 0 || p.mastery >= 75)) return false;
+      if (status === 'favorite' && !p.favorite) return false;
+
+      if (query) {
+        const matchEng = item.english.toLowerCase().includes(query);
+        const matchPt = item.portuguese.toLowerCase().includes(query);
+        const matchEx = item.example.toLowerCase().includes(query);
+        const matchExPt = item.exampleTranslation.toLowerCase().includes(query);
+        return matchEng || matchPt || matchEx || matchExPt;
+      }
+      return true;
+    });
+
+    this.filteredCountText.textContent = `Mostrando ${filtered.length} de ${this.vocab.length} itens`;
+    this.vocabCardsGrid.innerHTML = '';
+
+    if (filtered.length === 0) {
+      this.vocabCardsGrid.innerHTML = `
+        <div style="grid-column: 1 / -1; text-align: center; padding: 3rem 1rem; color: var(--text-muted);">
+          <p style="font-size: 2.5rem; margin-bottom: 0.5rem;">🔍</p>
+          <h4>Nenhuma palavra encontrada</h4>
+          <p style="font-size: 0.9rem;">Tente ajustar seus termos de pesquisa ou filtros selecionados.</p>
+        </div>
+      `;
+      return;
+    }
+
+    filtered.forEach(item => {
+      const p = this.getItemProgress(item.id);
+      const card = document.createElement('div');
+      card.className = 'vocab-item-card';
+      const catName = CATEGORY_NAMES[item.category] || item.category;
+
+      card.innerHTML = `
+        <div class="item-card-top">
+          <div>
+            <div class="item-card-en">${item.english}</div>
+            <div class="item-card-pt">${item.portuguese}</div>
+          </div>
+          <button class="btn-icon-sm ${p.favorite ? 'active-star' : ''}" data-star-id="${item.id}" title="Favoritar">
+            ${p.favorite ? '★' : '☆'}
+          </button>
+        </div>
+        <div class="item-card-example">
+          <div class="item-card-example-en">${this.highlightWord(item.example, item.english)}</div>
+          <div class="item-card-example-pt">${item.exampleTranslation}</div>
+        </div>
+        <div class="item-card-footer">
+          <span class="item-card-meta">${catName} • Domínio: ${p.mastery}%</span>
+          <div class="item-card-actions">
+            <button class="btn-icon-sm" data-speak-text="${item.english}" title="Ouvir pronúncia">🔊</button>
+            <button class="btn-icon-sm" data-study-single="${item.id}" title="Estudar este card">🗂️</button>
+          </div>
+        </div>
+      `;
+      this.vocabCardsGrid.appendChild(card);
+    });
+
+    this.lastFilteredResults = filtered;
+  }
+
+  showToast(message) {
+    if (!this.toastNotification) return;
+    this.toastNotification.textContent = message;
+    this.toastNotification.classList.add('show');
+    clearTimeout(this.toastTimeout);
+    this.toastTimeout = setTimeout(() => {
+      this.toastNotification.classList.remove('show');
+    }, 2400);
+  }
+
+  initEventListeners() {
+    this.navTabs.forEach(tab => {
+      tab.addEventListener('click', () => this.switchView(tab.dataset.view));
+    });
+
+    this.themeToggleBtn.addEventListener('click', () => this.toggleTheme());
+
+    this.startMainStudyCard.addEventListener('click', () => {
+      this.prepareDeck('priority');
+      this.switchView('study');
+    });
+
+    this.startReviewCard.addEventListener('click', () => {
+      this.prepareDeck('mistakes');
+      this.switchView('study');
+    });
+
+    this.startFavoritesCard.addEventListener('click', () => {
+      this.prepareDeck('favorites');
+      this.switchView('study');
+    });
+
+    this.exploreWordsCard.addEventListener('click', () => {
+      this.switchView('list');
+    });
+
+    this.studyModeSelect.addEventListener('change', (e) => {
+      this.studyMode = e.target.value;
+      this.renderCurrentCard();
+    });
+
+    this.cardFavoriteBtn.addEventListener('click', () => this.toggleCurrentFavorite());
+
+    this.flashcard.addEventListener('click', (e) => {
+      if (e.target.closest('.speak-btn') || e.target.closest('.icon-btn-star')) return;
+      this.flipCard();
+    });
+
+    this.btnFlipCard.addEventListener('click', () => this.flipCard());
+
+    this.frontAudioBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const item = this.currentDeck[this.currentIndex];
+      this.speakText(item.english);
+    });
+
+    this.backAudioBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const item = this.currentDeck[this.currentIndex];
+      this.speakText(item.english);
+    });
+
+    this.backAudioSentenceBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const item = this.currentDeck[this.currentIndex];
+      this.speakText(item.example);
+    });
+
+    this.btnWrong.addEventListener('click', () => this.recordAnswer(false));
+    this.btnCorrect.addEventListener('click', () => this.recordAnswer(true));
+
+    this.btnPrevCard.addEventListener('click', () => this.prevCard());
+    this.btnNextCard.addEventListener('click', () => this.nextCard());
+
+    window.addEventListener('keydown', (e) => {
+      if (document.activeElement === this.searchInput) return;
+
+      if (e.code === 'Space') {
+        e.preventDefault();
+        this.flipCard();
+      } else if (e.key === '1') {
+        if (this.currentView === 'study') this.recordAnswer(false);
+      } else if (e.key === '2') {
+        if (this.currentView === 'study') this.recordAnswer(true);
+      } else if (e.key === 'ArrowRight') {
+        if (this.currentView === 'study') this.nextCard();
+      } else if (e.key === 'ArrowLeft') {
+        if (this.currentView === 'study') this.prevCard();
+      } else if (e.key.toLowerCase() === 'f') {
+        if (this.currentView === 'study') this.toggleCurrentFavorite();
+      } else if (e.key.toLowerCase() === 's') {
+        if (this.currentView === 'study' && this.currentDeck.length > 0) {
+          const item = this.currentDeck[this.currentIndex];
+          this.speakText(item.english);
+        }
+      } else if (e.key.toLowerCase() === 't') {
+        this.toggleTheme();
+      }
+    });
+
+    this.searchInput.addEventListener('input', () => {
+      this.clearSearchBtn.style.display = this.searchInput.value ? 'block' : 'none';
+      this.renderVocabList();
+    });
+
+    this.clearSearchBtn.addEventListener('click', () => {
+      this.searchInput.value = '';
+      this.clearSearchBtn.style.display = 'none';
+      this.renderVocabList();
+    });
+
+    this.filterCategory.addEventListener('change', () => this.renderVocabList());
+    this.filterStatus.addEventListener('change', () => this.renderVocabList());
+    this.filterType.addEventListener('change', () => this.renderVocabList());
+
+    this.studyFilteredBtn.addEventListener('click', () => {
+      if (this.lastFilteredResults && this.lastFilteredResults.length > 0) {
+        this.prepareDeck('custom', this.lastFilteredResults);
+        this.switchView('study');
+        this.showToast(`Iniciando estudo com ${this.lastFilteredResults.length} cards filtrados.`);
+      } else {
+        this.showToast('Nenhum card filtrado para estudar.');
+      }
+    });
+
+    this.vocabCardsGrid.addEventListener('click', (e) => {
+      const starBtn = e.target.closest('[data-star-id]');
+      if (starBtn) {
+        const id = parseInt(starBtn.dataset.starId, 10);
+        const p = this.getItemProgress(id);
+        p.favorite = !p.favorite;
+        this.saveProgress();
+        this.renderVocabList();
+        this.showToast(p.favorite ? 'Adicionada aos favoritos!' : 'Removida dos favoritos.');
+        return;
+      }
+
+      const speakBtn = e.target.closest('[data-speak-text]');
+      if (speakBtn) {
+        this.speakText(speakBtn.dataset.speakText);
+        return;
+      }
+
+      const studySingleBtn = e.target.closest('[data-study-single]');
+      if (studySingleBtn) {
+        const id = parseInt(studySingleBtn.dataset.studySingle, 10);
+        const item = this.vocab.find(v => v.id === id);
+        if (item) {
+          this.prepareDeck('custom', [item]);
+          this.switchView('study');
+        }
+      }
+    });
+
+    this.backupModalBtn.addEventListener('click', () => {
+      this.backupModal.style.display = 'flex';
+    });
+
+    this.statsSummaryBtn.addEventListener('click', () => {
+      this.switchView('dashboard');
+    });
+
+    this.closeBackupModalBtn.addEventListener('click', () => {
+      this.backupModal.style.display = 'none';
+    });
+
+    this.backupModal.addEventListener('click', (e) => {
+      if (e.target === this.backupModal) this.backupModal.style.display = 'none';
+    });
+
+    this.exportJsonBtn.addEventListener('click', () => {
+      const exportData = {
+        version: "1.0",
+        exportDate: new Date().toISOString(),
+        progress: this.progress,
+        theme: localStorage.getItem(this.themeKey) || 'light'
+      };
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportData, null, 2));
+      const downloadAnchor = document.createElement('a');
+      downloadAnchor.setAttribute("href", dataStr);
+      downloadAnchor.setAttribute("download", `english_flashcards_backup_${new Date().toISOString().slice(0, 10)}.json`);
+      document.body.appendChild(downloadAnchor);
+      downloadAnchor.click();
+      downloadAnchor.remove();
+      this.showToast('Progresso exportado com sucesso!');
+    });
+
+    this.importJsonBtn.addEventListener('click', () => {
+      this.importFileInput.click();
+    });
+
+    this.importFileInput.addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        try {
+          const imported = JSON.parse(event.target.result);
+          if (imported && imported.progress) {
+            this.progress = imported.progress;
+            this.saveProgress();
+            this.updateDashboardStats();
+            this.renderVocabList();
+            this.backupModal.style.display = 'none';
+            this.showToast('Progresso importado e restaurado com sucesso!');
+          } else {
+            alert('Arquivo inválido ou corrompido.');
+          }
+        } catch (err) {
+          alert('Erro ao ler arquivo JSON: ' + err.message);
+        }
+      };
+      reader.readAsText(file);
+    });
+
+    this.resetProgressBtn.addEventListener('click', () => {
+      const confirm1 = confirm('Tem certeza de que deseja apagar todo o seu histórico de acertos, erros e revisões?');
+      if (!confirm1) return;
+      const confirm2 = confirm('Esta ação não pode ser desfeita. Confirmar redefinição total?');
+      if (!confirm2) return;
+
+      this.progress = {};
+      this.vocab.forEach(item => {
+        this.progress[item.id] = { reviews: 0, correct: 0, wrong: 0, lastReview: null, mastery: 0, favorite: false };
+      });
+      this.saveProgress();
+      this.updateDashboardStats();
+      this.renderVocabList();
+      this.prepareDeck('priority');
+      this.backupModal.style.display = 'none';
+      this.showToast('Todo o progresso foi redefinido.');
+    });
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  window.app = new FlashcardApp();
+});
+  </script>
+</body>
+</html>
