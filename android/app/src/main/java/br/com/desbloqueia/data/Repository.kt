@@ -28,10 +28,12 @@ class Repository(private val db: StudyDatabase, private val context: Context) {
         val q=select(s,now)?:return@withTransaction null
         val id=UUID.randomUUID().toString();dao.present(PresentationEntity(id,q.id,now));Session(id,q)
     } }
-    suspend fun answer(session: Session, letter: String): Boolean = lock.withLock {
+    suspend fun answer(session: Session, letter: String, now: Long=System.currentTimeMillis()): Boolean = lock.withLock { db.withTransaction {
         require(letter in session.question.alternativas)
-        dao.answer(AttemptEntity(session.id,session.question.id,session.question.disciplina,letter,letter==session.question.resposta_correta,System.currentTimeMillis()))!=-1L
-    }
+        // Ordenação estrita mesmo se o relógio retroceder ou duas respostas ocorrerem no mesmo ms.
+        val answeredAt=maxOf(now,(dao.lastAnswerAt()?:0L)+1L)
+        dao.answer(AttemptEntity(session.id,session.question.id,session.question.disciplina,letter,letter==session.question.resposta_correta,answeredAt))!=-1L
+    } }
     suspend fun screenOff() = lock.withLock { db.withTransaction {
         val s=dao.unlock()?:UnlockState();dao.saveUnlock(s.copy(cycle=s.cycle+1))
     } }

@@ -6,6 +6,7 @@ import androidx.test.core.app.ApplicationProvider
 import br.com.desbloqueia.data.*
 import br.com.desbloqueia.domain.Selection
 import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.flow.first
 import org.junit.*
 import org.junit.Assert.*
 import org.junit.runner.RunWith
@@ -102,6 +103,18 @@ class StudyTest {
         assertNull(restarted.pending(session.id))
         restarted.screenOff()
         assertNotNull(restarted.unlockPrompt(Settings(unlock=true),20_000_000))
+    }
+    @Test fun answersWithEqualOrBackwardClockKeepLatestReviewState() = runBlocking {
+        val q=questions[0]
+        val one=Session("clock-1",q);val two=Session("clock-2",q);val three=Session("clock-3",q)
+        val wrong=q.alternativas.keys.first { it!=q.resposta_correta }
+        repo.answer(one,q.resposta_correta,1000)
+        repo.answer(two,wrong,1000)
+        assertEquals(1,db.dao().reviewCount().first())
+        repo.answer(three,q.resposta_correta,900)
+        val ordered=db.dao().attempts().sortedBy { it.answeredAt }
+        assertEquals(listOf(1000L,1001L,1002L),ordered.map { it.answeredAt })
+        assertEquals(0,db.dao().reviewCount().first())
     }
     @Test fun diskDatabaseSurvivesReopen(): Unit = runBlocking {
         val name="durable-test.db";context.deleteDatabase(name)

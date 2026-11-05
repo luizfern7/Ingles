@@ -1,0 +1,13 @@
+/scan/app-release.apk: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 3628245
+Engine version: 1.5.4
+Scanned directories: 0
+Scanned files: 1
+Infected files: 0
+Data scanned: 48.94 MiB
+Data read: 7.05 MiB (ratio 6.94:1)
+Time: 19.159 sec (0 m 19 s)
+Start Date: 2026:11:05 09:45:49
+End Date:   2026:11:05 09:46:08

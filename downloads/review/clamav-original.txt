@@ -1,0 +1,13 @@
+/scan/desbloqueia-debug.apk: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 3628245
+Engine version: 1.5.4
+Scanned directories: 0
+Scanned files: 1
+Infected files: 0
+Data scanned: 65.64 MiB
+Data read: 10.19 MiB (ratio 6.44:1)
+Time: 21.493 sec (0 m 21 s)
+Start Date: 2026:11:05 09:42:25
+End Date:   2026:11:05 09:42:47

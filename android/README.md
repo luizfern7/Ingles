@@ -2,6 +2,12 @@
 
 Aplicativo Android nativo em Kotlin/Compose para transformar pequenas pausas em estudo. Este projeto está em `android/`, independente da página de flashcards `../index.html`, que foi preservada.
 
+## Versão revisada 1.0.1
+
+Uma detecção `Trojan:Script/Ulthar.A!ml` foi relatada pelo Microsoft Defender para o APK de debug 1.0.0. A revisão e os ajustes pontuais estão em [SECURITY_REVIEW.md](docs/SECURITY_REVIEW.md). A nova versão é compilada como release, sem depuração, ferramentas de inspeção Compose ou Activity de suporte a testes no pacote distribuído. Isso não demonstra que o alerta da Microsoft tenha sido resolvido.
+
+O APK release continua assinado com a chave de desenvolvimento anterior para preservar compatibilidade de atualização. Não é uma versão com chave de produção da Play Store. Em outra máquina, a chave debug gerada pode ser diferente; a correspondência de certificados foi conferida somente entre os APKs produzidos neste ambiente. A revisão não adiciona rede, serviços permanentes ou permissões extras.
+
 ## Funcionalidades
 
 - Questões offline com resultado imediato, análise de todas as alternativas, fonte e explicação didática autoral.
@@ -21,11 +27,11 @@ Em `android/`, configure `ANDROID_HOME` para o SDK ou crie `local.properties` co
 ```sh
 sdkmanager --licenses
 sdkmanager 'platforms;android-35' 'build-tools;34.0.0' 'platform-tools'
-./gradlew assembleDebug testDebugUnitTest lintDebug
-adb install -r app/build/outputs/apk/debug/app-debug.apk
+./gradlew assembleRelease testDebugUnitTest lintRelease
+adb install -r app/build/outputs/apk/release/app-release.apk
 ```
 
-Abra **Desbloqueia · Concursos** no aparelho. O APK de debug é assinado automaticamente com chave de desenvolvimento, não é uma versão de produção para publicação. O aplicativo não exige ativar lembretes para estudar. Para ativá-los, use Ajustes e autorize notificações no Android 13+. A função pode ser desligada no mesmo local.
+Abra **Desbloqueia · Concursos** no aparelho. O APK release desta versão é assinado com a chave de desenvolvimento para manter continuidade com a versão anterior, não é uma versão de produção para publicação. O aplicativo não exige ativar lembretes para estudar. Para ativá-los, use Ajustes e autorize notificações no Android 13+. A função pode ser desligada no mesmo local.
 
 No ambiente desta tarefa, veja `docs/VALIDATION.md` para caminhos e resultados efetivamente observados. Não há configuração de proxy com credenciais no código. Gradle/Java podem precisar das propriedades padrão de proxy e do truststore corporativo em ambientes gerenciados; preserve a verificação TLS.
 
@@ -38,7 +44,7 @@ Um módulo `app` com pacotes de responsabilidades distintas:
 - `ui`: ViewModel, estado salvo, telas Compose e feedback local. Resposta fica bloqueada após correção; novas tentativas só em nova sessão.
 - `unlock`: receptor dinâmico e notificações. Ciclos e sessões são persistidos em Room.
 
-Não há migração destrutiva. Na versão 1, o banco é criado com schema 1; futuras alterações de schema precisam fornecer migração explícita. Importar pacotes não apaga questões nem histórico. O histórico e as preferências permanecem após fechamento, reinício ou atualização do app; desinstalação ou limpeza dos dados pelo Android apaga o armazenamento local. O backup automático do Android está desabilitado.
+Não há migração destrutiva. Na versão 1, o banco é criado com schema 1; futuras alterações de schema precisam fornecer migração explícita. Importar pacotes não apaga questões nem histórico. O histórico e as preferências permanecem após fechamento, reinício ou atualização do app; desinstalação ou limpeza dos dados pelo Android apaga o armazenamento local. O backup automático do Android está desabilitado, com regras explícitas para backup e transferência de dados nas versões antigas e recentes.
 
 ## Conteúdo e importação
 

@@ -61,6 +61,7 @@ data class Stats(val discipline: String, val answered: Int, val correct: Int)
     @Query("SELECT * FROM questions WHERE id=:id") suspend fun question(id: String): QuestionEntity?
     @Query("SELECT * FROM attempts WHERE presentationId=:id") suspend fun attempt(id: String): AttemptEntity?
     @Query("SELECT * FROM attempts") suspend fun attempts(): List<AttemptEntity>
+    @Query("SELECT MAX(answeredAt) FROM attempts") suspend fun lastAnswerAt(): Long?
     @Query("SELECT * FROM presentations") suspend fun presentations(): List<PresentationEntity>
     @Query("SELECT discipline, COUNT(*) AS answered, SUM(CASE WHEN correct THEN 1 ELSE 0 END) AS correct FROM attempts GROUP BY discipline") fun stats(): kotlinx.coroutines.flow.Flow<List<Stats>>
     @Insert(onConflict=OnConflictStrategy.IGNORE) suspend fun insertQuestions(q: List<QuestionEntity>): List<Long>

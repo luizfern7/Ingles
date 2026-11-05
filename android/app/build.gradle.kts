@@ -8,10 +8,19 @@ plugins {
 android {
     namespace = "br.com.desbloqueia"
     compileSdk = 35
-    defaultConfig { applicationId = "br.com.desbloqueia"; minSdk = 26; targetSdk = 35; versionCode = 1; versionName = "1.0.0"; testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner" }
+    defaultConfig { applicationId = "br.com.desbloqueia"; minSdk = 26; targetSdk = 35; versionCode = 2; versionName = "1.0.1"; testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner" }
     compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
     kotlinOptions { jvmTarget = "17" }
     buildFeatures { compose = true }
+    buildTypes {
+        getByName("release") {
+            isDebuggable = false
+            isMinifyEnabled = false
+            // Mantém a assinatura da versão anterior para atualizar sem apagar o histórico.
+            // Chave de desenvolvimento: esta não é uma distribuição assinada para a Play Store.
+            signingConfig = signingConfigs.getByName("debug")
+        }
+    }
     testOptions {
         unitTests.isIncludeAndroidResources = true
         unitTests.all { test ->

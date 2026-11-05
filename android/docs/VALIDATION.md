@@ -1,4 +1,6 @@
-# Resultados observados
+# Resultados observados — versão original 1.0.0
+
+Este registro descreve a primeira entrega. Para a revisão 1.0.1, veja [SECURITY_REVIEW.md](SECURITY_REVIEW.md).
 
 ## Build e ferramentas
 
