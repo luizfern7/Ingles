@@ -1,6 +1,5 @@
 package br.com.desbloqueia.data
 
-import android.content.Context
 import androidx.room.withTransaction
 import br.com.desbloqueia.domain.Selection
 import kotlinx.coroutines.sync.Mutex
@@ -8,13 +7,11 @@ import kotlinx.coroutines.sync.withLock
 import java.util.UUID
 
 data class Session(val id: String, val question: Question)
-class Repository(private val db: StudyDatabase, private val context: Context) {
+class Repository(private val db: StudyDatabase) {
     val dao=db.dao()
     private val lock=Mutex()
-    suspend fun initialize() = lock.withLock {
-        val questions=context.assets.open("questions.json").bufferedReader().use { PackCodec.decode(it.readText()) }
-        db.withTransaction { dao.insertQuestions(questions.map { QuestionEntity(it.id,it.disciplina,PackCodec.encode(it)) }) }
-    }
+    // Nenhum conteúdo é pré-carregado. Apenas abre/valida o banco existente.
+    suspend fun initialize() { dao.countQuestions() }
     suspend fun importPack(text: String): Int {
         val questions=PackCodec.decode(text)
         return lock.withLock { db.withTransaction {

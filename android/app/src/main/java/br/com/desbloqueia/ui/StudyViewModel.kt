@@ -16,13 +16,14 @@ class StudyViewModel(application: Application,private val saved: SavedStateHandl
     val settings=app.preferences.settings.stateIn(viewModelScope,SharingStarted.Eagerly,Settings())
     val stats=repo.dao.stats().stateIn(viewModelScope,SharingStarted.Eagerly,emptyList())
     val reviews=repo.dao.reviewCount().stateIn(viewModelScope,SharingStarted.Eagerly,0)
-    val disciplines=MutableStateFlow<List<String>>(emptyList())
+    val disciplines=repo.dao.observeDisciplines().stateIn(viewModelScope,SharingStarted.Eagerly,emptyList())
+    val questionCount=repo.dao.observeQuestionCount().stateIn(viewModelScope,SharingStarted.Eagerly,0)
     val ui=MutableStateFlow(QuestionUi())
     val message=MutableStateFlow<String?>(null)
     val feedback=MutableSharedFlow<Boolean>(extraBufferCapacity=1)
     val ready=MutableStateFlow(false)
     private val initialized=viewModelScope.async(Dispatchers.IO) {
-        repo.initialize(); disciplines.value=repo.dao.questions().map { it.discipline }.distinct().sorted()
+        repo.initialize()
     }
     init { viewModelScope.launch {
         try {
@@ -82,7 +83,6 @@ class StudyViewModel(application: Application,private val saved: SavedStateHandl
                 require(bytes.size<=PackCodec.MAX_BYTES) { "Pacote excede 5 MB" }
                 repo.importPack(bytes.toString(Charsets.UTF_8))
             }
-            disciplines.value=withContext(Dispatchers.IO) { repo.dao.questions().map { it.discipline }.distinct().sorted() }
             message.value="$count questões novas importadas. IDs existentes e histórico preservados."
         } catch(e: Exception) { if(e is CancellationException) throw e;message.value="Importação recusada: ${e.message}" }
     } }

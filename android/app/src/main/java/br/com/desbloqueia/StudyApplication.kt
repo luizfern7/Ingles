@@ -9,7 +9,7 @@ import kotlinx.coroutines.*
 class StudyApplication: Application() {
     val scope=CoroutineScope(SupervisorJob()+Dispatchers.IO)
     val database by lazy { Room.databaseBuilder(this,StudyDatabase::class.java,"study.db").build() }
-    val repository by lazy { Repository(database,this) }
+    val repository by lazy { Repository(database) }
     val preferences by lazy { Preferences(this) }
     var activityVisible=false
     val overlayStatus=kotlinx.coroutines.flow.MutableStateFlow("Desativado")

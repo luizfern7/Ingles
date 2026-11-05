@@ -1,4 +1,6 @@
-# Questão na tela após desbloquear — versão 1.1.0
+# Questão na tela após desbloquear
+
+Na edição pessoal 1.2.0, instale **Desbloqueia · Meu acervo** e importe seu JSON primeiro: o banco inicial é vazio. O pacote é separado do app anterior e suas permissões também são separadas. Veja MEU_ACERVO_1_2_0.md.
 
 ## Experiência e ativação
 
@@ -6,7 +8,7 @@ As versões 1.0.x publicavam uma notificação para tocar. A versão 1.1.0 acres
 
 No aparelho:
 
-1. Atualize o APK sem desinstalar a versão anterior para manter o histórico.
+1. Abra a edição instalada. Na edição pessoal, importe um JSON antes de ativar. Futuras atualizações da mesma edição preservam o histórico.
 2. Abra Desbloqueia → Ajustes → **Autorizar e ativar janela automática**.
 3. Autorize notificações e **Exibir sobre outros apps** na tela do Android. Volte ao aplicativo.
 4. Selecione **A cada desbloqueio**. Preferências anteriores de 15/30/60 minutos são preservadas na atualização; nesse caso, troque o intervalo se desejar exibir em todos os ciclos.

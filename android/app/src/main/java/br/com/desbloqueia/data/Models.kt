@@ -57,6 +57,9 @@ object PackCodec {
 )
 data class Stats(val discipline: String, val answered: Int, val correct: Int)
 @Dao interface StudyDao {
+    @Query("SELECT COUNT(*) FROM questions") suspend fun countQuestions(): Int
+    @Query("SELECT COUNT(*) FROM questions") fun observeQuestionCount(): kotlinx.coroutines.flow.Flow<Int>
+    @Query("SELECT DISTINCT discipline FROM questions ORDER BY discipline") fun observeDisciplines(): kotlinx.coroutines.flow.Flow<List<String>>
     @Query("SELECT * FROM questions ORDER BY id") suspend fun questions(): List<QuestionEntity>
     @Query("SELECT * FROM questions WHERE id=:id") suspend fun question(id: String): QuestionEntity?
     @Query("SELECT * FROM attempts WHERE presentationId=:id") suspend fun attempt(id: String): AttemptEntity?

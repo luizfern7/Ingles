@@ -1,8 +1,16 @@
-# Desbloqueia · Concursos
+# Desbloqueia · Meu acervo
 
 Aplicativo Android nativo em Kotlin/Compose para transformar pequenas pausas em estudo. Este projeto está em `android/`, independente da página de flashcards `../index.html`, que foi preservada.
 
-## Versão 1.1.0 — questão na tela após desbloquear
+## Edição pessoal 1.2.0 — banco inicial vazio
+
+Nenhuma questão acompanha o APK. O primeiro uso mostra **Importar meu primeiro JSON**; todo o conteúdo é escolhido e importado pelo usuário. Depois da importação, estudo manual, explicações, estatísticas e janela ao desbloquear funcionam como antes.
+
+Nome no celular: **Desbloqueia · Meu acervo**, pacote `br.com.desbloqueia.personal`. É uma instalação separada da edição anterior para garantir banco inicial vazio sem apagar o progresso antigo. Abra o novo ícone; se mantiver a edição antiga, desative o modo automático nela se não quiser suas janelas.
+
+Veja [MEU_ACERVO_1_2_0.md](docs/MEU_ACERVO_1_2_0.md) para o comportamento sem conteúdo e a validação desta entrega. O formato do JSON continua compatível com os pacotes anteriores. Nenhuma rotina preenche o banco automaticamente.
+
+## Modo de desbloqueio introduzido na versão 1.1.0
 
 Agora há uma janela sobre os outros apps, ativada pelo usuário com a permissão **Exibir sobre outros apps** e um foreground service com notificação de parar. Abra Ajustes → Autorizar e ativar janela automática → A cada desbloqueio → Testar janela agora. Depois vá à tela inicial do aparelho, bloqueie e desbloqueie. A janela permite responder e ler explicações sem abrir o app manualmente. Pode ser fechada sem responder.
 
@@ -37,9 +45,9 @@ sdkmanager 'platforms;android-35' 'build-tools;34.0.0' 'platform-tools'
 adb install -r app/build/outputs/apk/release/app-release.apk
 ```
 
-Abra **Desbloqueia · Concursos** no aparelho. O APK release desta versão é assinado com a chave de desenvolvimento para manter continuidade com a versão anterior, não é uma versão de produção para publicação. O aplicativo não exige ativar lembretes para estudar. Para ativá-los, use Ajustes e autorize notificações e Exibir sobre outros apps. O serviço exige uma notificação visível de controle. A função pode ser desligada no mesmo local.
+Abra **Desbloqueia · Meu acervo** no aparelho e importe seu JSON. O app antigo permanece separado. O APK release usa uma chave de desenvolvimento; não é uma versão assinada para publicação na Play Store. Por ter identificação própria, esta edição não substitui a instalação anterior. O aplicativo não exige ativar lembretes para estudar. Para ativá-los, use Ajustes e autorize notificações e Exibir sobre outros apps. O serviço exige uma notificação visível de controle. A função pode ser desligada no mesmo local.
 
-No ambiente desta tarefa, veja `docs/VALIDATION.md` para caminhos e resultados efetivamente observados. Não há configuração de proxy com credenciais no código. Gradle/Java podem precisar das propriedades padrão de proxy e do truststore corporativo em ambientes gerenciados; preserve a verificação TLS.
+No ambiente desta tarefa, veja `docs/MEU_ACERVO_1_2_0.md` para os resultados atuais e `docs/VALIDATION.md` para o registro histórico das ferramentas. Não há configuração de proxy com credenciais no código. Gradle/Java podem precisar das propriedades padrão de proxy e do truststore corporativo em ambientes gerenciados; preserve a verificação TLS.
 
 ## Arquitetura
 
@@ -54,17 +62,13 @@ Não há migração destrutiva. Na versão 1, o banco é criado com schema 1; fu
 
 ## Conteúdo e importação
 
-O pacote inicial contém **25 questões conferidas** da BASA/Cesgranrio 2013, não a conversão integral dos 19 PDFs. Veja [MATERIALS.md](docs/MATERIALS.md) e [materials.json](docs/materials.json) para curadoria, páginas, hashes e pendências de OCR/validação. A extração textual bruta dos 19 documentos está em `materials/extracted/`, fora dos assets do APK.
+O APK não inclui banco de questões. Use a tela inicial → **Importar meu primeiro JSON** → **Importar pacote de questões**, ou acesse esse controle em Ajustes. O formato continua sendo um objeto com `schema_version: 1` e um array `questions` não vazio para pacotes importáveis.
 
-`app/src/main/assets/questions.json` é um exemplo completo do formato aceito:
+Cada item mantém os campos `id`, `disciplina`, `assunto`, `enunciado`, `alternativas`, `resposta_correta`, `explicacao`, `explicacoes_alternativas`, `fonte`, `status_validacao` e `autoria_explicacao`. Alternativas e explicações são mapas A–E (2 a 5 opções), com a resposta entre as letras presentes. Fonte inclui concurso, banca, cargo, ano, arquivo, SHA-256 real e páginas/número/versão. O status aceito permanece `gabarito_conferido`: não invente origem ou conferência para satisfazer a validação. Disciplina e assunto são livres, sem lista fixa.
 
-```json
-{"schema_version": 1, "questions": []}
-```
+O importador recusa versão desconhecida, IDs duplicados dentro do pacote, questões não conferidas, textos vazios, hash malformado e explicações incompletas. Limites: 5 MB e 5.000 questões por pacote. IDs que já existem no banco são ignorados para preservar a interpretação do histórico. Uma importação inválida não altera o banco. Arquivos vazios não adicionam conteúdo e são recusados.
 
-O array deve ser não vazio em pacotes reais. Cada item tem os campos em português exigidos no pedido, `fonte` estruturada com páginas e SHA-256, `status_validacao: "gabarito_conferido"` e `autoria_explicacao`. Alternativas e explicações são mapas com chaves A–E (2 a 5 opções). A resposta deve existir entre elas. O importador recusa versão desconhecida, IDs duplicados, questões não conferidas, textos vazios, hash malformado ou explicações incompletas. Limites: 5 MB e 5.000 questões por pacote. Validação de estrutura não substitui a revisão editorial: quem cria o pacote deve conferir o gabarito na prova correta. IDs existentes são ignorados para preservar a interpretação do histórico.
-
-Use Ajustes → Importar pacote de questões, via seletor de arquivos do Android. O APK já inclui o pacote inicial, sem necessidade de importação manual. Arquivos inválidos mostram um erro e não alteram o banco.
+As questões que antes vinham embarcadas agora ficam apenas em `app/src/test/resources/questions_fixture.json`, fora do APK. Os materiais e relatórios das primeiras versões são históricos e não representam conteúdo incluído nesta edição.
 
 ## Validação em aparelho
 

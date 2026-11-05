@@ -54,6 +54,7 @@ class OverlayTest {
         ShadowSettings.setCanDrawOverlays(true)
         Shadows.shadowOf(app.getSystemService(PowerManager::class.java)).setIsInteractive(true)
         app.repository.initialize()
+        app.repository.importPack(TestQuestions.text())
         val controller=Robolectric.buildService(UnlockStudyService::class.java).create()
         val service=controller.get()
         val session=app.repository.next(Settings())!!
@@ -74,6 +75,7 @@ class OverlayTest {
         app.activityVisible=false
         app.preferences.update(Settings(unlock=true,frequency=0))
         app.repository.initialize()
+        app.repository.importPack(TestQuestions.text())
         val controller=Robolectric.buildService(UnlockStudyService::class.java).create()
         val service=controller.get()
         service.handleEvent(Intent.ACTION_SCREEN_OFF)
@@ -97,6 +99,7 @@ class OverlayTest {
         Shadows.shadowOf(app.getSystemService(KeyguardManager::class.java)).setKeyguardLocked(false)
         app.preferences.update(Settings(unlock=true,frequency=0))
         app.repository.initialize()
+        app.repository.importPack(TestQuestions.text())
         val controller=Robolectric.buildService(UnlockStudyService::class.java).create()
         val service=controller.get()
         service.onStartCommand(Intent(app,UnlockStudyService::class.java),0,1)
@@ -118,6 +121,7 @@ class OverlayTest {
         val app=ApplicationProvider.getApplicationContext<StudyApplication>()
         ShadowSettings.setCanDrawOverlays(false)
         app.repository.initialize()
+        app.repository.importPack(TestQuestions.text())
         val controller=Robolectric.buildService(UnlockStudyService::class.java).create()
         val service=controller.get()
         assertFalse(service.showOverlay(app.repository.next(Settings())!!,Settings(unlock=true)))

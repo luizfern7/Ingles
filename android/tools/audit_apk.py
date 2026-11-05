@@ -8,11 +8,13 @@ manifest=subprocess.check_output([str(a.sdk/'cmdline-tools/latest/bin/apkanalyze
 (a.output/'manifest-release.xml').write_text(manifest)
 root=E.fromstring(manifest);ns='{http://schemas.android.com/apk/res/android}'
 app=root.find('application');assert app is not None
-assert root.get('package')=='br.com.desbloqueia'
+personal=int(root.get(ns+'versionCode','0'))>=4
+expected_package='br.com.desbloqueia.personal' if personal else 'br.com.desbloqueia'
+assert root.get('package')==expected_package
 assert app.get(ns+'debuggable','false')=='false','Distributed APK must not enable debugging'
 assert app.get(ns+'allowBackup')=='false'
 permissions=[x.get(ns+'name') for x in root.findall('uses-permission')]
-allowed={'android.permission.POST_NOTIFICATIONS','android.permission.VIBRATE','br.com.desbloqueia.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'}
+allowed={'android.permission.POST_NOTIFICATIONS','android.permission.VIBRATE',expected_package+'.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'}
 overlay=int(root.get(ns+'versionCode','0'))>=3
 if overlay: allowed.update({'android.permission.SYSTEM_ALERT_WINDOW','android.permission.FOREGROUND_SERVICE','android.permission.FOREGROUND_SERVICE_SPECIAL_USE'})
 assert set(permissions)==allowed,permissions
@@ -33,8 +35,13 @@ assert not app.findall('activity-alias')
 with zipfile.ZipFile(a.apk) as z:
     scripts=[n for n in z.namelist() if n.lower().endswith(('.exe','.dll','.js','.html','.vbs','.ps1','.cmd','.bat','.py','.sh','.apk','.jar'))]
     assert not scripts,scripts
-    assert set(n for n in z.namelist() if n.startswith('assets/'))=={'assets/questions.json','assets/dexopt/baseline.prof','assets/dexopt/baseline.profm'}
-    assert len(json.loads(z.read('assets/questions.json'))['questions'])==25
+    expected_assets={'assets/dexopt/baseline.prof','assets/dexopt/baseline.profm'}
+    if not personal: expected_assets.add('assets/questions.json')
+    assert set(n for n in z.namelist() if n.startswith('assets/'))==expected_assets
+    if personal:
+        assert all(n=='kotlin-tooling-metadata.json' for n in z.namelist() if n.lower().endswith('.json')),'Question/fixture JSON unexpectedly bundled'
+        if 'kotlin-tooling-metadata.json' in z.namelist(): assert json.loads(z.read('kotlin-tooling-metadata.json')).get('buildSystem')=='Gradle'
+    else: assert len(json.loads(z.read('assets/questions.json'))['questions'])==25
     natives=[n for n in z.namelist() if n.startswith('lib/')]
     assert all(Path(n).name in {'libandroidx.graphics.path.so','libdatastore_shared_counter.so'} for n in natives)
 apksigner=a.sdk/'build-tools/34.0.0/apksigner'
@@ -46,6 +53,6 @@ def certificate(apk):
 signature,cert=certificate(a.apk);(a.output/'signature-release.txt').write_text(signature)
 if a.previous:
     _,original=certificate(a.previous);assert cert==original,'Update signing certificate changed'
-report=dict(file=a.apk.name,sha256=hashlib.sha256(a.apk.read_bytes()).hexdigest(),version=root.get(ns+'versionName'),version_code=root.get(ns+'versionCode'),debuggable=False,permissions=permissions,activities=activities,internal_services=services,native_libraries=natives,certificate_sha256=cert,previous_certificate_matches=True if a.previous else None,malware_scan_performed_by_this_script=False)
+report=dict(package=expected_package,bundled_question_count=0 if personal else 25,file=a.apk.name,sha256=hashlib.sha256(a.apk.read_bytes()).hexdigest(),version=root.get(ns+'versionName'),version_code=root.get(ns+'versionCode'),debuggable=False,permissions=permissions,activities=activities,internal_services=services,native_libraries=natives,certificate_sha256=cert,previous_certificate_matches=True if a.previous else None,malware_scan_performed_by_this_script=False)
 (a.output/'audit.json').write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps(report,indent=2))

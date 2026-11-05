@@ -36,6 +36,7 @@ private val Red=Color(0xFFAB303B)
     val reviews by model.reviews.collectAsStateWithLifecycle()
     val disciplines by model.disciplines.collectAsStateWithLifecycle()
     val ready by model.ready.collectAsStateWithLifecycle()
+    val questionCount by model.questionCount.collectAsStateWithLifecycle()
     val message by model.message.collectAsStateWithLifecycle()
     var tab by rememberSaveable { mutableStateOf("Início") }
     val context=LocalContext.current
@@ -62,28 +63,29 @@ private val Red=Color(0xFFAB303B)
                     "Questão" -> QuestionScreen(state,settings,model::answer,model::next,{model.clearQuestion();tab="Início"},onClose)
                     "Estatísticas" -> StatisticsScreen(stats,reviews)
                     "Ajustes" -> SettingsScreen(settings,disciplines,model)
-                    else -> HomeScreen(stats,reviews,ready,settings,{model.next()},{tab="Questão"})
+                    else -> HomeScreen(stats,reviews,ready,questionCount,settings,{model.next()},{tab="Questão"},{tab="Ajustes"})
                 }
             }
         }
     }
 }
-@Composable private fun HomeScreen(stats: List<Stats>,reviews: Int,ready: Boolean,settings: Settings,start: ()->Unit,resume: ()->Unit) {
+@Composable private fun HomeScreen(stats: List<Stats>,reviews: Int,ready: Boolean,questionCount: Int,settings: Settings,start: ()->Unit,resume: ()->Unit,openImport: ()->Unit) {
     val answered=stats.sumOf { it.answered };val correct=stats.sumOf { it.correct }
     LazyColumn(verticalArrangement=Arrangement.spacedBy(18.dp)) {
         item { Card(colors=CardDefaults.cardColors(containerColor=MaterialTheme.colorScheme.primaryContainer),shape=RoundedCornerShape(24.dp)) {
             Column(Modifier.padding(24.dp),verticalArrangement=Arrangement.spacedBy(12.dp)) {
                 Text("PEQUENAS PAUSAS, GRANDES CONQUISTAS",style=MaterialTheme.typography.labelMedium)
                 Text("Sua próxima\nconquista começa\ncom uma questão.",style=MaterialTheme.typography.headlineMedium,fontWeight=FontWeight.Bold)
-                Text("Responda, entenda cada alternativa e avance no seu ritmo. Tudo funciona offline.")
-                Button(onClick=start,enabled=ready,modifier=Modifier.fillMaxWidth()) { Text(if(ready) "Estudar agora →" else "Preparando questões…") }
-                TextButton(onClick=resume) { Text("Voltar à questão em andamento") }
+                Text(if(questionCount==0) "Seu acervo começa vazio. Importe um arquivo JSON com suas questões para estudar qualquer assunto, offline." else "Responda, entenda cada alternativa e avance no seu ritmo. Tudo funciona offline.")
+                if(ready && questionCount==0) Button(onClick=openImport,modifier=Modifier.fillMaxWidth()) {Text("Importar meu primeiro JSON")}
+                else Button(onClick=start,enabled=ready && questionCount>0,modifier=Modifier.fillMaxWidth()) { Text(if(ready) "Estudar agora →" else "Preparando banco…") }
+                if(questionCount>0) TextButton(onClick=resume) { Text("Voltar à questão em andamento") }
             }
         } }
         item { Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.spacedBy(8.dp)) { Metric("Respostas","$answered",Modifier.weight(1f));Metric("Acertos","$correct",Modifier.weight(1f));Metric("Revisão","$reviews",Modifier.weight(1f)) } }
         item { Text("Aprender, não decorar",style=MaterialTheme.typography.titleLarge,fontWeight=FontWeight.Bold);Text("Cada resposta revela uma explicação e a análise de todas as opções. As questões mantêm a identificação da prova e do gabarito.",Modifier.padding(top=8.dp)) }
         item { Card { Column(Modifier.padding(16.dp)) { Text(if(settings.unlock) "Janela automática ativada" else "Você controla suas pausas",fontWeight=FontWeight.Bold);Text("Ative em Ajustes a janela sobre outros apps para ver questões ao desbloquear. O serviço deve permanecer ativo; se o aparelho encerrar o serviço ou reiniciar, reabra o app.") } } }
-        item { Text("Acervo inicial: 25 questões conferidas • BASA 2013. Outros 18 PDFs e os itens restantes aguardam curadoria. Comentários didáticos autorais.",style=MaterialTheme.typography.bodySmall);Spacer(Modifier.height(16.dp)) }
+        item { Text("$questionCount questões no seu acervo. Nenhuma questão acompanha esta edição; todo o conteúdo é importado por você.",style=MaterialTheme.typography.bodySmall);Spacer(Modifier.height(16.dp)) }
     }
 }
 @Composable private fun Metric(label: String,value: String,modifier: Modifier=Modifier) { Card(modifier) { Column(Modifier.padding(14.dp)) { Text(value,style=MaterialTheme.typography.headlineSmall,fontWeight=FontWeight.Bold);Text(label,style=MaterialTheme.typography.labelMedium) } } }
@@ -152,20 +154,27 @@ private val Red=Color(0xFFAB303B)
         if(granted) requestOverlay() else model.message.value="Notificações não autorizadas. O estudo manual continua disponível."
     }
     val enable: ()->Unit = {
-        if(Build.VERSION.SDK_INT>=33 && androidx.core.content.ContextCompat.checkSelfPermission(context,Manifest.permission.POST_NOTIFICATIONS)!=android.content.pm.PackageManager.PERMISSION_GRANTED) permission.launch(Manifest.permission.POST_NOTIFICATIONS)
+        if(model.questionCount.value==0) model.message.value="Importe um JSON com questões antes de ativar o modo automático."
+        else if(Build.VERSION.SDK_INT>=33 && androidx.core.content.ContextCompat.checkSelfPermission(context,Manifest.permission.POST_NOTIFICATIONS)!=android.content.pm.PackageManager.PERMISSION_GRANTED) permission.launch(Manifest.permission.POST_NOTIFICATIONS)
         else if(!app.monitor.canNotify()) model.message.value="Ative as notificações nas configurações do Android."
         else requestOverlay()
     }
     val importer=rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri -> if(uri!=null) model.import(uri) }
     LazyColumn(verticalArrangement=Arrangement.spacedBy(12.dp)) {
         item { Text("Do seu jeito",style=MaterialTheme.typography.headlineMedium,fontWeight=FontWeight.Bold) }
+        item { Card(Modifier.fillMaxWidth()) {Column(Modifier.padding(16.dp),verticalArrangement=Arrangement.spacedBy(8.dp)) {
+            Text("Seu acervo, offline",style=MaterialTheme.typography.titleLarge)
+            Text("Esta edição não inclui questões. Importe seus arquivos JSON com alternativas, respostas e explicações. Os IDs existentes e seu histórico são preservados.")
+            Button(onClick={importer.launch(arrayOf("application/json","text/plain"))},modifier=Modifier.fillMaxWidth()) {Text("Importar pacote de questões")}
+        }} }
         item { Toggle("Janela automática ao desbloquear",settings.unlock) { checked ->
             if(!checked) model.update {it.copy(unlock=false)} else enable()
         } }
         item { Text(status,color=MaterialTheme.colorScheme.primary);Text("Autorize ‘Exibir sobre outros apps’ para ver a questão na tela sem precisar tocar em uma notificação. Um serviço com notificação visível mantém a detecção ativa. Você pode fechar a janela sem responder e parar o modo automático a qualquer momento. O app não usa acessibilidade nem substitui a tela de bloqueio.",style=MaterialTheme.typography.bodySmall) }
         item { OutlinedButton(onClick=enable,modifier=Modifier.fillMaxWidth()) {Text("Autorizar e ativar janela automática")} }
         item { OutlinedButton(onClick={
-            if(settings.unlock && app.monitor.canOverlay() && app.monitor.canNotify()) {
+            if(model.questionCount.value==0) model.message.value="Importe seu primeiro JSON em Importar pacote de questões."
+            else if(settings.unlock && app.monitor.canOverlay() && app.monitor.canNotify()) {
                 try {androidx.core.content.ContextCompat.startForegroundService(context,Intent(context,br.com.desbloqueia.unlock.UnlockStudyService::class.java).setAction(br.com.desbloqueia.unlock.UnlockStudyService.PREVIEW))}
                 catch(e: RuntimeException) {model.message.value="Não foi possível iniciar. Confira as permissões e tente novamente."}
             } else model.message.value="Ative a janela automática e autorize as permissões primeiro."
@@ -179,7 +188,7 @@ private val Red=Color(0xFFAB303B)
         item { Text("Aparência");Row(horizontalArrangement=Arrangement.spacedBy(8.dp)) {listOf("auto" to "Sistema","light" to "Claro","dark" to "Escuro").forEach { (value,label) -> FilterChip(selected=settings.theme==value,onClick={model.update {it.copy(theme=value)}},label={Text(label)})}} }
         item { HorizontalDivider();Text("Disciplinas",style=MaterialTheme.typography.titleLarge);Text("Sem seleção, todas as disciplinas participam da fila.",style=MaterialTheme.typography.bodySmall) }
         disciplines.forEach { discipline -> item { Toggle(discipline,discipline in settings.disciplines) { checked -> model.update {it.copy(disciplines=if(checked) it.disciplines+discipline else it.disciplines-discipline)} } } }
-        item { HorizontalDivider();Text("Seu acervo, offline",style=MaterialTheme.typography.titleLarge);Text("Importe pacotes JSON no formato documentado. São aceitas somente questões com gabarito conferido e explicações completas. IDs existentes são preservados.");OutlinedButton(onClick={importer.launch(arrayOf("application/json","text/plain"))}) {Text("Importar pacote de questões")};Spacer(Modifier.height(16.dp)) }
+
     }
 }
 @Composable private fun Toggle(label: String,checked: Boolean,onChange: (Boolean)->Unit) {Row(Modifier.fillMaxWidth(),verticalAlignment=Alignment.CenterVertically) {Text(label,Modifier.weight(1f));Switch(checked=checked,onCheckedChange=onChange)} }

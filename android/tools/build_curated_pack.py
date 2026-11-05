@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Reproduz o pacote curado a partir do PDF BASA 2013 fornecido pelo usuário.
 Requer PyMuPDF. Não tenta aprovar automaticamente o restante do acervo.
-Uso: python3 tools/build_curated_pack.py /caminho/basa0113_prova_01_merged.pdf
+Uso: python3 tools/build_curated_pack.py /caminho/basa0113_prova_01_merged.pdf /saida/pacote.json
 """
 import sys, re, json, hashlib
 from pathlib import Path
@@ -39,7 +39,7 @@ def clean(s):
     s=re.sub(r'(\w)-\s*\n\s*(\w)',r'\1\2',s)
     return re.sub(r'\s+',' ',s).strip()
 
-def build(pdf):
+def build(pdf, output):
     digest=hashlib.sha256(pdf.read_bytes()).hexdigest()
     expected=''
     manifest=json.loads((ROOT/'docs/materials.json').read_text())
@@ -73,6 +73,7 @@ def build(pdf):
         page,statement,choices=extracted[n]
         result.append(dict(id=f'basa-2013-1-{n:02}',disciplina='Língua Portuguesa' if n==10 else 'Matemática' if n<21 else 'Conhecimentos Bancários',assunto=topic,enunciado=statement,alternativas=choices,resposta_correta=keys[n],explicacao=explanation,explicacoes_alternativas=dict(zip('ABCDE',alternatives)),fonte=dict(concurso='Banco da Amazônia',banca='Cesgranrio',cargo='Técnico Bancário',ano=2013,arquivo=pdf.name,sha256=digest,pagina=page,questao=n,pagina_gabarito=16,versao='Gabarito 1'),status_validacao='gabarito_conferido',autoria_explicacao='Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado.'))
     assert len(result)==25
-    (ROOT/'app/src/main/assets/questions.json').write_text(json.dumps(dict(schema_version=1,questions=result),ensure_ascii=False,indent=2)+'\n')
+    output.parent.mkdir(parents=True,exist_ok=True)
+    output.write_text(json.dumps(dict(schema_version=1,questions=result),ensure_ascii=False,indent=2)+'\n')
     print(f'{len(result)} questões extraídas e associadas ao gabarito 1 da página 16.')
-if __name__=='__main__': build(Path(sys.argv[1]))
+if __name__=='__main__': build(Path(sys.argv[1]),Path(sys.argv[2]))

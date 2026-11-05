@@ -7,6 +7,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import br.com.desbloqueia.unlock.UnlockStudyService
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.flow.combine
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
@@ -21,14 +22,17 @@ class MainActivity: ComponentActivity() {
         setContent { StudyApp(model,onClose={ finish() }) }
         lifecycleScope.launch {
             repeatOnLifecycle(Lifecycle.State.RESUMED) {
-                (application as StudyApplication).preferences.settings.collect { settings ->
-                    val app=application as StudyApplication
-                    if(settings.unlock) {
+                val app=application as StudyApplication
+                combine(app.preferences.settings,app.repository.dao.observeQuestionCount()) { settings,count -> settings to count }.collect { (settings,count) ->
+                    if(settings.unlock && count>0) {
                         if(app.monitor.canOverlay() && app.monitor.canNotify()) {
                             try { androidx.core.content.ContextCompat.startForegroundService(this@MainActivity,Intent(this@MainActivity,UnlockStudyService::class.java)) }
                             catch(e: RuntimeException) { app.overlayStatus.value="Não foi possível ativar. Reabra o app e confira as permissões." }
                         } else app.overlayStatus.value="Autorize sobreposição e notificações em Ajustes."
-                    } else stopService(Intent(this@MainActivity,UnlockStudyService::class.java))
+                    } else {
+                        stopService(Intent(this@MainActivity,UnlockStudyService::class.java))
+                        if(count==0) app.overlayStatus.value="Importe um JSON para começar."
+                    }
                 }
             }
         }

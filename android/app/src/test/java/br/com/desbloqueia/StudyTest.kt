@@ -23,12 +23,13 @@ class StudyTest {
     @Before fun prepare() = runBlocking {
         context=ApplicationProvider.getApplicationContext()
         db=Room.inMemoryDatabaseBuilder(context,StudyDatabase::class.java).allowMainThreadQueries().build()
-        repo=Repository(db,context)
+        repo=Repository(db)
         repo.initialize()
+        repo.importPack(TestQuestions.text())
         questions=db.dao().questions().map { PackCodec.question(it.payload) }
     }
     @After fun close() { db.close() }
-    @Test fun bundledPackHas25TraceableQuestions() {
+    @Test fun importedFixtureHas25TraceableQuestions() {
         assertEquals(25,questions.size)
         assertEquals(setOf("Língua Portuguesa","Matemática","Conhecimentos Bancários"),questions.map { it.disciplina }.toSet())
         questions.forEach { assertEquals(16,it.fonte.pagina_gabarito);assertEquals(5,it.explicacoes_alternativas.size);assertTrue(it.explicacao.length>80) }
@@ -52,7 +53,7 @@ class StudyTest {
     }
     @Test fun repeatImportPreservesAnswers() = runBlocking {
         val s=repo.next(Settings())!!;repo.answer(s,s.question.resposta_correta)
-        val text=context.assets.open("questions.json").bufferedReader().use { it.readText() }
+        val text=TestQuestions.text()
         assertEquals(0,repo.importPack(text));repo.initialize()
         assertEquals(1,db.dao().attempts().size)
     }
@@ -97,7 +98,7 @@ class StudyTest {
     }
     @Test fun unlockEventsAreDeduplicatedAcrossRepositoryRestart() = runBlocking {
         repo.screenOff();val session=repo.unlockPrompt(Settings(unlock=true),10_000_000)!!
-        val restarted=Repository(db,context)
+        val restarted=Repository(db)
         assertNull(restarted.unlockPrompt(Settings(unlock=true),20_000_000))
         assertEquals(session.id,restarted.pending(session.id)!!.id)
         assertNull(restarted.pending(session.id))
@@ -119,7 +120,7 @@ class StudyTest {
     @Test fun diskDatabaseSurvivesReopen(): Unit = runBlocking {
         val name="durable-test.db";context.deleteDatabase(name)
         val disk=Room.databaseBuilder(context,StudyDatabase::class.java,name).allowMainThreadQueries().build()
-        val r=Repository(disk,context);r.initialize();val s=r.next(Settings())!!;r.answer(s,s.question.resposta_correta);r.screenOff();disk.close()
+        val r=Repository(disk);r.initialize();r.importPack(TestQuestions.text());val s=r.next(Settings())!!;r.answer(s,s.question.resposta_correta);r.screenOff();disk.close()
         val reopened=Room.databaseBuilder(context,StudyDatabase::class.java,name).allowMainThreadQueries().build()
         assertEquals(1,reopened.dao().attempts().size);assertEquals(1L,reopened.dao().unlock()!!.cycle)
         reopened.close();context.deleteDatabase(name)

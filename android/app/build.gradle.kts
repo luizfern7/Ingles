@@ -8,7 +8,7 @@ plugins {
 android {
     namespace = "br.com.desbloqueia"
     compileSdk = 35
-    defaultConfig { applicationId = "br.com.desbloqueia"; minSdk = 26; targetSdk = 35; versionCode = 3; versionName = "1.1.0"; testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner" }
+    defaultConfig { applicationId = "br.com.desbloqueia.personal"; minSdk = 26; targetSdk = 35; versionCode = 4; versionName = "1.2.0"; testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner" }
     compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
     kotlinOptions { jvmTarget = "17" }
     buildFeatures { compose = true }

@@ -1,19 +1,21 @@
-# Downloads — Desbloqueia 1.1.0
+# Desbloqueia · Meu acervo — banco vazio
 
-- [APK 1.1.0 — janela após desbloquear](desbloqueia-1.1.0.apk)
+- [Baixar APK Meu acervo 1.2.0, sem questões](desbloqueia-meu-acervo-1.2.0.apk)
 - [Código-fonte ZIP](desbloqueia-android.zip)
-- [Como ativar e limites do Android](../android/docs/ANDROID.md)
-- [Testes e validação 1.1.0](../android/docs/UNLOCK_1_1_0.md)
+- [Detalhes e validação](../android/docs/MEU_ACERVO_1_2_0.md)
 - [Checksums SHA-256](SHA256SUMS)
 
-## Ativação no celular
+## Usar
 
-Atualize sem desinstalar. Abra Desbloqueia → Ajustes → **Autorizar e ativar janela automática**. Autorize notificações e **Exibir sobre outros apps** no Android. Volte, escolha **A cada desbloqueio** e toque **Testar janela agora**. Depois feche a janela, vá à tela inicial do aparelho, bloqueie e desbloqueie.
+Instale e abra o novo ícone **Desbloqueia · Meu acervo**. O banco começa com zero questões. Toque **Importar meu primeiro JSON → Importar pacote de questões** e selecione seu arquivo. Todo o conteúdo é importado por você; não há carga automática de questões.
 
-As versões anteriores preservam o intervalo salvo; troque-o se quiser uma questão em todo desbloqueio. A notificação persistente mantém um botão **Parar**. A janela tem botão de fechar e não obriga a responder. Após reiniciar o aparelho ou encerrar o serviço, reabra o app para retomar. Android Go e fabricantes podem restringir a permissão/serviço. Testes automatizados cobriram APIs 28 e 35, mas a entrega ainda precisa de confirmação no aparelho físico.
+Essa edição é instalada separadamente da antiga, sem apagar dados ou progresso dela. Se não quiser mais as janelas do app antigo, desative o modo automático nele. Depois de importar questões na edição pessoal, autorize notificações/Exibir sobre outros apps e ative A cada desbloqueio. As permissões são próprias de cada instalação.
 
-O APK 1.1.0 não apresentou detecções no ClamAV 1.5.4, base diária 28171 de 01/11/2026. Isso não garante aprovação pelo Microsoft Defender. A versão inicial 1.0.0 havia recebido um alerta; mantenha o antivírus ativo se houver nova detecção. Relatórios em [review/1.1.0/](review/1.1.0/).
+O APK foi compilado como release, com 38 execuções de teste debug e 36 release aprovadas. O lint não apontou problemas. ClamAV 1.5.4, base diária 28171 de 01/11/2026, examinou o APK sem detecções. Isso não garante ausência de malware nem aprovação pelo Defender; mantenha a proteção ativa se houver alerta. Relatórios em [review/1.2.0/](review/1.2.0/).
 
-A assinatura de desenvolvimento anterior foi preservada para atualização sem desinstalação. Não é uma versão assinada para publicação na Play Store. O APK é para Android 8+, não um instalador Windows.
+O aplicativo é para Android 8+. Não há teste físico de instalação/desbloqueio nesta entrega. O APK usa assinatura de desenvolvimento, não uma chave de produção da Play Store.
 
-Versão anterior: [1.0.1, apenas notificações](desbloqueia-1.0.1.apk). [Revisão histórica 1.0.1](../android/docs/SECURITY_REVIEW.md).
+## Edições anteriores com banco incluído
+
+- [1.1.0 — questões incluídas e janela após desbloquear](desbloqueia-1.1.0.apk)
+- [1.0.1 — questões incluídas e notificações](desbloqueia-1.0.1.apk)

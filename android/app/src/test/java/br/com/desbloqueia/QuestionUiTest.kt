@@ -21,7 +21,7 @@ class QuestionUiTest {
     @get:Rule val compose=createComposeRule()
     private fun question(): Question {
         val context=ApplicationProvider.getApplicationContext<Context>()
-        return context.assets.open("questions.json").bufferedReader().use { PackCodec.decode(it.readText()).first { it.fonte.questao==40 } }
+        return PackCodec.decode(TestQuestions.text()).first { it.fonte.questao==40 }
     }
     private fun scrollTo(text: String) {
         compose.onNode(hasScrollToNodeAction()).performScrollToNode(hasText(text))
