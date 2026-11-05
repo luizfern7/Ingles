@@ -1,0 +1,228 @@
+[
+  {
+    "file": "ilovepdf_merged 3.pdf",
+    "pages": 29,
+    "characters": 136810,
+    "sha256": "703d6ebcda3314e2975c331d1cf5c441ea6011760048ddcae558746a928ae617",
+    "status": "pendente_revisao",
+    "identificacao_inicial": {
+      "concurso": "Banco da Amazônia",
+      "ano": 2010,
+      "banca": "CESPE/UnB"
+    },
+    "extracao_bruta": "../materials/extracted/01.txt"
+  },
+  {
+    "file": "ilovepdf_merged (131).pdf",
+    "pages": 19,
+    "characters": 41872,
+    "sha256": "67e8374547ef9ca412b790a5e77b46e0411533988c953f0f0510241d3e8826d1",
+    "status": "pendente_revisao",
+    "problema": "Há páginas sem camada textual útil; requer OCR e revisão.",
+    "identificacao_inicial": {
+      "concurso": "Banpará",
+      "ano": 2024,
+      "banca": "CETAP"
+    },
+    "extracao_bruta": "../materials/extracted/02.txt"
+  },
+  {
+    "file": "ilovepdf_merged (13).pdf",
+    "pages": 24,
+    "characters": 107406,
+    "sha256": "2ba83f541759a40065594a5d0e4a79d97d9a81a27b26c9296ea8203374041470",
+    "status": "pendente_revisao",
+    "identificacao_inicial": {
+      "concurso": "Banco da Amazônia",
+      "ano": 2024,
+      "banca": "Cesgranrio"
+    },
+    "extracao_bruta": "../materials/extracted/03.txt"
+  },
+  {
+    "file": "ilovepdf_merged (1).pdf",
+    "pages": 32,
+    "characters": 65357,
+    "sha256": "9602598a9c8c703a74b41054bda8f30719dfce9a7bf710abc52a880462a38025",
+    "status": "pendente_revisao",
+    "identificacao_inicial": {
+      "concurso": "Banpará",
+      "ano": 2010,
+      "banca": null
+    },
+    "extracao_bruta": "../materials/extracted/04.txt"
+  },
+  {
+    "file": "tecn_bancario (1)_merged.pdf",
+    "pages": 15,
+    "characters": 84415,
+    "sha256": "80e617e339ca012d0e6d6b1f1848461e03c563821ba4db712b54066ac26b5bd1",
+    "status": "pendente_revisao",
+    "identificacao_inicial": {
+      "concurso": "Banestes",
+      "ano": 2015,
+      "banca": null
+    },
+    "extracao_bruta": "../materials/extracted/05.txt"
+  },
+  {
+    "file": "ilovepdf_merged (111).pdf",
+    "pages": 17,
+    "characters": 82032,
+    "sha256": "39f518f268aba21453844d0a013b617d79933e30cfcd3d0906bfea2ef3e1ed1d",
+    "status": "pendente_revisao",
+    "identificacao_inicial": {
+      "concurso": "Banco da Amazônia",
+      "ano": 2018,
+      "banca": "Cesgranrio"
+    },
+    "extracao_bruta": "../materials/extracted/06.txt"
+  },
+  {
+    "file": "ilovepdf_merged 9.pdf",
+    "pages": 15,
+    "characters": 80215,
+    "sha256": "9f9b6bd1053263e9aef7ceb3296332a457411c20036b287483096abdfe0a7f66",
+    "status": "pendente_revisao",
+    "identificacao_inicial": {
+      "concurso": "Banco da Amazônia",
+      "ano": 2015,
+      "banca": "Cesgranrio"
+    },
+    "extracao_bruta": "../materials/extracted/07.txt"
+  },
+  {
+    "file": "ilovepdf_merged - Copia.pdf",
+    "pages": 25,
+    "characters": 108943,
+    "sha256": "0168e17e7b430edf28d5ceca32a758ff51afe55a25a54d006894e0fbd7b859a7",
+    "status": "pendente_revisao",
+    "problema": "Codificação corrompida; requer OCR e conferência visual.",
+    "extracao_bruta": "../materials/extracted/08.txt"
+  },
+  {
+    "file": "ilovepdf_merged 5.pdf",
+    "pages": 17,
+    "characters": 82445,
+    "sha256": "efe7e789660d33ed647c8e548209d66b44472e45caeaa2f4236e42028102cde1",
+    "status": "pendente_revisao",
+    "extracao_bruta": "../materials/extracted/09.txt"
+  },
+  {
+    "file": "24_gab_definitivo_merged.pdf",
+    "pages": 25,
+    "characters": 72606,
+    "sha256": "c2939117e7015226d5ee85100befe2719e5c4a15e7f1e7011dca6bcd3b65191f",
+    "status": "pendente_revisao",
+    "identificacao_inicial": {
+      "concurso": "Bandes",
+      "ano": 2014,
+      "banca": null
+    },
+    "extracao_bruta": "../materials/extracted/10.txt"
+  },
+  {
+    "file": "ilovepdf_merged (11).pdf",
+    "pages": 31,
+    "characters": 93826,
+    "sha256": "9a3336bbf192717d956b6585e3ffecd88ae7026805864f7391612b209d7fdb02",
+    "status": "pendente_revisao",
+    "problema": "Há páginas sem camada textual útil; requer OCR e revisão.",
+    "extracao_bruta": "../materials/extracted/11.txt"
+  },
+  {
+    "file": "basa0113_prova_01_merged.pdf",
+    "pages": 16,
+    "characters": 75896,
+    "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+    "status": "25_questoes_curadas_de_60",
+    "identificacao_inicial": {
+      "concurso": "Banco da Amazônia",
+      "ano": 2013,
+      "banca": "Cesgranrio"
+    },
+    "extracao_bruta": "../materials/extracted/12.txt"
+  },
+  {
+    "file": "ilovepdf_merged (12).pdf",
+    "pages": 20,
+    "characters": 93993,
+    "sha256": "33663bce0c8f1ea7e4c10e3f7529ab5e19b262b465c09dcf18a131f1d4866545",
+    "status": "pendente_revisao",
+    "extracao_bruta": "../materials/extracted/13.txt"
+  },
+  {
+    "file": "ilovepdf_merged 6.pdf",
+    "pages": 31,
+    "characters": 76101,
+    "sha256": "ad01b3ebd0868cad0ac775afce399d90f81c129d1b130ab4721a39d7dc7afd28",
+    "status": "pendente_revisao",
+    "identificacao_inicial": {
+      "concurso": "Banpará",
+      "ano": 2014,
+      "banca": null
+    },
+    "extracao_bruta": "../materials/extracted/14.txt"
+  },
+  {
+    "file": "caixanm2_002_1_merged.pdf",
+    "pages": 20,
+    "characters": 87747,
+    "sha256": "1484cd428679042aeae98e6c734096cbe5670b7df7bbd3d8c7d1b9eab2a04c00",
+    "status": "pendente_revisao",
+    "problema": "Codificação corrompida; requer OCR e conferência visual.",
+    "extracao_bruta": "../materials/extracted/15.txt"
+  },
+  {
+    "file": "ilovepdf_merged 4.pdf",
+    "pages": 26,
+    "characters": 60368,
+    "sha256": "5aeccad99db76aeee003b37010bcdfc898cbd615e3dfe73989630f8a16a21ba9",
+    "status": "pendente_revisao",
+    "identificacao_inicial": {
+      "concurso": "Banpará",
+      "ano": 2012,
+      "banca": null
+    },
+    "extracao_bruta": "../materials/extracted/16.txt"
+  },
+  {
+    "file": "gabaritos_merged.pdf",
+    "pages": 32,
+    "characters": 174384,
+    "sha256": "2c83c30b15211a4cacbc20528bdd52a2516294dffddfdf055907c66336b72dfe",
+    "status": "pendente_revisao",
+    "identificacao_inicial": {
+      "concurso": "Banco da Amazônia",
+      "ano": 2012,
+      "banca": "CESPE/UnB"
+    },
+    "extracao_bruta": "../materials/extracted/17.txt"
+  },
+  {
+    "file": "ilovepdf_merged (10).pdf",
+    "pages": 29,
+    "characters": 115943,
+    "sha256": "82eb52e5b572b573214482a6a5ee12f938778d5eb5ad13d495dcd5b840ff94ba",
+    "status": "pendente_revisao",
+    "identificacao_inicial": {
+      "concurso": "Banpará",
+      "ano": 2018,
+      "banca": null
+    },
+    "extracao_bruta": "../materials/extracted/18.txt"
+  },
+  {
+    "file": "ilovepdf_merged 8.pdf",
+    "pages": 19,
+    "characters": 94746,
+    "sha256": "ec0afff19aa80c9023d7340da8259ee6b288a73ce82e196994a3fea60e03e900",
+    "status": "pendente_revisao",
+    "identificacao_inicial": {
+      "concurso": "Banpará",
+      "ano": 2015,
+      "banca": null
+    },
+    "extracao_bruta": "../materials/extracted/19.txt"
+  }
+]

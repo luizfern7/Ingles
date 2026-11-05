@@ -1,0 +1,1515 @@
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+Gabarito            1                             BANCO DA AMAZÔNIA
+                                                                     PROVA A
+                                                                                                                                    EDITAL No 01/2024
+                                                                                                                                BANCO DA AMAZÔNIA S.A.,
+                                                                                                                                 DE 30 DE JULHO DE 2024
+
+                                                         TÉCNICO BANCÁRIO
+                                         LEIA ATENTAMENTE AS INSTRUÇÕES ABAIXO.
+01   - ATENÇÃO: o candidato deve escrever seu nome, pondo uma letra em cada quadrícula, no espaço abaixo (não abreviar o primeiro e o último nomes).
+
+
+02 - O candidato recebeu do fiscal o seguinte material:
+     a) este Caderno de Questões, com o enunciado das 70 (setenta) questões objetivas, sem repetição ou falha, com a seguinte distribuição:
+
+                     CONHECIMENTOS BÁSICOS: 30 PONTOS                             Questões                    Pontos                     Total
+         Língua Portuguesa I                                                         1a5                      1,0 cada                 5,0 pontos
+         Língua Inglesa I                                                           6 a 10                    1,0 cada                 5,0 pontos
+         Inovação e Atualidades do Mercado Financeiro                               11 a 15                   1,0 cada                 5,0 pontos
+         Conhecimento Socioambiental, Compliance e Ética I                          16 a 20                   1,0 cada                 5,0 pontos
+         Noções de Informática                                                      21 a 25                   1,0 cada                 5,0 pontos
+         Qualidade do Atendimento e Diversidade                                     26 a 30                   1,0 cada                 5,0 pontos
+                   CONHECIMENTOS ESPECÍFICOS: 40 PONTOS                           Questões                    Pontos                     Total
+         Matemática Financeira                                                      31 a 35                   1,0 cada                 5,0 pontos
+         Noções de Probabilidade e Estatística                                      36 a 40                   1,0 cada                 5,0 pontos
+         Conhecimentos Bancários                                                    41 a 55                   1,0 cada                15,0 pontos
+         Vendas e Negociação                                                        56 a 70                   1,0 cada                15,0 pontos
+                                                             PONTUAÇÃO TOTAL DA PROVA: 70 PONTOS
+
+        b) Cartão-Resposta destinado às respostas das questões objetivas formuladas nas provas.
+03 - O candidato deve verificar se este material está em ordem e se o seu nome e o seu número de inscrição conferem com os que
+     aparecem no Cartão-Resposta. Caso não esteja e os dados não confiram, o fato deve ser IMEDIATAMENTE notificado ao fiscal.
+04 - Após a conferência, o candidato deverá:
+     a) assinar, no espaço próprio do Cartão-Resposta, com caneta esferográfica de tinta preta, fabricada em material transparente.
+     b) transcrever, no espaço apropriado do seu Cartão-Resposta, com sua caligrafia usual, considerando as letras maiúsculas e minúsculas, a seguinte frase:
+                                                                           A selva salva.
+        c) preencher, no espaço apropriado do seu Cartão-Resposta, o campo de marcação referente ao seguinte gabarito:
+                                                                        GABARITO 1
+05 - O candidato deve ter muito cuidado com o Cartão-Resposta, para não o dobrar, amassar ou manchar. O Cartão-Resposta SOMENTE poderá ser
+     substituído se, no ato da entrega ao candidato, já estiver danificado.
+06 - Logo após a autorização para o início das provas, o candidato deve conferir se este Caderno de Questões está em ordem e com todas as páginas. Caso
+     não esteja nessas condições, o fato deve ser IMEDIATAMENTE notificado ao fiscal.
+07 - Para cada uma das questões objetivas, são apresentadas 5 alternativas classificadas com as letras (A), (B), (C), (D) e (E); só uma responde adequada-
+     mente ao quesito proposto. O candidato só deve assinalar UMA letra no Cartão-Resposta, preenchendo todo o espaço compreendido entre os círculos,
+     com caneta esferográfica de tinta preta, fabricada em material transparente, de forma contínua e densa. A leitura óptica do Cartão-Resposta é
+     sensível a marcas escuras; portanto, os campos de marcação devem ser preenchidos completamente, sem deixar claros. A marcação em mais de uma
+     alternativa anula a questão, mesmo que uma das respostas esteja correta.
+     Ex: A                            C            D             E
+08 - As questões objetivas são identificadas pelo número que se situa acima de seu enunciado.
+09 - SERÁ ELIMINADO deste Concurso Público o candidato que:
+     a) for surpreendido, durante as provas, em qualquer tipo de comunicação com outro candidato ou utilizando máquinas de calcular ou similares, livros,
+         códigos, manuais, apostilas, impressos ou anotações;
+     b) portar ou usar, durante a realização das provas, aparelhos sonoros, fonográficos, de comunicação ou de registro, eletrônicos ou não, tais como:
+         agendas eletrônicas e/ou similares, gravadores, pen drive, mp3 player e/ou similar, fones de ouvido, chaves com alarme ou com qualquer outro
+         componente eletrônico, relógios de qualquer natureza, telefones celulares, microcomputadores portáteis e/ou similares;
+     c) se ausentar da sala em que se realizam as provas levando consigo o Caderno de Questões e/ou o Cartão-Resposta;
+     d) se recusar a entregar o Caderno de Questões e/ou o Cartão-Resposta, quando terminar o tempo estabelecido;
+     e) não assinar a Lista de Presença e(ou) o Cartão-Resposta;
+     f) deixar de transcrever corretamente, nos espaços próprios do Cartão-Resposta, o número do gabarito e a frase constantes na capa de seu Caderno
+         de Questões.
+     Obs. O candidato só poderá ausentar-se do recinto das provas após 2 (duas) horas contadas a partir do efetivo início das mesmas. Por motivos de segu-
+             rança, o candidato NÃO poderá levar o caderno de questões, a qualquer momento.
+10 - O candidato deve reservar os 30 (trinta) minutos finais para marcar seu Cartão-Resposta. Os rascunhos e as marcações assinaladas no Caderno de
+     Questões NÃO serão levados em conta.
+11 - O tempo disponível para estas provas de questões objetivas é de 4 (quatro) horas, já incluído o tempo para a marcação do seu Cartão-Resposta, findo
+     o qual o candidato deverá, obrigatoriamente, entregar o Cartão-Resposta devidamente marcado e o Caderno de Questões e assinar a Lista de Presença.
+12 - As questões e os gabaritos das Provas Objetivas serão divulgados a partir do primeiro dia útil após sua realização, no endereço eletrônico da
+     FUNDAÇÃO CESGRANRIO (http://www.cesgranrio.org.br).
+
+
+                                                                                                                         www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+                                             BANCO DA AMAZÔNIA
+
+         CONHECIMENTOS BÁSICOS                                      7        Técnicas de autenticação de imagens e docu-
+                                                                        mentos podem auxiliar os usuários a não serem en-
+            LÍNGUA PORTUGUESA I                                         ganados com o uso da inteligência artificial. Algumas
+                                                                        empresas, por exemplo, já colocam marcas d’água
+      Na era da inteligência artificial, como fica                      em todos os vídeos que a ferramenta produz, outra
+               a segurança de dados?                                    maneira de impedir o uso malicioso da IA generativa.
+                                                                        E, é claro, crimes cibernéticos também são crimes, e
+Pesquisadores explicam que as novas técnicas de com-                    também é papel da Justiça agir nesses casos para
+putação abrem novas possibilidades para golpes e inva-                  punir os criminosos: “Os crimes de falsificação ficam
+sões cibernéticas                                                       mais fáceis com esses processadores mais potentes.
+                                                                        É simulada alguma coisa verdadeira, mas quem é
+1         As empresas de computação em nuvem choca-                     que programa esses simuladores? São pessoas há-
+    ram o mundo com as inteligências artificiais lança-                 beis, com talento para programar, mas é sempre um
+    das no ano de 2023. Muitos se maravilharam com                      ser humano por trás”, conclui o professor.
+    o mundo de possibilidades que esses programas
+    inteligentes abriram. Já outros se chocaram com as                   PEROSSI, J. Na era da inteligência artificial, como fica a seguran-
+                                                                         ça de dados? Jornal da USP. Disponível em: https://jornal.usp.br/
+    implicações na área da segurança, direito autoral e                  radio-usp/na-era-da-inteligencia-artificial-como-fica-a-seguranca-
+    na capacidade de distorção da realidade factual que                  -de-dados/. Acesso em: 8 maio 2024. Adaptado.
+    as ferramentas novas proporcionam, e o debate pela
+    regulamentação do uso segue em curso nas casas                  1
+    legislativas de diversos países.
+                                                                    Em relação à segurança de dados, o texto afirma que o
+2         Conforme explica um professor da Escola Poli-
+                                                                    uso da inteligência artificial
+    técnica da Universidade de São Paulo, as ferramen-
+    tas de inteligência artificial abrem novos perigos na           (A) dificulta crimes de falsificação.
+    área de segurança de dados em dois fronts diferen-              (B) contribui para a punição de criminosos.
+    tes. O primeiro deles está na encriptação e na desen-           (C) gera perigos de natureza técnica e humana.
+    criptação dos dados.                                            (D) depende de técnicas de autenticação de imagens e
+3         “Existe de fato uma briga entre os que querem                 documentos.
+    guardar informação sigilosa de forma segura e os que            (E) traz possibilidades que maravilham a alguns e cho-
+    querem abrir essa informação para decifrar. Existem                 cam a outros.
+    algoritmos clássicos que fazem isso e que podem
+    ser melhorados com técnicas de inteligência artificial.         2
+    Em particular, técnicas de aprendizado de máquina,              De acordo com a ordem das ideias apresentadas no tex-
+    aquelas que usam observações, experimentos, expe-               to, observa-se que, depois de explicar que a inteligência
+    riências para melhorar o desempenho de algoritmos”,             artificial consegue simular situações da vida real de modo
+    explica o professor.                                            que as pessoas não consigam mais distinguir entre o ar-
+4         A outra batalha é travada no meio da engenharia           tificial e o natural, sendo enganados pela imagem e pela
+    social, ou seja, os usuários mal-intencionados explo-           voz, o texto se refere à ideia de que
+    ram as vulnerabilidades humanas de outros usuários
+                                                                    (A) a inteligência artificial tem provocado reações positi-
+    para obter materiais confidenciais, como senhas ban-
+    cárias, dados de navegação e outras informações de                    vas e negativas devido às inúmeras possibilidades,
+    cunho particular.                                                     como por exemplo a capacidade de distorção da reali-
+5         “As vulnerabilidades podem acontecer na medi-                   dade factual que as novas ferramentas proporcionam.
+    da em que você tem sistemas artificiais interagindo             (B) as ferramentas de inteligência artificial provocam no-
+    com os seres humanos. Você pode ter sistemas que,                     vos perigos na área de segurança, que ocorrem tanto
+    na interação com o usuário, obtêm dados inadverti-                    na encriptação como na desencriptação de dados.
+    damente. Aí, o usuário é levado a revelá-los. Pode              (C) os usuários mal-intencionados exploram as vulnerabi-
+    haver sistemas que também são feitos para interagir                   lidades humanas de outros usuários para obter mate-
+    com o usuário de forma adequada, mas têm alguma                       riais confidenciais, como senhas bancárias, dados de
+    falha. O usuário pode ser enganado e revelar essas                    navegação e outras informações de cunho particular.
+    informações para um outro agente inadequado”, con-              (D) uma forma de realizar a autenticação de imagens e
+    ta ele.                                                               documentos é utilizar marcas d´água que possam evi-
+6         “A inteligência artificial consegue, com as velhas              tar o uso malicioso da inteligência artificial.
+    técnicas, simular situações da vida real. E, nesse              (E) os sistemas ficam vulneráveis porque os usuários são
+    sentido, a coisa ficou feia, um cidadão não consegue                  enganados e levados a revelar informações que deve-
+    mais distinguir entre o artificial e o natural e pode ser             riam ser sigilosas.
+    enganado pela imagem e pela voz. Tudo que é si-
+    mulado passa a ser quase natural para um cidadão
+    comum.”
+
+                                                                2
+ PROVA A - TÉCNICO BANCÁRIO                                                                                              GABARITO 1
+
+
+                                                                                                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+                                             BANCO DA AMAZÔNIA
+
+3                                                                                   LÍNGUA INGLESA I
+No texto, o referente da expressão em destaque está cor-
+retamente explicitado entre colchetes no                                         Getting Started With Savings
+(A) parágrafo 1: “Muitos se maravilharam com o mundo
+    de possibilidades que esses programas inteligentes              1         When you’re in your twenties, retirement seems
+    abriram.” [computação em nuvem]                                     so abstract, it might as well be thousands of years
+(B) parágrafo 3: “Existe de fato uma briga entre os que                 away. Maybe it feels something like that to you right
+    querem guardar informação sigilosa de forma segura                  now. Why save for something so many decades in the
+    e os que querem abrir essa informação para deci-                    future, when every last dollar is accounted for in the
+    frar.” [informação sigilosa]                                        here and now? Saving for anything at all, in fact, may
+(C) parágrafo 3: “Existem algoritmos clássicos que fazem                feel impossible.
+    isso e que podem ser melhorados com técnicas de                 2         Getting started early for retirement is smart for
+    inteligência artificial.” [guardar informação sigilosa]             the same reasons you may want to put it off: time is
+(D) parágrafo 5: “Você pode ter sistemas que, na intera-                on your side. If you set aside what you can now, the
+    ção com o usuário, obtêm dados inadvertidamente. Aí,                magic of compounding numbers — when you begin to
+    o usuário é levado a revelá-los.” [sistemas artificiais]            earn interest on interest — can do more of the heavy
+(E) parágrafo 7: “É simulada alguma coisa verdadeira,                   lifting over time. In other words, saving early may
+    mas quem é que programa esses simuladores?” [cri-                   result in having to save less over the long run, which
+    mes de falsificação]                                                will take some pressure off as you’re juggling other
+                                                                        demands that inevitably arise. Maybe those demands
+4                                                                       will be children and all the money they require, or
+Em relação às regras de concordância, a palavra em des-                perhaps you’ll need some time off to care for an aging
+taque está de acordo com a norma-padrão da língua por-                parent.
+tuguesa em:                                                         3         And (mostly) nobody wants to work forever —
+                                                                        the earlier you start saving, the sooner you can stop
+(A) As empresas e os indivíduos que as compõem pre-                     working and dedicate more time to what’s meaningful
+    cisam estar adequadas às exigências de segurança                    to you. The easiest way to save — for everything, really
+    dos dados dos seus usuários.                                        — is automating. When you have money automatically
+(B) A segurança dos dados de quem se utiliza da inteli-                 and regularly transferred to its destination, you don’t
+    gência artificial é necessário para o sucesso das em-               have to remember to do anything. That goes for
+    presas de tecnologia.                                               purely pleasurable financial goals as well, like saving
+(C) Os gestores de tecnologia de informação devem ga-                   for a big trip. It’s empowering, and will bring you closer
+    rantir que todos os programas estejam atualizados                   to the things that make you both happier and more
+    para evitar brechas de segurança.                                   financially secure. It will take some time and patience
+(D) Os usuários, ao utilizar ferramentas de inteligência ar-            — but your future self will thank you.
+    tificial, costumam estar atentas às senhas que esco-            4         Before you begin saving, though, make sure
+    lhem e atualizá-las regularmente.                                   you have a plan to knock out any high-cost debt, like
+(E) Todas as companhias que trabalham com tecnologias                   debt on credit cards, where interest rates (around 22
+    de inteligência artificial precisam cuidar para que a in-           percent) far exceed the money you might earn when
+    formação do usuário em seu poder esteja protegido.                  investing your savings in the stock market over time
+                                                                        (7 to 8 percent).
+5                                                                   5         Besides that, get a copy of your pay stub or
+Segundo o Manual de Redação da Presidência da Repú-                 check your direct deposit to get a sense of your
+blica, para alcançar a objetividade em um texto oficial, é              take-home pay. (Freelancers should calculate their
+necessário                                                              average monthly income.) Then write down all of your
+(A) suprimir a delicadeza de expressão.                                expenses — rent, all insurance not already deducted
+(B) estabelecer uma hierarquia entre as ideias.                         from your paycheck, utilities, groceries, transportation
+(C) dispensar o esclarecimento de ideias principais.                    costs, car payments, mobile phone, student loans and
+(D) impedir um contato direto do leitor com o tema.                     any other debts.
+(E) evitar uma abordagem que vá diretamente ao assunto.             6         Moreover, creating a financial cushion — in the
+                                                                        form of an emergency savings fund — can help you
+                                                                        avoid turning to credit cards if you suddenly lose your
+                                      O                                 job or hit a financial pothole, like covering a $1,000
+                                    H
+                                  N                                     car repair.
+                                U
+                            SC
+                                                                    7         Financial planners suggest keeping three to
+                                                                        six months of your expenses in emergency savings
+                          A
+                        R                                               (deposited in a high-yield online savings account,
+
+
+                                                                3
+    GABARITO 1                                                                               PROVA A - TÉCNICO BANCÁRIO
+
+
+                                                                                                 www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+                                                 BANCO DA AMAZÔNIA
+
+      which offer the best rates). That may seem like a lofty            7
+      goal when you’re living on a starting salary that barely           In the sentence of paragraph 1 “When you’re in your
+      covers your bills. So start small, even if it’s saving $50         twenties, retirement seems so abstract, it might as well be
+      a month — $83 a month will get you to $1,000 in a                  thousands of years away”, the pronoun it refers to
+      year — and add more if and when you can afford it.                 (A) retirement
+      Set up an automated plan that sweeps that amount                   (B) thousands
+      from your checking account to your savings account.                (C) years
+      Then, don’t touch that money.                                      (D) abstract
+8           Many people with student loan debt often wonder              (E) twenties
+      if they should focus on paying down those loans before
+      saving for retirement. The short answer: probably not.
+                                                                         8
+      But there’s a strong case to be made to both invest
+                                                                         In the fragment of paragraph 2 “saving early may result in
+      and pay down your loans simultaneously, if you can.
+                                                                         having to save less over the long run”, the expression in
+9           Besides retirement, you surely have other savings
+                                                                         boldface means
+      goals. Maybe you’re saving for a car, a wedding party
+      or a special trip. Since these goals have a shorter time           (A) very shortly after the current time
+      horizon than retirement, or something you’ll need to               (B) a considerable period of time into the future
+      access within three years or less, you’ll want to take             (C) for some time just before the present
+      less risk with this money. The easiest strategy is to              (D) at a specific time, not so long ago
+      automatically transfer money into a high-yield online              (E) sometime immediately after the beginning
+      savings account, say, monthly. With short-term goals,
+      the amount you save is far more important than your                9
+      return.                                                            In the excerpt of paragraph 6 “Moreover, creating a
+10          But if you need the money in three to 10 years —             financial cushion […] can help you avoid turning to credit
+      call that a medium-term goal — you may have more                   cards”, the word moreover indicates a(n)
+      options, depending on how flexible you can be with                 (A) addition
+      your timing. Even if you don’t have large amounts to               (B) conclusion
+      save now, setting up the infrastructure to save is the             (C) contrast
+      hardest part — and as your earnings increase, it will              (D) example
+      be much easier to save and invest more.                            (E) reason
+       BERNARD, T. S. Getting started with savings. The New York
+       Times. Your money, May 17, 2024. Available at: https://www.       10
+       nytimes.com/2024/05/17/your-money/saving-money.html.              In the excerpt of paragraph 10 “setting up the infrastructure
+       Retrieved on: July 12, 2024. Adapted.
+                                                                         to save is the hardest part”, the term hardest can be
+                                                                         replaced, with no change in meaning, by
+6                                                                        (A) earliest
+The main purpose of the text is to                                       (B) more correctly
+                                                                         (C) somewhat confusing
+(A) assert that saving for short-term goals is more
+                                                                         (D) very brave
+    profitable than saving for long-term ones, such as
+                                                                         (E) most difficult
+    retirement, for instance.
+(B) discuss some of the most popular myths about saving,
+    highlighting that not everyone might be prepared to
+    save adequately.
+(C) emphasize the importance of starting to save early for
+    future financial security, using compound interest and
+                                                                                                            O
+    automated savings.                                                                                    H
+                                                                                                        N
+(D) encourage people to make high-risk, high-yield                                                    U
+    investments, in order to create and expand their
+                                                                                                  SC
+    emergency savings fund.                                                                     A
+(E) suggest that younger people should not necessarily                                        R
+    focus on saving for their retirement, since that might
+    take so many years.
+
+
+
+
+                                                                     4
+    PROVA A - TÉCNICO BANCÁRIO                                                                                        GABARITO 1
+
+
+                                                                                                       www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+                                            BANCO DA AMAZÔNIA
+
+       INOVAÇÃO E ATUALIDADES DO                                   14
+          MERCADO FINANCEIRO                                       Um grupo de usuários de operações financeiras preten-
+                                                                   de desenvolver um sistema com uma tecnologia que tra-
+                                                                   balhe com um banco de dados específico para gerenciar
+11                                                                 negociações de Bitcoins e outros ativos digitais. Assim,
+Uma pessoa jurídica deseja associar todas suas chaves              as transações estarão organizadas de forma cronológica,
+Pix a apenas uma de suas contas no banco W.                        com dados com proteção criptográfica, mas podendo ser
+Nesse caso, o número máximo de chaves Pix que podem                acessados por outros grupos.
+ser associadas a essa conta é                                      Para essa implantação, necessita-se, para esse tipo de
+(A) 1                                                              banco de dados, da tecnologia de
+(B) 5                                                              (A) blockchain
+(C) 10                                                             (B) buffers pool
+(D) 15                                                             (C) marketplace
+(E) 20                                                             (D) open source
+                                                                   (E) triggers cursor
+12
+Um grupo financeiro desenvolverá uma solução tecnoló-              15
+gica voltada para alguns serviços financeiros. Os serviços         Uma instituição financeira trabalhará usando o modelo
+serão oferecidos através de um tipo de sistema computa-            fintech para suas operações.
+cional, cujas características principais são:
+                                                                   Uma operação típica que poderá ser executada por essa
+(i) tratar de serviços para acesso a saldo e a extrato da          instituição é
+      conta;                                                       (A) conectar-se a uma agência bancária física, por meio
+(ii) possuir medidas de segurança limitadas à autentica-                de redes de conexão VPN.
+      ção em dois fatores, sem a necessidade de criptogra-         (B) realizar sorteios no modelo BETs, segundo regras es-
+      fia ou de outras tecnologias avançadas;                           tabelecidas pelo Banco Central do Brasil.
+(iii) notificar o usuário quando um pagamento ou uma               (C) representar a figura de fiador digital em um contrato,
+      transferência forem realizados;                                   facilitando processos de aluguel de imóveis residen-
+(iv) garantir compatibilidade com uma ampla variedade                   ciais.
+      de dispositivos e de sistemas operacionais; e                (D) ser uma interface para um banco digital, através da
+(v) oferecer uma interface mais amigável para os usuá-                  Web, usando navegador específico.
+      rios, facilitando o acesso para pessoas com diferentes       (E) servir de portal de vendas digitais de produtos de mer-
+      níveis de habilidade digital.                                     cado, oferecendo-se como interface entre comprado-
+                                                                        res e vendedores.
+A forma adequada para implantar essa solução tecnológi-
+ca é através do uso de
+(A) aplicativo Mobile Banking
+(B) bluetooth em caixas eletrônicos
+(C) software com protocolo ATM CBR
+(D) página Web com melhor usabilidade
+(E) navegadores com extensões de acesso a bancos
+
+13                                                                                                     O
+                                                                                                     H
+Um grupo financeiro deseja estabelecer um sistema para
+                                                                                                  N
+atuar num ambiente de operações e de intermediação fi-                                         U
+                                                                                          SC
+nanceira para fornecer crédito, informalmente, sem pas-
+sar por qualquer regulação, por meio de atividades para-
+                                                                                        A
+lelas ao sistema bancário oficial.                                                    R
+Nesse caso, qual operação esse grupo pode gerenciar?
+(A) FGTS
+(B) RPPS
+(C) Poupança
+(D) Fundos de hedge
+(E) Fomento científico
+
+
+
+
+                                                               5
+ GABARITO 1                                                                                 PROVA A - TÉCNICO BANCÁRIO
+
+
+                                                                                               www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+                                            BANCO DA AMAZÔNIA
+
+     CONHECIMENTO SOCIOAMBIENTAL,                                  19
+                                                                   Um economista, com doutorado em prestigiada universi-
+         COMPLIANCE E ÉTICA I
+                                                                   dade americana, foi convidado para compor o Conselho
+                                                                   de Administração de um Banco. Tendo assumido o cargo,
+16                                                                 deparou-se com inúmeros pleitos de aumento dos valores
+Um cidadão é casado com uma técnica bancária vincu-                recebidos por diversos colaboradores em decorrência das
+lada à agência onde ele exerce suas funções há muitos              funções e dos cargos ocupados.
+anos. Esse cidadão inicia empreendimento no ramo de                Nos termos do Estatuto Social do Banco da Amazônia,
+madeira após ter recebido proposta para explorar local si-         o órgão que assessora o Conselho de Administração em
+tuado no Norte do Brasil. Ao chegar ao local, ele verifica         processos referentes a administradores, conselheiros fis-
+que não existe certificação legal para o projeto de extra-         cais e demais membros de órgãos estatutários é o Comitê
+ção. Desejoso de continuar o negócio, propõe à sua espo-           de Pessoas, Elegibilidade, Sucessão e
+sa a criação de uma pessoa jurídica para legalizar o fluxo
+                                                                   (A) Indicação
+de caixa do empreendimento.
+                                                                   (B) Progressão
+Nos termos da Lei no 9.613/1998, a dissimulação da ori-            (C) Avaliação
+gem de valores provenientes de infração penal caracteri-           (D) Remuneração
+za o crime de                                                      (E) Projeção
+(A) locupletação patrimonial
+(B) desvio de finalidade                                           20
+(C) adulteração documental                                         Um empresário, que pretende investir no norte do Brasil,
+(D) lavagem de dinheiro                                            auscultou diversas pessoas para obter informações dos
+(E) mercado de balcão                                              melhores locais e municípios para aportar capital próprio
+                                                                   e de terceiros. Verifica, através do uso de informações
+                                                                   bancárias, fornecidas por amigos integrantes de institui-
+17                                                                 ções financeiras, que existem vários projetos em curso
+Determinada instituição autorizada a funcionar pelo Ban-           com polpudo financiamento estatal e que levarão as regi-
+co Central do Brasil reúne sua diretoria para traçar políti-       ões beneficiadas a um surto de crescimento econômico.
+cas para cumprimento das normas bancárias, sem correr
+                                                                   Nos termos do Código de Ética do Banco da Amazônia,
+riscos de sanções legais.
+                                                                   as revelações de informações obtidas em decorrência do
+Nos termos da Circular Bacen no 3.978/2020, para asse-             trabalho violam o princípio da
+gurar os procedimentos e os controles internos de preven-          (A) garantia
+ção à lavagem de dinheiro, essa instituição deve dispor de         (B) discrição
+estrutura de                                                       (C) relação
+(A) governança                                                     (D) dignidade
+(B) controle                                                       (E) confidencialidade
+(C) correição
+(D) disciplina                                                              NOÇÕES DE INFORMÁTICA
+(E) delação
+                                                                   21
+18                                                                 A arquitetura de protocolos TCP/IP consiste numa grande
+Um economista foi contratado por uma instituição finan-
+                                                                   coleção de protocolos de comunicação que foram defini-
+ceira para organizar o fluxo de dados pessoais dos clien-
+                                                                   dos como padrões da internet. Dentre esses protocolos de
+tes, garantindo a sua preservação, de acordo com as nor-
+                                                                   comunicação, há um que fornece um serviço de entrega
+mas em vigor.
+                                                                   de fluxo confiável na camada de transporte que garante a
+Nos termos da Lei no 13.709/2018, a disciplina da prote-           entrega de um fluxo de dados enviados de uma máquina
+ção de dados pessoais tem como fundamentos, dentre                 para outra sem duplicação ou perda de dados.
+outros, os direitos                                                Esse protocolo de comunicação é o
+(A) reais                                                          (A) IP
+(B) humanos                                                        (B) UDP
+(C) atuais                                                         (C) TCP
+(D) progressivos                                                   (D) ICMP
+(E) organizados                                                    (E) IGMP
+
+
+
+
+                                                               6
+ PROVA A - TÉCNICO BANCÁRIO                                                                                  GABARITO 1
+
+
+                                                                                              www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+                                            BANCO DA AMAZÔNIA
+
+22                                                                 25
+Um administrador de um computador com sistema opera-               Considere um usuário do MS Outlook, versão em por-
+cional Linux criou uma terceira partição no segundo disco          tuguês e que está rodando no ambiente desktop do MS
+rígido SATA da máquina.                                            Windows 10. Esse usuário precisa marcar um tipo de ati-
+                                                                   vidade e colocá-la no calendário, sendo que tal atividade,
+A nomenclatura padrão do Linux para identificar discos e
+                                                                   associada ao MS Outlook, não envolve convidar outras
+partições identifica essa partição como
+                                                                   pessoas ou reservar recursos, como uma sala de confe-
+(A) /dev/hda2                                                      rência ou um equipamento, para ser efetivada.
+(B) /dev/hdb3                                                      Esse tipo de atividade é um(a)
+(C) /dev/sda2
+                                                                   (A) item
+(D) /dev/sda3
+                                                                   (B) tarefa
+(E) /dev/sdb3
+                                                                   (C) reunião
+                                                                   (D) compromisso
+23                                                                 (E) acompanhamento
+Um empreendimento empresarial, cuja rede tem vários
+servidores, precisou montar uma estratégia de backup
+com ajuste de métricas bem definido, de modo a reduzir
+prejuízos em caso de falhas inesperadas desses servido-                   QUALIDADE DO ATENDIMENTO
+res.                                                                            E DIVERSIDADE
+Considerando a estratégia montada, quais são os dois
+parâmetros específicos usados para medir eficiência de
+backup?                                                            26
+(A) quantidade de backups e tempo de backup                        Existem ações que aumentam o valor percebido pelo
+(B) quantidade de backups e tempo de recuperação                   cliente de uma agência bancária.
+(C) partições de restauração e tempo de backup                     Um exemplo de uma dessas ações é 			
+(D) partições de restauração e ponto de recuperação                (A) aumentar as vantagens funcionais em detrimento dos
+(E) tempo de recuperação e ponto de recuperação                         benefícios emocionais.
+                                                                   (B) igualar o custo com os benefícios propostos nas peças
+24                                                                      de comunicação.
+Um usuário do navegador Google Chrome, utilizando-o                (C) preocupar-se com o aspecto financeiro envolvido na
+em ambiente desktop do MS Windows 10, deseja acessar                    aquisição dos produtos.
+a função de Gerenciador de Tarefas.                                (D) reduzir o tempo de espera e os aborrecimentos no
+                                                                        atendimento.
+Essa função permitirá ao usuário do Google Chrome                  (E) simplificar as instalações das agências para demons-
+(A) controlar os recursos consumidos por esse navegador                 trar austeridade.
+    em tempo real, visualizando aspectos da navegação.
+(B) gerenciar os recursos de hardware do computador,               27
+    tais como aumentar o tempo de CPU para tarefas                 As técnicas de atendimento por telemarketing envol-
+    desse navegador.                                               vem o uso de script. O script é o texto com informações
+(C) acessar o Gerenciador de Tarefas do sistema opera-             e palavras-chave que será seguido pelo operador de
+    cional, permitindo acesso aos controles sobre todos            telemarketing para atingir um objetivo específico.
+    os processos que estão em atividade no computador.             Quando o operador de telemarketing utiliza um roteiro
+(D) inspecionar aspectos de hardware e software que per-           como um guia que contém uma lista de frases planejadas,
+    tencem ao computador no qual esse navegador está               mas que pode ser modificado ao longo da interação com
+    ativo, inclusive tarefas relativas à rede e aos protoco-       o cliente, ele está utilizando um script
+    los.                                                           (A) positivo
+(E) monitorar as tarefas dos usuários do computador, per-          (B) aberto
+    mitindo cancelar processos ou aplicativos gerais, de           (C) composto
+    modo a facilitar as tarefas associadas aos processos           (D) estruturado
+    desse navegador.                                               (E) remanescente
+
+                                   O                                                                  O
+                                H                                                                  H
+                               N                                                                  N
+                            U                                                                  U
+                          SC                                                                SC
+                        A                                                                 A
+                      R                                                                 R
+
+                                                               7
+ GABARITO 1                                                                                 PROVA A - TÉCNICO BANCÁRIO
+
+
+                                                                                                 www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+                                           BANCO DA AMAZÔNIA
+
+28                                                                     CONHECIMENTOS ESPECÍFICOS
+Ao longo de um mês, o gerente fez uma análise profunda
+de tudo que acontecia em sua agência, tendo chegado à                      MATEMÁTICA FINANCEIRA
+conclusão de que o problema dos serviços prestados aos
+clientes da agência estava localizado exclusivamente na          31
+dimensão da qualidade denominada responsividade.                 Um empréstimo de R$ 30.000,00 será pago pelo Sistema
+Como forma de resolver esse problema, ele precisa                de Amortização Constante (SAC), em 10 parcelas men-
+(A) reduzir o retorno obtido com os serviços prestados a         sais, segundo uma taxa mensal de juros de 4%. A primeira
+    partir do aumento da retenção de clientes e do uso           parcela será paga um mês após a data do empréstimo.
+    das ferramentas de comunicação.                              Qual será, em reais, o valor da quarta parcela?
+(B) promover atividades de treinamento para os funcioná-
+                                                                 (A) 4.200,00
+    rios terem mais vontade de ajudar os clientes e pres-
+    tarem serviços com mais rapidez.                             (B) 4.080,00
+(C) ampliar o investimento em sistemas de informática,           (C) 3.960,00
+    comprar novos computadores e equipamentos de infor-          (D) 3.840,00
+    mática e realizar reformas nas instalações da agência.       (E) 3.720,00
+(D) diminuir os custos de operação da agência como
+    um todo a partir da redução dos clientes com baixos          32
+    scores e do ciclo de vida dos produtos oferecidos.           O preço atual de um produto é representado por P. Sabe-
+(E) solicitar recursos à direção para a compra de novos          -se que, nos próximos meses, o preço P receberá dois au-
+    uniformes para os funcionários, assim como aumentar          mentos sucessivos de 6%, em regime composto, ao final
+    a quantidade de clientes atendidos em sua agência.           dos quais passará a custar R$ 2.303,38.
+                                                                 Qual é, em reais, o preço P?
+29
+                                                                 (A) 2.303,26
+Um servidor, após aprovação em concurso público, as-
+                                                                 (B) 2.050,00
+sumiu cargo em carreira inicial de instituição financeira.
+Após ter realizado diversos cursos de aprimoramento e            (C) 2.035,27
+aproveitando as oportunidades, logrou assumir função ge-         (D) 2.026,97
+rencial de primeiro nível. Segundo o regulamento interno         (E) 2.005,00
+da instituição, o acesso aos níveis gerenciais superiores
+está vinculado ao cumprimento de metas e adequação à             33
+legislação federal, que busca ampliar as oportunidades           Sabe-se que, daqui a n meses, o montante M(n) obtido em
+para todas as etnias.                                            uma capitalização será dado por M(n) = 11.000 . (1, 1)n.
+Nos termos da Lei no 12.288/2010, a assimetria existente         Qual será, em reais, o montante obtido daqui a 4 meses?
+no âmbito da sociedade que acentua a distância social            (A) 11.446,64
+entre mulheres negras e os demais segmentos sociais é            (B) 14.641,00
+considerada desigualdade de                                      (C) 16.105,10
+(A) gênero e raça                                                (D) 44.000,00
+(B) vínculo e classe                                             (E) 48.400,00
+(C) origem e finalidade
+(D) acesso e conclusão                                           34
+(E) sociabilidade e economicidade                                Sabe-se que uma progressão aritmética cujo termo geral
+                                                                 é representado por an , n=1, 2, 3 ... é tal que a sua razão
+30
+Um cidadão é diagnosticado com surdez e decide colo-             é igual ao dobro do seu termo a1 .
+car na sua vestimenta um adereço que o identifique como          Em princípio, portanto, o seu termo geral an poderia ser
+uma pessoa com deficiência.                                      dado por
+Nos termos da Lei no 13.146/2015, foi instituído como
+símbolo nacional de identificação de pessoas com defici-         (A) an = 4n - 2
+ências ocultas o cordão de fita com desenhos de                  (B) an = 2 + 4n
+(A) rosas
+                                                                 (C) an = 2n
+(B) petúnias
+(C) girassóis                                                    (D) an = 2 . 4n+1
+(D) orquídeas
+                                                                 (E) an = 2 . 4n-1
+(E) margaridas
+
+
+                                                             8
+ PROVA A - TÉCNICO BANCÁRIO                                                                                  GABARITO 1
+
+
+                                                                                             www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+                                          BANCO DA AMAZÔNIA
+
+35
+O preço de lançamento de um produto é indicado por P. Ao longo de um ano, o preço do produto passou por alterações,
+feitas na seguinte ordem:
+     • Um desconto de 20%;
+     • Um aumento de 100%.
+O percentual de cada alteração foi relativo ao preço em curso no momento da alteração.
+Considerando-se que Q é o preço do produto ao final das duas alterações, então, para retornar ao preço de lançamento P,
+bastaria que se desse, sobre Q, um desconto de
+(A) 37,5%
+(B) 40,0%
+(C) 60,0%
+(D) 62,5%
+(E) 80,0%
+
+
+
+
+                                                                      O
+                                                                   H
+                                                               N
+                                                              U
+                                                      SC
+                                                   A
+                                               R
+
+
+
+
+                                                          9
+ GABARITO 1                                                                           PROVA A - TÉCNICO BANCÁRIO
+
+
+                                                                                          www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+                                             BANCO DA AMAZÔNIA
+
+                             NOÇÕES DE PROBABILIDADE E ESTATÍSTICA
+36                                                             38
+Um banco oferece dois serviços aos seus clientes. Sa-          Originalmente, uma distribuição possuía cinco dados:
+be-se, no entanto, que 20% dos clientes não contratam
+                                                                                2    7     11   5    3
+qualquer um deles, 50% contratam apenas um e os 30%
+                                                               Um sexto dado foi inserido, de modo que a nova distribui-
+restantes contratam os dois serviços oferecidos.
+                                                               ção passou a ter moda e mediana iguais.
+Qual é a média do número de serviços contratados pelos
+                                                               Qual foi o sexto dado inserido?
+clientes desse banco?
+                                                               (A) 2
+(A) 0,11
+                                                               (B) 3
+(B) 1,00
+                                                               (C) 5
+(C) 1,10
+                                                               (D) 7
+(D) 1,30
+                                                               (E) 11
+(E) 1,50
+
+37
+Considere a seguinte distribuição de dados:
+        67 34 76 14 24 18 28 42 71                                                               O
+                                                                                               H
+A soma dos três quartis dessa distribuição é igual a                                         N
+                                                                                           U
+                                                                                        SC
+(A) 186
+(B) 125                                                                               A
+(C) 124                                                                             R
+(D) 114
+(E) 102
+
+
+39
+Um grupo é formado por jovens cujas idades variam entre 16 e 19 anos. O gráfico a seguir representa a distribuição do
+número (N) de jovens de acordo com suas idades.
+
+                               N
+                                                         10
+
+
+
+
+                                                 5
+
+                                      4
+
+
+
+
+                                                                      1
+
+
+
+                                   16 anos    17 anos   18 anos     19 anos    IDADES
+
+O gráfico de setores que reapresenta, em forma percentual, as frequências das idades desse grupo de jovens é
+
+
+
+                                                          10
+ PROVA A - TÉCNICO BANCÁRIO                                                                              GABARITO 1
+
+
+                                                                                          www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+                                           BANCO DA AMAZÔNIA
+
+(A)       Distribuição Percentual das                     (D)       Distribuição Percentual das
+          Idades do Grupo de Jovens                                 Idades do Grupo de Jovens
+                     5%                                                         1
+
+                                    20%                                                        4
+
+
+
+
+         50%                                                         10
+                                                                                               5
+                                  25%
+
+
+      16 anos    17 anos     18 anos      19 anos               16 anos    17 anos       18 anos         19 anos
+
+
+
+
+(B)                                                       (E)
+          Distribuição Percentual das                               Distribuição Percentual das
+          Idades do Grupo de Jovens                                 Idades do Grupo de Jovens
+
+
+          25%                       25%                                                      25%
+
+
+
+                                                                  50%
+
+          25%                                                                                      20%
+                                  25%
+
+                                                                                      5%
+      16 anos    17 anos     18 anos      19 anos
+                                                                16 anos    17 anos       18 anos         19 anos
+
+
+(C)
+          Distribuição Percentual das
+          Idades do Grupo de Jovens
+                    50%
+
+                                    25%
+
+
+
+
+          5%
+                                                                                                   O
+                                  20%                                                        H
+                                                                                           N
+                                                                                       U
+      16 anos    17 anos     18 anos      19 anos                                   SC
+                                                                              A
+                                                                            R
+                                     O
+                                  H
+                                N
+                              U
+                           SC
+                        A
+                      R
+
+
+                                                     11
+ GABARITO 1                                                                         PROVA A - TÉCNICO BANCÁRIO
+
+
+                                                                                       www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+                                              BANCO DA AMAZÔNIA
+
+40
+Uma empresa adota cinco faixas salariais entre os seus funcionários. A Tabela a seguir representa a distribuição do núme-
+ro de funcionários em cada faixa salarial (FS). A última coluna da Tabela representa a distribuição acumulada do número
+de funcionários nas faixas menores ou iguais a FS.
+
+
+                                    Faixa                       Número de Funcionários
+                                                 Número de
+                                   Salarial                         nas Faixas ≤ FS
+                                                Funcionários
+                                    (FS)                        (Distribuição Acumulada)
+                                      1              23
+                                      2              34
+                                      3              31
+                                      4              12
+                                      5              8
+
+Os valores da última coluna dessa Tabela são
+
+
+
+
+       Número de Funcionários                                          Número de Funcionários
+           nas Faixas ≤ FS                                                 nas Faixas ≤ FS
+       (Distribuição Acumulada)                                        (Distribuição Acumulada)
+                  23                                                             108
+(A)                                                             (D)
+                  34                                                             108
+                  31                                                             108
+                  12                                                             108
+                   8                                                             108
+
+
+
+       Número de Funcionários                                          Número de Funcionários
+           nas Faixas ≤ FS                                                 nas Faixas ≤ FS
+       (Distribuição Acumulada)                                        (Distribuição Acumulada)
+                  23                                                              85
+(B)                                                             (E)
+                  57                                                              51
+                  88                                                              20
+                  100                                                             8
+                  108                                                             0
+
+
+
+
+       Número de Funcionários
+           nas Faixas ≤ FS
+       (Distribuição Acumulada)                                                                    O
+                                                                                                 H
+                  108                                                                          N
+                                                                                            U
+(C)
+                  100                                                                     SC
+                                                                                       A
+                  88                                                                  R
+                  57
+                  23
+
+
+                                                           12
+ PROVA A - TÉCNICO BANCÁRIO                                                                                GABARITO 1
+
+
+                                                                                               www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+                                           BANCO DA AMAZÔNIA
+
+       CONHECIMENTOS BANCÁRIOS                                     44
+                                                                   O cliente de um banco que deseje adquirir ações na bolsa
+41                                                                 de valores deve conhecer as características das opera-
+Determinada instituição autorizada pelo Banco Central do           ções envolvendo esses ativos.
+Brasil a realizar operações de câmbio é solicitada a for-          Na B3, bolsa de valores sediada em São Paulo, o prazo
+necer informações sobre suas contratações. Nos termos              para a liquidação das operações no mercado à vista de
+das normas estabelecidas pelo órgão autorizador, os do-            ações é
+cumentos comprobatórios das operações devem ser con-               (A) imediato, no momento da negociação
+servados por determinado período, contado do término do            (B) imediato, após o registro da negociação
+exercício em que ocorra o evento de contratação.                   (C) até o fechamento do pregão no dia da negociação
+                                                                   (D) de 1 dia útil, a partir da data da negociação
+Tal período é de, no mínimo,
+                                                                   (E) de 2 dias úteis, a partir da data da negociação
+(A) vinte anos
+(B) quinze anos                                                    45
+(C) dez anos                                                       Em 23 de março de 2024, o Ministério da Fazenda publi-
+(D) cinco anos                                                     cou a seguinte notícia em sua página na internet:
+(E) dois anos
+                                                                     O presidente Luiz Inácio Lula da Silva assinou, na manhã
+                                                                     desta terça-feira, o decreto que regulamenta a emissão
+42                                                                   das “debêntures de infraestrutura” e das “debêntures
+Dentre as opções de aplicações financeiras disponíveis               incentivadas”, instituídas, respectivamente, pelas Leis
+aos clientes do sistema bancário brasileiro está o Certifi-          no 14.801/24 e no 12.431/11. [...] O decreto das debên-
+cado de Depósito Bancário (CDB).                                     tures de infraestrutura tem como objetivo incentivar a
+Ao ser perguntado sobre essa aplicação financeira, o ge-             execução de projetos essenciais para o país, sempre
+rente do banco deve esclarecer ao cliente que o CDB é                pautados em compromissos ambientais e sociais. Ele
+um                                                                   estabelece critérios claros e objetivos para o enquadra-
+                                                                     mento e acompanhamento dos projetos de investimen-
+(A) investimento de renda variável, com garantias do fun-
+                                                                     to considerados prioritários na área de infraestrutura ou
+    do garantidor de crédito                                         de produção econômica intensiva em pesquisa, desen-
+(B) investimento com lastro em títulos públicos                      volvimento e inovação. Dessa forma, são definidas as
+(C) investimento de renda fixa emitido pelas instituições            iniciativas que poderão ter financiamento impulsionado
+    financeiras                                                      pelas novas debêntures, que contarão com incentivo
+(D) título de renda fixa emitido pelo Tesouro Nacional               fiscal.
+(E) certificado do Banco Central oferecido pelos bancos                 Disponível em: https://www.gov.br/fazenda/pt-br/assuntos/noti-
+    comerciais                                                          cias/2024/marco/novo-decreto-do-governo-federal-regulamenta-
+                                                                        -a-emissao-das-debentures-de-infraestrutura. Acesso em: 20
+43                                                                      maio 2024. Adaptado.
+A contratação de um seguro é celebrada com a emissão
+de uma apólice.                                                    As debêntures são títulos emitidos
+Em uma apólice de seguro, o prêmio é o valor                       (A) pelo Governo Federal para o financiamento de gran-
+(A) atribuído ao objeto segurado.                                      des projetos de longo prazo.
+                                                                   (B) pelo Governo Federal, através dos quais ele repassa
+(B) pago pelo segurado para ter a cobertura do risco con-
+                                                                       recursos para setores específicos da economia.
+    tratado.
+                                                                   (C) por empresas que não possuem capital aberto e, por-
+(C) pago pela seguradora ao segurado em caso de sinis-
+                                                                       tanto, não captam recursos na bolsa de valores.
+    tro coberto.                                                   (D) por empresas e que pagam bônus e dividendos aos
+(D) arcado pelo segurado como parte do prejuízo indeni-                seus detentores.
+    zável por sinistro coberto.                                    (E) por empresas, através dos quais elas podem captar
+(E) devolvido ao segurado caso não haja sinistro durante               recursos de maneira alternativa ao financiamento
+    a vigência da apólice.                                             bancário.
+                                    O                                                                  O
+                                   H                                                                 H
+                                N                                                                 N
+                               U                                                                U
+                          SC                                                               SC
+                        A                                                                A
+                      R                                                                R
+
+                                                              13
+ GABARITO 1                                                                                    PROVA A - TÉCNICO BANCÁRIO
+
+
+                                                                                                    www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+                                           BANCO DA AMAZÔNIA
+
+46                                                                 50
+A legislação brasileira prevê diversas formas e ambientes          Um gerente, ao explicar para um cliente as regras do
+de negociação dos ativos financeiros, como, por exemplo,           cartão de crédito, indicou os cuidados em relação ao pa-
+o mercado de balcão.                                               gamento da fatura, destacando a importância de evitar o
+O mercado de balcão se caracteriza por                             pagamento mínimo, e alertou sobre o risco de endivida-
+(A) demandar menos informações e ter regras mais flexí-            mento crescente.
+    veis do que a bolsa de valores.                                Considerando os preceitos da Resolução no 4.549, de
+(B) negociar contratos não padronizados em pregões pre-            2017, do Banco Central do Brasil, o gerente explicou que
+    senciais na bolsa de valores.
+                                                                   (A) o saldo devedor da fatura de cartão de crédito, quan-
+(C) não ter acesso a câmaras de liquidação e custódia.
+(D) não estar sujeito a fiscalização e regulação como a                do não liquidado integralmente no vencimento, somente
+    bolsa de valores.                                                  pode ser objeto de financiamento na modalidade de cré-
+(E) não exigir que as operações sejam registradas em um                dito rotativo até o vencimento da fatura subsequente.
+    sistema.                                                       (B) o financiamento do saldo devedor, por meio de outras
+                                                                       modalidades de crédito, será realizado em condições
+47                                                                     mais vantajosas para a instituição credora original, so-
+Empresas exportadoras e importadoras são alguns dos                    mente após o vencimento da fatura subsequente.
+grandes clientes do sistema bancário. Ao realizar uma              (C) o financiamento do saldo devedor da fatura de cartão
+operação de exportação ou importação no Brasil, a em-                  de crédito na modalidade de crédito rotativo de valo-
+presa deve estar familiarizada com o SISCOMEX.                         res já parcelados é possível de ser concedido.
+O SISCOMEX é um(a)                                                 (D) a portabilidade do saldo devedor da fatura de cartão
+(A) conjunto de regras e legislações para os participantes             de crédito é vedada quando a dívida já estiver parce-
+    do comércio exterior.                                              lada com a instituição original.
+(B) sistema informatizado para registro, acompanhamen-             (E) os custos relacionados à troca de informações e à efe-
+    to e controle das operações de comércio exterior.                  tivação da portabilidade do saldo devedor da fatura de
+(C) plataforma eletrônica para registro das operações fi-              cartão de crédito podem ser cobrados pela instituição
+    nanceiras entre residentes e não residentes do país.               credora original dos custos.
+(D) câmara de compensação de saldos entre exportado-
+    res e importadores.                                            51
+(E) interface virtual para a negociação de contratos de ex-        Uma empresa S.A. acaba de concluir uma avaliação da
+    portação e importação.                                         sua gestão de risco, juntamente com o gerente do banco
+                                                                   em que possui conta, e encontrou um item de preocupa-
+48                                                                 ção. A empresa possui uma incompatibilidade na rentabili-
+Um gerente de um banco está analisando uma ação de                 dade de alguns ativos financeiros, em relação ao custo de
+uma empresa que tem um beta de 1,2.                                seus passivos financeiros. Seus investimentos em títulos
+Considerando-se que a taxa sem risco seja de 3% e que              (ativos financeiros) e sua dívida de longo prazo (passivo
+a diferença entre o retorno esperado do mercado e a taxa           financeiro) têm um principal de R$ 1.000.000,00 recebí-
+sem juros seja de 9%, o retorno esperado da ação, em               veis/pagáveis em 31 de dezembro. Ambos os instrumen-
+Corporate Finance, segundo o modelo de precificação de             tos têm vencimentos de três anos (não há prêmios ou
+ativos financeiros (Capital Asset Pricing Model), é de             descontos em ambos). No entanto, a dívida de longo pra-
+(A) 3,60%                                                          zo é prefixada e incorre em juros anuais de 8%, enquanto
+(B) 12,00%                                                         os títulos em Reais rendem juros pós-fixados indexados
+(C) 12,60%                                                         no DI (Depósito Interbancário) de um ano.
+(D) 13,80%
+                                                                   Considerando as informações apresentadas, a área de
+(E) 27,00%
+                                                                   gestão de risco indicou que a empresa deveria realizar um
+49                                                                 (A) contrato a termo
+Um investidor negociou dez contratos de compra e venda             (B) contrato de opção
+a termo de café a R$ 120,00 por saca. Cada contrato ti-            (C) swap de índice
+nha o tamanho de 100 sacas de 60kg. No final da safra, a           (D) swap de moeda
+cotação da saca ficou em R$ 110,00.                                (E) swap de taxa de juros
+Considerando-se as informações apresentadas, o resulta-
+do total da operação foi de um(a)                                                                   O
+                                                                                                  H
+(A) ganho para o vendedor de R$ 10.000,00                                                       N
+                                                                                              U
+                                                                                          SC
+(B) ganho para o comprador de R$ 10.000,00
+(C) ganho para o vendedor de R$ 1.000,00                                                A
+(D) perda para o comprador de R$ 1.000,00                                             R
+(E) perda para o vendedor de R$ 10.000,00
+
+                                                              14
+ PROVA A - TÉCNICO BANCÁRIO                                                                                     GABARITO 1
+
+
+                                                                                                www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+                                          BANCO DA AMAZÔNIA
+
+52
+Na estrutura do Sistema Financeiro Nacional, os trabalhos da Comissão de Valores Mobiliários (CVM) concentram-se na
+supervisão e fiscalização das operações efetivadas por
+(A) bancos comerciais e cooperativas de crédito
+(B) bancos de investimento e bancos de desenvolvimento
+(C) fundos de investimento e bolsas de valores e de mercadorias e futuros
+(D) bancos regionais e caixas econômicas
+(E) caixas econômicas e associações de poupança e empréstimo
+
+53
+Considere que uma empresa cujo faturamento seja expresso, predominantemente, em moeda nacional (o Real) tenha um
+encargo de dívida externa, em Dólares, a ser pago em três meses a partir de hoje. Admita, hipoteticamente, que a taxa de
+câmbio R$/US$ seja cotada, hoje, a R$ 5,20/US$, no mercado à vista, mas a empresa só tenha necessidade de deter a
+quantia em Dólares, necessária para realizar o pagamento ao credor externo, no dia do vencimento.
+Se a empresa objetivar, hoje, efetivar uma operação de hedge, a fim de se proteger, até a data de vencimento, contra os
+riscos de depreciação do Real em relação ao Dólar, ela deverá, hoje,
+(A) evitar qualquer tipo de contrato de compra ou venda de Dólares.
+(B) vender Reais no mercado à vista.
+(C) comprar Reais no mercado à vista.
+(D) vender Dólares no mercado a termo.
+(E) comprar Dólares no mercado a termo.
+
+54
+Considere que, no mercado cambial brasileiro, tenham sido negociados Dólares em determinado dia, cotados de acordo
+com as taxas de câmbio R$/US$, indicadas na Tabela a seguir.
+
+                                             Oferta e Demanda de Dólares
+                          Quantidade de Dólares Quantidade de Dólares
+                                                                      Taxa de câmbio
+                                ofertados           demandados
+                                                                          R$/US$
+                            (em US$ milhões)      (em US$ milhões)
+                                    50                         10                 4,90
+                                    40                         20                 4,80
+                                    30                         30                 5,10
+                                    20                         40                 5,20
+                                    10                         50                 5,30
+
+De acordo com os dados da Tabela, entre as diversas taxas negociadas no dia, a taxa de câmbio de equilíbrio (R$/US$)
+foi de
+(A) 4,90
+(B) 4,80
+(C) 5,10
+(D) 5,20
+(E) 5,30
+
+55
+De acordo com o Banco Central do Brasil, que regulamenta o mercado de câmbio e de capitais estrangeiros no país, nos
+contratos de câmbio, é suscetível de alteração o(a)
+(A) comprador
+(B) vendedor
+(C) prazo para a sua liquidação
+(D) código da moeda estrangeira
+(E) taxa de câmbio
+
+
+
+
+                                                          15
+ GABARITO 1                                                                              PROVA A - TÉCNICO BANCÁRIO
+
+
+                                                                                            www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+                                             BANCO DA AMAZÔNIA
+
+            VENDAS E NEGOCIAÇÃO                                      59
+                                                                     O diretor de um estabelecimento bancário apresentou o
+56                                                                   planejamento de vendas do banco e definiu que o método
+A gerente de uma agência bancária deseja obter os maio-              de prospecção de novos clientes a ser utilizado pelos ge-
+res retornos possíveis ao longo do maior tempo possível,             rentes é o da cadeia de indicação.
+com os recursos que tem disponíveis e, para isso, ela pre-           Essa decisão significa que os gerentes deverão
+cisa decidir qual tipo de cliente priorizar. A gerente dispõe        (A) acessar novos clientes por meio de recomendações
+dos dados de médias históricas apresentados na Tabela                    dos clientes atuais.
+a seguir:                                                            (B) usar as centrais de telemarketing do banco para aces-
+                                                                         sar novos clientes.
+                     Ciclo de Vida do     Valor de Negó-             (C) identificar pessoas ou grupos que influenciam a deci-
+  Tipo de Cliente     Cliente (média       cios Mensais                  são dos clientes da região.
+                         histórica)      (média histórica)           (D) reconhecer os clientes cujos gerentes saíram dos
+                                                                         bancos em que trabalhavam.
+ Pessoa Jurídica          3 anos               40.000                (E) consultar vendedores de empresas não concorrentes
+  Pessoa Física           10 anos              14.000                    que atuam na mesma região.
+Com base nesses dados, os valores, em reais, dos clien-              60
+tes bancários pessoa jurídica e dos clientes bancários               O diretor de um banco, após analisar o plano de
+pessoa física são, respectivamente:                                  marketing desenvolvido pelos seus gerentes, manifestou
+(A) 120.000 e 140.000                                                seu descontentamento com o uso de ações de marketing
+(B) 480.000 e 168.000                                                direto e solicitou mudanças.
+(C) 1.272.000 e 1.200.000                                            Nesse caso, o componente do Mix de Marketing que so-
+(D) 1.440.000 e 1.680.000
+                                                                     frerá alterações a pedido do diretor é o seguinte:
+(E) 1.560.000 e 1.848.000
+                                                                     (A) preço
+57                                                                   (B) praça
+Um executivo com experiência no setor de varejo foi                  (C) produto
+contratado para dirigir um banco. Durante o período de               (D) promoção
+transição da equipe da antiga direção para a nova, ele               (E) planejamento
+ordenou que sua equipe analisasse os componentes do
+capital intelectual da organização. Ao final desse período,          61
+sua equipe deu grande destaque aos aspectos ligados ao               Preocupados em ampliar as vendas por canais remotos,
+capital relacional.                                                  os diretores de um banco solicitaram a criação de uma pá-
+                                                                     gina de vendas na internet focada na promoção de ofer-
+Esse destaque diz respeito
+                                                                     tas, com o intuito de incentivar os visitantes a realizarem
+(A) à quantidade de conhecimento e de competências                   uma compra.
+    dos funcionários do banco.
+                                                                     Nesse caso, os diretores solicitaram a criação de um(a)
+(B) às diversas oportunidades de ganhos, com investi-
+    mentos financeiros para o próprio banco.                         (A) SAC
+(C) ao grande número de marcas e patentes registradas                (B) Drip Line
+    anteriormente pelo banco.                                        (C) Landing Page
+(D) ao conhecimento gerado a partir das associações                  (D) Link Building
+    com clientes e com fornecedores do banco.                        (E) Gateway de pagamento
+(E) aos sistemas de gestão desenvolvidos pelos funcio-
+    nários e pelos diretores do banco.                               62
+                                                                     A direção de um banco percebeu que há diferenças muito
+58                                                                   grandes entre as maneiras com que clientes bancários de
+Ao abrir o site do banco, os seus clientes visualizam a              idades mais elevadas e de idades mais baixas realizam suas
+mensagem: “Os 20 primeiros clientes que investirem no                operações bancárias. Os diretores decidiram, então, desen-
+Fundo Super S estarão isentos de taxas de administra-                volver operações específicas para clientes mais velhos.
+ção”.                                                                A segmentação baseada na divisão do mercado por idade
+Nesse caso, está sendo usado o gatilho de                            é denominada segmentação
+(A) escassez                                                         (A) individual
+(B) ancoragem                                                        (B) geográfica
+(C) prova social                                                     (C) psicológica
+(D) conformidade                                                     (D) psicográfica
+(E) reciprocidade                                                    (E) demográfica
+
+
+                                                                16
+ PROVA A - TÉCNICO BANCÁRIO                                                                                      GABARITO 1
+
+
+                                                                                                 www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+                                           BANCO DA AMAZÔNIA
+
+63                                                                66
+Segundo o modelo de cinco etapas do processo de com-              Um professor, contratado para prestar serviços a um mu-
+pra do consumidor, após reconhecer uma necessidade, o             nicípio, foi encaminhado para abrir conta no Banco con-
+consumidor busca informações a respeito do produto ou             veniado com a municipalidade. O gerente designado para
+do serviço que poderá satisfazer sua necessidade. Nessa           atendê-lo apresentou vários documentos para esclarecer
+etapa, o consumidor recebe a maior parte das informa-             os seus deveres e direitos.
+ções de fontes controladas por profissionais de marketing,
+vindas através de propaganda ou de vendedores.                    Nos termos da Resolução CMN no 4.949/2021, as institui-
+                                                                  ções financeiras autorizadas a funcionar pelo Banco Cen-
+Essas fontes de informação do consumidor são denomi-
+nadas fontes                                                      tral do Brasil, na contratação de operações e na prestação
+                                                                  de serviços, devem assegurar adequação dos produtos
+(A) públicas
+(B) pessoais                                                      e serviços ofertados ou recomendados às necessidades
+(C) comerciais                                                    dos clientes e usuários, bem como aos seus interesses e
+(D) relacionais                                                   aos seus
+(E) institucionais                                                (A) objetivos
+                                                                  (B) lucros
+64                                                                (C) investimentos
+O gerente de uma agência foi orientado a mapear a jor-            (D) patrimônios
+nada do cliente e a fazer ajustes nos canais de relaciona-        (E) benefícios
+mentos remotos e presenciais, de modo a reduzir a rotati-
+vidade de clientes ao longo do primeiro semestre do ano.
+                                                                  67
+Sendo assim, se, em janeiro, a agência contava com 424            Uma sociedade empresária postulou empréstimo para
+clientes, e a meta de taxa de rotatividade definida pela          capital de giro a uma instituição financeira e ficou inadim-
+direção do banco é de 14%, qual é a quantidade máxima
+                                                                  plente por ter atrasado diversas parcelas do financiamen-
+de clientes que podem encerrar suas contas até o final de
+                                                                  to. Para diminuir sua dívida, essa sociedade empresária
+junho?
+                                                                  alegou incidência do Código de Proteção e Defesa do
+(A) 14
+                                                                  Consumidor.
+(B) 59
+(C) 110                                                           Considerando-se que tal sociedade não é consumidora
+(D) 330                                                           final da operação, no contrato para financiamento de ca-
+(E) 410                                                           pital de giro para implementação de sua própria atividade
+                                                                  empresarial, o Código de Defesa do Consumidor
+65                                                                (A) incide, pois há relação de consumo.
+O gerente de uma agência bancária fez um levantamento             (B) incide, se houver previsão contratual.
+a respeito da qualidade dos serviços prestados na agên-
+                                                                  (C) incide, se o mutuário for hipossuficiente.
+cia e chegou à conclusão de que os clientes gostavam
+                                                                  (D) incide, se a sociedade empresária for uma pequena
+das instalações e dos equipamentos, mas consideravam
+que os funcionários não davam atenção individualizada                 empresa.
+aos clientes.                                                     (E) não incide, pois não há relação de consumo.
+Considerando-se essas informações, constata-se que há
+                                                                  68
+um problema na agência relacionado à dimensão da qua-
+                                                                  Uma análise de mercado contratada por um banco detec-
+lidade de serviços denominada
+                                                                  ta as seguintes tendências econômicas:
+(A) empatia
+(B) segurança                                                     1. elevação dos índices de inflação;
+(C) tangibilidade                                                 2. congelamento dos salários;
+(D) confiabilidade                                                3. aumento da taxa de juros.
+(E) responsividade
+                                                                  Tal cenário tende a afetar o comportamento do consumi-
+                                     O                            dor de produtos bancários, no curto prazo, na medida em
+                                  H                               que irá ocasionar
+                               N
+                             U                                    (A) acertos na política econômica do país.
+
+                        SC
+                                                                  (B) interferência dos bancos na economia nacional.
+
+                      A                                           (C) mais regulações político-legais.
+                   R                                              (D) menor poder de compra da população.
+                                                                  (E) pouco investimento em inovações tecnológicas.
+
+
+                                                             17
+ GABARITO 1                                                                                PROVA A - TÉCNICO BANCÁRIO
+
+
+                                                                                               www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+                                           BANCO DA AMAZÔNIA
+
+69
+As estratégias de marketing de relacionamento incluem
+técnicas de pós-vendas, as quais contribuem para um
+atendimento bancário de boa qualidade.
+Dentre outros objetivos, essas técnicas devem ser prati-
+cadas para
+(A) aumentar a eficácia na abordagem de vendas.
+(B) cobrar resultados superiores da equipe.
+(C) medir a satisfação dos clientes.
+(D) garantir mais vendas no curto prazo.
+(E) realizar tarefas depois do expediente.
+
+70
+Para desenvolver um processo de venda pessoal de um
+novo serviço, o profissional de vendas de um banco for-
+mulou algumas perguntas com os seguintes objetivos:
+(i) identificar informações concretas sobre a situação do
+      comprador;
+(ii) entender de que forma o comprador utilizará o servi-
+      ço;
+(iii) descobrir problemas potenciais, dificuldades ou insa-
+      tisfações pelas quais o cliente esteja passando; e
+(iv) ajudar o comprador a determinar o valor de uma solu-
+                                                                                              O
+      ção de um problema verificado.
+                                                                                           H
+Essa etapa do processo de vendas é denominada
+                                                                                        N
+(A) acompanhamento
+                                                                                    U
+                                                                               SC
+(B) aquisição de compromisso
+(C) determinação da necessidade
+(D) preparação e prospecção
+                                                                            A
+(E) abordagem e pré-abordagem
+                                                                         R
+
+
+
+                                      O
+                                    H
+                                 N
+                              U
+                          SC
+                       A
+                     R
+
+
+
+
+                                                              18
+ PROVA A - TÉCNICO BANCÁRIO                                                                     GABARITO 1
+
+
+                                                                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+                                                                   O
+                                                               H
+                                                            N
+                                                         U
+                                                    SC
+                                                 A
+                                              R
+
+
+
+
+                                                                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxMyAtMDMwMA==
+
+
+
+
+                                                                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxNCAtMDMwMA==
+
+
+
+              BANCO DA AMAZÔNIA                                                    EDITAL No 01/2024
+                                                                               BANCO DA AMAZÔNIA S.A.,
+              PROVA DIA 20 DE OUTUBRO DE 2024                                   DE 30 DE JULHO DE 2024
+
+
+
+
+                        PROVA A - TÉCNICO BANCÁRIO – GABARITO 1
+                                        CONHECIMENTOS BÁSICOS
+                                            LÍNGUA PORTUGUESA I
+        1-     C             2-     D              3-    B             4-    C                 5-   B
+                                              LÍNGUA INGLESA I
+        6-     C             7-     A              8-    B             9-    A               10 -   E
+                            INOVAÇÃO E ATUALIDADES DO MERCADO FINANCEIRO
+       11 -    E            12 -    A             13 -   D            14 -   A               15 -   C
+                          CONHECIMENTO SOCIOAMBIENTAL, COMPLIANCE E ÉTICA I
+       16 -    D            17 -    A             18 -   B            19 -   D               20 -   E
+                                           NOÇÕES DE INFORMÁTICA
+       21 -    C            22 -    E             23 -   E            24 -   A               25 -   D
+                                   QUALIDADE DO ATENDIMENTO E DIVERSIDADE
+       26 -    D            27 -    B             28 -   B            29 -   A               30 -   C
+                                         CONHECIMENTOS ESPECÍFICOS
+                                           MATEMÁTICA FINANCEIRA
+       31 -    D            32 -    D             33 -   C            34 -   A               35 -   A
+                                   NOÇÕES DE PROBABILIDADE E ESTATÍSTICA
+       36 -    C            37 -    C             38 -   C            39 -   A               40 -   B
+                                         CONHECIMENTOS BANCÁRIOS
+       41 -    C            42 -    C             43 -   B            44 -   E               45 -   E
+       46 - A               47 - B                48 - D              49 - A                 50 - A
+       51 - E               52 - C                53 - E              54 - C                 55 - C
+                                            VENDAS E NEGOCIAÇÃO
+       56 -    D            57 -    D             58 -   A            59 -   A               60 -   D
+       61 - C               62 - E                63 - C              64 - B                 65 - A
+       66 - A               67 - E                68 - D              69 - C                 70 - C
+
+
+
+
+                                                                                    www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxNCAtMDMwMA==
+
+
+
+              BANCO DA AMAZÔNIA                                                    EDITAL No 01/2024
+                                                                               BANCO DA AMAZÔNIA S.A.,
+              PROVA DIA 20 DE OUTUBRO DE 2024                                   DE 30 DE JULHO DE 2024
+
+
+
+
+                        PROVA A - TÉCNICO BANCÁRIO – GABARITO 2
+                                        CONHECIMENTOS BÁSICOS
+                                            LÍNGUA PORTUGUESA I
+        1-     B             2-     D              3-    C             4-    C                 5-   D
+                                              LÍNGUA INGLESA I
+        6-     D             7-     A              8-    E             9-    C               10 -   E
+                            INOVAÇÃO E ATUALIDADES DO MERCADO FINANCEIRO
+       11 -    E            12 -    B             13 -   A            14 -   D               15 -   E
+                          CONHECIMENTO SOCIOAMBIENTAL, COMPLIANCE E ÉTICA I
+       16 -    C            17 -    B             18 -   E            19 -   A               20 -   B
+                                           NOÇÕES DE INFORMÁTICA
+       21 -    D            22 -    E             23 -   A            24 -   A               25 -   B
+                                   QUALIDADE DO ATENDIMENTO E DIVERSIDADE
+       26 -    C            27 -    B             28 -   E            29 -   D               30 -   C
+                                     CONHECIMENTOS ESPECÍFICOS
+                                           MATEMÁTICA FINANCEIRA
+       31 -    D            32 -    E             33 -   B            34 -   B               35 -   E
+                                   NOÇÕES DE PROBABILIDADE E ESTATÍSTICA
+       36 -    D            37 -    D             38 -   D            39 -   E               40 -   C
+                                         CONHECIMENTOS BANCÁRIOS
+       41 -    C            42 -    D             43 -   D            44 -   A               45 -   A
+       46 - B               47 - E                48 - E              49 - C                 50 - A
+       51 - E               52 - A                53 - D              54 - D                 55 - D
+                                            VENDAS E NEGOCIAÇÃO
+       56 -    E            57 -    B             58 -   B            59 -   A               60 -   D
+       61 - B               62 - E                63 - C              64 - E                 65 - D
+       66 - B               67 - E                68 - A              69 - D                 70 - D
+
+
+
+
+                                                                                    www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxNCAtMDMwMA==
+
+
+
+              BANCO DA AMAZÔNIA                                                    EDITAL No 01/2024
+                                                                               BANCO DA AMAZÔNIA S.A.,
+              PROVA DIA 20 DE OUTUBRO DE 2024                                   DE 30 DE JULHO DE 2024
+
+
+
+
+                        PROVA A - TÉCNICO BANCÁRIO – GABARITO 3
+                                        CONHECIMENTOS BÁSICOS
+                                            LÍNGUA PORTUGUESA I
+        1-     E             2-     C              3-    E             4-    A                 5-   A
+                                              LÍNGUA INGLESA I
+        6-     E             7-     B              8-    D             9-    B               10 -   A
+                            INOVAÇÃO E ATUALIDADES DO MERCADO FINANCEIRO
+       11 -    C            12 -    D             13 -   B            14 -   B               15 -   E
+                          CONHECIMENTO SOCIOAMBIENTAL, COMPLIANCE E ÉTICA I
+       16 -    B            17 -    A             18 -   C            19 -   C               20 -   D
+                                           NOÇÕES DE INFORMÁTICA
+       21 -    E            22 -    D             23 -   B            24 -   D               25 -   C
+                                   QUALIDADE DO ATENDIMENTO E DIVERSIDADE
+       26 -    C            27 -    A             28 -   E            29 -   A               30 -   B
+                                     CONHECIMENTOS ESPECÍFICOS
+                                           MATEMÁTICA FINANCEIRA
+       31 -    B            32 -    E             33 -   C            34 -   C               35 -   B
+                                   NOÇÕES DE PROBABILIDADE E ESTATÍSTICA
+       36 -    E            37 -    E             38 -   E            39 -   B               40 -   A
+                                         CONHECIMENTOS BANCÁRIOS
+       41 -    D            42 -    D             43 -   E            44 -   E               45 -   A
+       46 - B               47 - C                48 - A              49 - B                 50 - B
+       51 - D               52 - E                53 - E              54 - E                 55 - D
+                                            VENDAS E NEGOCIAÇÃO
+       56 -    C            57 -    B             58 -   C            59 -   E               60 -   D
+       61 - B               62 - C                63 - B              64 - E                 65 - A
+       66 - D               67 - C                68 - B              69 - E                 70 - E
+
+
+
+
+                                                                                    www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1OToxNCAtMDMwMA==
+
+
+
+                BANCO DA AMAZÔNIA                                                                                  EDITAL No 01/2024
+                                                                                                               BANCO DA AMAZÔNIA S.A.,
+                PROVA DIA 20 DE OUTUBRO DE 2024                                                                 DE 30 DE JULHO DE 2024
+
+
+
+
+                          PROVA B - TÉCNICO CIENTÍFICO – TECNOLOGIA DA
+                                          INFORMAÇÃO
+                                                      CONHECIMENTOS BÁSICOS
+                                                             LÍNGUA PORTUGUESA II
+           1-       E                 2-      B                    3-      D                      4-     A                       5-     C
+                                                               LÍNGUA INGLESA II
+           6-       E                 7-      E                    8-      D                      9-     C                   10 -       A
+                                                      NOÇÕES DE SISTEMA BANCÁRIO
+       11 -         D                12 -     B                   13 -     E                     14 -    D                   15 -       B
+       16 -         B                17 -     C                   18 -     A                     19 -    A                   20 -       E
+                                   CONHECIMENTO SOCIOAMBIENTAL, COMPLIANCE E ÉTICA II
+       21 -         E                22 -     D                   23 -     A                     24 -    C                   25 -       B
+                                     QUALIDADE NO ATENDIMENTO, INOVAÇÃO E DIVERSIDADE
+       26 -         A                27 -     C                   28 -     A                     29 -    B                   30 -       D
+                                                  CONHECIMENTOS ESPECÍFICOS
+           LÓGICA DE PROGRAMAÇÃO, ESTRUTURA DE DADOS, ENGENHARIA DE SOFTWARE, ENGENHARIA DE
+                                   REQUISITOS, QUALIDADE DE SOFTWARE
+       31 -         C                32 -     A                   33 -     A                     34 -    B                   35 -       B
+                    ANÁLISE E PROJETO ORIENTADOS A OBJETOS, PROGRAMAÇÃO ORIENTADA A OBJETOS,
+                                       INTERFACE DE INTERAÇÃO COM USUÁRIO
+     36 -       C           37 -      E               38 -    A                39 -   C                 40 -       E        41               C
+                                                               BANCO DE DADOS
+    42 -        E        43 -    D             44 -    B            45 -       C          46 -     C           47 -     D             48 -           B
+                                            LINGUAGENS E TECNOLOGIAS DE PROGRAMAÇÃO
+       49 -         C                 50 -        B                 51 -       C                    52 -       C                      53 -       A
+                                                                  ARQUITETURA
+       54 -         A                 55 -        E                 56 -       C                    57 -       E                      58 -       B
+                                                        REDES DE COMPUTADORES
+    59 -        E        60 -    A             61 -    D            62 -       C          63 -     B           64 -     B             65 -           D
+                                GERENCIAMENTO DE SERVIÇOS DE TI E GERÊNCIA DE PROJETOS
+       66 -         B                 67 -        D                 68 -       D                    69 -       B                      70 -       D
+
+
+
+
+                                                                                                                       www.pciconcursos.com.br
+

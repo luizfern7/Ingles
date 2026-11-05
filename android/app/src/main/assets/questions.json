@@ -1,0 +1,905 @@
+{
+  "schema_version": 1,
+  "questions": [
+    {
+      "id": "basa-2013-1-10",
+      "disciplina": "Língua Portuguesa",
+      "assunto": "Redação oficial",
+      "enunciado": "De acordo com o Manual de Redação da Presidência da República, a clareza é a qualidade básica de todos os textos oficiais. Para tal, concorrem algumas características, EXCETO",
+      "alternativas": {
+        "A": "a formalidade e a padronização, que possibilitam a imprescindível uniformidade dos textos.",
+        "B": "a concisão, que faz desaparecer do texto os excessos linguísticos que a ele nada acrescentam.",
+        "C": "a impessoalidade, que evita a duplicidade de interpretações que poderia decorrer de um tratamento personalista dado ao texto.",
+        "D": "o emprego do mínimo de palavras para informar o máximo, o que significa eliminar passagens substanciais do texto para reduzi-lo em tamanho.",
+        "E": "o uso do padrão culto de linguagem, em princípio, de entendimento geral e por definição avesso a vocábulos de circulação restrita, como a gíria e o jargão."
+      },
+      "resposta_correta": "D",
+      "explicacao": "Concisão elimina palavras desnecessárias, não informações essenciais. Clareza exige preservar o conteúdo necessário ao entendimento; por isso a exceção é D.",
+      "explicacoes_alternativas": {
+        "A": "Formalidade e padronização dão uniformidade à comunicação oficial.",
+        "B": "Retirar excessos linguísticos mantém o conteúdo e melhora a concisão.",
+        "C": "A impessoalidade evita que marcas pessoais gerem interpretações inadequadas.",
+        "D": "Eliminar passagens substanciais pode retirar informação indispensável; concisão não significa mutilar o conteúdo.",
+        "E": "A norma culta e a ausência de jargões restritos favorecem compreensão ampla."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 5,
+        "questao": 10,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-12",
+      "disciplina": "Matemática",
+      "assunto": "Sistema de Amortização Constante",
+      "enunciado": "Um empréstimo deverá ser pago em quarenta e nove prestações mensais e consecutivas, vencendo a primeira prestação trinta dias após a liberação do dinheiro. O financiamento foi feito pelo Sistema de Amortização Constante, SAC, com taxa mensal de juros de 1%. Se a vigésima quinta prestação é de R$ 5.000,00, o saldo devedor, em reais, após o pagamento da quadragésima oitava prestação é de",
+      "alternativas": {
+        "A": "4.000",
+        "B": "4.080",
+        "C": "4.800",
+        "D": "4.880",
+        "E": "5.000"
+      },
+      "resposta_correta": "A",
+      "explicacao": "No SAC, a amortização A é igual em todas as parcelas. Antes da 25ª parcela restam 25 amortizações: prestação = A + 0,01 × 25A = 1,25A. Como 1,25A = 5.000, A = 4.000. Após 48 das 49 parcelas, resta uma amortização: R$ 4.000.",
+      "explicacoes_alternativas": {
+        "A": "É o saldo de uma amortização restante, calculada por 5.000/1,25.",
+        "B": "Acrescenta juros ao saldo, embora se peça apenas o principal após a 48ª parcela.",
+        "C": "Não resulta da relação 1,25A = 5.000 do SAC.",
+        "D": "Não corresponde a uma amortização constante de R$ 4.000.",
+        "E": "É o valor da 25ª prestação, que inclui juros, não o saldo pedido."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 5,
+        "questao": 12,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-13",
+      "disciplina": "Matemática",
+      "assunto": "Média ponderada de dados agrupados",
+      "enunciado": "Uma revista acadêmica publicou um artigo no qual estava inserida a Tabela a seguir. Classes de rendimento mensal Frequência relativa (em salários mínimos) (%) Total 100 Até 1 30 Mais de 1 a 2 30 Mais de 2 a 3 10 Mais de 3 a 5 10 Mais de 5 a 10 8 Mais de 10 a 20 2 Sem rendimentos 10 A melhor estimativa para a média do rendimento mensal, em salários mínimos, é",
+      "alternativas": {
+        "A": "2,05",
+        "B": "2,15",
+        "C": "2,35",
+        "D": "2,45",
+        "E": "2,65"
+      },
+      "resposta_correta": "B",
+      "explicacao": "Para estimar a média, use os pontos médios das classes: 0,5; 1,5; 2,5; 4; 7,5; e 15 salários mínimos. O grupo sem rendimentos contribui com zero. Multiplique cada ponto médio por sua frequência: 0,5×0,30 + 1,5×0,30 + 2,5×0,10 + 4×0,10 + 7,5×0,08 + 15×0,02 + 0×0,10 = 0,15+0,45+0,25+0,40+0,60+0,30 = 2,15. Frequências diferentes impedem tirar a média simples dos pontos médios.",
+      "explicacoes_alternativas": {
+        "A": "2,05 fica 0,10 abaixo da soma das contribuições ponderadas; o grupo sem renda entra com valor zero, sem subtrair 0,10 da média.",
+        "B": "2,15 é a soma dos pontos médios ponderados pelas frequências relativas.",
+        "C": "2,35 excede a soma ponderada em 0,20; é necessário multiplicar cada ponto médio por sua própria frequência.",
+        "D": "2,45 excede o total em 0,30; a contribuição da classe de 10 a 20 salários já está incluída uma vez.",
+        "E": "2,65 excede o total em 0,50; os grupos de maior renda não podem receber pesos maiores que suas frequências."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 6,
+        "questao": 13,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-16",
+      "disciplina": "Matemática",
+      "assunto": "Juros compostos equivalentes",
+      "enunciado": "As capitalizações oferecidas por dois fundos de investimento foram simuladas por uma operadora financeira. A aplicação inicial em ambos os fundos foi a mesma. Na simulação, a capitalização no primeiro fundo de investimento durou 48 meses e se deu a juros mensais de 1%, no regime composto. No segundo fundo de investimento, a capitalização durou 24 meses apenas. A operadora buscava determinar qual deveria ser a taxa mensal de juros oferecida pelo segundo fundo, em regime composto, para, ao final dos 24 meses, gerar o mesmo montante gerado pelo primeiro ao final dos 48 meses. Essa taxa é de",
+      "alternativas": {
+        "A": "2% a.m.",
+        "B": "2,01% a.m.",
+        "C": "2,02% a.m.",
+        "D": "2,1% a.m.",
+        "E": "2,2% a.m."
+      },
+      "resposta_correta": "B",
+      "explicacao": "Igualando os montantes: C(1,01)^48 = C(1+i)^24. Logo 1+i = (1,01)^2 = 1,0201, e i = 2,01% ao mês. Dobrar o prazo não equivale simplesmente a dobrar a taxa, pois há juros sobre juros.",
+      "explicacoes_alternativas": {
+        "A": "2% é a aproximação linear; ignora o produto dos juros compostos.",
+        "B": "2,01% reproduz exatamente o fator 1,01².",
+        "C": "2,02% supera a taxa equivalente calculada.",
+        "D": "2,1% supera 2,01% e produziria montante maior.",
+        "E": "2,2% também produziria montante maior."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 6,
+        "questao": 16,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-17",
+      "disciplina": "Matemática",
+      "assunto": "Saldo devedor e juros compostos",
+      "enunciado": "Um refrigerador custa, à vista, R$ 1.500,00. Um consumidor optou por comprá-lo em duas parcelas. A loja cobra uma taxa mensal de juros (compostos) de 2%, atuante a partir da data da compra. O valor da primeira parcela, paga pelo consumidor 30 dias após a compra, foi de R$ 750,00. Um mês após o primeiro pagamento, o consumidor quitou sua dívida ao pagar a segunda parcela. Qual foi o valor da segunda parcela?",
+      "alternativas": {
+        "A": "R$750,00",
+        "B": "R$765,00",
+        "C": "R$780,00",
+        "D": "R$795,60",
+        "E": "R$810,00"
+      },
+      "resposta_correta": "D",
+      "explicacao": "Após um mês: 1.500 × 1,02 = 1.530. Pagando 750, restam 780. No mês seguinte o saldo cresce para 780 × 1,02 = 795,60. Os juros do segundo mês incidem sobre o saldo restante.",
+      "explicacoes_alternativas": {
+        "A": "750 ignora os juros cobrados desde a compra.",
+        "B": "765 aplica um único mês de juros sobre 750, sem calcular o saldo correto.",
+        "C": "780 é o saldo logo após a primeira parcela, antes dos juros do segundo mês.",
+        "D": "795,60 resulta de (1.500 × 1,02 − 750) × 1,02.",
+        "E": "810 não corresponde à evolução mensal do saldo devedor."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 6,
+        "questao": 17,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-35",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Comércio exterior: Siscomex",
+      "enunciado": "O Sistema Integrado de Comércio Exterior (Siscomex) foi desenvolvido inicialmente só para as operações de exportações brasileiras. Posteriormente (a partir de 1997) começou a ser utilizado também para",
+      "alternativas": {
+        "A": "integrar os registros de entrada de capital financeiro com os do comércio exterior do Brasil.",
+        "B": "integrar os cadastros e registros das importações brasileiras.",
+        "C": "controlar a evolução das cotações no mercado de câmbio brasileiro.",
+        "D": "acompanhar a evolução das reservas em divisas estrangeiras do Banco Central do Brasil.",
+        "E": "registrar a entrada no Brasil de capitais financeiros de curto prazo."
+      },
+      "resposta_correta": "B",
+      "explicacao": "O Siscomex integra o registro e o controle de operações de comércio exterior. A pergunta trata da expansão histórica de 1997, quando passou a abranger também os registros das importações brasileiras.",
+      "explicacoes_alternativas": {
+        "A": "Fluxos de capital financeiro não são a expansão histórica específica pedida.",
+        "B": "A inclusão das importações complementou o tratamento inicial das exportações.",
+        "C": "Controlar cotações cambiais não é a finalidade descrita.",
+        "D": "As reservas internacionais não são o cadastro de importações.",
+        "E": "Capitais financeiros de curto prazo não são operações de importação de mercadorias."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 12,
+        "questao": 35,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-36",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Debêntures",
+      "enunciado": "A emissão de debêntures permite à empresa captar recursos sem recorrer ao crédito bancário. As debêntures",
+      "alternativas": {
+        "A": "são títulos de dívida do emissor com prazo de vencimento até 90 dias.",
+        "B": "são emitidas exclusivamente pelas empresas de capital aberto.",
+        "C": "permitem à empresa emissora obter recursos sem aumentar a pulverização da propriedade de seu capital.",
+        "D": "permitem sempre a opção de serem resgatadas em ações da própria empresa emissora.",
+        "E": "são títulos de dívida do emissor sem garantias."
+      },
+      "resposta_correta": "C",
+      "explicacao": "Debêntures representam dívida da companhia. Ao emiti-las, a empresa capta recursos sem emitir novas ações naquele momento, preservando a distribuição da propriedade. Algumas podem ser conversíveis, mas essa característica não é obrigatória.",
+      "explicacoes_alternativas": {
+        "A": "Não existe limitação geral de vencimento a 90 dias para debêntures.",
+        "B": "Companhias fechadas também podem emitir debêntures; oferta pública envolve regras próprias.",
+        "C": "A emissão de dívida não pulveriza, por si só, a propriedade acionária.",
+        "D": "A conversão em ações depende das condições de emissão; não ocorre sempre.",
+        "E": "Debêntures podem ter garantias; não são necessariamente desprovidas delas."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 12,
+        "questao": 36,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-37",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Sociedades anônimas",
+      "enunciado": "Uma empresa constituída como Sociedade Anônima de Capital Fechado tem como característica importante",
+      "alternativas": {
+        "A": "limitar a possibilidade de perda de um sócio ao capital que ele investiu.",
+        "B": "necessitar de alteração no contrato social se houver entrada ou saída de sócio.",
+        "C": "ter ações negociáveis diariamente no mercado de bolsa.",
+        "D": "ter sócios cujos nomes constam nos Estatutos Sociais da empresa.",
+        "E": "ser uma Sociedade por Cotas com Responsabilidade Limitada e ter no mínimo sete sócios."
+      },
+      "resposta_correta": "A",
+      "explicacao": "Na sociedade anônima, a responsabilidade do acionista se limita ao preço de emissão das ações subscritas ou adquiridas. Fechada significa que não tem valores mobiliários admitidos à negociação no mercado de valores mobiliários. A alternativa A expressa a limitação de responsabilidade de forma simplificada.",
+      "explicacoes_alternativas": {
+        "A": "É a alternativa que expressa a responsabilidade limitada do acionista; observe o limite legal do preço de emissão.",
+        "B": "Ações podem ser transferidas sem alterar um contrato social a cada entrada ou saída.",
+        "C": "Negociação em bolsa é característica de companhia aberta, não fechada.",
+        "D": "A identificação dos titulares é mantida nos registros de ações, não exige que todos os nomes constem no estatuto.",
+        "E": "Sociedade anônima tem capital dividido em ações, não em cotas de uma limitada."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 12,
+        "questao": 37,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-39",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Proteção cambial",
+      "enunciado": "Uma empresa no Brasil tomou um empréstimo de 500 mil dólares de um banco no exterior e, em 180 dias, deve repagar o principal e os juros. Para sua proteção completa contra surpresas nas variações das taxas cambiais, a empresa faz um swap. Ter feito o swap significa que a empresa vendeu 500 mil dólares para obter reais no mercado de câmbio pronto e",
+      "alternativas": {
+        "A": "comprou apenas os dólares correspondentes aos juros, no mercado cambial futuro, para entrega em 180 dias.",
+        "B": "comprou 500 mil dólares mais os juros correspondentes, no mercado cambial futuro, para entrega em 90 dias.",
+        "C": "comprou 500 mil dólares mais os juros correspondentes, no mercado cambial futuro, para entrega em 180 dias.",
+        "D": "comprou 500 mil dólares, no mercado cambial pronto.",
+        "E": "vendeu 500 mil dólares mais os juros correspondentes, no mercado cambial futuro, para entrega em 180 dias."
+      },
+      "resposta_correta": "C",
+      "explicacao": "A obrigação vence em 180 dias e compreende principal mais juros em dólares. A proteção deve cobrir esse mesmo valor e prazo: vender os dólares recebidos no presente e contratar sua compra futura para quitar a dívida reduz a exposição à variação cambial.",
+      "explicacoes_alternativas": {
+        "A": "Protege só os juros e deixa o principal descoberto.",
+        "B": "O vencimento de 90 dias não coincide com a dívida de 180 dias.",
+        "C": "Alinha valor total e prazo da compra de dólares à obrigação.",
+        "D": "Comprar no mercado pronto não é a combinação futura descrita.",
+        "E": "Vender dólares futuros cria posição oposta à necessária para pagar a dívida."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 12,
+        "questao": 39,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-40",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Taxas de câmbio cruzadas",
+      "enunciado": "Suponha que a taxa de câmbio entre reais (R$) e dólares (US$) seja de 2 R$/US$, e a taxa de câmbio entre libras (£) e dólares seja de 0,50 £/US$. Deduz-se que a taxa de câmbio entre reais e libras, em R$/£, é de",
+      "alternativas": {
+        "A": "0,5",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "4"
+      },
+      "resposta_correta": "E",
+      "explicacao": "Um dólar vale R$ 2 e £ 0,50. Portanto uma libra vale dois dólares: 2 × R$ 2 = R$ 4. Outra forma é dividir 2 R$/US$ por 0,50 £/US$, obtendo 4 R$/£.",
+      "explicacoes_alternativas": {
+        "A": "0,5 é a cotação em libras por dólar, não reais por libra.",
+        "B": "1 não resulta da divisão das taxas na unidade pedida.",
+        "C": "2 é o valor em reais de um dólar, não de uma libra.",
+        "D": "3 não é a razão entre 2 e 0,50.",
+        "E": "4 R$/£ resulta da divisão 2/0,50."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 12,
+        "questao": 40,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-41",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Estrutura do Sistema Financeiro Nacional",
+      "enunciado": "O Sistema Financeiro Nacional, em todas as partes que o compõem, foi estruturado de forma a promover o desenvolvimento equilibrado do país e a servir aos interesses da coletividade. Em relação à sua composição, o Sistema Financeiro Nacional pode ser divido em",
+      "alternativas": {
+        "A": "organizações governamentais, instituições públicas e instituições financeiras.",
+        "B": "instituições financeiras, instituições filantrópicas e entidades operadoras.",
+        "C": "órgãos normativos, entidades supervisoras e operadores.",
+        "D": "instituições públicas, organizações não governamentais e instituições privadas.",
+        "E": "órgãos fiscalizadores, entidades supervisoras e organizações governamentais."
+      },
+      "resposta_correta": "C",
+      "explicacao": "O SFN se organiza em órgãos normativos, que estabelecem regras; entidades supervisoras, que fiscalizam; e operadores, que prestam serviços financeiros. Exemplo: CMN, Banco Central e bancos, respectivamente.",
+      "explicacoes_alternativas": {
+        "A": "Classifica por natureza pública ou governamental, sem refletir os três papéis institucionais.",
+        "B": "Entidades filantrópicas não constituem um dos três segmentos do SFN.",
+        "C": "Reúne corretamente os papéis de normatizar, supervisionar e operar.",
+        "D": "A divisão público/privado e ONGs não corresponde à estrutura funcional do SFN.",
+        "E": "Repete a ideia de supervisão e omite operadores e órgãos normativos."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 13,
+        "questao": 41,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-42",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Banco Central",
+      "enunciado": "As instituições que compõem o Sistema Financeiro Nacional exercem suas atividades de modo que todo sistema funcione adequadamente. O principal executor das orientações do Conselho Monetário Nacional e responsável por garantir o poder de compra da moeda nacional é",
+      "alternativas": {
+        "A": "a Superintendência Nacional de Seguros Privados - SUSEP",
+        "B": "o Banco Central do Brasil",
+        "C": "a Bolsa de Valores",
+        "D": "o Conselho Nacional de Seguros Privados",
+        "E": "a Caixa Econômica"
+      },
+      "resposta_correta": "B",
+      "explicacao": "O CMN define diretrizes gerais de política monetária e creditícia. O Banco Central executa essas orientações e atua para preservar o poder de compra da moeda. É necessário distinguir quem formula as diretrizes de quem as executa.",
+      "explicacoes_alternativas": {
+        "A": "A Susep supervisiona seguros, não executa a política monetária geral.",
+        "B": "O Banco Central é o executor indicado no enunciado.",
+        "C": "A bolsa organiza mercados, não é a autoridade monetária.",
+        "D": "O CNSP estabelece diretrizes para seguros privados.",
+        "E": "A Caixa é instituição financeira operadora, não a autoridade monetária."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 13,
+        "questao": 42,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-43",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Seguros: endosso",
+      "enunciado": "Os planos de seguro têm o objetivo de gerar proteção patrimonial às pessoas físicas ou jurídicas. Em um seguro de veículo, se o segurado trocar de carro ou incluir algum item em sua apólice, ele deverá solicitar a seguradora um",
+      "alternativas": {
+        "A": "endosso na apólice",
+        "B": "reembolso de prêmio",
+        "C": "estorno de pagamento",
+        "D": "cancelamento de apólice",
+        "E": "pedido de prêmio"
+      },
+      "resposta_correta": "A",
+      "explicacao": "Endosso é o documento pelo qual se formalizam alterações em uma apólice durante sua vigência. Ao substituir o veículo ou acrescentar cobertura, o segurado solicita endosso; pode haver ajuste do prêmio conforme o novo risco.",
+      "explicacoes_alternativas": {
+        "A": "O endosso registra a mudança contratual na apólice.",
+        "B": "Reembolso de prêmio é devolução de valor e não formaliza a alteração desejada.",
+        "C": "Estorno desfaz cobrança ou pagamento, não substitui o bem segurado.",
+        "D": "Cancelar encerra o contrato, em vez de ajustá-lo.",
+        "E": "Prêmio é o preço do seguro, não o instrumento de alteração."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 13,
+        "questao": 43,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-44",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Caixa e FGTS",
+      "enunciado": "A Caixa Econômica Federal tem a missão de atuar na promoção da cidadania e do desenvolvimento sustentável do País, como instituição financeira, agente de políticas públicas e parceira estratégica do Estado brasileiro. Uma de suas funções é administrar o fundo de",
+      "alternativas": {
+        "A": "pensão alimentícia",
+        "B": "investimento em direitos creditórios",
+        "C": "investimento público",
+        "D": "garantia por tempo de serviço",
+        "E": "garantia de créditos"
+      },
+      "resposta_correta": "D",
+      "explicacao": "A Caixa atua como agente operador do Fundo de Garantia do Tempo de Serviço. O FGTS reúne depósitos vinculados aos trabalhadores e tem regras próprias de saque e aplicação. Não se deve confundi-lo com o Fundo Garantidor de Créditos.",
+      "explicacoes_alternativas": {
+        "A": "Pensão alimentícia é obrigação familiar, não o fundo referido.",
+        "B": "Um FIDC não é o fundo trabalhista administrado pela Caixa nesse papel.",
+        "C": "Investimento público é expressão genérica que não identifica o FGTS.",
+        "D": "É o Fundo de Garantia do Tempo de Serviço, objeto da função da Caixa.",
+        "E": "O FGC protege determinados créditos contra instituições financeiras e não se confunde com o FGTS."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 13,
+        "questao": 44,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-45",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "BNDES",
+      "enunciado": "O Banco Nacional de Desenvolvimento Econômico e Social (BNDES), empresa pública federal, é hoje o principal instrumento de financiamento de longo prazo no país. O apoio do BNDES à economia brasileira se dá principalmente por meio de",
+      "alternativas": {
+        "A": "empréstimos para fortalecimento do fluxo de caixa, capital de giro e garantias creditícias de pequenas e médias empresas.",
+        "B": "financiamentos a projetos de investimentos, aquisição de equipamentos e exportação de bens e serviços, nas empresas.",
+        "C": "financiamentos de bens e serviços para indústria do petróleo e empréstimos para capital de giro na indústria têxtil.",
+        "D": "investimentos em projetos voltados para importação de insumos da indústria automobilística.",
+        "E": "investimentos para aquisição de insumos agrícolas e importação de equipamentos para os pequenos produtores rurais."
+      },
+      "resposta_correta": "B",
+      "explicacao": "O BNDES atua principalmente no financiamento do desenvolvimento com foco em investimentos de prazo mais longo, equipamentos e exportações. A alternativa B descreve esse conjunto de forma ampla, sem restringi-lo a setores ou importações específicos.",
+      "explicacoes_alternativas": {
+        "A": "Capital de giro pode ser apoiado, mas a opção não descreve o foco amplo de longo prazo pedido.",
+        "B": "Projetos, equipamentos e exportações expressam as principais linhas de apoio apresentadas.",
+        "C": "Limita indevidamente a atuação a petróleo e indústria têxtil.",
+        "D": "Restringe o apoio à importação de insumos de um único setor.",
+        "E": "Restringe o apoio a insumos agrícolas e importação para pequenos produtores."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 13,
+        "questao": 45,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-46",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Arrendamento mercantil",
+      "enunciado": "As sociedades de arrendamento mercantil são supervisionadas pelo Banco Central do Brasil e fazem parte dos operadores do Sistema Financeiro Nacional. Constitui uma das operações realizadas pelas sociedades de arrendamento mercantil o",
+      "alternativas": {
+        "A": "leasing",
+        "B": "factoring",
+        "C": "underwriting",
+        "D": "office banking",
+        "E": "swap"
+      },
+      "resposta_correta": "A",
+      "explicacao": "Leasing é arrendamento mercantil: o arrendador disponibiliza um bem mediante contraprestações, conforme a modalidade e o contrato. Não é a mesma operação que comprar recebíveis ou fazer um derivativo de troca de riscos.",
+      "explicacoes_alternativas": {
+        "A": "Leasing é a denominação da operação de arrendamento mercantil.",
+        "B": "Factoring envolve aquisição de direitos creditórios e serviços associados.",
+        "C": "Underwriting está ligado à colocação de valores mobiliários.",
+        "D": "Office banking designa canais ou serviços bancários para empresas.",
+        "E": "Swap é um derivativo de troca de fluxos ou riscos financeiros."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 13,
+        "questao": 46,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-49",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Factoring",
+      "enunciado": "Considere as operações financeiras pelas quais uma empresa vende seus direitos creditórios, que seriam pagos a prazo, através de títulos comprados à vista, com desconto, por um terceiro. Tais operações financeiras são realizadas por",
+      "alternativas": {
+        "A": "associações de poupança",
+        "B": "empresas de arrendamento mercantil",
+        "C": "cooperativas de crédito",
+        "D": "sociedades de fomento mercantil",
+        "E": "sociedades distribuidoras de títulos e valores mobiliários"
+      },
+      "resposta_correta": "D",
+      "explicacao": "Na operação descrita, a empresa recebe antecipadamente pela venda de seus direitos creditórios a uma sociedade de fomento mercantil, com desconto. Esse é o núcleo do factoring, que pode incluir serviços de gestão de recebíveis.",
+      "explicacoes_alternativas": {
+        "A": "Associações de poupança não são o agente típico de fomento mercantil descrito.",
+        "B": "Arrendamento mercantil disponibiliza bens para uso, não é a compra de recebíveis descrita.",
+        "C": "Cooperativas podem realizar serviços financeiros, mas não identificam a modalidade de fomento mercantil pedida.",
+        "D": "Sociedades de fomento mercantil realizam factoring.",
+        "E": "Distribuidoras atuam na distribuição e intermediação de valores mobiliários."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 14,
+        "questao": 49,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-50",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Cobrança bancária",
+      "enunciado": "Os pagamentos bancários realizados por intermédio de títulos e carnês são instrumentos que facilitam as operações de cobrança, gerando mais eficiência no processo de repasse de recursos. Nesse sentido, após o pagamento de um boleto pelo sacado, o cedente deve",
+      "alternativas": {
+        "A": "solicitar o crédito junto à instituição financeira emissora.",
+        "B": "aguardar o crédito na conta corrente cadastrada que será realizado automaticamente.",
+        "C": "retirar uma ordem de pagamento no banco emissor do boleto.",
+        "D": "solicitar a emissão de um DOC ao sacado para compensar o título.",
+        "E": "aguardar o aviso do sacado que emitirá uma ordem de pagamento para o banco emissor."
+      },
+      "resposta_correta": "B",
+      "explicacao": "No fluxo de cobrança por boleto, o pagamento é processado e o crédito segue para a conta cadastrada do beneficiário, conforme os prazos e condições de liquidação. Não é necessário pedir uma transferência adicional a cada boleto pago.",
+      "explicacoes_alternativas": {
+        "A": "Não precisa solicitar individualmente cada crédito de boleto já processado.",
+        "B": "O crédito é automático na conta cadastrada, observado o prazo de liquidação.",
+        "C": "O fluxo não exige retirar uma ordem de pagamento.",
+        "D": "Não é necessário que o pagador emita um DOC adicional; o boleto já foi pago.",
+        "E": "O processamento bancário não depende de ordem de pagamento posterior emitida pelo sacado."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 14,
+        "questao": 50,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-51",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Canais digitais",
+      "enunciado": "Com a evolução da tecnologia e as constantes mudanças no contexto econômico e social, os bancos investem cada vez mais no conceito de remote banking, reduzindo os custos operacionais e gerando mais eficiência aos processos. Um exemplo de serviço ligado ao conceito de remote banking é a",
+      "alternativas": {
+        "A": "emissão de cheques pré-datados.",
+        "B": "utilização de cartão de crédito.",
+        "C": "operação com boleto bancário.",
+        "D": "utilização do banco pela internet.",
+        "E": "emissão de duplicatas ao portador."
+      },
+      "resposta_correta": "D",
+      "explicacao": "Remote banking significa realizar operações bancárias a distância, reduzindo a necessidade de ir à agência. O banco pela internet é o exemplo direto de canal remoto, ao contrário de documentos ou instrumentos de pagamento por si sós.",
+      "explicacoes_alternativas": {
+        "A": "Um cheque pré-datado não é um canal de atendimento remoto.",
+        "B": "O cartão é um instrumento de pagamento e crédito, não o exemplo direto do canal pedido.",
+        "C": "Boleto é um instrumento de cobrança; sua existência não caracteriza atendimento remoto.",
+        "D": "Internet banking permite consultar e operar a distância.",
+        "E": "Duplicata é um título ligado a uma operação comercial, não um canal remoto."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 14,
+        "questao": 51,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-52",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Commercial papers",
+      "enunciado": "De acordo com suas necessidades de caixa, as empresas utilizam serviços do mercado financeiro para captação de recursos. Os títulos de curto prazo emitidos por empresas e sociedades anônimas para captar recursos de capital de giro são denominados",
+      "alternativas": {
+        "A": "títulos públicos",
+        "B": "hot money",
+        "C": "commercial papers",
+        "D": "factoring",
+        "E": "títulos federais"
+      },
+      "resposta_correta": "C",
+      "explicacao": "Commercial papers são notas promissórias comerciais usadas na captação de curto prazo por empresas. A pergunta se refere ao instrumento de dívida emitido pela empresa para financiar suas necessidades de capital de giro.",
+      "explicacoes_alternativas": {
+        "A": "Títulos públicos são emitidos pelo poder público.",
+        "B": "Hot money é uma operação de crédito de curtíssimo prazo, não o título emitido descrito.",
+        "C": "Commercial papers correspondem ao instrumento de captação empresarial pedido.",
+        "D": "Factoring envolve cessão de recebíveis e serviços, não emissão desse título.",
+        "E": "Títulos federais são emitidos pelo governo federal, não pela empresa."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 14,
+        "questao": 52,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-54",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Finanças corporativas",
+      "enunciado": "Os produtos e serviços oferecidos pelas instituições financeiras evoluíram de acordo com a necessidade do mercado. Tais instituições realizam desde operações simples a operações mais complexas, que é o caso da área de corporate finance. Nos bancos, as operações de corporate finance estão relacionadas à",
+      "alternativas": {
+        "A": "manutenção de atividades corporativas para empresas estrangeiras.",
+        "B": "intermediação de aquisições, cisões, incorporações e fusões de empresas.",
+        "C": "negociação de letras de câmbio com o mercado financeiro internacional.",
+        "D": "emissão de debêntures para financiamento da necessidade de capital de giro.",
+        "E": "intermediação da negociação de títulos públicos nas Bolsas de Valores."
+      },
+      "resposta_correta": "B",
+      "explicacao": "Corporate finance abrange decisões e operações de estrutura de capital e reorganização empresarial. Na questão, a atividade típica é assessorar aquisições, cisões, incorporações e fusões, que alteram a estrutura ou o controle de empresas.",
+      "explicacoes_alternativas": {
+        "A": "Manter atividades de estrangeiras é descrição vaga que não identifica as operações societárias pedidas.",
+        "B": "Reúne operações clássicas de reorganização e combinação de empresas.",
+        "C": "Negociar letras de câmbio não descreve o foco de reorganização societária da questão.",
+        "D": "Debêntures são captação; a alternativa B identifica mais diretamente o conjunto de operações complexas pedido.",
+        "E": "Intermediar títulos públicos pertence à atuação no mercado de títulos, não ao foco societário pedido."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 14,
+        "questao": 54,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-55",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "CDB e RDB",
+      "enunciado": "Os títulos de renda fixa emitidos pelos bancos comerciais e pelos bancos de investimento destinados a lastrear operações de capital de giro são os",
+      "alternativas": {
+        "A": "registros e títulos públicos federais",
+        "B": "certificados e letras do tesouro nacional",
+        "C": "recibos e letras de câmbio",
+        "D": "títulos federais e debêntures",
+        "E": "certificados e recibos de depósito bancário"
+      },
+      "resposta_correta": "E",
+      "explicacao": "CDB e RDB são instrumentos de captação das instituições financeiras e representam depósitos a prazo. Os recursos captados financiam operações de crédito. Não se confundem com títulos do Tesouro nem com debêntures corporativas.",
+      "explicacoes_alternativas": {
+        "A": "Títulos públicos federais são dívida do governo, não captação bancária por depósito a prazo.",
+        "B": "Letras do Tesouro são instrumentos públicos, não os títulos bancários pedidos.",
+        "C": "A combinação apresentada não identifica CDB e RDB.",
+        "D": "Mistura títulos públicos com debêntures, que não são os depósitos a prazo bancários.",
+        "E": "Certificados e recibos de depósito bancário correspondem a CDB e RDB."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 14,
+        "questao": 55,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-56",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Crédito direto ao consumidor",
+      "enunciado": "Atualmente os bancos oferecem diversas modalidades de crédito. A operação de crédito concedida para a aquisição de bens e serviços, com a opção de antecipação de pagamento das parcelas com deságio, é o",
+      "alternativas": {
+        "A": "leasing",
+        "B": "certificado de depósito interbancário",
+        "C": "cartão de crédito",
+        "D": "crédito direto ao consumidor",
+        "E": "hot money"
+      },
+      "resposta_correta": "D",
+      "explicacao": "O CDC financia aquisição de bens e serviços pelo consumidor. A liquidação antecipada deve considerar a redução proporcional de juros e demais acréscimos cabíveis; a dívida futura não é simplesmente somada sem desconto.",
+      "explicacoes_alternativas": {
+        "A": "Leasing é arrendamento; não é o empréstimo de CDC descrito.",
+        "B": "CDI é instrumento interfinanceiro, não financiamento ao consumidor.",
+        "C": "Cartão de crédito é meio de pagamento com modalidades próprias, não a modalidade específica pedida.",
+        "D": "CDC é o crédito destinado à aquisição de bens e serviços descrito.",
+        "E": "Hot money atende necessidades de curtíssimo prazo, tipicamente de empresas."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 14,
+        "questao": 56,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-58",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Desconto de títulos",
+      "enunciado": "Os bancos oferecem diversas modalidades de crédito para as empresas ajustarem seu fluxo de caixa. Uma dessas modalidades é o desconto de títulos, que consiste na",
+      "alternativas": {
+        "A": "antecipação de um direito (recebível), seja um boleto ou um cheque, feito pelo banco ao cliente, mediante a cobrança de uma taxa de juros.",
+        "B": "prorrogação do vencimento de títulos (deveres) dos seus clientes para uma data futura, mediante a cobrança de uma taxa de juros.",
+        "C": "liquidação antecipada de títulos dos clientes com um desconto nos juros proporcional ao prazo de antecipação.",
+        "D": "geração de descontos em tarifas e taxas bancárias para os clientes que realizarem os pagamentos de títulos pela internet.",
+        "E": "alienação de recebíveis atrelados a bens móveis e imóveis com desconto na taxa de juros."
+      },
+      "resposta_correta": "A",
+      "explicacao": "No desconto bancário, o banco antecipa ao cliente o valor de um recebível antes do vencimento, descontando juros e encargos. Por exemplo, um título de R$ 1.000 a vencer pode gerar hoje crédito menor que esse valor.",
+      "explicacoes_alternativas": {
+        "A": "Descreve a antecipação do recebível mediante cobrança de juros.",
+        "B": "Prorrogar o vencimento é postergar, enquanto desconto antecipa recursos.",
+        "C": "Quitar uma dívida antecipadamente é diferente de antecipar um direito de recebimento.",
+        "D": "Desconto em tarifa de internet banking não é desconto bancário de títulos.",
+        "E": "Vincular recebíveis a bens móveis ou imóveis não define essa operação."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 15,
+        "questao": 58,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    },
+    {
+      "id": "basa-2013-1-59",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Garantias: aval",
+      "enunciado": "Para se resguardarem de possíveis inadimplências nas operações de cessão de crédito aos seus clientes, os Bancos estabelecem alguns tipos de garantia. O aval é uma garantia",
+      "alternativas": {
+        "A": "real extrajudicial e incide sobre bens imóveis ou equiparados que pertençam ao devedor ou a terceiros.",
+        "B": "pessoal autônoma e solidária destinada a garantir títulos de crédito, permitindo que um terceiro seja coobrigado em relação às obrigações assumidas.",
+        "C": "real vinculada a uma coisa móvel ou mobilizável que ficará em poder do Banco durante a operação de empréstimo.",
+        "D": "vinculada a um bem móvel que fica em nome do Banco até o término do pagamento do empréstimo.",
+        "E": "exigida pelo emprestador de acordo com o risco da operação e pode ser real ou impessoal."
+      },
+      "resposta_correta": "B",
+      "explicacao": "Aval é garantia pessoal ligada a título de crédito. O avalista assume obrigação autônoma e responde pelo pagamento conforme as regras do título. Diferentemente de uma garantia real, o aval não é constituído sobre um bem específico.",
+      "explicacoes_alternativas": {
+        "A": "Descreve garantia real sobre imóvel, não aval.",
+        "B": "Define a garantia pessoal autônoma destinada a assegurar título de crédito.",
+        "C": "A entrega de bem móvel é característica de penhor, não aval.",
+        "D": "A titularidade fiduciária de bem móvel remete à alienação fiduciária.",
+        "E": "A descrição genérica não define o aval e usa classificação inadequada de garantia impessoal."
+      },
+      "fonte": {
+        "concurso": "Banco da Amazônia",
+        "banca": "Cesgranrio",
+        "cargo": "Técnico Bancário",
+        "ano": 2013,
+        "arquivo": "basa0113_prova_01_merged.pdf",
+        "sha256": "ad08c2bbe24e862ffb96a4667b7190cd335debd2eb603767aeecc3ae5940c68e",
+        "pagina": 15,
+        "questao": 59,
+        "pagina_gabarito": 16,
+        "versao": "Gabarito 1"
+      },
+      "status_validacao": "gabarito_conferido",
+      "autoria_explicacao": "Comentário didático autoral; não é comentário oficial da banca. Contexto da prova de 2013; normas e produtos podem ter mudado."
+    }
+  ]
+}

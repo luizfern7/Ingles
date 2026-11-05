@@ -1,0 +1,1983 @@
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMCAtMDMwMA==
+
+
+                                                                                                                                                              UnB/CESPE
+•       De acordo com o comando a que cada um dos itens a seguir se refira, marque, na folha de respostas, para cada item: o campo
+        designado com o código C, caso julgue o item CERTO; ou o campo designado com o código E, caso julgue o item ERRADO. Para
+        as devidas marcações, use a folha de respostas, único documento válido para a correção das suas respostas.
+•       Nos itens que avaliam conhecimentos de informática, a menos que seja explicitamente informado o contrário, considere que todos
+        os programas mencionados estão em configuração-padrão, em português e que não há restrições de proteção, de funcionamento e de
+        uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados.
+                                                      CONHECIMENTOS BÁSICOS
+Texto para os itens de 1 a 7                                                                              Uma exploração racional da Amazônia
+                Amazônia: um pouco antes do fim                                                1             Em cinco séculos de exploração predatória, a mata
+                                                                                                   atlântica teve a área que ocupava reduzida a cerca de 5% do
+    1             A Amazônia está de novo na berlinda. Mas agora é pra                             território original. Hoje, teme-se que a Amazônia, principal
+        valer, agora a região não sairá mais do noticiário. A insanidade                       4   responsável pela primeira posição do Brasil no ranque de
+        dos incendiários da floresta equatorial para fazer pasto data da                           biodiversidade da ONG Conservation International, sofra uma
+    4   década de 70, auge do regime militar. A outra loucura — o                                  devastação do mesmo porte. Embora 87% da floresta ainda
+        agro-negócio na selva — é mais recente. Muito mais remota é                            7   estejam de pé, a taxa de desmatamento nos anos 90 foi de
+        a prática da derrubada de árvores para exportar madeira nobre.
+                                                                                                   20 mil quilômetros quadrados por ano.
+    7   Isso é tão antigo quanto a colonização portuguesa. Nem é
+                                                                                                             Às diversas iniciativas de conservação inspiradas por
+        necessário dizer que todas essas práticas predadoras são
+                                                                                           10      esse temor, vem se juntar o livro A Floresta Amazônica, a ser
+        movidas por poderosos interesses econômicos. Mas isso não
+                                                                                                   lançado durante a Reunião Especial da SBPC sobre a
+10      exclui uma mistura perfeita de ganância com ignorância. A
+                                                                                                   Amazônia. O autor, o jornalista Marcelo Leite, editor de
+        palavra “desenvolvimento” pode ser vazia e até nociva se a
+                                                                                           13      ciência da Folha de S.Paulo, explica na introdução que “o
+        ação desenvolvimentista for predadora. Infelizmente é isso que
+13      está acontecendo nas várias áreas do Norte do Brasil.                                      objetivo central do livro é desfazer a imagem de que a floresta
+                  Euclides da Cunha, que em 1905 viajou pela                                       tenha estado ou vá estar aí para sempre”. Ao longo da obra,
+        Amazônia, escreveu vários ensaios reunidos no livro À                              16      Leite defende modelos de exploração racional da floresta
+                                                                                                   amazônica.
+16      Margem da História. Nunca esqueci uma de suas frases que,
+        a meu ver, é emblemática: “A Amazônia é um infinito que deve                                         O manejo florestal sustentável, em oposição à
+                                                                                           19      exploração predatória da madeira, é um exemplo de como se
+        ser dosado”. Com isso, o autor do clássico Os Sertões queria
+19      dizer que a Amazônia, além de múltipla e diversa, é dotada de                              podem aproveitar economicamente de forma racional os
+        tamanha grandeza e complexidade que deve ser estudada por                                  recursos da Amazônia. Leite cita estudos que apontam a
+        partes. Cada rio tem uma história com particularidades                             22      vocação florestal da região (83% da Amazônia Legal são
+22      geográficas, sociais, culturais, simbólicas. Cada trecho da                                imprestáveis para o gado ou o cultivo) e que mostram que a
+        floresta possui uma riqueza ambiental e humana que deve ser                                extração sustentável de madeira é 35% mais rentável que a
+        estudada, analisada.                                                               25      predatória. “Danificando menos a mata, sobretudo árvores mais
+                                                                                                   jovens, e também preservando árvores adultas de menor
+                     Milton Hatoum. Amazônia: um pouco antes do fim. In: Terra Magazine.
+                     Internet: <www.terramagazine.terra.com.br> (com adaptações).
+                                                                                                   qualidade para que continuem a reproduzir-se, o manejo
+                                                                                           28      florestal garante uma reposição mais rápida da madeira com
+Julgue os itens a seguir, relativos à compreensão e à interpretação                                valor comercial”, explica Leite.
+do texto.
+                                                                                                                                 Revista Ciência Hoje, Abr./2001 (com adaptações).
+1       O autor assume como causa principal da devastação da
+        Amazônia a ignorância dos empreendedores, os quais                                 Tendo em vista as informações veiculadas no texto acima, além de
+        desconhecem formas de manejo sustentável da floresta.                              seus aspectos gramaticais e textuais, julgue os próximos itens.
+2       Segundo a lógica que o autor expõe no texto, o termo                               8       Com relação à tipologia textual, é correto afirmar que se trata
+        desenvolvimento, quando se observa a situação da Amazônia,                                 de um texto predominantemente narrativo, em que o autor
+        pode representar não apenas aspectos positivos, mas também                                 expõe deliberadamente o seu ponto de vista sobre a exploração
+        uma atitude danosa do homem.                                                               da Amazônia por meio de uma pequena história.
+3       O autor demonstra simpatia pelo pensamento de Euclides da                          9       É possível reescrever o trecho “Embora 87% da floresta ainda
+        Cunha, que considerava a Amazônia um espaço de imensas                                     estejam de pé” (R.6-7), mantendo-se a correção gramatical do
+        riquezas que deve ser tratado com cuidado.                                                 texto, sem prejuízo para o significado geral do parágrafo, da
+4       O autor afirma que a forma de desenvolvimento adotada no                                   seguinte forma: Ainda que 87% da floresta permaneçam de pé.
+        Brasil, tal como secularmente vem acontecendo na Amazônia,                         10      A expressão “Às diversas iniciativas de conservação” (R.9)
+        considera seriamente componentes “geográficas, sociais,                                    exerce a função de sujeito da forma verbal “vem se juntar”
+        culturais, simbólicas” de cada trecho da floresta.                                         (R.10).
+Tendo em vista os aspectos gramaticais e de construção do texto,                           11      O termo “esse”, em “Às diversas iniciativas de conservação
+julgue os itens que se seguem.                                                                     inspiradas por esse temor” (R.9-10) refere-se ao medo de que
+                                                                                                   a Amazônia sofra a mesma devastação que se deu com a mata
+5       O emprego da vírgula logo após a expressão “data da década                                 atlântica.
+        de 70” (R.3-4) justifica-se porque o termo que vem a seguir tem
+        natureza explicativa.                                                              12      A mesma regra justifica a acentuação dos vocábulos
+                                                                                                   “amazônica” e “sustentável”.
+6       No texto, os termos “insanidade” (R.2) e “loucura” (R.4)
+        possuem sentidos bastante diversos, pois qualificam ações                          13      Caso seja retirado o acento grave no trecho “em oposição à
+        diferentes em momentos diferentes da história da Amazônia.                                 exploração” (R.18-19), mantêm-se a correção gramatical e o
+                                                                                                   sentido da frase.
+7       Seria mantida a correção gramatical do trecho “Muito mais
+        remota é a prática da derrubada de árvores para exportar                           14      O ritmo acelerado de desmatamento, de acordo com o texto,
+        madeira nobre” (R.5-6) se o termo “remota” fosse substituído                               ameaça a biodiversidade amazônica, embora mais de três
+        por remoto.                                                                                quartos da mata ainda estejam conservados.
+
+
+Banco da Amazônia S.A. – Cargo 23: Técnico Bancário                                                                                                                         –1–
+
+                                                               w ww.pciconcursos.com.br                                         www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMCAtMDMwMA==
+
+
+                                                                                                                                       UnB/CESPE
+
+Texto para os itens de 15 a 20                                                    Em fevereiro de 1999, Hugo Chávez iniciou o seu primeiro
+                                                                                  mandato como presidente venezuelano. A respeito de seus
+                 Entrevista: Marina Silva                                         onze anos de governo, julgue os itens a seguir.
+      Protagonismo feminino na Amazônia é muito forte
+                                                                                  21   Chávez defende novas formas de cooperação internacional
+ 1             As mulheres, em todo o mundo, têm de passar por                         entre os países latino-americanos, destacando-se a criação da
+     muitos obstáculos — entre eles o preconceito. Para você, o que                    Aliança Bolivariana para as Américas, em oposição ao Tratado
+     é ser uma mulher na região amazônica? Quais os desafios e vantagens?              de Livre Comércio das Américas.
+ 4             Marina Silva — Primeiro que ser uma mulher na
+     Amazônia, ainda que com suas peculiaridades, guarda                          22   A nacionalização de empresas estrangeiras de diversos setores
+     semelhanças com ser uma mulher no Brasil. As dificuldades, os                     e o maior controle estatal da economia têm sido marcas do
+ 7   preconceitos, que muitas vezes elas têm de enfrentar, não são                     governo de Hugo Chávez.
+     diferentes porque se trata da Amazônia. Isso não vai ser
+                                                                                  23   A política externa de Hugo Chávez é marcada pela criação de
+     diferente do que a gente vai encontrar nas diversas regiões do
+10   país.                                                                             fortes laços com a Colômbia, base de seu projeto de
+               Acho que uma característica importante é que na                         bolivarianismo do século XXI.
+     Amazônia elas foram assumindo um protagonismo muito forte
+                                                                                  Com relação ao impacto da ocupação humana na Amazônia, julgue
+13   em todos os sentidos. Se você pega a luta dos seringueiros,
+     você vai ver figuras femininas. A primeira presidente do                     os itens que se seguem.
+     Sindicato dos Trabalhadores Rurais de Xapuri, na época do                    24   Na Amazônia, as usinas termelétricas produzem quantidades
+16   Chico Mendes, era uma mulher [Dona Raimunda], que agora
+     novamente está no sindicato. A formação do Conselho                               desprezíveis de CO2, quando comparadas às usinas
+     Nacional dos Seringueiros tem uma forte participação das                          hidrelétricas.
+19   mulheres, inclusive da Dona Raimunda.                                        25   Menos de 10% das terras da Amazônia Legal têm títulos de
+               Você também pode observar isso na política, na                          propriedade válidos, uma das consequências da ocupação
+     academia. A presidente do museu Goeldi também é uma                               desordenada da região.
+22   mulher. Você tem uma forte participação da mulher. Então ser
+     uma mulher na Amazônia comporta a dor e as delícias de ser                   26   A principal área de devastação ambiental da Amazônia é o
+     uma mulher no Brasil, com as dificuldades típicas de cada região.                 chamado arco do desmatamento, região que se estende de
+25             E quais seriam essas dificuldades típicas da região                     Rondônia ao Maranhão.
+     amazônica?
+                                                                                  27   As cidades têm pouco impacto ambiental porque, ao contrário
+               Marina Silva — Acho que o atendimento das
+28   demandas de Saúde e Educação, aquelas demandas que são                            do restante do Brasil, a maior parte da população da Amazônia
+     básicas e essenciais e que para uma grande parte das mulheres                     ainda vive no campo e está envolvida em atividades típicas do
+     na Amazônia são algo muito distante. Você tem uma ausência                        desenvolvimento sustentável.
+31   do Estado muito grande na prestação de serviços elementares:
+     do atendimento da saúde da mulher, planejamento familiar,                    O Painel Intergovernamental sobre Mudanças Climáticas (IPCC) se
+     atendimento da infância e é algo que sobrecarrega muito as                   tornou referência nas discussões sobre possíveis mudanças no clima
+34   mulheres.                                                                    do planeta. Acerca do IPCC e de seus relatórios, julgue os itens
+                                       Thais Iervolino.   Internet: <www.portal   subsequentes.
+                                       amazonia.org>      (com adaptações).
+                                                                                  28   No quarto relatório produzido pelo órgão, em 2007, foi
+Tendo em vista as informações veiculadas no texto, além de seus                        avaliado que, desde meados do século XX, o aquecimento
+aspectos gramaticais e textuais, julgue os itens seguintes.                            global é inequívoco e quase certamente causado pela ação do
+15   Seria mantida a concordância verbal no trecho “As mulheres,                       homem.
+     em todo o mundo, têm de passar por muitos obstáculos” (R.1-2)                29   O IPCC é ligado ao governo dos Estados Unidos da América,
+     retirando-se o acento circunflexo da forma verbal “têm”.                          o que, por vezes, tem posto em dúvidas os relatórios do órgão.
+16 O pronome “elas” em “elas têm de enfrentar” (R.7) refere-se à
+                                                                                  30   Em 2009, o IPCC foi agraciado, juntamente com o presidente
+     mulher que vive na Amazônia.
+                                                                                       americano Barack Obama, com o prêmio Nobel da Paz, em
+17 Para a entrevistada, as dificuldades da mulher que vive na
+                                                                                       razão dos serviços prestados para a melhoria do conhecimento
+     Amazônia são semelhantes às que mulheres de outras regiões
+     encontram para se afirmar na sociedade, embora ocorram em                         climático do planeta.
+     escala menor.                                                                A respeito dos ambientes Windows XP e Linux, julgue os itens a
+18 O trecho “Se você pega a luta dos seringueiros” (R.13) tem                     seguir.
+     características da linguagem informal e poderia ser reescrito,
+     mantendo-se o significado, da seguinte forma: Se tomarmos                    31   Os sistemas Windows XP e Linux têm kernel comum, aberto,
+     como exemplo a luta dos seringueiros.                                             que pode ser facilmente customizado pelo usuário.
+Considerando o texto e os seguintes requisitos: “A redação oficial                32   O Linux, um sistema multitarefa e multiusuário, é disponível
+deve caracterizar-se pela impessoalidade, uso do padrão culto de                       em várias distribuições, entre as quais, Debian, Ubuntu,
+linguagem, clareza, concisão, formalidade e uniformidade”                              Mandriva e Fedora.
+(Manual de Redação da Presidência da República, 2002), julgue
+os itens que se seguem.                                                           33   O Windows XP possui, por padrão, uma interface gráfica,
+                                                                                       enquanto o Linux tem disponíveis várias interfaces gráficas,
+19 O quarto parágrafo — “Você também (...) cada região”                                que podem ser instaladas e customizadas segundo a
+   (R.20-24) — não seria adequado para compor um documento
+   com o padrão ofício.                                                                necessidade do usuário.
+20 As respostas da entrevistada, na ordem em que são                              34   Tanto o Linux quanto o Windows XP possuem suporte nativo
+   apresentadas, poderiam fazer parte do corpo de um relatório.                        ao protocolo TCP/IP para acesso à Internet.
+
+
+Banco da Amazônia S.A. – Cargo 23: Técnico Bancário                                                                                              –2–
+
+                                                          w ww.pciconcursos.com.br                                 www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMCAtMDMwMA==
+
+
+                                                                                                                               UnB/CESPE
+
+Considerando que, em uma empresa, um computador seja usado por          Acerca de matemática financeira, julgue os itens subsequentes.
+várias pessoas para acesso à Intranet, julgue os itens que se seguem.
+                                                                        46   Considerando 1,1 e 1,0489 como valores aproximados de
+35   Em uma situação normal, caso um usuário deseje acessar a                1,0128 e 1,0124, respectivamente, é correto afirmar que a taxa
+                                                                             anual de juros equivalente à taxa de juros compostos de 1,2%
+     Internet e a intranet da empresa ao mesmo tempo, ele deve
+                                                                             ao mês é inferior a 15%.
+     usar duas versões diferentes de navegador, por questão de
+                                                                        47   Se um empréstimo de R$ 1.000,00 for quitado em 10
+     incompatibilidade de tecnologia entre a Internet e a intranet.
+                                                                             prestações, mensais e consecutivas, a juros de 2% ao mês, pelo
+36   Na situação em questão, o uso de correio eletrônico pode ser            sistema de amortização constante (SAC), e se a primeira
+     feito por meio de um cliente de correio, como o Microsoft               prestação vencerá um mês após a contratação do empréstimo,
+     Outlook, ou com o uso de uma interface web. Em ambos os                 então o valor da terceira prestação será igual a R$ 116,00.
+     casos, é possível que as mensagens de correio do usuário           48   Considerando que a instituição financeira X ofereça aos
+     fiquem armazenadas no servidor de e-mail da empresa.                    clientes a taxa de desconto de 2,4% ao mês para desconto de
+                                                                             títulos, e que a instituição concorrente Y ofereça uma redução
+37   Para melhorar o nível de controle de acesso dos usuários à              de 25% na taxa praticada pela X, para descontos dos títulos
+     Internet, é possível o uso de mecanismos de segurança como              com vencimentos em até 90 dias, então o valor atual, com
+     firewalls e antivírus.                                                  desconto simples por fora, pago pela Y para um título com
+                                                                             valor de face de R$ 1.000,00 e que vence em 2 meses é inferior
+38   Caso se deseje usar o referido computador para gerar
+                                                                             a R$ 960,00.
+     documentos no Windows XP, é possível salvar esses
+                                                                        49   Caso uma loja de roupas ofereça o desconto de 5% sobre o
+     documentos na pasta Meus Documentos, mas, por padrão,
+                                                                             preço de cada peça para pagamento à vista, ou o pagamento em
+     nenhuma pasta ou subpasta pode ser excluída desse
+                                                                             duas parcelas, mensais e iguais, sem acréscimo, com a primeira
+     computador, e também não é possível enviar documento                    devendo ser paga no ato da compra, então a taxa mensal de
+     anexado a correio eletrônico.                                           juros que a loja embute nos preços para vendas a prazo é
+39   Se o acesso à Internet for feito mediante um servidor proxy,            superior a 10%.
+     pode ser impedido o acesso a determinadas páginas e tipos de       50   Se um cliente aplicou seu dinheiro em uma instituição
+     software, em função de configurações de restrição que podem             financeira à taxa de juros (aparente) de 7,52% ao ano, durante
+     ser realizadas.                                                         determinado ano em que a inflação oficial apurada foi de 5%,
+                                                                             então o valor aplicado por esse cliente, nesse ano, rendeu juros
+40   TCP/IP é o protocolo padrão para o acesso à Internet. No caso           reais acima de 2,5%.
+     da intranet, o acesso é realizado, por padrão, com o uso do         4#5%70*1
+     protocolo IPv6.
+
+         Os saldos dos depósitos em poupança dos correntistas
+Miguel, Norberto, Orlando e Paulo, em uma agência bancária,
+somavam R$ 64.000,00. Em um mesmo dia, foram realizadas as
+seguintes operações nessas contas de poupança:
+
+<    Miguel fez um depósito de R$ 3.000,00;
+<    Norberto fez um saque de R$ 3.000,00;
+<    Orlando depositou o dobro do montante que já possuía de
+     saldo;
+<    Paulo sacou dois terços do seu saldo.
+       Após essas operações, os quatro clientes ficaram com o
+mesmo saldo em suas respectivas contas de poupança.
+
+Com referência a essa situação hipotética, julgue os itens a seguir,
+a respeito dos saldos das contas desses correntistas antes de
+realizadas as citadas operações.
+
+41   O saldo da conta de Paulo era igual ao triplo do saldo da conta
+     de Orlando.
+42   O saldo da conta de Miguel era igual à metade do saldo da
+     conta de Norberto.
+43   A soma dos saldos das contas de Miguel e de Norberto era
+     igual a dois terços do saldo da conta de Paulo.
+44   O saldo da conta de Orlando era igual a R$ 4.000,00.
+45   O saldo da conta de Norberto era superior a R$ 16.000,00.
+
+
+Banco da Amazônia S.A. – Cargo 23: Técnico Bancário                                                                                     –3–
+
+                                                      w ww.pciconcursos.com.br                            www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMCAtMDMwMA==
+
+
+                                                                                                                             UnB/CESPE
+
+                                          CONHECIMENTOS ESPECÍFICOS
+Em contratos de empréstimos bancários, assim como em outras             No mercado de câmbio, são feitas negociações de conversões de
+modalidades de contrato, como aluguel de imóvel, entre outros, é        diferentes moedas estrangeiras entre pessoas físicas, jurídicas,
+normal a exigência de avalista, fiador ou fiança bancária. Acerca de    instituições financeiras autorizadas e o Banco Central do Brasil
+garantias financeiras, julgue os itens subsequentes.                    (BACEN). Com relação ao mercado de câmbio, julgue os itens
+                                                                        seguintes.
+51   Em uma garantia formalizada por meio de aval, o avalista
+     assume a mesma posição jurídica do avaliado, isto é, o avalista    63 No mercado de câmbio de taxas flutuantes, são realizadas
+     é solidário com o avalizado.                                          operações de importação e exportação, operações de
+                                                                           empréstimos e investimentos externos, assim como as remessas
+52   A ausência da assinatura do cônjuge em garantias formalizadas         para remuneração dessas operações.
+     por meio de fiança e(ou) de aval não invalida a garantia
+     outorgada, em qualquer regime de bens do casal.                    64 Operações de câmbio consistem basicamente na conversão da
+                                                                           moeda de um país na moeda de outro país. Essas operações
+53   Um contrato de empréstimo pode ter vários avalistas, caso o           podem ser de compra de moeda estrangeira, de venda de
+     devedor principal fique inadimplente. O credor deve exigir a          moeda estrangeira ou de arbitragem.
+     liquidação do empréstimo primeiro do devedor principal e
+                                                                        65 Se um turista trocar dólares por reais, estará trocando moedas,
+     depois, proporcionalmente, de cada um dos avalistas.
+                                                                           o que é denominado câmbio manual.
+54   Na garantia oferecida para o credor mediante fiança, em caso       66 O BACEN, por meio dos dealers, realiza operações de compra
+     de inadimplência, o credor deve executar simultaneamente o            e venda de moeda estrangeira. Se, em determinado dia, a taxa
+     devedor e o fiador, mesmo que o fiador não tenha renunciado           de câmbio estiver subindo além das expectativas oficiais, o
+     tacitamente ao benefício da ordem.                                    BACEN poderá intervir, comprando moeda estrangeira para
+55   Quando oferecer garantia ao credor por meio de penhor                 fazer a taxa baixar e voltar aos níveis desejados pela
+     mercantil, o devedor fica como depositário dos bens oferecidos        autoridade monetária.
+     em garantia, sem transferência da posse ao credor.                 Importadores e exportadores negociam os seus pagamentos e
+56   Uma fiança bancária é normalmente aprovada pela área de            recebimentos de moedas estrangeiras com instituições financeiras
+     crédito do banco, que pode exigir garantias do cliente e definir   autorizadas a operar no mercado de câmbio. Essas operações criam
+     um custo para a operação, sem restrições para o prazo de           posições compradas e vendidas para as instituições financeiras e
+     vencimento, que pode ser desde o prazo do vencimento da            para o sistema bancário. Acerca desse tema, julgue os itens que se
+     obrigação para a qual a fiança se destina até prazo                seguem.
+     indeterminado.
+                                                                        67   Se um banco autorizado a operar no mercado de câmbio fizer
+57   Fiança bancária é um contrato firmado por um banco e seu                um contrato de compra de moeda estrangeira junto ao BACEN,
+     cliente, no qual o banco assegura o pagamento de uma                    isso alterará a sua posição de câmbio e a do sistema,
+     obrigação de seu cliente junto a um credor.                             aumentando a posição comprada do banco ou diminuindo a sua
+58   O valor total de fianças em vigor por instituição financeira não        posição vendida.
+     pode, em momento algum, exceder 5% do valor do patrimônio          68   A posição de câmbio do sistema bancário é resultado das
+     líquido da instituição financeira.                                      somas das posições compradas e vendidas de todos os bancos.
+                                                                             Operações de compra ou venda entre bancos não alteram a
+No caso de empréstimos bancários, também podem ser solicitadas               posição de câmbio do sistema, modificando apenas a posição
+garantias por meio de penhor ou hipoteca. Em outros                          comprada e vendida de cada banco.
+financiamentos, como automóveis e imóveis, a garantia pode ser
+alienação fiduciária de coisa móvel ou coisa imóvel e(ou) hipoteca.     69   Se um banco faz um contrato de venda de moeda estrangeira
+Com relação a esse assunto, julgue os itens a seguir.                        para um importador de mercadorias com prazo de entrega de
+                                                                             cinco dias, essa operação não altera a posição do sistema
+59 Um bem imóvel pode ser hipotecado a vários credores                       bancário, mas aumenta a posição vendida do banco operador
+   simultaneamente. Na situação em que um imóvel que seja                    ou diminui a sua posição comprada.
+   oferecido em garantia para dois credores e o valor obtido pela       70   Um exportador de commodities, ao fazer adiantamento sobre
+   sua venda não seja suficiente para liquidar a dívida da hipoteca          contratos de câmbio (ACC) com um banco que opera no
+   de segundo grau, o credor da segunda passará para a condição              mercado de câmbio, antecipa recursos para o período do
+   de quirografário.                                                         processo produtivo e da comercialização da mercadoria a seu
+60 O credor da hipoteca de segundo grau, em caso de venda                    exportador.
+   judicial do imóvel hipotecado, tem direito, no mínimo, a 50%         71   Considere que um importador tenha oferecido ao exportador
+   do valor obtido pela venda do imóvel.                                     uma carta de crédito emitida por um banco do país do
+61 Na alienação fiduciária de um bem móvel perfeitamente                     importador como garantia de pagamento e que esse banco
+   identificável, o devedor alienante não é proprietário do bem              transferiu os termos do crédito para um correspondente do país
+   alienado, embora tenha a sua posse diretamente. Ele torna-se              exportador. Nesse caso, se o importador não pagar, o
+   titular pleno do domínio do bem somente após a liquidação do              compromisso de pagamento passará a ser do banco que
+                                                                             instituiu a carta de crédito e do banco correspondente do país
+   financiamento no qual o bem tenha sido oferecido como
+                                                                             exportador.
+   garantia.
+                                                                        72   O exportador pode contratar o câmbio antes de embarcar a
+62 Se uma empresa de construção civil, proprietária de um prédio,
+                                                                             mercadoria, travando o câmbio. Nessa operação, o exportador
+   vender para um adquirente um apartamento financiado                       fixa a taxa de conversão da moeda estrangeira, fecha o câmbio
+   diretamente pelo construtor, mediante assinatura de um                    com um banco e recebe o valor equivalente em reais no
+   contrato de alienação fiduciária de bem imóvel, então, no                 momento do fechamento do câmbio.
+   registro imobiliário, o credor constará como proprietário
+                                                                        73   Se um banco autorizado a operar no mercado de câmbio tiver
+   fiduciário e o devedor, como proprietário fiduciante. Nesse
+                                                                             comprado divisas de um exportador de commodities,
+   caso, o fiduciante terá a posse direta e o fiduciário será o
+                                                                             necessariamente deverá vendê-las para outro banco ou recolher
+   possuidor indireto da coisa imóvel.
+                                                                             o excesso da posição comprada para o BACEN.
+
+Banco da Amazônia S.A. – Cargo 23: Técnico Bancário                                                                                    –4–
+
+                                                      w ww.pciconcursos.com.br                           www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMCAtMDMwMA==
+
+
+                                                                                                                            UnB/CESPE
+
+As moedas têm as suas cotações alteradas em pequenos intervalos        Julgue os itens a seguir, acerca da estrutura do Sistema Financeiro
+de   tempo,     e   quaisquer     cotações    inadequadas   oferecem   Nacional (SFN).
+oportunidades de arbitragem. Acerca das arbitragens, das remessas      81   No que se refere à supervisão bancária e à regulação
+de moedas estrangeiras, dos contratos de câmbio, dos sistemas e das         prudencial, o BACEN subordina-se às decisões do Conselho
+instituições autorizadas a operar no mercado de câmbio, julgue os           Monetário Nacional (CMN).
+próximos itens.                                                        82   O Banco da Amazônia S.A. é supervisionado, no que se refere
+                                                                            às operações de crédito que realiza, exclusivamente pela
+74   Considere que o dólar e o euro tenham apresentado, em um               Comissão de Valores Mobiliários.
+     dado momento, as seguintes cotações:                              83   As resoluções que regulam o SFN são editadas pelo CMN.
+     Nova Iorque: US$ 1 = i 0,70; Viena: i 1 = US$ 1,50.
+                                                                       84   As cooperativas de crédito não são classificadas como
+     Considere ainda que, de posse dessas informações, um                   instituições financeiras e não estão autorizadas a realizar
+     investidor norte-americano invista US$ 50.000 na compra de             operações de captação por meio de depósitos à vista e a prazo
+     euros em Nova Iorque e autorize seu operador de Viena, na              de associados.
+     Áustria, a vender os euros e comprar dólares. Nessa operação,     85   Dos três ministros que compõem o CMN, um deles é o
+     o investidor obterá um ganho superior a US$ 2.000, sem                 ministro da Fazenda.
+     considerar os efeitos dos custos operacionais e impostos.
+                                                                       Considerando que o Banco da Amazônia S.A. é um banco
+75   Se o cliente de um banco no Brasil deseja remeter i 1.000         comercial e que oferece a seus clientes produtos e serviços
+     para um residente em Madri, essa operação pode ser efetuada       financeiros, julgue os itens que se seguem.
+     com o banco no Brasil, que recebe o equivalente em reais ou       86   Os bancos comerciais podem manter contas de depósitos à
+     debita o valor correspondente na conta-corrente do cliente,            vista.
+     cobrando uma comissão pela remessa, e credita em moeda            87   O certificado de depósito bancário (CDB) é uma modalidade
+     estrangeira para um banqueiro no exterior. Então, o banqueiro          de depósito à vista.
+     avisa o favorecido e entrega a ele o valor na moeda local.        88   Contas de depósito à vista são popularmente denominadas
+76   O Sistema Integrado de Comércio Exterior (SISCOMEX)                    contas correntes.
+     registra eletronicamente, por intermédio de bancos autorizados    89   A transferência eletrônica disponível (TED) é uma modalidade
+     pelo BACEN, acompanha e controla todas as fases de                     ágil de transferência de fundos entre contas de depósitos.
+     operações de importação e exportação.                              4#5%70*1
+
+
+77   Um contrato de câmbio pactuado entre comprador e vendedor
+     de moeda estrangeira estabelece as características e as
+     condições em que a operação está sendo realizada e deve
+     ser registrado no Sistema de Informações do BACEN
+     (SISBACEN), por uma instituição autorizada pelo BACEN até
+     as 19 h do dia em que a operação for realizada.
+78   Podem operar em câmbio, nas posições compradas e vendidas,
+     bancos múltiplos; bancos de investimento; bancos comerciais;
+     sociedades de crédito, financiamento e investimento, corretoras
+     de títulos e valores mobiliários; distribuidoras de títulos e
+     valores mobiliários e corretoras de câmbio.
+79   Se, em determinado dia, uma instituição financeira comprar
+     mais moedas estrangeiras do que vender, ela deverá ter, no
+     final do dia, uma posição comprada e, para zerar a sua posição,
+     deverá recolher para o BACEN toda a posição comprada, até
+     as 16 h 30 min do mesmo dia.
+80   Se, em determinado dia, uma instituição financeira vender mais
+     moedas estrangeiras do que comprar, ela deverá ter, no final
+     do dia, uma posição vendida, que deverá ser adicionada à
+     posição do dia anterior. Esse saldo não deverá exceder o limite
+     definido pelo BACEN.
+
+Banco da Amazônia S.A. – Cargo 23: Técnico Bancário                                                                                   –5–
+
+                                                      w ww.pciconcursos.com.br                          www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMCAtMDMwMA==
+
+
+                                                                                                                              UnB/CESPE
+
+Com relação aos sistemas de liquidação e custódia, julgue os            Clientes superavitários em termos financeiros são aqueles que
+próximos itens.                                                         consomem menos que a renda e, em decorrência, realizam
+                                                                        aplicações nos bancos. Com relação a esse tema, julgue os itens
+90   O Sistema Especial de Liquidação e de Custódia (SELIC)             seguintes.
+     provê maior segurança aos compradores e vendedores de
+                                                                        106 Ao aplicar em um fundo de investimentos, assim como em um
+     títulos públicos.
+                                                                            CDB, o cliente tem seus recursos garantidos pelo Fundo
+91   Em uma transação de compra e venda de determinado título               Garantidor de Créditos (FGC).
+     realizada pela CETIP, o preço do título é definido por ela,        107 As letras de crédito imobiliário são lastreadas por créditos
+     sendo as partes obrigadas a aceitar as condições estipuladas           imobiliários garantidos por hipoteca ou por alienação
+     por essa empresa.                                                      fiduciária de coisa imóvel.
+92   Um sistema de liquidação e custódia é aquele no qual se dá a       108 O plano de previdência privada aberta denominado plano
+     liquidação física e financeira das compras e vendas de títulos         gerador de benefício livre (PGBL) destina-se a captar recursos
+     e outros papéis.                                                       de curto prazo dos clientes, de preferência inferior a
+                                                                            sessenta dias.
+93   Liquidação física em uma transação de compra e venda de            109 Os seguros do tipo vida gerador de benefício livre (VGBL)
+     títulos é a entrega de numerário em espécie do vendedor para           possibilitam o desconto integral dos prêmios mensais para
+     o comprador.                                                           aqueles contribuintes que utilizam o formulário de declaração
+94   Liquidação financeira é a entrega, do comprador para o                 simplificada.
+     vendedor, de determinado montante de recursos previamente          110 Os títulos de capitalização são adequados para os recursos de
+     acertado entre as partes quando elas realizam transação de             curtíssimo prazo, considerando a alta liquidez, sendo vedada
+     compra e venda de títulos.                                             a distribuição de prêmios aos detentores desses títulos por
+                                                                            meio da realização de sorteios.
+Julgue os itens subsequentes, relativos a cobrança bancária.
+                                                                        Considerando que o Banco da Amazônia S.A. possui ações
+95   A cobrança bancária possibilita que o vendedor receba do           negociadas na BM&FBovespa, julgue os itens a seguir, acerca de
+     comprador os valores devidos por este último, na data acertada     mercado de capitais e operações com derivativos.
+     entre as partes, mesmo que elas residam em cidades diferentes.     111 Para que o Banco da Amazônia S.A. aumente o capital social
+96   As taxas de condomínio e mensalidades escolares não podem              com a captação de recursos novos, não originários das
+     ser recebidas por meio de cobrança bancária.                           reservas, ele pode realizar oferta primária de ações.
+                                                                        112 As ações do Banco da Amazônia S.A. são negociadas em bolsa
+97   Sacado é obrigatoriamente o cliente do banco que tem valores
+                                                                            de valores e podem ser adquiridas por qualquer investidor que
+     a receber por meio de um boleto de cobrança enviado ao                 participe desse mercado, o que o caracteriza como uma
+     cedente.                                                               sociedade anônima de capital fechado.
+98   Uma duplicata pode ser liquidada por meio do serviço de            113 No Brasil, é amplamente utilizada a prática de manter as ações
+     cobrança bancária e as principais informações desse título de          ao portador, de modo a facilitar a negociação nas bolsas de
+     crédito podem constar do boleto bancário.                              valores.
+                                                                        114 O cliente comprador, em uma opção de compra, tem o direito
+Acerca de crédito bancário, julgue os itens seguintes.
+                                                                            de adquirir determinada quantidade de ações a preço
+99   As operações de crédito, sob o ponto de vista do banco, são            previamente acordado por certo período ou em determinada
+     denominadas operações ativas.                                          data.
+                                                                        115 Quando o índice Ibovespa registra alta, isso quer dizer que
+100 As operações denominadas hot money são aquelas de longo
+                                                                            todas as ações negociadas na BM&FBovespa subiram de
+     prazo, normalmente realizadas com recursos providos pelo               preço.
+     Banco Nacional de Desenvolvimento Econômico e Social.
+                                                                        116 Quando ocorre desdobramento (split), não há variação
+101 As contas garantidas assemelham-se em funcionamento ao                  patrimonial na companhia, visto que, simplesmente, foi
+     cheque especial e destinam-se, prioritariamente, às empresas           alterado o número de ações em que se divide o capital da
+     (pessoas jurídicas).                                                   empresa.
+102 O desconto de títulos é uma modalidade de empréstimo                117 As operações de compra de ações a termo não representam
+     bancário em que é feita uma antecipação de recursos aos quais          risco ao vendedor, motivo pelo qual não é necessário o
+                                                                            depósito de margem por parte do comprador.
+     o cliente do banco apenas iria ter acesso em data futura,
+     recursos esses provenientes da liquidação de títulos de crédito    Julgue os itens subsequentes, a respeito de fundos de investimentos.
+     cujo credor/beneficiário é esse cliente.                           118 Um fundo referenciado DI deve manter uma carteira de
+103 No desconto de duplicatas, se o sacado não pagar, o banco não           investimentos que apresente retorno compatível com o
+     pode requerer de volta o dinheiro antecipado ao seu clientes,          referencial determinado (as taxas de juros equivalentes aos
+     isto é, não há direito de regresso.                                    depósitos interfinanceiros de um dia).
+                                                                        119 A taxa de administração é a principal remuneração obtida
+104 A principal atividade das empresas de fomento mercantil
+                                                                            pela instituição financeira quando oferece um fundo de
+     (factoring) é atuar provendo operações de arrendamento                 investimentos aos clientes. Ela é devida mesmo quando o
+     mercantil (leasing) diretamente a seus clientes.                       fundo em questão apresenta retorno negativo.
+105 O crédito direto ao consumidor é uma modalidade destinada           120 A alavancagem é uma técnica que provê total garantia quanto
+     exclusivamente à compra de bens imóveis comerciais e                   a possíveis perdas, por estar baseada na manutenção de
+     residenciais, e seus principais clientes são as pessoas físicas.       operações restritas a um único mercado e indexador.
+
+Banco da Amazônia S.A. – Cargo 23: Técnico Bancário                                                                                     –6–
+
+                                                      w ww.pciconcursos.com.br                            www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                            Aplicação: 21/2/2010
+
+
+                                              Cargo 1: Técnico Científico – área: Administração
+                                                                        0
+                                                                    0
+                                                      GABARITOS OFICIAIS DEFINITIVOS
+                                                                        0
+
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4     5        6     7    8     9         10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E     E        C     E    C     E         C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24    25      26     27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C     E       E      C    E     C         C     E     C     E     C     C      C     C     E     E     E
+
+    Item       41     42    43    44    45      46     47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      E      C     E     C     E       E      E    C     E         E     C     E     C     E     E      C     C     E     C     C
+
+    Item       61     62    63    64    65      66     67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      E      C     E     C     E       E      C    C     E         E     E     C     C     E     E      C     E     C     E     C
+
+    Item       81     82    83    84    85      86     87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      C      E     C     E     C       E      C    E     C         C     E     C     C     E     C      E     C     E     E      C
+
+    Item       101    102   103   104   105     106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       C      C     C     E     E       E     C     E     C         E     C     E     E     C     C      E     E     C     C     E
+
+                0      0
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                      www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                            Aplicação: 21/2/2010
+
+
+                                              Cargo 2: Técnico Científico – área: Contabilidade
+                                                                       0
+                                                                   0
+                                                     GABARITOS OFICIAIS DEFINITIVOS
+                                                                   0
+Obs.: ( X ) item anulado.
+    Item        1      2    3     4     5       6     7     8     9        10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E     E       C     E     C     E        C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24    25      26    27    28    29       30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C     E       E     C     E     C        C     E     C     E     C     C      C     C     E     E     E
+
+    Item       41     42    43    44    45      46    47    48    49       50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      E      C     E     C     E       E     E     C     E        E     C     C     E     E     C      E     E     C     C     E
+
+    Item       61     62    63    64    65      66    67    68    69       70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      E      C     E     C     E       C     C     C     C        E     E     C     E     C     E      C     C     C     C     C
+
+    Item       81     82    83    84    85      86    87    88    89       90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      E      C     E     E     C       E     C     C     E        C     E     E     C     E     E      C     C     E     E      E
+
+    Item       101    102   103   104   105    106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       E      C     C     C     E      C     E     E     E         E     C     E     C     E     C      C     C     E     C     E
+
+                0      0
+                0      0     0     0     0      0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0      0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0      0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0      0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0      0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0      0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0      0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0      0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                     www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                          Aplicação: 21/2/2010
+
+
+                                              Cargo 3: Técnico Científico – área: Economia
+
+                                                                      0
+                                                                  0
+                                                    GABARITOS OFICIAIS DEFINITIVOS
+                                                                  0
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4     5     6      7    8     9         10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E     E     C      E    C     E         C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24    25    26     27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C     E     E      C    E     C         C     E     C     E     C     C      C     C     E     E     E
+
+    Item       41     42    43    44    45    46     47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      E      C     E     C     E     E      E    C     E         E     E     C     E     C     E      C     C     C     E     E
+
+    Item       61     62    63    64    65    66     67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      C      E     E     E     C     E      C    C     E         E     E     C     C     E     C      C     E     E     E     C
+
+    Item       81     82    83    84    85    86     87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      C      C     C     E     C     E      E    X     E         C     E     E     C     E     C      E     E     C     E      C
+
+    Item       101    102   103   104   105   106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       E      C     E     C     E     C     C     E     E         E     E     C     C     C     E      E     C     E     C     C
+
+                0      0
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                    www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                           Aplicação: 21/2/2010
+
+
+                                        Cargo 4: Técnico Científico – área: Enfermagem do Trabalho
+
+                                                                       0
+                                                                   0
+                                                     GABARITOS OFICIAIS DEFINITIVOS
+                                                                   0
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4       5     6     7    8     9         10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E       E     C     E    C     E         C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24      25   26     27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C       E    E      C    E     C         C     E     C     E     C     C      C     C     E     E     E
+
+    Item       41     42    43    44      45   46     47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      E      C     E     C       E    E      E    C     E         E     C     E     E     E     C      C     E     C     C     E
+
+    Item       61     62    63    64      65   66     67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      C      E     C     C       C    C      E    C     E         E     C     E     E     E     C      C     E     E     C     E
+
+    Item       81     82    83    84      85   86     87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      C      E     C     C       E    C      C    E     E         E     C     E     C     C     E      C     E     C     C      E
+
+    Item       101    102   103   104    105   106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       E      E     E     C      E     C     C     C     E         C     E     E     E     C     E      C     C     E     C     C
+
+                0      0
+                0      0     0     0      0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0      0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0      0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0      0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0      0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0      0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0      0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0      0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                     www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                          Aplicação: 21/2/2010
+
+
+                                        Cargo 5: Técnico Científico – área: Engenharia Agronômica
+
+                                                                      0
+                                                                  0
+                                                    GABARITOS OFICIAIS DEFINITIVOS
+                                                                  0
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4      5     6     7    8     9         10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E      E     C     E    C     E         C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24     25    26    27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C      E     E     C    E     C         C     E     C     E     C     C      C     C     E     E     E
+
+    Item       41     42    43    44     45    46    47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      E      C     E     C      E     E     E    C     E         E     C     E     C     C     E      E     E     C     C     E
+
+    Item       61     62    63    64     65    66    67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      C      E     E     C      E     E     C    C     E         C     E     C     C     C     C      E     E     E     C     E
+
+    Item       81     82    83    84     85    86    87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      E      C     E     C      C     E     C    C     E         C     E     E     C     E     C      C     E     E     C      C
+
+    Item       101    102   103   104   105   106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       E      E     C     E     C     C     E     E     E         C     E     C     E     E     C      C     C     E     C     E
+
+                0
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                    www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                            Aplicação: 21/2/2010
+
+
+                                             Cargo 6: Técnico Científico – área: Engenharia Civil
+                                                                        0
+                                                                    0
+                                                      GABARITOS OFICIAIS DEFINITIVOS
+                                                                    0
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4     5       6      7    8     9         10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E     E       C      E    C     E         C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24    25      26     27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C     E       E      C    E     C         C     E     C     E     C     C      C     C     E     E     E
+
+    Item       41     42    43    44    45      46     47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      E      C     E     C     E       E      E    C     E         E     C     E     E     C     C      C     E     C     E     E
+
+    Item       61     62    63    64    65      66     67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      C      E     C     E     E       C      C    C     E         C     E     E     E     C     E      C     C     C     E     C
+
+    Item       81     82    83    84    85      86     87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      E      E     C     E     C       E      E    C     C         E     E     C     C     E     E      C     E     C     C      E
+
+    Item       101    102   103   104   105     106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       E      C     E     C     C       E     C     E     C         E     C     E     C     E     C      E     C     C     C     E
+
+                0      0
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                      www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                          Aplicação: 21/2/2010
+
+
+                                        Cargo 7: Técnico Científico – área: Engenharia Florestal
+                                                                      0
+                                                                  0
+                                                    GABARITOS OFICIAIS DEFINITIVOS
+                                                                  0
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4     5     6      7    8     9         10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E     E     C      E    C     E         C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24    25    26     27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C     E     E      C    E     C         C     E     C     E     C     C      C     C     E     E     E
+
+    Item       41     42    43    44    45    46     47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      E      C     E     C     E     E      E    C     E         E     E     C     E     C     E      C     C     E     C     E
+
+    Item       61     62    63    64    65    66     67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      C      E     C     E     C     C      C    E     E         C     E     E     E     E     C      C     E     E     X     C
+
+    Item       81     82    83    84    85    86     87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      C      C     E     C     C     E      C    E     C         E     C     E     E     C     C      C     C     C     E      E
+
+    Item       101    102   103   104   105   106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       C      C     C     E     E     C     E     C     E         E     C     C     C     C     E      C     E     E     E     C
+
+                0      0
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                    www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                          Aplicação: 21/2/2010
+
+
+                                        Cargo 8: Técnico Científico – área: Engenharia Mecânica
+                                                                      0
+                                                                  0
+                                                    GABARITOS OFICIAIS DEFINITIVOS
+                                                                  0
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4     5     6      7    8     9         10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E     E     C      E    C     E         C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24    25    26     27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C     E     E      C    E     C         C     E     C     E     C     C      C     C     E     E     E
+
+    Item       41     42    43    44    45    46     47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      E      C     E     C     E     E      E    C     E         E     E     E     E     C     C      C     C     E     C     E
+
+    Item       61     62    63    64    65    66     67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      C      C     C     E     C     C      C    C     E         C     E     C     E     C     E      E     E     C     E     C
+
+    Item       81     82    83    84    85    86     87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      C      E     C     C     E     E      C    E     C         C     E     E     E     C     C      E     E     E     C      C
+
+    Item       101    102   103   104   105   106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       C      E     C     E     C     C     E     C     E         C     C     C     E     C     E      E     C     E     C     C
+
+                0      0
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                    www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                          Aplicação: 21/2/2010
+
+
+                                              Cargo 9: Técnico Científico – área: Estatística
+
+                                                                      0
+                                                                  0
+                                                    GABARITOS OFICIAIS DEFINITIVOS
+                                                                  0
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4     5     6      7     8     9        10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E     E     C      E     C     E        C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24    25    26     27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C     E     E      C    E     C         C     E     C     E     C     C      C     C     E     E     E
+
+    Item       41     42    43    44    45    46     47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      E      C     E     C     E     E      E    C     E         E     E     E     C     E     E      C     C     C     C     E
+
+    Item       61     62    63    64    65    66     67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      C      C     E     E     E     C      C    E     E         C     E     E     E     C     E      C     C     C     E     C
+
+    Item       81     82    83    84    85    86     87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      E      C     E     C     C     E      E    E     C         C     E     C     E     C     C      E     E     C     C      C
+
+    Item       101    102   103   104   105   106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       C      E     C     C     E     E     C     E     C         E     C     C     C     E     C      E     E     C     E     C
+
+                0      0
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                    www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                          Aplicação: 21/2/2010
+
+
+                                        Cargo 10: Técnico Científico – área: Medicina do Trabalho
+                                                                      0
+                                                                  0
+                                                    GABARITOS OFICIAIS DEFINITIVOS
+                                                                  0
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4      5    6      7    8     9         10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E      E    C      E    C     E         C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24    25    26     27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C     E     E      C    E     C         C     E     C     E     C     C      C     C     E     E     E
+
+    Item       41     42    43    44    45    46     47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      E      C     E     C     E     E      E    C     E         E     C     C     C     E     C      C     E     E     C     E
+
+    Item       61     62    63    64    65    66     67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      C      E     E     C     E     C      E    C     C         E     C     C     E     E     C      C     E     C     C     C
+
+    Item       81     82    83    84    85    86     87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      E      C     E     E     E     E      E    C     E         C     C     C     E     E     C      E     C     C     C      E
+
+    Item       101    102   103   104   105   106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       C      E     E     C     C     E     C     C     C         C     C     E     C     C     E      C     E     E     C     C
+
+                0      0
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                    www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                          Aplicação: 21/2/2010
+
+
+                                        Cargo 11: Técnico Científico – área: Medicina Veterinária
+
+                                                                      0
+                                                                  0
+                                                    GABARITOS OFICIAIS DEFINITIVOS
+                                                                  0
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4     5     6      7    8     9         10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E     E     C      E    C     E         C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24    25    26     27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C     E     E      C    E     C         C     E     C     E     C     C      C     C     E     E     E
+
+    Item       41     42    43    44    45    46     47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      E      C     E     C     E     E      E    C     E         E     C     E     C     E     C      E     E     C     E     C
+
+    Item       61     62    63    64    65    66     67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      C      C     C     E     E     E      C    E     C         E     C     E     C     E     E      C     E     C     C     E
+
+    Item       81     82    83    84    85    86     87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      C      E     C     E     C     E      E    C     E         C     C     E     C     E     C      E     E     C     E      C
+
+    Item       101    102   103   104   105   106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       E      E     C     C     E     C     E     C     C         E     C     E     E     C     C      E     C     E     C     C
+
+                0      0
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                    www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                           Aplicação: 21/2/2010
+
+                                        Cargo 12: Técnico Científico – área: Psicologia do Trabalho
+                                                                       0
+                                                                   0
+                                                     GABARITOS OFICIAIS DEFINITIVOS
+                                                                   0
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4      5     6      7    8     9         10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E      E     C      E    C     E         C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24     25    26     27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C      E     E      C    E     C         C     E     C     E     C     C      C     C     E     E     E
+
+    Item       41     42    43    44     45    46     47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      E      C     E     C      E     E      E    C     E         E     C     C     E     C     E      C     E     C     E     C
+
+    Item       61     62    63    64     65    66     67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      C      C     E     C      E     C      E    E     C         E     C     E     C     E     C      C     E     E     E     C
+
+    Item       81     82    83    84     85    86     87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      C      E     C     C      E     C      C    E     E         C     C     E     C     C     E      E     C     C     C      C
+
+    Item       101    102   103   104    105   106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       C      E     C     E      C     E     E     E     C         E     E     E     C     E     C      E     E     C     E     C
+
+                0      0
+                0      0     0     0      0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0      0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0      0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0      0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0      0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0      0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0      0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0      0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                     www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                             Aplicação: 21/2/2010
+
+                                              Cargo 13: Técnico Científico – área: Serviço Social
+                                                                        0
+                                                                    0
+                                                      GABARITOS OFICIAIS DEFINITIVOS
+                                                                    0
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4     5        6     7     8     9        10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E     E        C     E     C     E        C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24    25       26    27    28    29       30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C     E        E     C     E     C        C     E     C     E     C     C      C     C     E     E     E
+
+    Item       41     42    43    44    45       46    47    48    49       50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      E      C     E     C     E        E     E     C     E        E     E     E     C     E     C      E     E     E     C     E
+
+    Item       61     62    63    64    65       66    67    68    69       70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      C      C     C     C     C        C     E     E     C        E     E     C     E     E     C      E     C     E     E     E
+
+    Item       81     82    83    84    85       86    87    88    89       90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      C      E     E     C     C        C     E     C     C        E     C     C     C     C     E      E     C     C     C      C
+
+    Item       101    102   103   104   105     106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       E      E     C     E     E       C     E     E     C         C     C     C     C     E     C      E     E     E     E     E
+
+                0      0
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0       0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                      www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                          Aplicação: 21/2/2010
+
+
+                        Cargo 14: Técnico Científico – área: Tecnologia da Informação – Administração de Dados
+                                                                      0
+                                                                  0
+                                                    GABARITOS OFICIAIS DEFINITIVOS
+                                                                  0
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4     5     6      7    8     9         10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E     E     C      E    C     E         C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24    25    26     27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C     E     E      C    E     C         C     E     C     E     C     C      C     C     C     C     E
+
+    Item       41     42    43    44    45    46     47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      C      E     C     C     C     E      C    E     E         E     C     C     C     E     E      C     E     C     E     C
+
+    Item       61     62    63    64    65    66     67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      E      E     C     E     C     E      E    C     E         C     E     E     C     C     C      E     C     E     C     C
+
+    Item       81     82    83    84    85    86     87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      E      C     E     C     E     E      E    C     E         C     E     C     E     C     C      E     C     E     C      C
+
+    Item       101    102   103   104   105   106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       E      C     C     E     E     C     C     E     C         E     C     C     E     E     C      C     E     E     C     C
+
+                0      0
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                    www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                          Aplicação: 21/2/2010
+
+                        Cargo 15: Técnico Científico – área: Tecnologia da Informação – Arquitetura e Tecnologia
+                                                                      0
+                                                                  0
+                                                    GABARITOS OFICIAIS DEFINITIVOS
+                                                                  0
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4     5     6      7    8     9         10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E     E     C      E    C     E         C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24    25    26     27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C     E     E      C    E     C         C     E     C     E     C     C      C     C     C     C     E
+
+    Item       41     42    43    44    45    46     47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      C      E     C     C     C     E      C    E     E         E     C     E     C     C     E      E     E     E     E     E
+
+    Item       61     62    63    64    65    66     67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      C      C     C     E     E     C      E    C     E         E     E     C     E     C     E      E     E     C     E     C
+
+    Item       81     82    83    84    85    86     87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      C      C     E     C     E     C      E    C     E         E     C     E     C     E     C      C     C     E     E      C
+
+    Item       101    102   103   104   105   106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       C      C     C     C     E     E     E     E     C         E     E     C     C     E     C      E     C     E     C     C
+
+                0      0
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                    www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                 BANCO DA AMAZÔNIA S.A.
+                             CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                   CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                           Aplicação: 21/2/2010
+
+                            Cargo 16: Técnico Científico – área: Tecnologia da Informação – Análise de Sistemas
+                                                                       0
+                                                                   0
+                                                     GABARITOS OFICIAIS DEFINITIVOS
+                                                                   0
+Obs.: ( X ) item anulado.
+
+    Item        1      2      3     4     5     6     7    8     9         10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E      C     E     E     C     E    C     E         C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22      23    24   25    26     27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E       E     C    E     E      C    E     C         C     E     C     E     C     C      C     C     C     C     E
+
+    Item       41     42      43    44   45    46     47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      C      E       C     C    C     E      C    E     E         E     C     C     C     E     C      E     C     C     E     E
+
+    Item       61     62      63    64   65    66     67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      E      C       C     E    C     E      E    C     C         E     C     E     E     E     E      C     E     C     C     C
+
+    Item       81     82      83    84   85    86     87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      E      C       C     E    E     C      E    E     C         C     E     E     C     C     C      C     E     E     C      E
+
+    Item       101    102    103   104   105   106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       C      C      E     E     C     E     C     C     C         E     C     C     E     E     E      C     E     E     C     E
+
+                0      0
+                0      0      0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0      0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0      0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0      0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0      0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0      0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0      0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0      0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                     www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                          Aplicação: 21/2/2010
+
+                            Cargo 17: Técnico Científico – área: Tecnologia da Informação – Banco de Dados
+                                                                      0
+                                                                  0
+                                                    GABARITOS OFICIAIS DEFINITIVOS
+                                                                  0
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4     5     6      7    8     9         10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E     E     C      E    C     E         C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24    25    26     27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C     E     E      C    E     C         C     E     C     E     C     C      C     C     C     C     E
+
+    Item       41     42    43    44    45    46     47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      C      E     C     C     C     E      C    E     E         E     C     E     C     E     C      E     C     C     E     C
+
+    Item       61     62    63    64    65    66     67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      C      E     C     E     C     C      E    E     E         E     C     E     E     E     C      C     C     E     E     C
+
+    Item       81     82    83    84    85    86     87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      E      C     C     E     C     C      E    C     E         C     C     C     C     E     E      E     E     E     C      C
+
+    Item       101    102   103   104   105   106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       E      C     E     E     E     E     E     E     C         C     C     E     C     E     E      E     C     C     C     E
+
+                0      0
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                    www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                 BANCO DA AMAZÔNIA S.A.
+                             CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                   CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                           Aplicação: 21/2/2010
+
+                            Cargo 18: Técnico Científico – área: Tecnologia da Informação – Governança de T.I.
+                                                                       0
+                                                                   0
+                                                     GABARITOS OFICIAIS DEFINITIVOS
+                                                                   0
+Obs.: ( X ) item anulado.
+
+    Item        1      2      3    4     5     6      7    8     9         10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E      C    E     E     C      E    C     E         C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22     23    24    25    26     27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E      E     C     E     E      C    E     C         C     E     C     E     C     C      C     C     C     C     E
+
+    Item       41     42     43    44    45    46     47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      C      E      C     C     C     E      C    E     E         E     C     C     C     C     C      C     E     E     C     E
+
+    Item       61     62     63    64    65    66     67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      E      E      C     E     C     C      E    E     C         C     C     C     C     E     E      E     E     E     C     E
+
+    Item       81     82     83    84    85    86     87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      C      C      C     E     C     E      E    E     E         C     E     C     E     E     C      C     E     E     C      C
+
+    Item       101    102    103   104   105   106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       E      C      E     C     C     E     C     E     E         C     C     E     E     E     E      C     C     E     C     C
+
+                0
+                0      0      0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0      0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0      0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0      0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0      0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0      0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0      0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0      0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                     www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                          Aplicação: 21/2/2010
+
+
+                       Cargo 19: Técnico Científico – área: Tecnologia da Informação – Produção e Infraestrutura
+                                                                      0
+                                                                  0
+                                                    GABARITOS OFICIAIS DEFINITIVOS
+                                                                  0
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4     5     6      7    8     9         10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E     E     C      E    C     E         C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24    25    26     27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C     E     E      C    E     C         C     E     C     E     C     C      C     C     C     C     E
+
+    Item       41     42    43    44    45    46     47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      C      E     C     C     C     E      C    E     E         E     E     C     E     E     C      E     C     E     C     E
+
+    Item       61     62    63    64    65    66     67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      C      C     E     C     E     C      E    C     E         C     E     C     E     E     C      E     E     C     C     E
+
+    Item       81     82    83    84    85    86     87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      C      E     C     C     E     C      E    C     C         E     C     E     C     C     C      E     C     C     C      E
+
+    Item       101    102   103   104   105   106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       E      C     C     E     C     C     E     C     E         C     C     E     E     E     E      E     C     E     C     C
+
+                0      0
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                    www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                          Aplicação: 21/2/2010
+
+                      Cargo 20: Técnico Científico – área: Tecnologia da Informação – Redes e Telecomunicações
+                                                                      0
+                                                                  0
+                                                    GABARITOS OFICIAIS DEFINITIVOS
+                                                                  0
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4     5     6      7    8     9         10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E     E     C      E    C     E         C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24    25    26     27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C     E     E      C    E     C         C     E     C     E     C     C      C     C     C     C     E
+
+    Item       41     42    43    44    45    46     47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      C      E     C     C     C     E      C    E     E         E     E     C     E     E     E      E     C     C     C     E
+
+    Item       61     62    63    64    65    66     67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      C      C     E     C     E     C      E    C     E         C     C     C     E     C     C      C     C     E     E     E
+
+    Item       81     82    83    84    85    86     87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      E      C     C     C     E     E      C    C     C         E     C     E     E     E     E      E     E     E     C      C
+
+    Item       101    102   103   104   105   106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       C      C     C     E     E     C     E     E     C         E     C     C     E     E     C      E     E     C     C     C
+
+                0      0
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                    www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                          Aplicação: 21/2/2010
+
+                       Cargo 21: Técnico Científico – área: Tecnologia da Informação – Segurança da Informação
+                                                                      0
+                                                                  0
+                                                    GABARITOS OFICIAIS DEFINITIVOS
+                                                                  0
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4     5     6      7    8     9         10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E     E     C      E    C     E         C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24    25    26     27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C     E     E      C    E     C         C     E     C     E     C     C      C     C     C     C     E
+
+    Item       41     42    43    44    45    46     47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      C      E     C     C     C     E      C    E     E         E     E     C     E     E     C      C     C     E     E     E
+
+    Item       61     62    63    64    65    66     67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      C      E     C     E     E     C      E    E     C         C     E     E     E     C     C      E     E     C     E     E
+
+    Item       81     82    83    84    85    86     87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      E      C     E     C     C     E      E    C     E         E     C     E     C     C     E      C     E     E     E      C
+
+    Item       101    102   103   104   105   106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       E      E     C     C     C     E     C     C     C         E     E     C     C     C     E      C     E     C     E     E
+
+                0      0
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                    www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                          Aplicação: 21/2/2010
+
+                            Cargo 22: Técnico Científico – área: Tecnologia da Informação – Suporte Técnico
+                                                                      0
+                                                                  0
+                                                    GABARITOS OFICIAIS DEFINITIVOS
+                                                                  0
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4     5     6      7    8     9         10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      E    C     E     E     C      E    C     E         C     C     C     C     C     C      C     C     C     E     E
+
+    Item       21     22    23    24    25    26     27   28    29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      E     E     C     E     E      C    E     C         C     E     C     E     C     C      C     C     C     C     E
+
+    Item       41     42    43    44    45    46     47   48    49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      C      E     C     C     C     E      C    E     E         E     E     E     E     E     C      C     C     E     C     C
+
+    Item       61     62    63    64    65    66     67   68    69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      C      C     E     C     E     E      C    C     C         E     E     C     C     E     E      E     C     C     E     C
+
+    Item       81     82    83    84    85    86     87   88    89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      E      E     E     C     C     E      E    C     C         E     C     C     C     E     E      E     E     C     C      E
+
+    Item       101    102   103   104   105   106   107   108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       C      C     E     C     E     C     E     C     E         E     E     C     E     E     E      C     C     C     C     C
+
+                0      0
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0     0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                    www.pciconcursos.com.br                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjozMDozMiAtMDMwMA==
+
+
+
+
+                                                BANCO DA AMAZÔNIA S.A.
+                            CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                  CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+
+
+                                                             Aplicação: 21/2/2010
+
+
+                                                          Cargo 23: Técnico Bancário
+                                                                        0
+                                                                  0
+                                                    GABARITOS OFICIAIS DEFINITIVOS
+                                                                  0
+Obs.: ( X ) item anulado.
+
+    Item        1      2    3     4     5     6      7       8     9        10    11    12    13    14    15     16    17    18    19    20
+ Gabarito       E      C    C     E     C     E      E       E     C        E     C     E     E     C     E      C     E     C     C     E
+
+    Item       21     22    23    24    25    26     27      28   29        30    31    32    33    34    35     36    37    38    39    40
+ Gabarito      C      C     E     E     C     X      E       C    E         E     E     C     C     C     E      C     C     E     C     E
+
+    Item       41     42    43    44    45    46     47      48   49        50    51    52    53    54    55     56    57    58    59    60
+ Gabarito      E      E     C     C     E     E      C       E    C         E     X     E     E     E     C      E     C     E     C     E
+
+    Item       61     62    63    64    65    66     67      68   69        70    71    72    73    74    75     76    77    78    79    80
+ Gabarito      C      C     X     C     C     E      C       C    E         C     E     E     E     C     C      C     C     C     E     E
+
+    Item       81     82    83    84    85    86     87      88   89        90    91    92    93    94    95     96    97    98    99    100
+ Gabarito      C      E     C     E     C     C      E       C    C         C     E     C     E     C     C      E     E     C     C      E
+
+    Item       101    102   103   104   105   106   107     108   109       110   111   112   113   114   115    116   117   118   119   120
+ Gabarito       C      C     E     E     E     E     C       E     E         E     C     E     E     C     E      C     E     C     C     E
+
+                0      0
+                0      0     0     0     0     0     0       0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0       0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0       0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0       0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0       0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0       0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+                0      0     0     0     0     0     0       0     0         0     0     0     0     0     0      0     0     0     0     0
+
+
+
+
+                                                    www.pciconcursos.com.br                                    www.pciconcursos.com.br
+

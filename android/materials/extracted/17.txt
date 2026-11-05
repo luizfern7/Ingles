@@ -1,0 +1,2109 @@
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OCAtMDMwMA==
+
+
+
+
+                                                                                  www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OCAtMDMwMA==
+
+
+||BASA12_024_45N784093||                                                                                           CESPE/UnB – Banco da Amazônia S.A.
+
+•       De acordo com o comando a que cada um dos itens a seguir se refira, marque, na folha de respostas, para cada item: o campo
+        designado com o código C, caso julgue o item CERTO; ou o campo designado com o código E, caso julgue o item ERRADO.
+        A ausência de marcação ou a marcação de ambos os campos não serão apenadas, ou seja, não receberão pontuação negativa.
+        Para as devidas marcações, use a folha de respostas, único documento válido para a correção das suas provas objetivas.
+•       Nos itens que avaliam conhecimentos de informática, a menos que seja explicitamente informado o contrário, considere que todos
+        os programas mencionados estão em configuração padrão, em português, que o mouse está configurado para pessoas destras, que
+        expressões como clicar, clique simples e clique duplo referem-se a cliques com o botão esquerdo do mouse e que teclar corresponde
+        à operação de pressionar uma tecla e, rapidamente, liberá-la, acionando-a apenas uma vez. Considere também que não há restrições
+        de proteção, de funcionamento e de uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados.
+•       Sempre que utilizadas, as siglas subsequentes devem ser interpretadas com a significação associada a cada uma delas, da seguinte
+        forma: BACEN = Banco Central do Brasil; FGC = Fundo Garantidor de Crédito; CMN = Conselho Monetário Nacional; CPD = centro
+        de processamento de dados; CVM = Comissão de Valores Mobiliários; DOC = documento de crédito; FEBRABAN = Federação
+        Brasileira de Bancos; SELIC = Sistema Especial de Liquidação e Custódia; SFN = Sistema Financeiro Nacional; TED = transferência
+        eletrônica disponível.
+
+                                                  CONHECIMENTOS BÁSICOS
+    1             No século passado, ocorreu, no sistema bancário                          1            A evolução dos processos de automação permitiu a
+        brasileiro, uma significativa incorporação tecnológica, que teve                       instalação dos primeiros caixas eletrônicos no Brasil, ainda na
+        início ainda no final dos anos 60, com a criação do primeiro                           segunda metade da década de 80 do século passado, o que iria
+    4   CPD, e continuou se difundindo nas décadas posteriores. Nesse                      4   culminar na drástica redução no número de funcionários das
+        processo, duas fases podem ser diferenciadas. A primeira, que                          agências, em especial dos que exerciam a função de caixa. Na
+        abrangeu toda a década de 70 e parte da década de 80,                                  década seguinte, o próprio pessoal do setor de processamento
+    7   caracterizava-se pela automação de processos de controle                           7   de dados começou a ser substituído pelos computadores
+        interno do banco e atingiu o setor de contabilidade e registro                         centrais. A mesma tecnologia digital empregada nesses
+        das agências, que foi paulatinamente se reduzindo, com a                               computadores também possibilitou a instalação de
+10      implementação de sistemas de coleta e transmissão de dados                     10      computadores nos postos de trabalho das agências, cada um
+        conectados a uma unidade central, o CPD. Essas                                         deles apto ao desenvolvimento de diferentes funções. Esse
+        transformações foram decisivas para a extinção de cargos na                            processo de incorporação tecnológica, intensificado no final
+13      chamada área de retaguarda das agências, como, por exemplo,                    13      do século, permitiu à rede bancária implementar um sistema
+        o cargo de contador. A segunda fase começou a partir da                                informatizado cuja rapidez acompanhava o ritmo de
+        metade da década de 80, com o avanço da tecnologia de base                             desvalorização da moeda imposto pelos altos índices de
+16      microeletrônica, que permitiu a automação de processos de                      16      inflação registrados na década de 80. Isso possibilitou que os
+        trabalho no interior das agências, possibilitando o lançamento                         bancos obtivessem elevada lucratividade, o que propiciou
+        eletrônico dos registros das transações diretamente pelo                               a realização de novos investimentos em tecnologia da
+19      funcionário do setor de atendimento. Com isso, outras funções                  19      informação.
+        da retaguarda bancária foram significativamente reduzidas,                                                                                    Idem, ibidem.
+        principalmente na área de escrituração.
+                                   Wagner de Souza Leite Molina. Internet:             Julgue os itens a seguir, a respeito do texto acima.
+                                   <www.seufuturonapratica.com.br> (com adaptações).
+
+                                                                                       8       O termo “deles” (R.11) refere-se à expressão “computadores
+Considerando as ideias e estruturas linguísticas do texto acima,                               centrais” (R.7-8).
+julgue os itens que se seguem.
+                                                                                       9       De acordo com o texto, os “novos investimentos em tecnologia
+1       O emprego de vírgula logo após “agências” (R.9) justifica-se                           da informação” (R.18-19) foram financiados pela inflação.
+        porque isola oração subsequente de natureza explicativa.                       10      Mantêm-se a correção gramatical do texto e o seu sentido
+2       Caso a palavra “paulatinamente” (R.9) fosse substituída por                            original, se o trecho “cuja rapidez acompanhava o ritmo de
+        rapidamente ou por velozmente, seria preservada a                                      desvalorização da moeda” (R.14-15) for reescrito da seguinte
+        informação original do texto.                                                          forma: que acompanhava, rapidamente, o ritmo de
+3       Seriam mantidas as informações originais do texto e a sua                              desvalorização da moeda.
+        correção gramatical, caso a forma verbal “possibilitando”                      11      Preservaria a correção gramatical e o sentido original do texto
+        (R.17) fosse substituída por o que possibilitou.                                       a seguinte reescritura do trecho “permitiu à rede bancária
+4       Sem prejuízo para a correção gramatical e os sentidos originais                        implementar” (R.13): permitiu a rede bancária a implementar.
+        do texto, a expressão “Com isso” (R.19) poderia ser substituída                12      A forma verbal “obtivessem” (R.17) poderia ser corretamente
+        por Em decorrência disso.                                                              substituída por tivessem obtido.
+5       O texto apresenta, como comprovam as escolhas lexicais feitas                  13      Na linha 1, a forma verbal “permitiu” poderia ter sido
+        pelo autor, as principais características do texto dissertativo:                       flexionada no plural — permitiram —, caso em que
+        pessoalidade e subjetividade.                                                          concordaria com “processos”.
+6       Depreende-se das informações do texto que, nas últimas                         14      A expressão “o que” (R.3) retoma a ideia expressa na oração
+        décadas do século XX, houve uma tendência de substituição da                           anterior.
+        mão de obra bancária pelo equipamento tecnológico.                             15      A substituição de “dos”, em “dos que exerciam” (R.5), por
+7       A substituição de “se difundindo” (R.4) por difundindo-se                              daqueles prejudicaria a correção gramatical do texto e alteraria
+        mantém a correção gramatical do período.                                               seu sentido original.
+
+Cargo 24: Técnico Bancário                                                                                                                                  –1–
+
+                                                                                                                            www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OCAtMDMwMA==
+
+
+||BASA12_024_45N784093||                                                                          CESPE/UnB – Banco da Amazônia S.A.
+
+Considerando as características dos documentos oficiais, sobretudo       25   Para não se utilizar o proxy de conexão à Internet em
+a impessoalidade, a clareza, a concisão, a formalidade e a                    determinados sítios, no browser Internet Explorer 9, deve-se:
+uniformidade, julgue os itens subsequentes.                                   clicar sucessivamente o menu Ferramentas, as opções Opções da
+                                                                              Internet, Conexões, Configurações da Rede Local (LAN), Avançadas
+16   A fim de simplificar e de tornar mais célere e ágil a tramitação         e o campo Exceções; adicionar a Exceção nesse campo,
+     do memorando, os despachos a esse documento oficial devem                separando-os por vírgula.
+     ser dados no próprio documento, o que assegura maior
+                                                                         26   No aplicativo Microsoft Outlook Express 5, para se importar
+     transparência à tomada de decisões e permite que se mantenha
+                                                                              contatos do Outlook 97, deve-se, primeiramente, exportar os
+     um histórico do andamento do assunto tratado no expediente.
+                                                                              dados para um arquivo .csv no Outlook 97 e, depois, acessar,
+17   No fecho das comunicações oficiais, especialmente dos                    sucessivamente, o menu Arquivo e as opções Importar e Outro
+     memorandos, deve-se empregar a forma “Cordialmente”,                     catálogo de endereços, localizar o arquivo .csv e avançar para
+     seguida de vírgula, quando o documento for endereçado a                  mapear os campos de texto para os campos no catálogo de
+     autoridades de mesma hierarquia ou de hierarquia inferior.               endereço apropriado.
+18   Caso o responsável pelo setor de informática do Banco da            Com referência a segurança da informação, julgue os itens a seguir.
+     Amazônia deseje solicitar ao chefe da unidade administrativa
+     desse banco a aquisição de acessórios de informática para a         27   O cloudstorage é um serviço de aluguel de espaço em disco via
+     melhoria dos serviços prestados à comunidade, tal solicitação            Internet, no qual as empresas pagam pelo espaço utilizado, pela
+     deverá ser feita mediante a expedição de memorando.                      quantidade de dados trafegados, tanto para download como
+                                                                              para upload, e pelo backup.
+19   Caso o diretor de Gestão de Recursos do Banco da Amazônia
+     queira endereçar correspondência oficial ao ministro da             28   No Windows 7, com vários usuários com níveis de acesso
+     Fazenda, ao redigir o documento, ele deverá empregar o                   diferentes, é possível restaurar seus arquivos e os de todas as
+     pronome de tratamento “Vossa Excelência” e usar como                     pessoas que usam o computador por meio de um backup.
+     vocativo a forma “Excelentíssimo Senhor Ministro da                      Para isso, basta que qualquer desses usuários acesse,
+     Fazenda”, em razão da vinculação hierárquica da instituição              sucessivamente, Painel de Controle, Sistema e Manutenção e
+     financeira ao Ministério da Fazenda.                                     Backup e Restauração.
+
+Julgue se os fragmentos contidos nos seguintes itens estão               Julgue os próximos itens, relativos a organização e gerenciamento
+gramaticalmente corretos e adequados à correspondência oficial.          de informações, arquivos, pastas e programas no sistema
+                                                                         operacional Windows 7.
+20   Os recursos do Fundo Constitucional de Financiamento do
+     Norte tem como objetivo contribuir com a promoção do                29   É possível definir que os arquivos do tipo .jpg sejam abertos em
+     desenvolvimento econômico e social da região amazônica, que              um programa específico e que os arquivos do tipo .gif sejam
+     os aplica através de programas elaborados de financiamento               abertos por um outro programa.
+     aos setores produtivos e privados, anualmente, em parceria          30   É possível criar uma biblioteca de arquivos de diferentes locais
+     com os representantes das instituições públicas e dos diversos           e, posteriormente, exibi-los em uma única coleção, sem os
+     seguimentos da sociedade.                                                mover de onde estão armazenados.
+21   Criados pela Constituição Federal de 1988, os fundos                31   No Windows Explorer, para se incluir uma pasta em uma
+     constitucionais referem-se à destinação de parcela do produto            biblioteca, bastar clicar com o botão direito sobre a pasta que
+     da arrecadação dos impostos sobre renda e sobre produtos                 se deseja selecionar; escolher a opção Incluir na biblioteca; e,
+     industrializados, para aplicação em programas de                         finalmente, clicar em uma biblioteca (por exemplo: Imagens).
+     financiamento ao setor produtivo das regiões Norte, Nordeste        Julgue os itens seguintes, relativos ao novo Código Florestal
+     e Centro-Oeste brasileiras.                                         brasileiro.
+Julgue os itens de 22 a 26, referentes a sistemas operacionais, redes,
+                                                                         32   Entre as novidades do Código Florestal, a única elogiada pelos
+browsers e aplicativos de uso diário.
+                                                                              movimentos ecológicos é a que elimina a necessidade de
+22   No aplicativo BrOfficeCalc 3.0, o valor da célula A2 poderá ser          manutenção de áreas de reserva legal na Amazônia.
+     testado utilizando-se a função =SE(A2>1000;A2*0,15;A2*0,05); se     33   A presidenta Dilma Rousseff, além de vetar diversos pontos do
+     o referido valor for maior que 1.000, deverá ser multiplicado            novo Código Florestal, apresentou medida provisória com
+     por 0,05.                                                                diversas propostas de modificação no texto aprovado pelo
+23   No Google, ao se pesquisar financiamento carro-usado, o sítio            Congresso Nacional.
+     retornará páginas que contenham os termos financiamento e carro     34   Depois da aprovação do novo Código Florestal pelo Congresso
+     e que não apresentem a palavra usado.                                    Nacional, houve diversas manifestações, principalmente de
+24   No sistema operacional Windows 7.0, o recurso Ajustar facilita           ambientalistas. Nessas manifestações, reivindicou-se o veto
+     o trabalho com janelas abertas. Com esse recurso, para                   integral ao texto.
+     maximizar uma janela, deve-se arrastar a barra de título da         35   O motivo principal para a edição do novo Código Florestal foi
+     janela para a parte superior da tela e liberar a janela para             a obsolescência do texto anterior, que não sofria alterações
+     expandi-la e preencher toda a área de trabalho.                          desde sua edição, na época dos governos militares.
+
+Cargo 24: Técnico Bancário                                                                                                               –2–
+
+                                                                                                           www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OCAtMDMwMA==
+
+
+||BASA12_024_45N784093||                                                           CESPE/UnB – Banco da Amazônia S.A.
+
+A respeito da atual crise econômica global, julgue os itens a seguir.   RASCUNHO
+
+36   As medidas empregadas pelo governo da Grécia para contornar
+     seu endividamento incluem a demissão de funcionários
+     públicos, cortes de gastos públicos e a redução de direitos
+     trabalhistas e do valor de aposentadorias.
+37   Uma das causas da referida crise foi o fato de o mercado
+     imobiliário norte-americano ter favorecido, por vários anos, a
+     realização de empréstimos a clientes que não tinham condição
+     de arcar com o pagamento de suas dívidas.
+38   Na Comunidade Europeia, os países que adotaram o euro
+     passam por sérias dificuldades econômicas, enquanto aqueles
+     que não optaram pela moeda única conseguiram resistir aos
+     efeitos da crise, como é o caso da Espanha.
+Com relação a fluxos migratórios, julgue os itens que se seguem.
+
+39   Por ser um dos poucos países imunes à crise atual, o Japão
+     continua atraindo imigrantes brasileiros. Em 2010, por
+     exemplo, registrou-se o maior número de brasileiros nesse país.
+40   Em 2011, verificou-se a redução do número total de
+     estrangeiros no Brasil, que refletiu a diminuição dos fluxos
+     migratórios ocorrida em todo o mundo.
+         Carlos, Eduardo e Fátima se associaram para abrir uma
+pequena empresa. Para a abertura desse empreendimento, Carlos
+entrou com R$ 32.000,00, Eduardo, com R$ 28.000,00 e Fátima,
+com R$ 20.000,00. Após cinco anos de atividade, eles venderam a
+empresa por R$ 416.000,00 e dividiram esse valor pelos três sócios,
+de forma diretamente proporcional à quantia que cada um investiu
+na abertura do empreendimento.
+
+Considerando essa situação, julgue os próximos itens.
+
+41   Se P = L/5.000, em que L é o lucro obtido na venda da
+     empresa, então P será um valor do intervalo solução da
+     inequação x2 – 130x + 4.200 < 0.
+42   Relativamente ao valor investido na abertura da empresa, o
+     lucro obtido na venda foi inferior a 500%.
+43   Na partilha, Eduardo recebeu mais de R$ 150.000,00.
+         A responsabilidade pelo controle das contas-correntes que
+12 empresas — 5 farmácias, 4 oficinas automobilísticas e 3
+restaurantes — mantêm em determinado banco será aleatoriamente
+dividida entre os técnicos bancários Luíza e Mateus.
+
+Considerando que, na situação hipotética acima, ambos os técnicos
+ficarão com o mesmo número de contas, julgue os itens a seguir.
+
+44   Se, mensalmente, forem depositados R$ 30.000,00 na
+     conta-corrente de cada farmácia, R$ 18.000,00 na
+     conta-corrente de cada restaurante e R$ 24.000,00 na
+     conta-corrente de cada oficina, então, em média, serão
+     depositados mensalmente mais de R$ 24.000,00 na
+     conta-corrente de cada uma das 12 empresas.
+45   Há mais de 1.000 maneiras distintas de se dividir essa
+     responsabilidade.
+46   A probabilidade de Mateus ficar responsável pelas
+     contas-correntes das oficinas automobilísticas é superior a 3%.
+
+Cargo 24: Técnico Bancário                                                                                       –3–
+
+                                                                                          www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OCAtMDMwMA==
+
+
+||BASA12_024_45N784093||                                                         CESPE/UnB – Banco da Amazônia S.A.
+
+          Um cliente dispõe de R$ 210.000,00 para quitar o saldo      RASCUNHO
+
+devedor — também de R$ 210.000,00 — do financiamento de um
+
+imóvel junto a uma instituição financeira que trabalha com conta
+
+remunerada à taxa de juros compostos de 5% ao mês. Para essa
+
+quitação, a instituição financeira oferece as seguintes opções.
+
+
+I    depositar o dinheiro disponível em conta remunerada e fazer o
+
+     pagamento em duas prestações mensais iguais e consecutivas
+
+     de R$ 121.000,00, com a primeira prestação vencendo em um
+
+     mês após a data do depósito;
+
+II   pagamento do saldo devedor, à vista, com desconto de 5%;
+
+     nesse caso, o cliente poderá depositar o desconto na conta
+
+     remunerada.
+
+
+Com base nessa situação, desconsiderando possíveis taxas e
+
+impostos, julgue os itens seguintes.
+
+
+47   Considere que seja apresentada ao cliente uma terceira opção
+
+     para quitação do saldo devedor: pagar 250 prestações mensais
+
+     e consecutivas de R$ 1.000,00, com a primeira prestação
+
+     devendo ser paga em um mês após a negociação, e que o
+
+     pagamento tenha de ser feito por meio de depósitos em uma
+
+     conta remunerada da própria instituição, que paga a taxa de
+
+     juros compostos de 1% ao mês. Nessa situação, se, durante os
+
+     250 meses, não for feito nenhum saque da conta e se 250 for
+
+     considerado valor aproximado para log1,01(12), então o
+
+     montante na conta no momento em que for depositada a última
+
+     prestação será superior a R$ 1.000.000,00.
+
+48   Se adotar a opção II, o cliente pagará R$ 199.500,00.
+
+49   As duas opções permitem que o cliente obtenha o mesmo
+
+     retorno financeiro.
+
+50   Uma quantia depositada na conta remunerada da instituição
+
+     financeira em questão resultaria, ao final do segundo mês, em
+
+     um montante igual ao que seria obtido se essa mesma quantia
+
+     fosse aplicada à taxa de juros simples de 5,5% ao mês, durante
+
+     dois meses.
+
+Cargo 24: Técnico Bancário                                                                                     –4–
+
+                                                                                        www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OCAtMDMwMA==
+
+
+||BASA12_024_45N784093||                                                                                               CESPE/UnB – Banco da Amazônia S.A.
+
+
+                                                 CONHECIMENTOS ESPECÍFICOS
+O SFN tem como objetivo a intermediação de recursos entre os                                  As reformas de 1964 introduzidas no SFN, cujo modelo foi
+agentes econômicos (pessoas, empresas e governo). Compõem esse                                inspirado pelo sistema norte-americano, priorizavam a
+sistema instituições, órgãos e entidades em uma complexa rede de                              especialização das instituições. No entanto, ao longo do tempo,
+relacionamentos que envolvem a normatização, a supervisão e a                                 surgiram os grandes conglomerados financeiros, incorporando
+operacionalização. Com referência a esse assunto, julgue os itens                             atividades antes restritas aos agentes especializados. A respeito
+seguintes.                                                                                    desse assunto, julgue os itens que se seguem.
+51   Sempre que for necessário, competirá ao CMN limitar as taxas                             62   Tanto as sociedades de crédito, financiamento e investimento
+     de juros, de maneira a assegurar taxas favorecidas aos                                        (conhecidas por financeiras) quanto os bancos de investimento
+     financiamentos que se destinem a promover, entre outros,                                      são instituições financeiras privadas constituídas sob a forma
+     investimentos indispensáveis às atividades agropecuárias.                                     de sociedade anônima. Basta a denominação social para
+52   Segundo a lei de regência desta matéria, compete ao BACEN                                     diferenciá-las.
+     executar os serviços de compensação de cheques e outros                                  63   A Caixa Econômica Federal e as cooperativas de crédito
+     papéis, competência esta delegada por carta-circular ao Banco                                 integram o Sistema Brasileiro de Poupança e Empréstimo e o
+     do Brasil S.A. em 1986.                                                                       Sistema Financeiro da Habitação.
+53   Segundo a lei pertinente, quando ocorrer grave desequilíbrio                             64   As sociedades de arrendamento mercantil são constituídas sob
+     no balanço de pagamentos, o CMN determinará o monopólio                                       a forma de sociedade anônima, e suas operações passivas
+     das operações de câmbio ao BACEN.                                                             incluem emissão de debêntures, dívida externa, empréstimos e
+54   O BACEN poderá comprar e vender títulos públicos com o                                        financiamentos de instituições financeiras.
+     objetivo de capitalizar o Tesouro Nacional ou instituições                               65   No Brasil, as instituições financeiras públicas são consideradas
+     financeiras, estas por intermédio das operações de redesconto                                 auxiliares da execução da política de crédito do governo
+     de liquidez.                                                                                  federal.
+55   O CMN é autarquia supervisora máxima do SFN e tem por                                    66   Tanto os bancos comerciais quanto as sociedades de crédito
+     finalidade formular a política da moeda e do crédito, com o                                   imobiliário devem ser constituídos sob a forma de sociedade
+     objetivo de estabilizar a moeda e o desenvolvimento                                           anônima.
+     econômico e social do país.
+                                                                                              67   O banco de desenvolvimento (cujo controle é de um estado) e
+56   Poderão assistir às reuniões do CMN convidados do presidente                                  o banco comercial cooperativado (cujo controle é de
+     desse conselho e assessores credenciados individualmente                                      cooperativas de crédito) devem ser constituídos sob a forma de
+     pelos conselheiros.                                                                           sociedade anônima de capital fechado.
+         O sistema financeiro mundial vem se dinamizando cada                                 As instituições financeiras têm ofertado produtos e serviços para
+vez mais, impulsionado por rápidas e constantes transformações.                               atender novas demandas conjunturais e sociais, os quais devem
+A abertura à concorrência nos mercados financeiros, os avanços da                             visar ao equilíbrio entre o retorno e o risco. Com relação aos
+tecnologia e das comunicações, a demanda por mais e melhores                                  produtos e serviços financeiros, julgue os itens consecutivos.
+serviços financeiros e a concentração no setor bancário são alguns
+dos fatores que causam profundas mudanças no ambiente de                                      68   Nos fundos de investimento alavancados, há, geralmente,
+negócios.                                                                                          garantia de que o valor resgatado será superior ao valor
+                   BACEN. Manual da Supervisão. Internet: <www.bc.gov.br> (com adaptações).        aplicado.
+                                                                                              69   O contrato de cartão de crédito pode ser cancelado a qualquer
+Tendo o texto acima como referência inicial, julgue os itens
+                                                                                                   momento, mesmo que haja compras parceladas cujos valores
+subsequentes.
+                                                                                                   ainda não tenham sido pagos.
+57   O registro das operações no mercado primário de títulos                                  70   Os depósitos a prazo (CDB e RDB) e as letras de câmbio são
+     públicos federais emitidos pelo tesouro nacional ocorre,                                      produtos típicos dos bancos de investimentos e das sociedades
+     exclusivamente, na CETIP S.A. — Balcão Organizado de                                          de crédito, financiamento e investimento, respectivamente.
+     Ativos e Derivativos.
+                                                                                              71   A conta de depósito à vista é o tipo mais usual de conta
+58   As bolsas de valores, mesmo que constituídas como                                             bancária. Nela, o dinheiro do depositante fica à disposição
+     associações civis ou sociedades anônimas, funcionam sob a                                     deste para ser sacado, em espécie, a qualquer momento, sem
+     supervisão e fiscalização da CVM.                                                             prévio aviso à instituição financeira, independentemente do
+59   Tanto o BACEN quanto a CVM fiscalizam o mercado de                                            valor a ser sacado.
+     capitais.                                                                                72   À FEBRABAN compete regulamentar os valores para TED e
+60   Ao Conselho de Recursos do SFN compete julgar, em segunda                                     DOC. Recentemente, a FEBRABAN determinou a
+     e última instância, os recursos contra decisões da CVM                                        obrigatoriedade da TED para valores a partir de R$ 3.000,00.
+     relativas a penalidades por infrações à legislação de capitais                                Com isso, o DOC só poderá ser emitido para valores de, no
+     estrangeiros e de crédito industrial.                                                         máximo, R$ 2.999,99.
+61   A liquidação da ponta financeira de cada operação no SELIC                               73   As instituições financeiras não podem cobrar tarifa de
+     é realizada por intermédio do Sistema de Transferência de                                     manutenção de contas de poupança independentemente do
+     Reservas, ao qual ele é interligado.                                                          saldo ou de haver movimentação nos últimos seis meses.
+
+Cargo 24: Técnico Bancário                                                                                                                                    –5–
+
+                                                                                                                                www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OCAtMDMwMA==
+
+
+||BASA12_024_45N784093||                                                                        CESPE/UnB – Banco da Amazônia S.A.
+
+Com referência a aspectos diversos do SFN e às opções diversas de      84   Enquanto o plano de previdência PGBL tem por finalidade a
+crédito disponíveis no âmbito desse sistema, julgue os itens                acumulação de recursos no longo prazo com vistas à
+seguintes.                                                                  complementação da renda na aposentadoria, o plano VGBL
+                                                                            visa reduzir o imposto de renda da pessoa física que utiliza o
+74   Uma das diferenças entre os financiamentos de capital de giro          modelo de declaração completo.
+     e os financiamentos de capital fixo é que, nestes, o contrato,
+     em geral, é de médio prazo, enquanto, naqueles, é de prazo        85   No contrato de plano de seguro, cobertura é o pagamento que
+     maior.                                                                 o segurado faz à companhia seguradora, para obter direito a
+                                                                            indenização no caso de ocorrência de evento especificado no
+75   Se a operação de leasing for quitada antes do prazo definido
+                                                                            contrato. Esse pagamento dá ao segurado o direito de receber
+     no contrato, mas após os prazos mínimos previstos na
+                                                                            determinado valor, denominado prêmio, também especificado
+     legislação e na regulamentação específica, o contrato não
+                                                                            no contrato.
+     perderá as características de arrendamento mercantil.
+76   A operação de empréstimo bancário denominada hot money é          Julgue os itens a seguir, que tratam do mercado de câmbio, das
+     caracterizada pelo curto prazo e pelas taxas de juros, em geral   instituições autorizadas a operar nesse mercado e das suas
+     mais elevadas que as de outras operações.                         operações básicas.
+77   Na operação de crédito direto ao consumidor entre uma             86   No mercado flutuante, são realizados diversos tipos de
+     financeira e seus clientes, o bem adquirido serve como garantia        operações com moedas estrangeiras, tais como contribuições
+     da operação, quando possível, ficando vinculado à financeira           a entidades associativas e pagamentos de tratamentos de saúde.
+     pela alienação fiduciária. Trata-se de um contrato sem            87   No mercado secundário de câmbio, a moeda estrangeira é
+     amortização obrigatória, no qual a posse direta do bem                 negociada entre as instituições integrantes do sistema
+     permanece com o cliente.                                               financeiro e migra do ativo de uma instituição para o de outra,
+78   Desconto bancário é o contrato em que um estabelecimento               não havendo, nesse caso, fluxo de entrada da moeda
+     bancário antecipa ao empresário ou à sociedade empresária o            estrangeira no país nem de saída.
+     valor de um crédito contra terceiro, crédito este representado    88   O mercado de câmbio representa a relação entre vendedores e
+     por título de crédito acrescido em seu valor de face por juros         compradores com o objetivo de realizar transações cambiais.
+     pertinentes ao período compreendido entre a antecipação do
+                                                                       89   A estrutura do mercado cambial é composta por bancos,
+     crédito e o vencimento do título.
+                                                                            exportadores e importadores, não incluindo a bolsa de valores.
+Tanto no mercado de capitais, com a negociação de títulos e valores
+                                                                       90   O BACEN é responsável tanto por propor a política cambial
+mobiliários, em especial ações, debêntures e commercial papers,
+                                                                            quanto por fiscalizar o mercado de câmbio.
+quanto no mercado de seguros e de previdência privada, há grande
+especialização e, em geral, os agentes operadores participantes têm    91   São exemplos de operação de câmbio manual — definida
+perfil de atuação bastante específico. Acerca desse assunto, julgue         como a compra e venda de divisas estrangeiras: letras de
+os itens de 79 a 85.                                                        câmbio, cheques e ordens de pagamentos.
+
+79   No SFN, as diversas operações com ouro nas bolsas de              Acerca dos contratos de câmbio, das taxas de câmbio, bem como do
+     mercadorias e de futuros abrangem negociações nos mercados        SISCOMEX, julgue os itens subsequentes.
+     à vista, futuro, de opções e a termo.                             92   Há quatro modalidades de habilitação de pessoa física ou
+80   Os títulos de capitalização diferem das demais aplicações              jurídica para a prática de atos no SISCOMEX: ordinária,
+     financeiras porque, geralmente, oferecem prêmios, por                  simplificada, especial e irrestrita.
+     intermédio de sorteios, algumas vezes confundindo-se com          93   Tratando-se de atividades relacionadas ao despacho aduaneiro,
+     uma espécie de loteria.                                                poderão ser credenciados a operar no SISCOMEX como
+81   Debêntures são títulos emitidos pelas sociedades por ações             representantes de pessoa jurídica o dirigente de pessoa jurídica
+     que asseguram a seu titular um direito de crédito contra a             ou o servidor especificamente designado, conforme o caso
+     companhia nas condições constantes da escritura de emissão             específico.
+     e do certificado. Nesse sentido, as debêntures podem ser          94   Nas operações de compra ou venda de moeda estrangeira no
+     emitidas para subscrição pública por companhias de capital             valor de até US$ 3 mil, ou seu equivalente em outras moedas
+     fechado.                                                               estrangeiras, não é obrigatória a formalização do contrato de
+82   Enquanto as ações ordinárias conferem ao acionista o direito           câmbio nem é necessário que o agente do mercado de câmbio
+     de voto nas assembleias gerais da empresa e o direito de               identifique e registre o cliente no Sistema Câmbio.
+     participação nos lucros mediante o recebimento de dividendos      95   A taxa contratada, o nome do comprador e o do vendedor são
+     e juros do capital, as ações preferenciais não conferem ao             informações que devem constar de um contrato de câmbio.
+     acionista o direito a voto nas assembleias gerais, mas, em
+                                                                       96   Os contratos de câmbio destinados à contratação entre
+     compensação, conferem-lhe prioridade no recebimento de
+     dividendos.                                                            instituições financeiras do SFN não incluem operações de
+                                                                            arbitragem.
+83   A operação de underwriting, ou lançamento de ações novas,
+                                                                       97   A taxa cambial, definida como preço, em moeda nacional,
+     geralmente é realizada por um banco de investimentos
+     juntamente com um pool de instituições do sistema distribuidor         de uma unidade de moeda estrangeira, tende a diminuir quando
+     (sociedades corretoras e sociedades distribuidoras de títulos e        há aumento da procura e da oferta da moeda estrangeira
+     valores mobiliários). Nesse caso, mesmo que não se                     considerada, sendo que a oferta aumenta em proporção menor.
+     concretizem as vendas das ações, a operação deve ser              98   A denominada operação de câmbio pronta refere-se à operação
+     posteriormente registrada na CVM.                                      liquidada em até dois dias úteis da data de contratação.
+
+Cargo 24: Técnico Bancário                                                                                                             –6–
+
+                                                                                                         www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OCAtMDMwMA==
+
+
+||BASA12_024_45N784093||                                                                           CESPE/UnB – Banco da Amazônia S.A.
+
+Julgue os itens a seguir, que versam sobre operações com               Acerca do crime de lavagem de dinheiro e da prevenção e combate
+derivativos e suas características básicas, sobre operações com        a esse tipo de crime, julgue os itens que se seguem.
+swap e sobre o funcionamento dos mercados a termo, de opções e
+                                                                       111   É essencial que as instituições financeiras conheçam as pessoas
+de futuro.
+                                                                             com as quais se relacionam, de forma a evitar a realização de
+99    No mercado em que se negociam as opções flexíveis, as partes           operações com pessoas físicas e jurídicas que visem praticar
+      envolvidas definem o preço de exercício, o vencimento e a              lavagem de dinheiro.
+      exigência ou não de garantia.
+                                                                       112   A expressão lavagem de dinheiro surgiu nos Estados Unidos da
+100   Nas operações de swap, um índice de rentabilidade é trocado            América e era usada para se referir a uma rede de lavanderias
+      por outro, com o intuito, entre outros, de se fazer hedge para         usadas para facilitar a colocação em circulação de dinheiro
+      minimizar o risco.                                                     oriundo de operações ilícitas.
+101   O objetivo de uma operação de swap é alterar a estrutura de      113   A etapa da lavagem de dinheiro denominada integração
+      uma carteira de investimento durante o prazo dessa operação.           corresponde à introdução de dinheiro oriundo de atividades
+      Nesse tipo de operação, somente os custos dos juros pagos              ilícitas no sistema econômico, por intermédio, por exemplo, de
+      devem ser alterados.                                                   depósitos e compra de bens.
+102   Derivativos são ativos financeiros cujo valor deriva             114   Uma das maneiras de prevenir a prática do crime de lavagem
+      integralmente do valor de outro ativo financeiro ou mercadoria         de dinheiro consiste em manter atualizados os dados cadastrais
+      negociada no mercado à vista.                                          dos clientes, utilizando, quando o caso assim o exigir, a
+103   Tratando-se do contrato derivativo denominado contrato                 expressão “pessoas politicamente expostas” para identificar
+      futuro, caracterizado pela pouca transparência e pelo elevado          determinados clientes.
+      risco de crédito, a movimentação financeira ocorre somente na
+                                                                       Considerando o disposto na Lei n.º 9.613/1998, nas Resoluções
+      liquidação.
+                                                                       n.º 3.224/2004 e n.º 3.844/2010 e nas Cartas-Circulares do BACEN
+104   Denomina-se prêmio o preço de exercício de uma opção que         n.º 3.442/2010 e n.º 3.542/2012, julgue os itens seguintes.
+      representa o valor pago para se adquirir um direito ou o valor
+      recebido pelo vendedor que assume uma obrigação para com         115   Dos recursos da exigibilidade da poupança rural, 35% podem
+      o comprador.                                                           ser aplicados em operações de crédito rural formalizadas, de
+                                                                             acordo com as condições definidas para os recursos
+Em relação às garantias do SFN, que incluem aval, fiança, penhor,
+                                                                             obrigatórios.
+hipoteca e Fundo Garantidor de Crédito (FGC), julgue os itens
+                                                                       116   A Resolução n.º 3.844 dispõe sobre os crimes de lavagem ou
+seguintes.
+                                                                             ocultação de bens, direitos e valores, bem como sobre a
+105   O FGC visa prestar garantia de créditos contra instituições a          prevenção de utilização do sistema financeiro para a prática de
+      ele associadas.                                                        ilícitos.
+106   Norma legal define os critérios do FGC e seus limites de         117   O Conselho de Controle de Atividades Financeiras foi criado
+      proteção.                                                              pela Lei n.º 9.613.
+107   Na operação de aval, o cumprimento de uma obrigação              118   A Carta-Circular n.º 3.442 divulga as operações que
+      baseia-se na confiança depositada no avalista.                         configuram indícios dos crimes de lavagem ou ocultação de
+108   A fiança deve ser autorizada pelo cônjuge do fiador, sob pena          bens.
+      de nulidade. O aval, por sua vez, independe de autorização do    119   A Carta-Circular n.º 3.542 trata das operações que configuram
+      cônjuge do avalista.                                                   indícios dos crimes previstos na Lei n.º 9.613, como, por
+109   O bem móvel consumível não pode ser penhorado,                         exemplo, da realização de saques que apresentem atipicidade
+      independentemente de anotação de sua qualidade e quantidade.           em relação à atividade econômica do cliente e dos aumentos
+110   O penhor é uma operação civil, ainda que a natureza da dívida          substanciais no volume de depósitos.
+      seja comercial, enquanto a hipoteca pode ser civil ou            120   A pena para o crime consistente em ocultar ou dissimular a
+      comercial, de acordo com a natureza da dívida por ela                  natureza de bens, direitos ou valores provenientes de crime
+      garantida.                                                             consiste no pagamento de multa sem pena de reclusão.
+
+Cargo 24: Técnico Bancário                                                                                                             –7–
+
+                                                                                                           www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                    Aplicação: 15/7/2012
+
+                                                    Cargo 1: Técnico Científico – Área: Administração
+
+                                                                                                                                                  BASA12_001_01
+
+
+                                                                             0
+
+                                                                             0
+                                                           GABARITOS OFICIAIS PRELIMINARES
+
+0
+
+       Item    51    52    53    54     55    56      57      58       59        60    61    62         63    64    65    66    67    68    69          70
+    Gabarito   E     C     C     E      E     C       E       E        E         C     C     C          C     C     E     E     E     C     E           C
+
+       Item    71    72    73    74     75    76      77      78       79        80    81    82         83    84    85    86    87    88    89          90
+    Gabarito   E     C     C     E      E     E       C       C        E         E     C     C          E     C     E     E     E     E     C           C
+
+       Item    91    92    93    94     95    96      97      98       99        100   101   102        103   104   105   106   107   108   109        110
+    Gabarito   C     E     C     E      E     C       E       C        E          C     E     C          E     C     C     C     C     E     C          E
+
+       Item    111   112   113   114    115   116    117      118      119       120    0     0          0     0     0     0     0     0     0           0
+    Gabarito    E     C     C     C      E     E      C        C        E         C     0     0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0         0     0     0          0     0     0     0     0     0     0           0
+
+
+
+
+                                                           www.pciconcursos.com.br                                        www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                   Aplicação: 15/7/2012
+
+                                                    Cargo 2: Técnico Científico — Área: Arquitetura
+
+                                                                                                                                                BASA12_002_04
+
+
+                                                                         0
+                                                                         0
+                                                          GABARITOS OFICIAIS PRELIMINARES
+0
+
+       Item    51    52    53    54     55    56     57      58       59      60      61    62        63    64    65    66    67    68    69          70
+    Gabarito   E     C     E     C      E     E      C       E        C       C       C     E         E     E     C     E     E     C     C           E
+
+       Item    71    72    73    74     75    76     77      78       79      80      81    82        83    84    85    86    87    88    89          90
+    Gabarito   E     C     C     E      C     E      E       C        C       C       E     C         E     C     C     C     E     E     E           C
+
+       Item    91    92    93    94     95    96     97      98       99      100    101    102       103   104   105   106   107   108   109        110
+    Gabarito   C     E     E     E      E     C      E       E        C        E      C      C         E     E     E     E     E     C     C          E
+
+       Item    111   112   113   114    115   116   117      118      119     120     0      0         0     0     0     0     0     0     0           0
+    Gabarito    C     E     E     C      C     C     C        E        C       E      0      0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0      0         0     0     0     0     0     0     0           0
+
+
+
+
+                                                          www.pciconcursos.com.br                                       www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                     Aplicação: 15/7/2012
+
+                                                    Cargo 3: Técnico Científico – Área: Biblioteconomia
+
+                                                                                                                                                  BASA12_003_06
+
+
+                                                                           0
+                                                                           0
+                                                            GABARITOS OFICIAIS PRELIMINARES
+0
+
+       Item    51    52    53    54     55    56       57      58       59      60      61    62      63      64    65    66    67    68    69          70
+    Gabarito   C     E     E     C      C     C        C       E        E       C       E     C       E       C     C     C     E     E     C           E
+
+       Item    71    72    73    74     75    76       77      78       79      80      81    82      83      84    85    86    87    88    89          90
+    Gabarito   E     E     E     C      C     C        C       C        C       E       C     E       C       C     E     C     E     E     C           C
+
+       Item    91    92    93    94     95    96       97      98       99      100    101    102     103     104   105   106   107   108   109        110
+    Gabarito   E     E     C     C      E     C        C       E        E        C      C      E       E       C     C     E     C     E     C          C
+
+       Item    111   112   113   114    115   116     117      118      119     120     0      0          0    0     0     0     0     0     0           0
+    Gabarito    C     E     E     E      E     C       C        E        C       C      0      0          0    0     0     0     0     0     0           0
+
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+               0     0      0     0      0     0       0        0        0       0      0      0          0    0     0     0     0     0     0           0
+
+
+
+
+                                                            www.pciconcursos.com.br                                       www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                    Aplicação: 15/7/2012
+
+                                                    Cargo 4: Técnico Científico – Área: Contabilidade
+
+                                                                                                                                                  BASA12_004_08
+
+
+                                                                          0
+                                                                          0
+                                                           GABARITOS OFICIAIS PRELIMINARES
+0
+
+       Item    51    52    53    54     55    56      57      58       59      60      61     62        63    64    65    66    67    68    69          70
+    Gabarito   C     E     E     C      C     C       C       E        C       E       C      E         C     C     E     E     C     E     E           E
+
+       Item    71    72    73    74     75    76      77      78       79      80      81     82        83    84    85    86    87    88    89          90
+    Gabarito   E     C     E     C      E     C       C       C        E       E       E      C         C     E     E     C     C     E     C           E
+
+       Item    91    92    93    94     95    96      97      98       99      100    101    102        103   104   105   106   107   108   109        110
+    Gabarito   E     C     C     C      C     C       E       E        E        E      E      E          C     E     E     E     E     C     E          E
+
+       Item    111   112   113   114    115   116    117      118      119     120     0      0          0     0     0     0     0     0     0           0
+    Gabarito    C     C     E     E      C     E      C        C        C       C      0      0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0      0          0     0     0     0     0     0     0           0
+
+
+
+
+                                                           www.pciconcursos.com.br                                        www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                   Aplicação: 15/7/2012
+
+                                                      Cargo 5: Técnico Científico – Área: Direito
+
+                                                                                                                                              BASA12_005_10
+
+
+                                                                         0
+                                                                         0
+                                                          GABARITOS OFICIAIS PRELIMINARES
+0
+
+       Item    51    52    53    54     55    56    57       58       59      60      61     62     63    64    65    66    67    68    69          70
+    Gabarito   C     C     E     E      C     C     C        E        C       C       C      E      C     E     C     E     C     E     E           C
+
+       Item    71    72    73    74     75    76    77       78       79      80      81     82     83    84    85    86    87    88    89          90
+    Gabarito   C     C     E     C      E     C     E        C        E       C       E      C      C     C     E     E     C     E     E           C
+
+       Item    91    92    93    94     95    96    97       98       99      100    101     102    103   104   105   106   107   108   109        110
+    Gabarito   E     C     E     E      E     C     C        E        E        E      E       C      C     E     E     E     C     E     C          C
+
+       Item    111   112   113   114    115   116   117      118      119     120     0       0      0     0     0     0     0     0     0           0
+    Gabarito    E     E     C     C      E     E     E        C        C       E      0       0      0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0      0     0     0     0     0     0     0           0
+
+
+
+
+                                                          www.pciconcursos.com.br                                     www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                   Aplicação: 15/7/2012
+
+                                                    Cargo 6: Técnico Científico – Área: Economia
+
+                                                                                                                                             BASA12_006_13
+
+
+                                                                         0
+                                                                         0
+                                                          GABARITOS OFICIAIS PRELIMINARES
+0
+
+       Item    51    52    53    54     55    56    57       58       59      60      61   62      63    64    65    66    67    68    69          70
+    Gabarito   E     C     C     C      E     C     E        C        E       E       E    E       C     C     E     E     C     C     E           E
+
+       Item    71    72    73    74     75    76    77       78       79      80      81   82      83    84    85    86    87    88    89          90
+    Gabarito   E     E     C     E      C     C     E        E        C       C       C    E       C     C     E     E     E     E     C           E
+
+       Item    91    92    93    94     95    96    97       98       99      100    101   102     103   104   105   106   107   108   109        110
+    Gabarito   C     E     C     C      E     C     E        E        C        E      C     C       C     C     C     E     E     C     C          C
+
+       Item    111   112   113   114    115   116   117      118      119     120     0     0       0     0     0     0     0     0     0           0
+    Gabarito    E     C     E     E      E     C     E        E        E       E      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+
+
+
+                                                          www.pciconcursos.com.br                                    www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                    Aplicação: 15/7/2012
+
+                                               Cargo 7: Técnico Científico - Área: Engenharia Agronômica
+
+                                                                                                                                               BASA12_007_15
+
+
+                                                                          0
+                                                                          0
+                                                           GABARITOS OFICIAIS PRELIMINARES
+0
+
+       Item    51    52    53    54     55    56     57       58       59      60      61   62      63     64    65    66    67    68    69          70
+    Gabarito   E     E     C     E      E     C      E        E        E       E       C    E       C      E     E     C     C     E     C           C
+
+       Item    71    72    73    74     75    76     77       78       79      80      81   82      83     84    85    86    87    88    89          90
+    Gabarito   C     C     E     C      C     C      C        E        C       C       E    E       E      C     E     C     C     C     C           E
+
+       Item    91    92    93    94     95    96     97       98       99      100    101   102    103     104   105   106   107   108   109        110
+    Gabarito   C     C     E     C      E     E      C        E        E        C      E     E      C       E     C     E     C     E     C          C
+
+       Item    111   112   113   114    115   116    117      118      119     120     0     0      0       0     0     0     0     0     0           0
+    Gabarito    C     E     C     E      E     C      C        E        C       C      0     0      0       0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+               0     0      0     0      0     0      0        0        0       0      0     0      0       0     0     0     0     0     0           0
+
+
+
+
+                                                           www.pciconcursos.com.br                                     www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                       Aplicação: 15/7/2012
+
+                                                   Cargo 8: Técnico Científico - Área: Engenharia Ambiental
+
+                                                                                                                                                  BASA12_008_17
+
+
+                                                                             0
+                                                                             0
+                                                              GABARITOS OFICIAIS PRELIMINARES
+0
+
+       Item    51    52    53    54     55    56        57       58       59      60      61    62      63    64    65    66    67    68    69          70
+    Gabarito   C     E     E     C      C     C         E        E        E       C       C     C       E     C     E     C     C     E     C           E
+
+       Item    71    72    73    74     75    76        77       78       79      80      81    82      83    84    85    86    87    88    89          90
+    Gabarito   E     C     C     C      E     E         C        E        E       C       E     E       E     C     E     E     C     C     C           C
+
+       Item    91    92    93    94     95    96        97       98       99      100    101   102     103    104   105   106   107   108   109        110
+    Gabarito   C     C     C     C      E     E         C        C        C        C      C     E       C      C     C     E     C     C     C          E
+
+       Item    111   112   113   114    115   116       117      118      119     120     0     0       0      0     0     0     0     0     0           0
+    Gabarito    E     E     C     C      C     E         E        E        C       E      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+
+
+
+                                                              www.pciconcursos.com.br                                     www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                      Aplicação: 15/7/2012
+
+                                                    Cargo 9: Técnico Científico — Área: Engenharia Civil
+
+                                                                                                                                                BASA12_009_19
+
+
+                                                                            0
+                                                                            0
+                                                             GABARITOS OFICIAIS PRELIMINARES
+0
+
+       Item    51    52    53    54     55    56       57       58       59      60      61    62      63   64    65    66    67    68    69          70
+    Gabarito   C     E     C     C      E     E        E        E        C       E       C     C       C    C     C     E     E     E     C           E
+
+       Item    71    72    73    74     75    76       77       78       79      80      81    82      83   84    85    86    87    88    89          90
+    Gabarito   C     E     E     C      E     C        E        E        C       E       C     E       C    E     C     E     C     C     E           E
+
+       Item    91    92    93    94     95    96       97       98       99      100    101   102     103   104   105   106   107   108   109        110
+    Gabarito   C     E     E     C      C     C        E        C        E        C      C     C       C     E     E     C     C     E     E          C
+
+       Item    111   112   113   114    115   116      117      118      119     120     0     0       0     0     0     0     0     0     0           0
+    Gabarito    E     C     C     E      C     E        E        C        C       E      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0        0        0        0       0      0     0       0     0     0     0     0     0     0           0
+
+
+
+
+                                                             www.pciconcursos.com.br                                    www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                        Aplicação: 15/7/2012
+
+                                                    Cargo 10: Técnico Cientifico – Área: Engenharia Elétrica
+
+                                                                                                                                                   BASA12_010_21
+
+
+                                                                              0
+                                                                              0
+                                                               GABARITOS OFICIAIS PRELIMINARES
+0
+
+       Item    51    52    53    54     55    56         57       58       59      60      61    62      63    64    65    66    67    68    69          70
+    Gabarito   E     C     E     E      C     C          C        C        E       E       E     E       C     C     E     C     E     C     E           E
+
+       Item    71    72    73    74     75    76         77       78       79      80      81    82      83    84    85    86    87    88    89          90
+    Gabarito   E     C     C     E      E     C          E        C        C       C       E     C       E     C     E     E     C     C     C           C
+
+       Item    91    92    93    94     95    96         97       98       99      100    101    102     103   104   105   106   107   108   109        110
+    Gabarito   E     C     E     E      E     C          C        E        C        C      E      C       E     C     C     E     E     E     C          E
+
+       Item    111   112   113   114    115   116        117      118      119     120     0      0       0     0     0     0     0     0     0           0
+    Gabarito    E     C     C     C      E     C          C        C        E       C      0      0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+               0     0      0     0      0     0          0        0        0       0      0      0       0     0     0     0     0     0     0           0
+
+
+
+
+                                                               www.pciconcursos.com.br                                     www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                       Aplicação: 15/7/2012
+
+                                                   Cargo 11: Técnico Científico – Área: Engenharia Florestal
+
+                                                                                                                                                   BASA12_011_22
+
+
+                                                                             0
+                                                                             0
+                                                              GABARITOS OFICIAIS PRELIMINARES
+0
+
+       Item    51    52    53    54     55    56         57      58       59      60      61     62      63    64    65    66    67    68    69          70
+    Gabarito   C     E     E     C      C     C          C       E        E       C       C      E       E     C     E     E     C     C     E           C
+
+       Item    71    72    73    74     75    76         77      78       79      80      81     82      83    84    85    86    87    88    89          90
+    Gabarito   E     C     C     E      E     C          E       C        E       C       E      E       E     E     C     C     C     E     C           C
+
+       Item    91    92    93    94     95    96         97      98       99      100    101    102     103    104   105   106   107   108   109        110
+    Gabarito   E     C     E     C      C     C          C       E        E        C      E      C       C      E     C     E     C     C     E          C
+
+       Item    111   112   113   114    115   116       117      118      119     120     0      0       0      0     0     0     0     0     0           0
+    Gabarito    C     E     E     C      C     E         E        E        C       E      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+
+
+
+                                                              www.pciconcursos.com.br                                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                       Aplicação: 15/7/2012
+
+                                                   Cargo 12: Técnico Científico – Área: Engenharia Mecânica
+
+                                                                                                                                                  BASA12_012_24
+
+
+                                                                             0
+                                                                             0
+                                                              GABARITOS OFICIAIS PRELIMINARES
+0
+
+       Item    51    52    53    54     55    56         57      58       59      60      61    62     63     64    65    66    67    68    69          70
+    Gabarito   E     E     C     E      C     C          E       E        C       E       C     C      E      E     E     C     E     C     C           C
+
+       Item    71    72    73    74     75    76         77      78       79      80      81    82     83     84    85    86    87    88    89          90
+    Gabarito   E     E     C     C      C     E          C       C        E       C       E     E      C      E     C     E     E     C     C           E
+
+       Item    91    92    93    94     95    96         97      98       99      100    101   102     103    104   105   106   107   108   109        110
+    Gabarito   C     E     E     E      C     C          E       C        E        C      C     E       C      E     C     E     E     C     C          E
+
+       Item    111   112   113   114    115   116       117      118      119     120     0     0       0      0     0     0     0     0     0           0
+    Gabarito    C     E     E     C      C     E         E        C        E       C      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+
+
+
+                                                              www.pciconcursos.com.br                                     www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                       Aplicação: 15/7/2012
+
+                                                   Cargo 13: Técnico Científico – Área: Engenharia de Pesca
+
+                                                                                                                                                  BASA12_013_25
+
+
+                                                                             0
+                                                                             0
+                                                              GABARITOS OFICIAIS PRELIMINARES
+0
+
+       Item    51    52    53    54     55    56         57      58       59      60      61    62      63    64    65    66    67    68    69          70
+    Gabarito   E     C     C     C      C     C          C       C        E       E       C     C       C     C     E     E     C     C     C           C
+
+       Item    71    72    73    74     75    76         77      78       79      80      81    82      83    84    85    86    87    88    89          90
+    Gabarito   C     E     C     E      C     E          C       C        E       E       C     E       C     E     C     C     E     C     E           E
+
+       Item    91    92    93    94     95    96         97      98       99      100    101   102     103    104   105   106   107   108   109        110
+    Gabarito   C     E     E     C      E     C          C       C        E        C      E     C       C      E     C     E     E     C     C          E
+
+       Item    111   112   113   114    115   116       117      118      119     120     0     0       0      0     0     0     0     0     0           0
+    Gabarito    E     C     E     C      E     E         E        E        C       E      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0     0       0      0     0     0     0     0     0           0
+
+
+
+
+                                                              www.pciconcursos.com.br                                     www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                   Aplicação: 15/7/2012
+
+                                                    Cargo 14: Técnico Científico – Área: Estatística
+
+                                                                                                                                                 BASA12_014_27
+
+
+                                                                         0
+                                                                         0
+                                                          GABARITOS OFICIAIS PRELIMINARES
+0
+
+       Item    51    52    53    54     55    56     57      58       59      60      61      62       63    64    65    66    67    68    69          70
+    Gabarito   E     E     C     E      C     E      E       E        C       E       C       E        E     E     C     E     E     E     C           E
+
+       Item    71    72    73    74     75    76     77      78       79      80      81      82       83    84    85    86    87    88    89          90
+    Gabarito   C     C     C     E      E     E      C       E        C       C       E       E        E     E     E     C     C     E     E           C
+
+       Item    91    92    93    94     95    96     97      98       99      100    101     102       103   104   105   106   107   108   109        110
+    Gabarito   E     C     E     C      E     C      C       C        C        E      C       E         E     E     C     E     E     E     C          E
+
+       Item    111   112   113   114    115   116   117      118      119     120     0       0         0     0     0     0     0     0     0           0
+    Gabarito    C     C     E     C      C     C     E        E        E       C      0       0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0       0         0     0     0     0     0     0     0           0
+
+
+
+
+                                                          www.pciconcursos.com.br                                        www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                       Aplicação: 15/7/2012
+
+                                                   Cargo 15: Técnico Científico – Área: Medicina Veterinária
+
+                                                                                                                                                   BASA12_015_28
+
+
+                                                                             0
+                                                                             0
+                                                              GABARITOS OFICIAIS PRELIMINARES
+0
+
+       Item    51    52    53    54     55    56        57       58       59      60      61     62      63    64    65    66    67    68    69          70
+    Gabarito   C     E     C     E      C     C         E        E        E       C       E      C       C     C     C     E     C     C     C           C
+
+       Item    71    72    73    74     75    76        77       78       79      80      81     82      83    84    85    86    87    88    89          90
+    Gabarito   E     E     E     E      C     E         C        C        C       E       C      C       C     E     C     E     E     C     C           E
+
+       Item    91    92    93    94     95    96        97       98       99      100    101    102     103    104   105   106   107   108   109        110
+    Gabarito   C     E     C     C      C     C         C        C        E        E      E      E       E      C     C     C     E     C     C          E
+
+       Item    111   112   113   114    115   116       117      118      119     120     0      0       0      0     0     0     0     0     0           0
+    Gabarito    E     E     C     C      C     E         E        E        E       C      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+               0     0      0     0      0     0         0        0        0       0      0      0       0      0     0     0     0     0     0           0
+
+
+
+
+                                                              www.pciconcursos.com.br                                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                                BANCO DA AMAZÔNIA S.A.
+                                         CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                                CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                               EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                         Aplicação: 15/7/2012
+
+                                 Cargo 16: Técnico Científico – Área: Tecnologia da Informação – Subárea: Administração de Dados
+
+                                                                                                                                                     BASA12_016_30
+
+
+
+                                                                               0
+                                                                               0
+                                                                GABARITOS OFICIAIS PRELIMINARES
+0
+
+       Item    51    52    53      54      55      56     57       58       59      60      61   62      63     64     65    66    67    68    69          70
+    Gabarito   E     C     C       C       E       C      E        C        E       C       C    E       C      E      C     E     C     E     C           C
+
+       Item    71    72    73      74      75      76     77       78       79      80      81   82      83     84     85    86    87    88    89          90
+    Gabarito   E     E     C       E       E       C      C        E        E       E       C    C       E      E      C     C     C     E     C           C
+
+       Item    91    92    93      94      95      96     97       98       99      100    101   102    103     104   105    106   107   108   109        110
+    Gabarito   E     C     E       E       E       C      E        C        E        C      C     E      C       C     E      C     E     C     E          C
+
+       Item    111   112   113     114    115     116     117      118      119     120     0     0      0       0     0      0     0     0     0           0
+    Gabarito    C     C     C       E      C       E       E        E        E       C      0     0      0       0     0      0     0     0     0           0
+
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+               0     0      0       0      0       0       0        0        0       0      0     0      0       0     0      0     0     0     0           0
+
+
+
+
+                                                                www.pciconcursos.com.br                                     www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                       Aplicação: 15/7/2012
+
+                                 Cargo 17: Técnico Científico – Área: Tecnologia da Informação – Subárea: Análise de Sistemas
+
+                                                                                                                                                      BASA12_017_31
+
+
+                                                                             0
+                                                                             0
+                                                              GABARITOS OFICIAIS PRELIMINARES
+0
+       Item    51    52    53    54      55      56      57      58       59      60      61    62      63     64     65    66      67    68    69          70
+    Gabarito   C     C     E     C       C       C       E       E        C       E       C     C       C      C      E     C       E     E     C           C
+
+       Item    71    72    73    74      75      76      77      78       79      80      81    82      83     84     85    86      87    88    89          90
+    Gabarito   C     E     E     C       E       E       E       C        E       E       C     E       C      E      C     E       E     C     C           C
+
+       Item    91    92    93    94      95      96      97      98       99      100    101   102     103     104   105    106     107   108   109        110
+    Gabarito   E     C     C     C       C       E       C       E        E        E      E     E       C       C     E      C       C     E     C          E
+
+       Item    111   112   113   114     115    116     117      118      119     120     0     0       0       0     0         0    0     0     0           0
+    Gabarito    E     C     C     C       E      C       C        C        C       E      0     0       0       0     0         0    0     0     0           0
+
+               0     0      0     0       0      0       0        0        0       0      0     0       0       0     0         0    0     0     0           0
+               0     0      0     0       0      0       0        0        0       0      0     0       0       0     0         0    0     0     0           0
+
+               0     0      0     0       0      0       0        0        0       0      0     0       0       0     0         0    0     0     0           0
+               0     0      0     0       0      0       0        0        0       0      0     0       0       0     0         0    0     0     0           0
+
+               0     0      0     0       0      0       0        0        0       0      0     0       0       0     0         0    0     0     0           0
+               0     0      0     0       0      0       0        0        0       0      0     0       0       0     0         0    0     0     0           0
+
+               0     0      0     0       0      0       0        0        0       0      0     0       0       0     0         0    0     0     0           0
+               0     0      0     0       0      0       0        0        0       0      0     0       0       0     0         0    0     0     0           0
+
+               0     0      0     0       0      0       0        0        0       0      0     0       0       0     0         0    0     0     0           0
+               0     0      0     0       0      0       0        0        0       0      0     0       0       0     0         0    0     0     0           0
+
+               0     0      0     0       0      0       0        0        0       0      0     0       0       0     0         0    0     0     0           0
+               0     0      0     0       0      0       0        0        0       0      0     0       0       0     0         0    0     0     0           0
+
+               0     0      0     0       0      0       0        0        0       0      0     0       0       0     0         0    0     0     0           0
+               0     0      0     0       0      0       0        0        0       0      0     0       0       0     0         0    0     0     0           0
+
+
+
+
+                                                              www.pciconcursos.com.br                                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                      Aplicação: 15/7/2012
+
+                                  Cargo 18: Técnico Científico – Área: Tecnologia da Informação – Subárea: Banco de Dados
+
+                                                                                                                                                    BASA12_018_33
+
+
+                                                                            0
+                                                                            0
+                                                             GABARITOS OFICIAIS PRELIMINARES
+0
+       Item    51    52    53    54     55      56     57       58       59      60      61   62      63     64     65      66    67    68    69          70
+    Gabarito   E     E     C     C      C       E      E        C        C       C       C    E       E      C      E       C     E     E     E           E
+
+       Item    71    72    73    74     75      76     77       78       79      80      81   82      83     84     85      86    87    88    89          90
+    Gabarito   C     C     E     E      C       E      C        E        C       C       E    C       C      E      C       E     C     C     E           C
+
+       Item    91    92    93    94     95      96     97       98       99      100    101   102    103     104   105      106   107   108   109        110
+    Gabarito   E     C     E     C      C       C      E        C        E        E      C     E      C       C     E        C     C     E     C          C
+
+       Item    111   112   113   114    115    116     117      118      119     120     0     0      0       0     0        0     0     0     0           0
+    Gabarito    E     C     E     C      E      C       C        C        E       E      0     0      0       0     0        0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0        0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0        0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0        0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0        0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0        0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0        0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0        0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0        0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0        0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0        0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0        0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0        0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0        0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0        0     0     0     0           0
+
+
+
+
+                                                             www.pciconcursos.com.br                                        www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                      Aplicação: 15/7/2012
+
+                                 Cargo 19: Técnico Científico – Área: Tecnologia da Informação – Subárea: Governança em TI
+
+                                                                                                                                                     BASA12_019_35
+
+
+                                                                            0
+                                                                            0
+                                                             GABARITOS OFICIAIS PRELIMINARES
+0
+       Item    51    52    53    54     55      56     57       58       59      60      61   62      63     64     65       66    67    68    69          70
+    Gabarito   E     C     E     C      C       C      C        E        E       E       C    E       E      E      E        C     E     C     C           C
+
+       Item    71    72    73    74     75      76     77       78       79      80      81   82      83     84     85       86    87    88    89          90
+    Gabarito   C     E     C     C      E       C      E        C        E       E       E    E       C      C      C        E     C     E     E           C
+
+       Item    91    92    93    94     95      96     97       98       99      100    101   102    103     104   105       106   107   108   109        110
+    Gabarito   C     C     E     E      C       E      E        C        C        C      E     E      C       E     C         C     E     C     E          C
+
+       Item    111   112   113   114    115    116     117      118      119     120     0     0      0       0     0         0     0     0     0           0
+    Gabarito    C     C     E     E      C      E       C        C        C       E      0     0      0       0     0         0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0         0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0         0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0         0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0         0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0         0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0         0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0         0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0         0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0         0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0         0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0         0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0         0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0         0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0      0       0     0         0     0     0     0           0
+
+
+
+
+                                                             www.pciconcursos.com.br                                     www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                                 BANCO DA AMAZÔNIA S.A.
+                                          CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                                 CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                                EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                          Aplicação: 15/7/2012
+
+                                 Cargo 20: Técnico Científico – Área: Tecnologia da Informação – Subárea: Produção e Infraestrutura
+
+                                                                                                                                                        BASA12_020_37
+
+
+                                                                                0
+                                                                                0
+                                                                 GABARITOS OFICIAIS PRELIMINARES
+0
+       Item    51    52    53       54      55      56     57       58       59      60      61    62      63      64    65     66    67    68    69          70
+    Gabarito   E     C     E        E       E       C      E        C        E       E       C     E       C       E     E      C     E     C     C           C
+
+       Item    71    72    73       74      75      76     77       78       79      80      81    82      83      84    85     86    87    88    89          90
+    Gabarito   C     E     C        C       C       E      C        E        C       E       E     E       C       C     C      C     E     C     E           E
+
+       Item    91    92    93       94      95      96     97       98       99      100    101   102     103     104    105   106    107   108   109        110
+    Gabarito   C     E     E        E       E       E      C        E        C        C      C     E       C       C      E     E      E     E     C          C
+
+       Item    111   112   113     114     115     116     117      118      119     120     0     0       0       0      0     0      0     0     0           0
+    Gabarito    C     C     E       E       C       C       C        C        E       E      0     0       0       0      0     0      0     0     0           0
+
+               0     0      0       0       0       0       0        0        0       0      0     0       0       0      0     0      0     0     0           0
+               0     0      0       0       0       0       0        0        0       0      0     0       0       0      0     0      0     0     0           0
+
+               0     0      0       0       0       0       0        0        0       0      0     0       0       0      0     0      0     0     0           0
+               0     0      0       0       0       0       0        0        0       0      0     0       0       0      0     0      0     0     0           0
+
+               0     0      0       0       0       0       0        0        0       0      0     0       0       0      0     0      0     0     0           0
+               0     0      0       0       0       0       0        0        0       0      0     0       0       0      0     0      0     0     0           0
+
+               0     0      0       0       0       0       0        0        0       0      0     0       0       0      0     0      0     0     0           0
+               0     0      0       0       0       0       0        0        0       0      0     0       0       0      0     0      0     0     0           0
+
+               0     0      0       0       0       0       0        0        0       0      0     0       0       0      0     0      0     0     0           0
+               0     0      0       0       0       0       0        0        0       0      0     0       0       0      0     0      0     0     0           0
+
+               0     0      0       0       0       0       0        0        0       0      0     0       0       0      0     0      0     0     0           0
+               0     0      0       0       0       0       0        0        0       0      0     0       0       0      0     0      0     0     0           0
+
+               0     0      0       0       0       0       0        0        0       0      0     0       0       0      0     0      0     0     0           0
+               0     0      0       0       0       0       0        0        0       0      0     0       0       0      0     0      0     0     0           0
+
+
+
+
+                                                                 www.pciconcursos.com.br                                       www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                                 BANCO DA AMAZÔNIA S.A.
+                                          CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                                 CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                                EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                          Aplicação: 15/7/2012
+
+                                 Cargo 21: Técnico Científico – Área: Tecnologia da Informação – Subárea: Redes e Telecomunicações
+
+                                                                                                                                                       BASA12_021_39
+
+
+                                                                                0
+                                                                                0
+                                                                 GABARITOS OFICIAIS PRELIMINARES
+0
+       Item    51    52    53        54     55      56      57      58       59      60      61   62      63     64     65    66     67    68    69          70
+    Gabarito   E     C     C         C      C       C       C       E        E       E       C    C       E      C      E     E      C     E     C           E
+
+       Item    71    72    73        74     75      76      77      78       79      80      81   82      83     84     85    86     87    88    89          90
+    Gabarito   C     E     E         E      C       C       E       C        C       C       C    E       E      C      E     C      E     C     E           E
+
+       Item    91    92    93        94     95      96      97      98       99      100    101   102    103     104   105   106     107   108   109        110
+    Gabarito   C     C     C         C      E       E       E       E        C        C      E     C      E       C     E     E       E     C     E          E
+
+       Item    111   112   113      114     115    116     117      118      119     120     0     0      0       0     0     0       0     0     0           0
+    Gabarito    C     E     C        C       C      C       E        C        C       E      0     0      0       0     0     0       0     0     0           0
+
+               0     0      0        0       0      0       0        0        0       0      0     0      0       0     0     0       0     0     0           0
+               0     0      0        0       0      0       0        0        0       0      0     0      0       0     0     0       0     0     0           0
+
+               0     0      0        0       0      0       0        0        0       0      0     0      0       0     0     0       0     0     0           0
+               0     0      0        0       0      0       0        0        0       0      0     0      0       0     0     0       0     0     0           0
+
+               0     0      0        0       0      0       0        0        0       0      0     0      0       0     0     0       0     0     0           0
+               0     0      0        0       0      0       0        0        0       0      0     0      0       0     0     0       0     0     0           0
+
+               0     0      0        0       0      0       0        0        0       0      0     0      0       0     0     0       0     0     0           0
+               0     0      0        0       0      0       0        0        0       0      0     0      0       0     0     0       0     0     0           0
+
+               0     0      0        0       0      0       0        0        0       0      0     0      0       0     0     0       0     0     0           0
+               0     0      0        0       0      0       0        0        0       0      0     0      0       0     0     0       0     0     0           0
+
+               0     0      0        0       0      0       0        0        0       0      0     0      0       0     0     0       0     0     0           0
+               0     0      0        0       0      0       0        0        0       0      0     0      0       0     0     0       0     0     0           0
+
+               0     0      0        0       0      0       0        0        0       0      0     0      0       0     0     0       0     0     0           0
+               0     0      0        0       0      0       0        0        0       0      0     0      0       0     0     0       0     0     0           0
+
+
+
+
+                                                                 www.pciconcursos.com.br                                     www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                                BANCO DA AMAZÔNIA S.A.
+                                         CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                                CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                               EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                         Aplicação: 15/7/2012
+
+                                 Cargo 22: Técnico Científico – Área: Tecnologia da Informação – Subárea: Segurança da Informação
+
+                                                                                                                                                      BASA12_022_41
+
+
+
+
+                                                                               0
+                                                                GABARITOS OFICIAIS PRELIMINARES
+0
+       Item    51    52    53       54     55      56      57      58       59      60      61   62      63      64    65     66    67    68    69          70
+    Gabarito   E     E     C        E      C       C       E       E        E       E       C    C       E       E     C      E     C     E     C           E
+
+       Item    71    72    73       74     75      76      77      78       79      80      81   82      83      84    85     86    87    88    89          90
+    Gabarito   E     C     C        E      E       E       C       C        E       E       E    E       E       E     C      C     C     E     E           C
+
+       Item    91    92    93       94     95      96      97      98       99      100    101   102     103    104    105   106    107   108   109        110
+    Gabarito   C     C     E        C      E       E       E       E        C        C      E     E       C      C      E     E      C     C     E          C
+
+       Item    111   112   113     114     115     116    117      118      119     120     0     0       0      0      0     0      0     0     0           0
+    Gabarito    E     C     C       C       E       E      C        C        E       E      0     0       0      0      0     0      0     0     0           0
+
+               0     0      0       0       0       0      0        0        0       0      0     0       0      0      0     0      0     0     0           0
+               0     0      0       0       0       0      0        0        0       0      0     0       0      0      0     0      0     0     0           0
+
+               0     0      0       0       0       0      0        0        0       0      0     0       0      0      0     0      0     0     0           0
+               0     0      0       0       0       0      0        0        0       0      0     0       0      0      0     0      0     0     0           0
+
+               0     0      0       0       0       0      0        0        0       0      0     0       0      0      0     0      0     0     0           0
+               0     0      0       0       0       0      0        0        0       0      0     0       0      0      0     0      0     0     0           0
+
+               0     0      0       0       0       0      0        0        0       0      0     0       0      0      0     0      0     0     0           0
+               0     0      0       0       0       0      0        0        0       0      0     0       0      0      0     0      0     0     0           0
+
+               0     0      0       0       0       0      0        0        0       0      0     0       0      0      0     0      0     0     0           0
+               0     0      0       0       0       0      0        0        0       0      0     0       0      0      0     0      0     0     0           0
+
+               0     0      0       0       0       0      0        0        0       0      0     0       0      0      0     0      0     0     0           0
+               0     0      0       0       0       0      0        0        0       0      0     0       0      0      0     0      0     0     0           0
+
+               0     0      0       0       0       0      0        0        0       0      0     0       0      0      0     0      0     0     0           0
+               0     0      0       0       0       0      0        0        0       0      0     0       0      0      0     0      0     0     0           0
+
+
+
+
+                                                                www.pciconcursos.com.br                                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                      Aplicação: 15/7/2012
+
+                                  Cargo 23: Técnico Científico – Área: Tecnologia da Informação – Subárea: Suporte Técnico
+
+                                                                                                                                                     BASA12_023_43
+
+
+                                                                            0
+                                                                            0
+                                                             GABARITOS OFICIAIS PRELIMINARES
+0
+       Item    51    52    53    54     55      56      57      58       59      60      61    62     63      64     65      66    67    68    69          70
+    Gabarito   E     E     E     E      C       E       E       E        C       C       C     C      E       E      C       C     E     E     C           E
+
+       Item    71    72    73    74     75      76      77      78       79      80      81    82     83      84     85      86    87    88    89          90
+    Gabarito   C     E     C     E      C       E       C       E        C       E       E     C      E       E      C       E     C     E     C           E
+
+       Item    91    92    93    94     95      96      97      98       99      100    101   102     103     104   105      106   107   108   109        110
+    Gabarito   C     C     C     E      E       C       C       E        C        E      E     C       C       C     E        C     E     C     C          C
+
+       Item    111   112   113   114    115    116     117      118      119     120     0     0       0       0     0        0     0     0     0           0
+    Gabarito    E     E     C     E      C      E       C        E        E       C      0     0       0       0     0        0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0       0       0     0        0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0       0       0     0        0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0       0       0     0        0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0       0       0     0        0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0       0       0     0        0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0       0       0     0        0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0       0       0     0        0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0       0       0     0        0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0       0       0     0        0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0       0       0     0        0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0       0       0     0        0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0       0       0     0        0     0     0     0           0
+
+               0     0      0     0      0      0       0        0        0       0      0     0       0       0     0        0     0     0     0           0
+               0     0      0     0      0      0       0        0        0       0      0     0       0       0     0        0     0     0     0           0
+
+
+
+
+                                                             www.pciconcursos.com.br                                         www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo0Nzo1OSAtMDMwMA==
+
+
+
+
+                                                              BANCO DA AMAZÔNIA S.A.
+                                       CONCURSO PÚBLICO PARA FORMAÇÃO DE CADASTRO DE RESERVA PARA OS
+                                              CARGOS DE TÉCNICO CIENTÍFICO E DE TÉCNICO BANCÁRIO
+                                             EDITAL Nº 1 – BANCO DA AMAZÔNIA, DE 30 DE ABRIL DE 2012.
+
+
+
+                                                                   Aplicação: 15/7/2012
+
+                                                              Cargo 24: Técnico Bancário
+
+                                                                                                                                           BASA12_024_45
+
+
+                                                                         0
+                                                                         0
+                                                          GABARITOS OFICIAIS PRELIMINARES
+0
+       Item    1     2     3     4      5     6      7        8        9      10      11   12    13    14    15    16    17    18    19          20
+    Gabarito   C     E     C     C      E     C      C        E        C      E       E    C     C     C     E     C     E     C     E           E
+
+       Item    21    22    23    24     25    26    27       28       29      30      31   32    33    34    35    36    37    38    39          40
+    Gabarito   C     E     C     C      E     C     C        E        C       C       E    E     C     C     E     C     C     E     E           E
+
+       Item    41    42    43    44     45    46    47       48       49      50      51   52    53    54    55    56    57    58    59          60
+    Gabarito   C     C     E     C      E     C     C        C        E       E       C    E     E     E     E     C     E     C     C           E
+
+       Item    61    62    63    64     65    66    67       68       69      70      71   72    73    74    75    76    77    78    79          80
+    Gabarito   C     C     E     C      C     C     E        E        C       C       E    E     C     E     C     C     E     E     C           C
+
+       Item    81    82    83    84     85    86    87       88       89      90      91   92    93    94    95    96    97    98    99         100
+    Gabarito   E     C     E     E      E     C     C        C        E       E       E    E     C     E     C     E     E     C     C           C
+
+       Item    101   102   103   104    105   106   107      108      109     110    111   112   113   114   115   116   117   118   119        120
+    Gabarito    C     C     E     E      C     C     C        C        E       E      C     C     E     C     C     E     C     E     C          E
+
+               0     0      0     0      0     0     0        0        0       0      0     0     0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0     0     0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0     0     0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0     0     0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0     0     0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0     0     0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0     0     0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0     0     0     0     0     0     0     0     0           0
+
+               0     0      0     0      0     0     0        0        0       0      0     0     0     0     0     0     0     0     0           0
+               0     0      0     0      0     0     0        0        0       0      0     0     0     0     0     0     0     0     0           0
+
+
+
+
+                                                          www.pciconcursos.com.br                                  www.pciconcursos.com.br
+

@@ -1,0 +1,1120 @@
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNiAtMDMwMA==
+
+
+
+
+                                        BANDES
+        BANCO DE DESENVOLVIMENTO DO ESPÍRITO SANTO S.A
+
+
+
+
+                           CONCURSO PÚBLICO
+                              Nº 001/2014
+
+
+
+
+                           TIPO 01 BRANCA
+
+
+                           Técnico Bancário
+
+                                                                      TARDE
+
+
+                                                                                   www.pciconcursos.com.br
+                                        www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNiAtMDMwMA==
+
+CONCURSO PÚBLICO – BANCO DE DESENVOLVIMENTO DO ESPÍRITO SANTO – BANDES
+
+CARGO: TÉCNICO BANCÁRIO
+
+Texto para responder às questões de 01 a 10.
+
+                                                               Território inexplorado
+     “Não seria legal se tivéssemos um microscópio para medir a cultura humana?”. É assim que Erez Aiden e Jean-Baptiste
+Michel, dois jovens matemáticos descrevem seu insight sobre a culturomics, que é o uso de análises quantitativas de
+palavras em megabases de dados para estudar comportamentos e tendências culturais.
+     Juntar os termos “análise quantitativa” e “cultura” na mesma frase pode fazer com que alguns representantes das
+humanidades torçam o nariz, mas os resultados obtidos são interessantíssimos, para não dizer revolucionários. Aiden e
+Michel dão uma boa amostra disso no recém-lançado Uncharted (inexplorado).
+     A dupla, que ajudou a criar a ferramenta ngram viewer do Google (que busca todas as ocorrências de um termo
+qualquer numa base de vários milhões de livros já digitalizados pela empresa e dispõe os resultados na forma de
+gráficos), percorre áreas tão distintas quanto a linguística, o mundo das celebridades e os porões da censura.
+     Eles mostram como o big data lhes permitiu desenvolver uma nova teoria sobre a regularização dos verbos ingleses
+(dentro de alguns milênios, se o idioma ainda existir, todos os irregulares terão desaparecido), sugerem as melhores
+carreiras para quem quer ficar famoso (e para conservar a reputação depois de morto, o que é mais difícil) e,
+lamentavelmente, revelam que os esforços de governos totalitários para reprimir ideias funcionam (ainda que, no longo
+prazo, os regimes pereçam e as ideias não necessariamente).
+     Aiden e Michel não deixam de abordar questões difíceis trazidas pela revolução tecnológica, como a da perda de
+privacidade e o poder excessivo dos guardadores de dados. No campo da especulação, levantam a possibilidade de que
+o big data possa transformar a história numa ciência preditiva, algo que é ao mesmo tempo fascinante e aterrador.
+                                                                                                  (Hélio Schwartsman. Folha de S. Paulo, 12/01/2014.)
+
+
+01
+De acordo com as informações e ideias expressas no texto, é correto afirmar que o(a)
+A) detenção de dados é vista como uma prática que pode gerar também efeitos indesejáveis.
+B) cultura humana tornou-se insignificante diante da revolução tecnológica dos últimos tempos.
+C) cultura humana é limitada aos dados estatísticos apresentados em estudos ao longo dos tempos.
+D) revolução tecnológica trouxe apenas aspectos positivos na visão de Erez Aiden e Jean-Baptiste Michel.
+E) estudo de comportamentos humanos, através de uma grande base de dados, tem por objetivo eliminar as diferenças
+   existentes entre uma sociedade e outra.
+
+02
+Ao citar os termos “análise quantitativa” e “cultura”, o autor descreve o possível posicionamento de alguns represen-
+tantes das humanidades através da expressão: “torçam o nariz”. Considerando o contexto, é correto afirmar que tal
+expressão indica que
+A) a análise quantitativa jamais esteve associada à cultura em toda a história da humanidade.
+B) há uma insistência por parte de alguns representantes mundiais em excluir a cultura de determinados povos de seus
+   estudos.
+C) não há uma aceitação favorável da associação dos termos citados por parte de algumas pessoas de renome na
+   sociedade.
+D) há uma certa discriminação em relação ao uso de inovações tecnológicas no cotidiano por parte de representantes
+   tradicionais.
+E) apesar das diferenças existentes entre as duas categorias apresentadas – análise quantitativa e cultura – a evolução
+   tecnológica permite associá-las.
+
+03
+É possível identificar um posicionamento explícito do autor em relação ao assunto tratado em:
+A) “... matemáticos descrevem seu insight sobre a culturomics,...” (1º§)
+B) “A dupla, que ajudou a criar a ferramenta ngram viewer do Google...” (3º§)
+C) “Não seria legal se tivéssemos um microscópio para medir a cultura humana?” (1º§)
+D) “... mas os resultados obtidos são interessantíssimos, para não dizer revolucionários.” (2º§)
+E) “... percorre áreas tão distintas quanto a linguística, o mundo das celebridades e os porões da censura.” (3º§)
+
+
+Cargo: Técnico Bancário (01-T) – Tipo 1 (Branca)
+Prova aplicada em 16/03/2014 – Disponível no endereço eletrônico www.idecan.org.br a partir do dia 17/03/2014.
+                                                                           -2-                                     www.pciconcursos.com.br
+                                                         www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNiAtMDMwMA==
+
+CONCURSO PÚBLICO – BANCO DE DESENVOLVIMENTO DO ESPÍRITO SANTO – BANDES
+
+04
+Em “Não seria legal se tivéssemos um microscópio para medir a cultura humana?” (1º§), as palavras em destaque
+produzem um efeito, quanto ao sentido textual, de
+A) certeza.           B) hipótese.           C) contraste.        D) indefinição.       E) permanência.
+
+05
+No 1º§, o trecho “... que é o uso de análises quantitativas de palavras em megabases de dados para estudar
+comportamentos e tendências culturais.” constitui, em relação à informação anterior, um(a)
+A) exemplo.           B) explicação.         C) argumento.            D) comparação.       E) confirmação.
+
+06
+Em “... percorre áreas tão distintas...” (3º§), a forma verbal é usada de acordo com a norma padrão ao estabelecer
+uma relação de concordância com
+A) “A dupla”.                                                   D) “uma base de vários milhões de livros”.
+B) “empresa”.                                                   E) “a ferramenta ngram viewer do Google”.
+C) “um termo qualquer”.
+
+07
+O sentido original, de modo geral, e a correção de acordo com a norma padrão do último período do texto são
+mantidos em:
+A) Existe uma possibilidade, segundo a dupla citada, de que o big data possa transformar a história de modo assustador.
+B) Diante de especulações, o big data passa a transformar a história numa ciência preditiva, algo ao mesmo tempo
+   encantador e ameaçador.
+C) A partir de especulações, levanta-se a hipótese de que a ciência preditiva seja uma realidade através do big data,
+   algo assustador e complexo.
+D) Diante da possibilidade de que o big data possa transformar a história numa ciência preditiva, as especulações
+   consideram tal fato fascinante e aterrador.
+E) No campo da especulação, a dupla levanta a possibilidade de que o big data transforme a história numa ciência
+   preditiva, algo que tem os dois lados da moeda.
+
+08
+Em “... (dentro de alguns milênios, se o idioma ainda existir, todos os irregulares terão desaparecido)...” (4º§), o trecho
+entre vírgulas indica, em relação à informação expressa dentro dos parênteses, uma
+A) condição.             B) conclusão.           C) retificação.           D) ideia oposta.      E) consequência.
+
+09
+Dentre os elementos sublinhados nos trechos a seguir, assinale o que possui classificação diferente quanto à sintaxe
+dos demais.
+A) “... todos os irregulares terão desaparecido...” (4º§)
+B) “Aiden e Michel dão uma boa amostra disso...” (2º§)
+C) “... criar a ferramenta ngram viewer do Google...” (3º§)
+D) “... que busca todas as ocorrências de um termo qualquer...” (3º§)
+E) “Juntar os termos ‘análise quantitativa’ e ‘cultura’ na mesma frase...” (2º§)
+
+10
+De acordo com o exposto no texto, é possível identificar um posicionamento positivo do autor em relação aos estudos
+e inovações da dupla Erez Aiden e Jean-Baptiste Michel através de alguns marcadores textuais. Analise os seguintes
+trechos e indique aquele(s) que pode(m) confirmar tal afirmação.
+I. “Juntar os termos ‘análise quantitativa’ e ‘cultura’ na mesma frase pode fazer com que alguns representantes das
+     humanidades torçam o nariz, mas os resultados obtidos são interessantíssimos, para não dizer revolucionários.” (2º§)
+II. “... revelam que os esforços de governos totalitários para reprimir ideias funcionam (ainda que, no longo prazo, os
+     regimes pereçam e as ideias não necessariamente).” (4º§)
+III. “No campo da especulação, levantam a possibilidade de que o big data possa transformar a história numa ciência
+     preditiva, algo que é ao mesmo tempo fascinante e aterrador.” (5º§)
+Está(ão) correta(s) apenas a(s) afirmativa(s)
+A) I.                      B) II.                C) III.                  D) I e II.               E) I e III.
+
+Cargo: Técnico Bancário (01-T) – Tipo 1 (Branca)
+Prova aplicada em 16/03/2014 – Disponível no endereço eletrônico www.idecan.org.br a partir do dia 17/03/2014.
+                                                                           -3-                                   www.pciconcursos.com.br
+                                                         www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNiAtMDMwMA==
+
+CONCURSO PÚBLICO – BANCO DE DESENVOLVIMENTO DO ESPÍRITO SANTO – BANDES
+Texto para responder às questões 11 e 12.
+
+                                        “Os dados não falam por si”, diz especialista em big data
+       Um dos maiores experts em big data diz que as informações não servem para muita coisa se o empreendedor
+                                            não sabe o que fazer com elas.
+EXAME PME – Até que ponto saber analisar grandes quantidades de informação é essencial para uma pequena ou
+média empresa? Alguns especialistas dizem que é melhor que elas se concentrem em dados vitais.
+Mário Faria: É claro que monitorar informações como rentabilidade e fluxo de caixa é fundamental para a saúde
+financeira. Mas isso não basta – sobretudo à medida que o negócio cresce. Um dos maiores desafios do empreendedor
+é expandir sua empresa sem deixar que ela perca as vantagens de ser pequena, como agilidade para tomar decisões e
+flexibilidade para atender a necessidades específicas de seus clientes.
+     A explosão de dados gerados no meio digital e a capacidade das máquinas de processá-los rapidamente permitem
+conciliar a escala gerada pela expansão com o atendimento a necessidades de diferentes perfis de cliente. Nenhum
+empreendedor deveria ignorar essa oportunidade.                                            (Revista Exame, 19/09/2013.)
+
+
+11
+De acordo com a resposta dada pelo especialista, é possível concluir que
+A) ele possui uma posição contrária à utilização de informações na administração de uma empresa.
+B) a tecnologia atual que permite a geração de dados deve ser aproveitada em associação a outras ações.
+C) o desafio de expandir a empresa está atrelado exclusivamente à utilização de dados gerados para tal fim.
+D) dados ou informações são prejudiciais ao crescimento da empresa se utilizados em grande quantidade, de forma
+   excessiva.
+E) as vantagens da empresa pequena devem ser levadas em consideração, resultando na opção da não utilização de
+   informações e dados de modo excessivo.
+
+12
+Quanto ao segmento “explosão de dados gerados no meio digital”, é correto afirmar que
+A) possui sentido conotativo, por fazer referência ao “meio digital”.
+B) através do sentido conotativo empregado é possível inferir que há uma geração de elevada quantidade de dados no
+   meio digital.
+C) “explosão de dados” sugere que o excesso de dados gerados no meio digital contribui para a desordem no uso das
+   informações.
+D) a expressão “explosão de dados” só pode ser usada em relação ao “meio digital”, já que, apenas virtualmente,
+   informações podem ser obtidas.
+E) o sentido atribuído ao termo “explosão” permite identificar um posicionamento negativo do entrevistado em relação
+   à geração de grande quantidade de dados.
+
+Texto para responder às questões 13 e 14.
+
+Artigo IV                                                                     Artigo V
+Fica decretado que o homem                                                    Fica decretado que os homens
+não precisará nunca mais                                                      estão livres do jugo da mentira.
+duvidar do homem.                                                             Nunca mais será preciso usar
+Que o homem confiará no homem                                                 a couraça do silêncio
+como a palmeira confia no vento,                                              nem a armadura de palavras.
+como o vento confia no ar,                                                    O homem se sentará à mesa
+como o ar confia no campo azul do céu.                                        com seu olhar limpo
+                                                                              porque a verdade passará a ser servida
+Parágrafo único:                                                              antes da sobremesa.
+O homem, confiará no homem
+como um menino confia em outro menino.
+                                                                                        (Thiago de Mello. Santiago do Chile, abril de 1964. Adaptado.)
+
+
+Cargo: Técnico Bancário (01-T) – Tipo 1 (Branca)
+Prova aplicada em 16/03/2014 – Disponível no endereço eletrônico www.idecan.org.br a partir do dia 17/03/2014.
+                                                                           -4-                                     www.pciconcursos.com.br
+                                                         www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNiAtMDMwMA==
+
+CONCURSO PÚBLICO – BANCO DE DESENVOLVIMENTO DO ESPÍRITO SANTO – BANDES
+
+13
+Nos versos a seguir, o autor expressa seus ideais empregando elementos da natureza através de
+                                                  “Que o homem confiará no homem
+                                                  como a palmeira confia no vento,
+                                                  como o vento confia no ar,
+                                                  como o ar confia no campo azul do céu.”
+A) desabafo.                   B) definições.                 C) indignação.                 D) simulações.            E) comparações.
+
+14
+O acento gráfico das palavras “precisará”, “confiará” e “passará” justifica-se
+A) por serem todas proparoxítonas.
+B) por constituírem hiato com a vogal anterior.
+C) por serem exemplos de oxítonas terminadas em “a”, devendo ser acentuadas.
+D) igualmente, pois são exemplos de paroxítonas terminadas em “-ra” que devem ser acentuadas.
+E) de modo diferente de uma para outra, a 1ª e a 2ª palavras são oxítonas terminadas em “a”, já a 3ª palavra é exemplo
+   de paroxítona terminada em “a”.
+
+Texto para responder às questões 15 e 16.
+
+
+
+
+                                                                                    (Disponível em: http://oglobo.globo.com/infograficos/bigdata/.)
+
+Cargo: Técnico Bancário (01-T) – Tipo 1 (Branca)
+Prova aplicada em 16/03/2014 – Disponível no endereço eletrônico www.idecan.org.br a partir do dia 17/03/2014.
+                                                                           -5-                                   www.pciconcursos.com.br
+                                                         www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNiAtMDMwMA==
+
+CONCURSO PÚBLICO – BANCO DE DESENVOLVIMENTO DO ESPÍRITO SANTO – BANDES
+
+15
+Acerca da linguagem utilizada no texto, é correto afirmar que o(a)
+A) uso da linguagem não verbal é indiferente para a compreensão do texto.
+B) predominância do uso da linguagem verbal anula o efeito do uso da linguagem não verbal.
+C) exclusão da linguagem não verbal utilizada torna incompreensível a mensagem expressa através da linguagem
+   verbal.
+D) uso da linguagem não verbal causa um efeito negativo no entendimento das informações expressas através da
+   linguagem verbal.
+E) uso da linguagem não verbal tem por objetivo contribuir para o entendimento das informações expressas através da
+   linguagem verbal.
+
+16
+Em “Alguns exemplos de como a solução tem sido usada”, a expressão grifada expressa ideia de
+A) cortesia.         B) frequência.         C) progressão.         D) continuidade.        E) fato concluído.
+
+                                                                   MATEMÁTICA
+17
+O capital de R$ 12.475,00 é aplicado, a juros simples, por 8 bimestres à taxa de 36% ao ano. A taxa proporcional
+bimestral da aplicação é
+A) 3%.                  B) 6%.                C) 8%.                D) 12%.               E) 24%.
+
+18
+Um título descontado, segundo o critério de desconto simples racional, à taxa de 48% a.a., 4 meses antes de seu
+vencimento, gerou o valor atual de R$ 20.000,00. O valor nominal do título era de
+A) R$ 23.000,00.      B) R$ 23.200,00.        C) R$ 23.400,00.        D) R$ 23.500,00.    E) R$ 23.600,00.
+
+19
+Uma instituição pratica a taxa de 4% ao mês para operações de desconto simples por fora para o prazo de 3 meses. A
+taxa efetiva do desconto por fora é
+A) 4,15% a.m.          B) 4,25% a.m.          C) 4,55% a.m.         D) 5,00% a.m.          E) 5,54% a.m.
+
+20
+Em uma sala do 1º ano do ensino médio de determinada escola pública, realizou-se uma pesquisa sobre a preferência
+dos alunos com relação às disciplinas de Matemática e Português. Os resultados foram:
+• 50% dos alunos disseram gostar de Português;
+• 40% dos alunos disseram gostar de Matemática;
+• 10% dos alunos disseram gostar das duas disciplinas.
+O percentual de alunos que disseram NÃO gostar das duas disciplinas foi
+A) 0%.                 B) 5%.                  C) 10%.               D) 12%.              E) 20%.
+
+21
+Rita aplicou R$ 10.000,00 em uma instituição financeira e, após certo tempo, recebeu o montante de R$ 10.800,00. Se
+a inflação durante o período em que ficou aplicado o dinheiro de Rita foi de 3%, seu ganho real, em termos
+percentuais, durante o período, foi de
+A) 4,30%.               B) 4,5%.               C) 4,65%.               D) 4,85%.            E) 5%.
+
+22
+Um comerciante, necessitando de recursos para o pagamento de sua folha de pessoal, desconta dois títulos junto ao
+Banco Beta. O primeiro título possui o valor de R$ 80.000,00 com vencimento para 5 meses e o segundo de R$ 100.000,00
+para 6 meses. Considerando que o Banco Beta aplicou o desconto simples por fora à taxa de 3% a.m., o valor recebido
+pelo comerciante foi
+A) R$ 140.000,00.                                               D) R$ 170.000,00.
+B) R$ 150.000,00.                                               E) R$ 175.000,00.
+C) R$ 160.000,00.
+
+Cargo: Técnico Bancário (01-T) – Tipo 1 (Branca)
+Prova aplicada em 16/03/2014 – Disponível no endereço eletrônico www.idecan.org.br a partir do dia 17/03/2014.
+                                                                           -6-                                   www.pciconcursos.com.br
+                                                         www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNiAtMDMwMA==
+
+CONCURSO PÚBLICO – BANCO DE DESENVOLVIMENTO DO ESPÍRITO SANTO – BANDES
+
+23
+                1                                                                                       1
+Joana gasta         de seu salário com alimentação. Do restante do seu salário,                             ela gasta com lazer. E, desse novo
+                5                                                                                      10
+                      3
+restante, gasta           com prestação de sua casa própria. Se a prestação é de R$ 648,00, então, seu salário é um valor
+                     10
+entre
+A) R$ 1.000,00 e R$ 1.990,00.                                                      D) R$ 3.991,00 e R$ 4.990,00.
+B) R$ 1.991,00 e R$ 2.990,00.                                                      E) R$ 4.991,00 e R$ 5.990,00.
+C) R$ 2.991,00 e R$ 3.990,00.
+
+24
+Uma turma de 9 pedreiros constrói um muro em 24 dias, trabalhando 5 horas por dia. A quantidade de horas trabalhadas,
+por dia, durante 16 dias de outra turma com 15 pedreiros, cuja capacidade de trabalho é igual à capacidade da primeira
+turma, para construir outro muro, com as mesmas dimensões do primeiro, porém com o dobro da dificuldade apresen-
+tada na construção do primeiro muro devido ao terreno acidentado, é
+A) 5 h/dia.             B) 7 h/dia.           C) 9 h/dia.              D) 10 h/dia.            E) 12 h/dia.
+
+25
+Um capital aplicado a juros simples à taxa de 3% ao mês, após um ano e um trimestre, apresentou montante de
+R$ 17.400,00. O valor do capital aplicado está entre
+A) R$ 10.000,00 e R$ 12.500,00.                            D) R$ 17.501,00 e R$ 20.000,00.
+B) R$ 12.501,00 e R$ 15.000,00.                            E) R$ 20.001,00 e R$ 22.500,00.
+C) R$ 15.001,00 e R$ 17.500,00.
+
+26
+Em uma sala estão 8 crianças do sexo feminino, 10 crianças do sexo masculino, 20 adultos do sexo feminino e 18 adultos
+do sexo masculino, totalizando 56 pessoas. Um livro foi sorteado entre as 56 pessoas. A probabilidade de uma menina
+ser a contemplada, sabendo-se que a pessoa sorteada NÃO é um adulto é
+   1                       2                      3                       4                        9
+A) .                    B) .                   C) .                    D) .                    E)    .
+   7                       9                      7                       9                       28
+
+27
+José procurou o Banco Alfa para obter um empréstimo no valor de R$ 100.000,00 pelo prazo de 3 meses. O gerente do
+Banco Alfa, Sr. Matheus, disse que as condições para tal empréstimo eram: juro composto e taxa de 24% a.a. com
+capitalização mensal. José agradeceu ao Sr. Matheus e disse que pensaria na proposta e voltaria no dia seguinte, caso
+fosse concretizar a negociação. José procurou o Banco Ômega com a mesma proposta de empréstimo. O gerente do
+Banco Ômega, Sr. Andrade, disse que as condições eram: juros simples e taxa de 2,04% a.m.
+Após refletir e fazer as contas, José poderá concluir que
+A) os juros de cada banco eram exatamente os mesmos.
+B) as informações obtidas não permitem uma conclusão segura.
+C) a diferença entre os juros a pagar nas duas entidades era da ordem de centavos.
+D) a melhor opção é o Banco Alfa, pois pagaria R$ 200,00 a menos de juros que no Banco Ômega.
+E) a melhor proposta é a do Banco Ômega, pois pagaria R$ 200,00 a menos de juros que no Banco Alfa.
+
+28
+Um investidor, a partir de determinado capital inicial, vem aumentando o seu patrimônio exponencialmente, segundo
+a função P = CO . bt, em que P é o valor de seu patrimônio em determinada data, CO é o capital inicial aplicado, b é uma
+constante e t é o tempo de aplicação em anos. Após um ano, seu patrimônio era de R$ 144.000,00 e, no início do
+primeiro ano, tempo igual a zero, era de R$ 120.000,00. O valor de seu patrimônio, após exatos quatro anos de
+aplicação, era de
+A) R$ 201.600,00.                                              D) R$ 316.800,00.
+B) R$ 248.832,00.                                              E) R$ 345.600,00.
+C) R$ 288.000,00.
+
+
+Cargo: Técnico Bancário (01-T) – Tipo 1 (Branca)
+Prova aplicada em 16/03/2014 – Disponível no endereço eletrônico www.idecan.org.br a partir do dia 17/03/2014.
+                                                                           -7-                                    www.pciconcursos.com.br
+                                                         www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNiAtMDMwMA==
+
+CONCURSO PÚBLICO – BANCO DE DESENVOLVIMENTO DO ESPÍRITO SANTO – BANDES
+
+29
+Valdirene aplicou seu capital à taxa de 20% ao ano com capitalização semestral. A taxa efetiva anual de sua aplicação
+foi de
+A) 10%.                B) 20%.                 C) 20,5%.              D) 21%.                 E) 22%.
+
+30
+A idade que Joaquim terá daqui a 4 anos é igual ao triplo da idade que Joaquim tinha há 12 anos. Hoje, a idade de
+Joaquim é um valor compreendido entre
+A) 15 e 18 anos.      B) 19 e 22 anos.       C) 23 e 26 anos.       D) 27 e 30 anos.      E) 31 e 34 anos.
+
+31
+Um atleta de alto desempenho, em seu primeiro dia de treino, correu 4.000 metros. Em seu segundo dia de treino,
+4.400 metros. Em seu terceiro dia de treino, 4.800 metros e, assim, sucessivamente, a cada dia aumentava um pouco
+a distância percorrida. Ele treinou durante 61 dias consecutivos, sem faltar um único dia. A distância total, em
+metros, percorrida durante os 61 dias de treinamento foi
+A) 866.200.            B) 876.000.             C) 960.000.             D) 976.000.           E) 976.400.
+
+32
+Uma planta aquática cobre determinada área da superfície de um lago. Se essa planta dobra a área por ela coberta a
+cada 10 dias e ela gastou 300 dias para cobrir toda a área desse lago, pode-se concluir que para cobrir a metade da
+área da superfície desse lago ela gastou
+A) 100 dias.            B) 150 dias.           C) 200 dias.           D) 250 dias.           E) 290 dias.
+
+                                                   CONHECIMENTOS DE INFORMÁTICA
+33
+Em relação ao navegador Internet Explorer 8 (configuração padrão – idioma Português Brasil), analise.
+I. Para acionar a Ajuda do aplicativo, deve-se pressionar a tecla de atalho F1.
+II. Para exibir a página em modo tela inteira, deve-se pressionar a tecla de atalho F11.
+III. A tecla de atalho F7 atualiza o conteúdo da página atual.
+IV. Se forem pressionadas simultaneamente as teclas Ctrl + T, todo o conteúdo da página será selecionado.
+Estão corretas apenas as afirmativas
+A) I e II.                B) I e III.             C) II e III.            D) III e IV.         E) I, II e IV.
+
+34
+Um usuário que utiliza o Sistema Operacional Microsoft Windows XP (configuração padrão) excluiu, acidentalmente,
+o arquivo PROVA.doc do seu computador.
+
+
+
+
+Ao acessar a lixeira do computador com o arquivo selecionado, conforme representado na imagem anterior, é possível
+recuperar esse arquivo acessando o menu
+A) Editar / Recuperar.                                        D) Ferramentas / Restaurar.
+B) Arquivo / Restaurar.                                       E) Ferramentas / Recuperar.
+C) Arquivo / Recuperar.
+
+Cargo: Técnico Bancário (01-T) – Tipo 1 (Branca)
+Prova aplicada em 16/03/2014 – Disponível no endereço eletrônico www.idecan.org.br a partir do dia 17/03/2014.
+                                                                           -8-                                   www.pciconcursos.com.br
+                                                         www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNiAtMDMwMA==
+
+CONCURSO PÚBLICO – BANCO DE DESENVOLVIMENTO DO ESPÍRITO SANTO – BANDES
+
+35
+Considere os botões do navegador Google Chrome (configuração padrão).
+
+I.                             II.                            III.                           IV.
+
+Esses botões são, respectivamente,
+A) Voltar, Avançar, Reiniciar e Histórico.
+B) Retroceder, Avançar, Histórico e Abrir a página inicial.
+C) Retroceder, Próximo, Recarregar esta página e Histórico.
+D) Retroceder, Próximo, Recarregar esta página e Favoritos.
+E) Voltar, Avançar, Recarregar esta página e Abrir a página inicial.
+
+36
+Considere a pasta de documentos “BANDES”, criada no Sistema Operacional Microsoft Windows XP (configuração
+padrão).
+
+
+
+
+Para que os arquivos possam ser ordenados na pasta em ordem alfabética, o usuário deverá acessar o menu
+A) Editar / Exibir Arquivos e selecionar a opção Nome.
+B) Editar / Exibir Arquivos e selecionar a opção Crescente.
+C) Exibir / Organizar ícones por e selecionar a opção Nome.
+D) Exibir / Organizar ícones por e selecionar a opção Crescente.
+E) Ferramentas / Ordenar Arquivos e selecionar a opção Crescente.
+
+37
+Com base nas opções de Configuração de Página da ferramenta Microsoft Office Excel 2007 (configuração padrão),
+relacione adequadamente as colunas.
+1. Margens.                            ( ) Especificar onde uma nova página iniciará na cópia impressa.
+2. Orientação.                         ( ) Selecionar os tamanhos de margem do documento inteiro ou da seção atual.
+3. Tamanho.                            ( ) Especificar linhas e colunas a serem repetidas em cada página impressa.
+4. Área de Impressão.                  ( ) Alternar as páginas entre os layouts Retrato e Paisagem.
+5. Quebras.                            ( ) Marcar uma área específica da planilha para impressão.
+6. Imprimir Títulos.                   ( ) Escolher o tamanho do papel para a seção atual.
+A sequência está correta em
+A) 1, 3, 4, 2, 6, 5.   B) 3, 6, 2, 5, 4, 1.      C) 4, 1, 6, 3, 5, 2.      D) 5, 1, 6, 2, 4, 3.  E) 6, 5, 1, 4, 3, 2.
+
+38
+São Modos de Exibição de Apresentação disponíveis na ferramenta Microsoft Office PowerPoint 2007 (configuração
+padrão), EXCETO:
+A) Normal.                                                 D) Classificação de Slides.
+B) Estrutural.                                             E) Apresentação de Slides.
+C) Anotações.
+
+Cargo: Técnico Bancário (01-T) – Tipo 1 (Branca)
+Prova aplicada em 16/03/2014 – Disponível no endereço eletrônico www.idecan.org.br a partir do dia 17/03/2014.
+                                                                           -9-                                   www.pciconcursos.com.br
+                                                         www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNiAtMDMwMA==
+
+CONCURSO PÚBLICO – BANCO DE DESENVOLVIMENTO DO ESPÍRITO SANTO – BANDES
+
+39
+São opções de Transição de Slide disponíveis na ferramenta Microsoft Office PowerPoint 2007 (configuração padrão),
+EXCETO:
+A) Quadro Fechar.                                            D) Persiana Horizontal.
+B) Tema do Office.                                           E) Quadriculado na Horizontal.
+C) Pente Horizontal.
+
+40
+Com base na planilha a seguir, produzida com a ferramenta Microsoft Office Excel 2007 (configuração padrão), analise
+as afirmativas.
+
+
+
+
+I. O total de cartões de crédito emitidos nas cidades de Marataízes, Vitória e Anchieta no mês de janeiro estão,
+     respectivamente, nas células B7, B10 e C3.
+II. Se for aplicada a função =SE(SOMA(B4:E4)>1200;MÍNIMO(B7:E7);MÁXIMO(B10:E10)), o resultado será o valor 1.000.
+III. Para se obter uma média dos cartões emitidos nos dois primeiros meses do ano na cidade de Vila Velha, deve-se
+     utilizar a função =MÉDIA(B9:E9).
+Está(ão) correta(s) apenas a(s) afirmativa(s)
+A) I.                     B) II.                C) III.              D) I e II.            E) II e III.
+
+41
+Considere o documento a seguir, produzido com a ferramenta Microsoft Office Word 2007 (configuração padrão).
+
+
+
+
+Na ferramenta em questão, o recurso utilizado para inserir o texto “BANDES” atrás do conteúdo da página, de forma
+que todo texto digitado na página fique sobre este, denomina-se
+A) Realce.                                                    D) Marca D’água.
+B) Carimbo.                                                   E) Bordas da Página.
+C) Cor da Página.
+
+Cargo: Técnico Bancário (01-T) – Tipo 1 (Branca)
+Prova aplicada em 16/03/2014 – Disponível no endereço eletrônico www.idecan.org.br a partir do dia 17/03/2014.
+                                                                          - 10 -                                 www.pciconcursos.com.br
+                                                         www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNiAtMDMwMA==
+
+CONCURSO PÚBLICO – BANCO DE DESENVOLVIMENTO DO ESPÍRITO SANTO – BANDES
+
+42
+O funcionário do setor de atendimento ao cliente do Banco BANDES recebeu a tarefa de enviar uma correspondência a
+um cliente específico com a proposta de um cartão de crédito. Considerando que o banco utiliza a ferramenta Microsoft
+Office Word 2007 (configuração padrão), para acessar o assistente de envelopes o funcionário deverá clicar na guia
+A) Início e, no grupo Ferramentas, clicar na opção Envelopes.
+B) Layout da Página e, no grupo Criar, clicar na opção Envelopes.
+C) Correspondências e, no grupo Criar, clicar na opção Envelopes.
+D) Layout da Página, apontar para a opção ferramentas e clicar na opção Envelopes.
+E) Correspondências, apontar para a opção ferramentas e clicar na opção Envelopes.
+
+                                                           CONHECIMENTOS GERAIS
+43
+Sobre as sociedades civis, de acordo com a Lei nº 6.404/76 e suas alterações, analise as afirmativas.
+I. O estatuto social definirá o objeto de modo preciso e completo.
+II. O estatuto da companhia fixará o valor do capital social, expresso em moeda estrangeira, e a expressão monetária
+     do valor do capital social realizado será corrigida mensalmente.
+III. A companhia ou sociedade anônima terá o capital dividido em ações, e a responsabilidade dos sócios ou acionistas
+     será limitada ao preço de emissão das ações subscritas ou adquiridas.
+IV. A companhia pode ter por objeto participar de outras sociedades; ainda que não prevista no estatuto, a participação
+     é facultada como meio de realizar o objeto social, ou para beneficiar-se de incentivos fiscais.
+V. Consideram-se ações em circulação no mercado todas as ações do capital da companhia aberta, menos as de
+     propriedade do acionista controlador, de diretores, de conselheiros de administração e as em tesouraria.
+Estão corretas apenas as afirmativas
+A) I e IV.                B) II e III.              C) I, II e IV.         D) II, III e V.           E) I, III, IV e V.
+
+44
+Ao fim de cada exercício social, a diretoria fará elaborar, com base na escrituração mercantil da companhia, as
+seguintes demonstrações financeiras, que deverão exprimir com clareza a situação do patrimônio da companhia e as
+mutações ocorridas no exercício, conforme dispõe a Lei nº 6.404/76, EXCETO:
+A) Balanço patrimonial.
+B) Demonstração dos fluxos de caixa.
+C) Demonstração do resultado do exercício.
+D) Demonstração dos lucros ou prejuízos acumulados.
+E) Companhia fechada, demonstração do valor adicionado.
+
+45
+A assembleia-geral, convocada e instalada de acordo com a lei e o estatuto, tem poderes para decidir todos os negócios
+relativos ao objeto da companhia e tomar as resoluções que julgar convenientes à sua defesa e desenvolvimento.
+Assinale a alternativa que NÃO apresenta uma competência privativa da assembleia-geral, segundo a Lei nº 6.404/76.
+A) Reformar o estatuto social.
+B) Escolher e destituir os auditores independentes, se houver.
+C) Deliberar sobre a avaliação de bens com que o acionista concorrer para a formação do capital social.
+D) Tomar, anualmente, as contas dos administradores e deliberar sobre as demonstrações financeiras por eles
+   apresentadas.
+E) Deliberar sobre transformação, fusão, incorporação e cisão da companhia, sua dissolução e liquidação, eleger e
+   destituir liquidantes e julgar-lhes as contas.
+
+46
+“Modalidade de licitação entre interessados do ramo pertinente ao seu objeto, cadastrados ou não, escolhidos e
+convidados em número mínimo de três pela unidade administrativa, a qual afixará, em local apropriado, cópia do
+instrumento convocatório e o estenderá aos demais cadastrados na correspondente especialidade que manifestarem
+seu interesse com antecedência de até vinte e quatro horas da apresentação das propostas.” Trata-se de
+A) leilão.                                                    D) concorrência.
+B) convite.                                                   E) tomada de preços.
+C) concurso.
+
+Cargo: Técnico Bancário (01-T) – Tipo 1 (Branca)
+Prova aplicada em 16/03/2014 – Disponível no endereço eletrônico www.idecan.org.br a partir do dia 17/03/2014.
+                                                                          - 11 -                                 www.pciconcursos.com.br
+                                                         www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNiAtMDMwMA==
+
+CONCURSO PÚBLICO – BANCO DE DESENVOLVIMENTO DO ESPÍRITO SANTO – BANDES
+
+47
+No Balanço Patrimonial, as contas serão classificadas segundo os elementos do patrimônio que registrem, e agrupadas
+de modo a facilitar o conhecimento e a análise da situação financeira da companhia. Com base na alteração da Lei
+nº 6.404/76, em relação à nova estrutura do Balanço Patrimonial, analise.
+I. Ativo circulante.
+II. Passivo circulante.
+III. Passivo não circulante.
+IV. Ativo não circulante, composto por ativo realizável a longo prazo, investimentos, imobilizado e diferido.
+V. Patrimônio líquido, dividido em capital social, reservas de capital, ajustes de avaliação patrimonial, reservas de lucros,
+     ações em tesouraria e prejuízos acumulados.
+Estão corretas apenas as alternativas
+A) I e II.                B) II e IV.            C) I, II e III.           D) III, IV e V.         E) I, II, III e V.
+
+48
+Em relação ao que determina a Lei nº 6.404/76 e suas alterações acerca das Sociedades Civis, assinale a afirmativa
+correta.
+A) O valor nominal de todas as ações da companhia poderá ser diferente.
+B) É permitida a emissão de ações por preço inferior ao seu valor nominal.
+C) O valor nominal das ações de companhia aberta poderá ser inferior ao mínimo fixado pela Comissão de Valores
+   Mobiliários.
+D) O preço de emissão das ações sem valor nominal será fixado, na constituição da companhia, pela assembleia-geral ou
+   pelo conselho de administração, e no aumento de capital, pelos fundadores.
+E) O estatuto fixará o número das ações em que se divide o capital social e estabelecerá se as ações terão, ou não, valor
+   nominal. Na companhia com ações sem valor nominal, o estatuto poderá criar uma ou mais classes de ações prefe-
+   renciais com valor nominal.
+
+49
+Em relação ao limite de prazo mínimo até o recebimento das propostas ou da realização do evento licitatório, de
+acordo com a modalidade, assinale a alternativa INCORRETA.
+A) Dez dias úteis para convite.
+B) Quinze dias para a tomada de preços, nos casos não especificados em relação ao tipo, ou leilão.
+C) Trinta dias para concorrência, nos casos não especificados em relação ao regime de empreitada e ao tipo e tomada
+   de preços, quando a licitação for do tipo “melhor técnica” ou “técnica e preço”.
+D) Quarenta e cinco dias para concurso e concorrência, quando o contrato a ser celebrado contemplar o regime de
+   empreitada integral ou quando a licitação for do tipo “melhor técnica” ou “técnica e preço”.
+E) As licitações serão efetuadas no local onde se situar a repartição interessada, salvo por motivo de interesse público,
+   devidamente justificado. Isso não impedirá a habilitação de interessados residentes ou sediados em outros locais.
+
+50
+Para a habilitação nas licitações exigir-se-á dos interessados, exclusivamente, documentação relativa à habilitação
+jurídica, qualificação técnica, qualificação econômico-financeira, regularidade fiscal e trabalhista e cumprimento do
+disposto no art. 7º, inciso XXXIII, da Constituição Federal. Os exemplos explicitados compõem a documentação
+relativa à regularidade fiscal e trabalhista, conforme o caso, EXCETO:
+A) Prova de regularidade para com a Fazenda Federal, Estadual e Municipal do domicílio ou sede do licitante, ou outra
+   equivalente, na forma da lei.
+B) Prova de regularidade relativa à Seguridade Social e ao Fundo de Garantia por Tempo de Serviço (FGTS), demons-
+   trando situação regular no cumprimento dos encargos sociais instituídos por lei.
+C) Prova de inexistência de débitos inadimplidos perante a Justiça do Trabalho, mediante a apresentação de certidão
+   negativa, nos termos do Título VII-A da Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452/43.
+D) Cédula de identidade e registro comercial no caso de empresa individual; ato constitutivo, estatuto ou contrato social
+   em vigor, devidamente registrado, em se tratando de sociedades comerciais; e, no caso de sociedades por ações,
+   acompanhando documentos de eleição de seus administradores.
+E) Prova de inscrição no Cadastro de Pessoas Físicas (CPF) ou no Cadastro Geral de Contribuintes (CGC) e prova de
+   inscrição no cadastro de contribuintes estadual ou municipal, se houver, relativo ao domicílio ou sede do licitante,
+   pertinente ao ramo de atividade e compatível com o objeto contratual.
+
+Cargo: Técnico Bancário (01-T) – Tipo 1 (Branca)
+Prova aplicada em 16/03/2014 – Disponível no endereço eletrônico www.idecan.org.br a partir do dia 17/03/2014.
+                                                                          - 12 -                                 www.pciconcursos.com.br
+                                                         www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNiAtMDMwMA==
+
+CONCURSO PÚBLICO – BANCO DE DESENVOLVIMENTO DO ESPÍRITO SANTO – BANDES
+
+51
+De acordo com a Lei nº 8.666/93, analise os casos dispensáveis de licitação, marque V para as alternativas verdadeiras
+e F para as falsas.
+( ) Para contratação de profissional de qualquer setor artístico, diretamente ou através de empresário exclusivo,
+      desde que consagrado pela crítica especializada ou pela opinião pública.
+( ) Para a compra ou locação de imóvel destinado ao atendimento das finalidades precípuas da administração, cujas
+      necessidades de instalação e localização condicionem a sua escolha, desde que o preço seja compatível com o valor
+      de mercado, segundo avaliação prévia.
+( ) Para a aquisição de componentes ou peças de origem nacional ou estrangeira, necessários à manutenção de
+      equipamentos durante o período de garantia técnica, junto ao fornecedor original desses equipamentos, quando
+      tal condição de exclusividade for indispensável para a vigência da garantia.
+( ) Na contratação de instituição ou organização, pública ou privada, com ou sem fins lucrativos, para a prestação de
+      serviços de assistência técnica e extensão rural no âmbito do Programa Nacional de Assistência Técnica e Extensão
+      Rural na Agricultura Familiar e na Reforma Agrária, instituído por lei federal.
+( ) Nos casos de emergência ou de calamidade pública, quando caracterizada urgência de atendimento de situação
+      que possa ocasionar prejuízo ou comprometer a segurança de pessoas, obras, serviços, equipamentos e outros
+      bens, públicos ou particulares, e somente para os bens necessários ao atendimento da situação emergencial ou
+      calamitosa e para as parcelas de obras e serviços que possam ser concluídas no prazo máximo de cento e oitenta
+      dias consecutivos e ininterruptos, contados da ocorrência da emergência ou calamidade, vedada a prorrogação dos
+      respectivos contratos.
+A sequência está correta em
+A) F, V, V, V, V.         B) F, F, V, V, F.       C) F, F, V, V, V.         D) V, V, F, F, V.   E) V, F, V, F, F.
+
+52
+Em relação à Lei nº 10.520/2002, que institui, no âmbito da União, Estados, Distrito Federal e Municípios, nos termos
+do art. 37, inciso XXI, da Constituição Federal, a modalidade de licitação denominada pregão, para aquisição de bens
+e serviços comuns, e dá outras providências, analise.
+I. É permitida a exigência de garantia de proposta.
+II. O prazo de validade das propostas será de sessenta dias, se outro não estiver fixado no edital.
+III. A fase externa do pregão será iniciada com a convocação dos interessados e observará algumas regras. No curso da
+     sessão, o autor da oferta de valor mais baixo e os das ofertas com preços até 10% superiores àquela poderão fazer
+     novos lances verbais e sucessivos até a proclamação do vencedor.
+IV. A fase preparatória do pregão observará um dos itens: a autoridade competente justificará a necessidade de
+     contratação e definirá o objeto do certame, as exigências de habilitação, os critérios de aceitação das propostas, as
+     sanções por inadimplemento e as cláusulas do contrato, inclusive com fixação dos prazos para fornecimento.
+V. A fase externa do pregão será iniciada com a convocação dos interessados e observará algumas regras. Os licitantes
+     poderão deixar de apresentar os documentos de habilitação que já constem do Sistema de Cadastramento Unificado
+     de Fornecedores (SICAF) e em sistemas semelhantes mantidos por Estados, Distrito Federal ou Municípios, assegurado
+     aos demais licitantes o direito de acesso aos dados nele constantes.
+Estão corretas apenas as afirmativas
+A) II e V.                B) I, II e III.           C) I, IV e V.         D) III, IV e V.          E) II, III, IV e V.
+
+53
+As ações ou quotas da “conta contábil ações em tesouraria” adquiridas pela companhia ou sociedade limitada
+deverão ser registradas no
+A) ativo circulante.                                     D) ativo não circulante.
+B) passivo circulante.                                   E) passivo não circulante.
+C) patrimônio líquido.
+
+54
+Os direitos de exploração de serviços públicos mediante concessão ou permissão do Poder Público, marcas e patentes,
+softwares e fundo de comércio adquirido deverão ser registrados no
+A) ativo circulante.                                          D) ativo não circulante – imobilizado.
+B) patrimônio líquido.                                        E) ativo não circulante – investimentos.
+C) ativo não circulante – intangível.
+
+Cargo: Técnico Bancário (01-T) – Tipo 1 (Branca)
+Prova aplicada em 16/03/2014 – Disponível no endereço eletrônico www.idecan.org.br a partir do dia 17/03/2014.
+                                                                          - 13 -                                 www.pciconcursos.com.br
+                                                         www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNiAtMDMwMA==
+
+CONCURSO PÚBLICO – BANCO DE DESENVOLVIMENTO DO ESPÍRITO SANTO – BANDES
+
+55
+O Sistema Financeiro Nacional é um conjunto de instituições, órgãos e afins que controlam, fiscalizam e redigem as
+medidas que dizem respeito à circulação da moeda e de crédito dentro do país. O subsistema de supervisão é
+formado, dentre outros, pelo Conselho Monetário Nacional (CMN). São atribuições do CMN, EXCETO:
+A) Regulamentar as taxas de juros.
+B) Fixar as diretrizes e as normas da política cambial.
+C) Regular a constituição e o funcionamento das instituições financeiras.
+D) Controlar a paridade da moeda e o equilíbrio do Balanço de Pagamentos.
+E) Assegurar a lisura nas operações de compra e venda de valores mobiliários.
+
+56
+O Sistema Financeiro Nacional pode ser dividido em duas partes distintas: subsistema de supervisão e subsistema
+operativo. O subsistema operativo é composto por: Instituições Financeiras Bancárias, Sistema Brasileiro de Poupança
+e Empréstimo, Sistema de Pagamentos, Instituições Financeiras Não Bancárias, Agentes Especiais e Sistema de
+Distribuição de TVM. Qual a alternativa que NÃO compõe o grupo das Instituições Financeiras Bancárias?
+A) Caixas Econômicas.
+B) Cooperativas de crédito.
+C) Companhias hipotecárias.
+D) Bancos múltiplos (com carteira comercial).
+E) Bancos comerciais e bancos comerciais cooperativos.
+
+57
+Sobre as principais funções dos órgãos que compõem o subsistema de revisão do Sistema Financeiro Nacional, analise.
+I. O Banco Central (BACEN) é a autoridade que supervisiona todas as outras, além de banco emissor de dinheiro e
+     executor da política monetária.
+II. O Conselho Monetário Nacional (CMN) funciona para a criação da política de moeda e do crédito, de acordo com os
+     interesses nacionais.
+III. A Comissão de Valores Mobiliários (CVM) tem a função de possibilitar a alta movimentação das bolsas de valores e
+     do mercado acionário – isso inclui promover negócios relacionados à bolsa de valores, proteger investidores, além
+     de outras medidas.
+Está(ão) correta(s) a(s) afirmativa(s)
+A) I, II e III.           B) I, apenas.        C) III, apenas.         D) I e II, apenas.      E) I e III, apenas.
+
+58
+A República Federativa do Brasil, formada pela união indissolúvel dos Estados, Municípios e Distrito Federal,
+constitui-se em Estado Democrático de Direito e tem como fundamentos os seguintes princípios, EXCETO:
+A) Eficiência.
+B) Cidadania.
+C) Soberania.
+D) Pluralismo político.
+E) Dignidade da pessoa e valores sociais do trabalho e da livre iniciativa.
+
+59
+Direitos fundamentais são os direitos humanos positivados em um determinado ordenamento jurídico, sendo direitos
+fundamentais em razão de sua juridicidade. A Constituição Federal organiza e rege toda a legislação do Estado
+Brasileiro. Entre os dispositivos mais importantes, destacam-se aqueles que tratam dos direitos e deveres individuais
+e coletivos, descritos no art. 5º da Lei Maior. São considerados direitos e garantias fundamentais do cidadão, EXCETO:
+A) Igualdade de gênero.                                          D) Liberdade e opinião de expressão.
+B) Direito de propriedade.                                       E) Princípio orçamentário da exclusividade.
+C) Mandado de segurança.
+
+60
+Assinale a alternativa que NÃO pertence ao grupo Patrimônio Líquido do Balanço Patrimonial.
+A) Reserva de lucro.                                         D) Realizável a longo prazo.
+B) Reserva de capital.                                       E) Ajuste de avaliação patrimonial.
+C) Prejuízo acumulado.
+
+Cargo: Técnico Bancário (01-T) – Tipo 1 (Branca)
+Prova aplicada em 16/03/2014 – Disponível no endereço eletrônico www.idecan.org.br a partir do dia 17/03/2014.
+                                                                          - 14 -                                 www.pciconcursos.com.br
+                                                         www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNiAtMDMwMA==
+
+
+                                                      INSTRUÇÕES
+
+1. Material a ser utilizado: caneta esferográfica de tinta azul ou preta. Os objetos restantes devem ser colocados em
+   local indicado pelo fiscal da sala, inclusive aparelho celular desligado e devidamente identificado.
+2. Não é permitida, durante a realização das provas, a utilização de máquinas calculadoras e/ou similares, livros,
+   anotações, impressos ou qualquer outro material de consulta, protetor auricular, lápis, borracha, corretivo.
+   Especificamente, não é permitido que o candidato ingresse na sala de provas sem o devido recolhimento, com
+   respectiva identificação, dos seguintes equipamentos: bip, telefone celular, walkman, agenda eletrônica, notebook,
+   palmtop, ipad, ipod, tablet, smartphone, mp3, mp4, receptor, gravador, calculadora, câmera fotográfica, controle de
+   alarme de carro, relógio de qualquer modelo etc.
+3. Durante a prova, o candidato não deve levantar-se, comunicar-se com outros candidatos e nem fumar.
+4. A duração da prova é de 04 (quatro) horas, já incluindo o tempo destinado à entrega do Caderno de Provas e à
+   identificação – que será feita no decorrer da prova – e ao preenchimento do Cartão de Respostas (Gabarito).
+5. Somente em caso de urgência pedir ao fiscal para ir ao sanitário, devendo no percurso permanecer absolutamente
+   calado, podendo antes e depois da entrada sofrer revista através de detector de metais. Ao sair da sala no término
+   da prova, o candidato não poderá utilizar o sanitário. Caso ocorra uma emergência, o fiscal deverá ser comunicado.
+6. O Caderno de Provas consta de 60 (sessenta) questões de múltipla escolha. Leia-o atentamente.
+7. As questões das provas objetivas são do tipo múltipla escolha, com 05 (cinco) alternativas (A a E) e uma única
+   resposta correta.
+8. Ao receber o material de realização das provas, o candidato deverá conferir atentamente se o Caderno de Provas
+   corresponde ao cargo a que está concorrendo, bem como se os dados constantes no Cartão de Respostas (Gabarito)
+   que lhe foi fornecido estão corretos. Caso os dados estejam incorretos, ou o material esteja incompleto, ou tenha
+   qualquer imperfeição, o candidato deverá informar tal ocorrência ao fiscal.
+9. Os fiscais não estão autorizados a emitir opinião e prestar esclarecimentos sobre o conteúdo das provas. Cabe única
+   e exclusivamente ao candidato interpretar e decidir.
+10. O candidato poderá retirar-se do local de provas somente a partir dos 90 (noventa) minutos após o início de sua
+    realização, contudo não poderá levar consigo o Caderno de Provas, sendo permitida essa conduta apenas no
+    decurso dos últimos 30 (trinta) minutos anteriores ao horário previsto para o seu término.
+11. Os 3 (três) últimos candidatos de cada sala somente poderão sair juntos. Caso o candidato insista em sair do local de
+    aplicação das provas, deverá assinar um termo desistindo do Concurso Público e, caso se negue, deverá ser lavrado
+    Termo de Ocorrência, testemunhado pelos 2 (dois) outros candidatos, pelo fiscal da sala e pelo coordenador da
+    unidade.
+
+                                               RESULTADOS E RECURSOS
+
+- As provas aplicadas, assim como os gabaritos preliminares das provas objetivas serão divulgados na Internet, no site
+www.idecan.org.br, a partir das 16h00min do dia subsequente ao da realização das provas.
+- O candidato que desejar interpor recursos contra os gabaritos oficiais preliminares das provas objetivas disporá de 02
+(dois) dias úteis, a partir do dia subsequente à divulgação, em requerimento próprio disponibilizado no link correlato ao
+Concurso Público no site www.idecan.org.br.
+- A interposição de recursos poderá ser feita via Internet, através do Sistema Eletrônico de Interposição de Recursos, com
+acesso pelo candidato ao fornecer dados referentes à sua inscrição apenas no prazo recursal, ao IDECAN, conforme
+disposições contidas no site www.idecan.org.br, no link correspondente ao Concurso Público.
+
+
+
+
+                                                                                            www.pciconcursos.com.br
+                                             www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNyAtMDMwMA==
+
+
+
+
+        GABARITO OFICIAL DEFINITIVO – CONCURSO PÚBLICO
+
+   BANCO DE DESENVOVIMENTO DO ESPIRITO SANTO - BANDES
+
+As questões com # foram anuladas;
+As questões em negrito tiveram a alternativa de resposta alterada;
+As demais permaneceram inalteradas.
+
+
+              CARGO: TÉCNICO BANCÁRIO – TIPO 01 (BRANCA)
+            01-         A         16-          B         31-         D         46-         B
+            02-         C         17-          B         32-         E         47-         E
+            03-         D         18-          B         33-         A         48-         E
+            04-         B         19-          C         34-         B         49-         A
+            05-         B         20-          E         35-         E         50-         D
+            06-         A         21-          D         36-         C         51-         A
+            07-         E         22-          B         37-         D         52-         E
+            08-         A         23-          C         38-         B         53-         C
+            09-         A         24-          C         39-         B         54-         C
+            10-         E         25-          A         40-         B         55-         E
+            11-         B         26-          D         41-         D         56-         C
+            12-         B         27-          C         42-         C         57-         A
+            13-         E         28-          B         43-         E         58-         A
+            14-         C         29-          D         44-         E         59-         E
+            15-         E         30-          B         45-         B         60-         D
+
+
+
+
+                                                                                  www.pciconcursos.com.br
+                                        www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNyAtMDMwMA==
+
+
+
+
+               CARGO: TÉCNICO BANCÁRIO – TIPO 02 (VERDE)
+            01-         B         16-          A         31-         C         46-         A
+            02-         B         17-          A         32-         C         47-         B
+            03-         E         18-          D         33-         D         48-         E
+            04-         C         19-          C         34-         C         49-         E
+            05-         E         20-          B         35-         B         50-         B
+            06-         B         21-          D         36-         B         51-         E
+            07-         A         22-          B         37-         B         52-         E
+            08-         D         23-          D         38-         A         53-         D
+            09-         C         24-          E         39-         B         54-         A
+            10-         B         25-          B         40-         E         55-         E
+            11-         B         26-          B         41-         C         56-         C
+            12-         E         27-          C         42-         D         57-         C
+            13-         A         28-          E         43-         D         58-         E
+            14-         E         29-          D         44-         A         59-         C
+            15-         A         30-          B         45-         E         60-         A
+
+
+
+
+                                                                                  www.pciconcursos.com.br
+                                        www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNyAtMDMwMA==
+
+
+
+
+              CARGO: TÉCNICO BANCÁRIO – ADMINISTRAÇÃO
+            01-         E         16-          E         31-         D         46-         E
+            02-         #         17-          B         32-         B         47-         C
+            03-         B         18-          C         33-         B         48-         B
+            04-         A         19-          C         34-         C         49-         D
+            05-         C         20-          B         35-         C         50-         E
+            06-         E         21-          B         36-         C         51-         B
+            07-         D         22-          E         37-         B         52-         D
+            08-         B         23-          A         38-         B         53-         D
+            09-         B         24-          C         39-         D         54-         A
+            10-         B         25-          A         40-         A         55-         D
+            11-         E         26-          #         41-         B         56-         A
+            12-         B         27-          D         42-         C         57-         D
+            13-         C         28-          B         43-         D         58-         D
+            14-         B         29-          E         44-         E         59-         D
+            15-         C         30-          D         45-         B         60-         D
+
+
+
+
+                                                                                  www.pciconcursos.com.br
+                                        www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNyAtMDMwMA==
+
+
+
+
+          CARGO: TÉCNICO BANCÁRIO – CIÊNCIAS CONTÁBEIS
+            01-         E         16-          E         31-         B         46-         E
+            02-         #         17-          B         32-         B         47-         B
+            03-         B         18-          C         33-         D         48-         E
+            04-         A         19-          C         34-         D         49-         E
+            05-         C         20-          B         35-         A         50-         E
+            06-         E         21-          B         36-         C         51-         C
+            07-         D         22-          E         37-         D         52-         B
+            08-         B         23-          A         38-         B         53-         A
+            09-         B         24-          C         39-         B         54-         C
+            10-         B         25-          A         40-         B         55-         C
+            11-         E         26-          #         41-         A         56-         E
+            12-         B         27-          D         42-         C         57-         D
+            13-         C         28-          B         43-         B         58-         A
+            14-         B         29-          E         44-         E         59-         C
+            15-         C         30-          D         45-         B         60-         A
+
+
+
+
+                                                                                  www.pciconcursos.com.br
+                                        www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNyAtMDMwMA==
+
+
+
+
+    CARGO: TÉCNICO BANCÁRIO – COMUNICAÇÃO SOCIAL COM
+               HABILITAÇÃO EM PUBLICIDADE
+            01-         E         16-          E         31-         B         46-         E
+            02-         #         17-          B         32-         D         47-         D
+            03-         B         18-          C         33-         E         48-         B
+            04-         A         19-          C         34-         E         49-         C
+            05-         C         20-          B         35-         E         50-         B
+            06-         E         21-          B         36-         B         51-         C
+            07-         D         22-          E         37-         C         52-         E
+            08-         B         23-          A         38-         C         53-         B
+            09-         B         24-          C         39-         B         54-         A
+            10-         B         25-          A         40-         B         55-         A
+            11-         E         26-          #         41-         A         56-         C
+            12-         B         27-          D         42-         D         57-         A
+            13-         C         28-          B         43-         E         58-         E
+            14-         B         29-          E         44-         C         59-         E
+            15-         C         30-          D         45-         B         60-         C
+
+
+
+
+                                                                                  www.pciconcursos.com.br
+                                        www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNyAtMDMwMA==
+
+
+
+
+                     CARGO: TÉCNICO BANCÁRIO – DIREITO
+            01-         E         16-          E         31-         A         46-         B
+            02-         #         17-          B         32-         E         47-         D
+            03-         B         18-          C         33-         E         48-         B
+            04-         A         19-          C         34-         C         49-         D
+            05-         C         20-          B         35-         E         50-         B
+            06-         E         21-          B         36-         B         51-         E
+            07-         D         22-          E         37-         A         52-         A
+            08-         B         23-          A         38-         C         53-         B
+            09-         B         24-          C         39-         C         54-         E
+            10-         B         25-          A         40-         A         55-         A
+            11-         E         26-          #         41-         D         56-         E
+            12-         B         27-          D         42-         B         57-         D
+            13-         C         28-          B         43-         E         58-         C
+            14-         B         29-          E         44-         #         59-         E
+            15-         C         30-          D         45-         D         60-         D
+
+
+
+
+                                                                                  www.pciconcursos.com.br
+                                        www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNyAtMDMwMA==
+
+
+
+
+                   CARGO: TÉCNICO BANCÁRIO – ECONOMIA
+            01-         E         16-          E         31-         B         46-         D
+            02-         #         17-          B         32-         A         47-         E
+            03-         B         18-          C         33-         B         48-         #
+            04-         A         19-          C         34-         E         49-         A
+            05-         C         20-          B         35-         C         50-         C
+            06-         E         21-          B         36-         D         51-         C
+            07-         D         22-          E         37-         B         52-         A
+            08-         B         23-          A         38-         D         53-         E
+            09-         B         24-          C         39-         D         54-         #
+            10-         B         25-          A         40-         C         55-         E
+            11-         E         26-          #         41-         C         56-         A
+            12-         B         27-          D         42-         D         57-         B
+            13-         C         28-          B         43-         C         58-         A
+            14-         B         29-          E         44-         #         59-         A
+            15-         C         30-          D         45-         D         60-         #
+
+
+
+
+                                                                                  www.pciconcursos.com.br
+                                        www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNyAtMDMwMA==
+
+
+
+
+     CARGO: TÉCNICO BANCÁRIO – ENGENHARIA AGRONÔMICA
+            01-         E         16-          E         31-         C         46-         A
+            02-         #         17-          B         32-         E         47-         D
+            03-         B         18-          C         33-         E         48-         D
+            04-         A         19-          C         34-         D         49-         E
+            05-         C         20-          B         35-         E         50-         D
+            06-         E         21-          B         36-         #         51-         E
+            07-         D         22-          E         37-         C         52-         D
+            08-         B         23-          A         38-         E         53-         C
+            09-         B         24-          C         39-         D         54-         C
+            10-         B         25-          A         40-         E         55-         A
+            11-         E         26-          #         41-         B         56-         E
+            12-         B         27-          D         42-         D         57-         A
+            13-         C         28-          B         43-         A         58-         E
+            14-         B         29-          E         44-         C         59-         C
+            15-         C         30-          D         45-         C         60-         E
+
+
+
+
+                                                                                  www.pciconcursos.com.br
+                                        www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNyAtMDMwMA==
+
+
+
+
+            CARGO: TÉCNICO BANCÁRIO – ENGENHARIA CIVIL
+            01-         E         16-          E         31-         E         46-         B
+            02-         #         17-          B         32-         D         47-         E
+            03-         B         18-          C         33-         E         48-         C
+            04-         A         19-          C         34-         E         49-         #
+            05-         C         20-          B         35-         D         50-         C
+            06-         E         21-          B         36-         E         51-         E
+            07-         D         22-          E         37-         D         52-         B
+            08-         B         23-          A         38-         D         53-         C
+            09-         B         24-          C         39-         E         54-         #
+            10-         B         25-          A         40-         B         55-         C
+            11-         E         26-          #         41-         E         56-         D
+            12-         B         27-          D         42-         E         57-         A
+            13-         C         28-          B         43-         A         58-         C
+            14-         B         29-          E         44-         E         59-         D
+            15-         C         30-          D         45-         B         60-         E
+
+
+
+
+                                                                                  www.pciconcursos.com.br
+                                        www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1MjowNyAtMDMwMA==
+
+
+
+
+CARGO: TÉCNICO BANCÁRIO – ENGENHARIA DA COMPUTAÇÃO,
+       CIÊNCIA DA COMPUTAÇÃO OU SISTEMA DE INFORMAÇÃO
+            01-         E         16-          E         31-         A         46-         B
+            02-         #         17-          B         32-         A         47-         C
+            03-         B         18-          C         33-         D         48-         B
+            04-         A         19-          C         34-         B         49-         D
+            05-         C         20-          B         35-         A         50-         B
+            06-         E         21-          B         36-         B         51-         A
+            07-         D         22-          E         37-         A         52-         A
+            08-         B         23-          A         38-         E         53-         C
+            09-         B         24-          C         39-         C         54-         B
+            10-         B         25-          A         40-         E         55-         E
+            11-         E         26-          #         41-         A         56-         C
+            12-         B         27-          D         42-         B         57-         C
+            13-         C         28-          B         43-         C         58-         A
+            14-         B         29-          E         44-         A         59-         B
+            15-         C         30-          D         45-         D         60-         C
+
+
+
+
+                                                                                  www.pciconcursos.com.br
+                                        www.pciconcursos.com.br
+

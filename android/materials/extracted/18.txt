@@ -1,0 +1,1873 @@
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNiAtMDMwMA==
+
+
+
+
+                                     BANCO DO ESTADO DO PARÁ - BANPARÁ
+                      CONCURSO PÚBLICO - PROVA OBJETIVA: 06 de maio de 2018
+
+                                                   NÍVEL MÉDIO
+                                  TÉCNICO BANCÁRIO
+    Nome do Candidato: _________________________________________________________
+    Nº de Inscrição: ________________________
+
+                              _____________________________________________
+                                                                 Assinatura
+
+                                                                PROVA
+                                                                  2
+                                                                AZUL
+               A COR DA CAPA DO SEU BOLETIM DE QUESTÕES É AZUL.
+                    MARQUE A COR EM SEU CARTÃO RESPOSTA.
+                                                 INSTRUÇÕES AO CANDIDATO
+  1. Confira se a prova que você recebeu corresponde ao cargo ao qual você está inscrito, conforme consta no seu cartão de
+  inscrição e no cartão resposta. Caso contrário, comunique imediatamente ao fiscal de sala.
+  2. Confira se, além deste BOLETIM DE QUESTÕES, você recebeu o CARTÃO RESPOSTA, destinado à marcação das respostas às
+  questões objetivas.
+  3. Este BOLETIM DE QUESTÕES contém a Prova Objetiva com 60 (sessenta) questões de Conhecimentos Básicos (10 de Língua
+  Portuguesa, 05 de Raciocínio Lógico, 05 de Noções de Informática e 05 de Conhecimentos Gerais) e Conhecimentos Específicos (05
+  de Matemática, 05 de Atendimento e Noções de Ética e 25 Conhecimentos Bancários). Caso exista alguma falha de impressão,
+  comunique imediatamente ao fiscal de sala. Na prova há espaço reservado para rascunho. Esta prova terá duração de 04 (quatro)
+  horas, tendo seu início às 9:00h e término às 13:00h (horário Belém).
+  4. Para cada questão objetiva, são apresentadas 05 (cinco) opções de resposta, identificadas com as letras (A), (B), (C), (D), (E). Apenas
+  uma responde corretamente à questão, considerando a numeração de 01 a 60.
+  5. Confira se seu nome, número de inscrição, cargo/polo e data de nascimento, consta na parte superior do CARTÃO RESPOSTA que
+  você recebeu. Caso exista algum erro de impressão, comunique imediatamente ao fiscal de sala, a fim de que este registre a correção
+  na Ata de Sala.
+  6. A saída de candidato da sala somente será permitida depois de transcorrido o tempo de 01 hora do início da prova, mediante a
+  entrega obrigatória ao fiscal de sala do seu cartão resposta e do boletim de questões. A inobservância acarretará a eliminação
+  do concurso.
+  7. O Candidato somente poderá retirar-se do local de realização da prova, levando o boletim de questões, nos 60 minutos que
+  antecedem o término das provas.
+  8. É obrigatório que você assine a LISTA DE PRESENÇA e o CARTÃO RESPOSTA, do mesmo modo como está assinado no seu
+  documento de identificação.
+  9. A marcação do CARTÃO RESPOSTA deve ser feita somente com caneta esferográfica de tinta preta ou azul, pois lápis não será
+  considerado.
+  10. A maneira correta de marcar as respostas no CARTÃO RESPOSTA é cobrir totalmente o espaço correspondente à letra a ser
+  assinalada, conforme o exemplo que consta no CARTÃO RESPOSTA.
+  11. Em hipótese alguma haverá substituição do CARTÃO RESPOSTA por erro do candidato. A substituição só será autorizada se for
+  constatada falha de impressão.
+  12. O CARTÃO RESPOSTA é o único documento válido para o processamento de suas respostas, pois a marcação incorreta
+  no cartão resposta da cor da capa da sua prova é de sua inteira responsabilidade e não será corrigido.
+  13. Será automaticamente eliminado do Concurso Público do Banco do Estado do Pará - BANPARÁ o candidato que, durante a
+  realização da prova, descumprir os procedimentos definidos no Edital de Abertura nº 001/2018.
+
+
+
+                                                www.pciconcursos.com.br                                    www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNiAtMDMwMA==
+
+
+
+
+                                                      2
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNiAtMDMwMA==
+
+
+
+
+                                      CONHECIMENTOS BÁSICOS
+
+                                         LÍNGUA PORTUGUESA
+
+            Leia atentamente o texto “Burocracia e poesia” para responder às questões de 1 a 10.
+
+                                           Burocracia e poesia
+
+        1        Hoje, navegando pela internet, descobri que o grande poeta mineiro Murilo Mendes
+        2     exerceu       a       função      de       bancário       durante     muitos        anos.
+        3     Aliás, é comum que bancários, funcionários públicos, escriturários, dentre outras tarefas
+        4     burocráticas, tenham destaque na literatura, a citar o exemplo do nosso poeta maior
+        5     Carlos Drummond de Andrade, que durante quase toda sua vida exerceu a função nada
+        6     poética de funcionário público no Ministério da Educação, simultaneamente à publicação
+        7     de suas poesias.
+        8           Para Drummond, foi quase meio século de funcionalismo público e poesia.
+        9           Eis alguns trechos da "Confidência do Itabirano", de Drummond, com grifos meus:
+
+                                                         (...)
+       10                         A vontade de amar que me paralisa o trabalho,
+       11                             vem de Itabira, de suas noites brancas,
+       12                                 sem mulheres e sem horizontes.
+       13                            E o hábito de sofrer, que tanto me diverte,
+       14                                    é doce herança Itabirana.
+
+       15           Será que Drummond tem razão? Será que amar, ou então qualquer tipo de
+       16     vivência emocional, é o oposto do trabalho, visto na sua acepção mais opressora?
+       17           Será que aí está a explicação daquele sentimento de inutilidade que nos toma, no
+       18     exercício das nossas funções? Será aí a origem daquela falta de empatia, mesmo
+       19     atendendo dezenas de pessoas por dia, tornando todas elas cinzas, meros objetos, dos
+       20     quais queremos nos livrar, ao grito de "próximo"?
+       21           Talvez seja isso; pode ser que, no fundo, as funções meramente burocráticas
+       22     tenham essa inerente falta de significado, esse vazio profundo.
+       23           Mais adiante, no mesmo poema:
+       24                                Tive ouro, tive gado, tive fazendas.
+       25                                  Hoje sou funcionário público.
+       26                            Itabira é apenas uma fotografia na parede.
+       27                                          Mas como dói!
+
+       28           Uma promessa de glória, de riquezas, para um provinciano de posses,
+       29     encrustrado na pequena cidade mineira, se desfaz na constatação trivial do poeta, de
+       30     que lhe restou apenas essa função, a de funcionário público. Drummond, com seu
+       31     talento, e de uma forma que talvez estudiosos de literatura possam melhor desvendar,
+       32     consegue transmitir uma tristeza tamanha no seu relato, como se ser funcionário público
+       33     fosse algo beirando o lúgubre.
+                    [...]
+
+
+                             Disponível em http://diariobancario.blogspot.com.br/2007/12/burocracia-e-poesia.html
+                                                                                        Acessado em 20/03/2018
+
+  01 A palavra grifada é pronome, exceto em
+  (A) A vontade de amar que me paralisa o trabalho...
+  (B) E o hábito de sofrer, que tanto me diverte...
+  (C) Uma promessa de glória (...) se desfaz na constatação trivial do poeta...
+  (D) ... de que lhe restou apenas essa função...
+  (E) ...como se ser funcionário público fosse algo beirando o lúgubre.
+                                                       3
+
+                                      www.pciconcursos.com.br                          www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNiAtMDMwMA==
+
+
+
+
+  02 A sequência de palavras cujos acentos são empregados pelo mesmo motivo é
+  (A) público, função, dói.
+  (B) burocráticos, próximo, século.
+  (C) será, aí, é, está.
+  (D) glória, exercício, publicação.
+  (E) hábito, bancário, poética.
+
+  03 Em Será aí a origem daquela falta de empatia, mesmo atendendo dezenas de pessoas por dia,
+  tornando todas elas cinzas, meros objetos, dos quais queremos nos livrar, ao grito de "próximo"? (linhas
+  18 a 20), a palavra aí poderia ser substituída por
+  (A) onde.
+  (B) que.
+  (C) esta.
+  (D) aquela.
+  (E) outra.
+
+  04 Contém termo grafado incorretamente o trecho
+  (A) Para Drummond, foi quase meio século de funcionalismo público e poesia (linha 8).
+  (B) Será que amar, ou então qualquer tipo de vivência emocional, é o oposto do trabalho, visto na sua
+      acepção mais opressora? (linhas 15 e 16).
+  (C) Será aí a origem daquela falta de empatia, mesmo atendendo dezenas de pessoas por dia,
+      tornando todas elas cinzas, meros objetos, dos quais queremos nos livrar, ao grito de "próximo"?
+      (linhas 18 a 20).
+  (D) Talvez seja isso; pode ser que, no fundo, as funções meramente burocráticas tenham essa inerente
+      falta de significado, esse vazio profundo (linhas 21 e 22).
+  (E) Uma promessa de glória, de riquezas, para um provinciano de posses, encrustrado na pequena
+      cidade mineira, se desfaz na constatação trivial do poeta, de que lhe restou apenas essa função, a
+      de funcionário público (linhas 28 a 30).
+
+  05 No último período do texto, o termo lúgubre é sinônimo de
+  (A) fúnebre.
+  (B) medonho.
+  (C) escuro.
+  (D) solitário.
+  (E) prostrado.
+
+  06 A leitura do texto Burocracia e poesia permite-nos concluir que
+  (A) aquele que exerce tarefas burocráticas tem talento para a literatura.
+  (B) bancários, funcionários públicos e escriturários querem ser poetas.
+  (C) o funcionário público não tem empatia pelas pessoas que atende.
+  (D) a poesia pode preencher o vazio causado pela rotina do trabalho.
+  (E) uma característica dos que atuam no serviço público é a tristeza.
+
+  07 De acordo com o autor, o trabalho
+  (A) é sempre rotineiro e solitário.
+  (B) pode oprimir o trabalhador.
+  (C) se opõe aos sentimentos.
+  (D) não dignifica o homem.
+  (E) resta a quem não tem posses.
+
+  08 No poema citado pelo autor do texto, a expressão grifada, que me paralisa o trabalho (linha 10),
+  significa que Drummond
+  (A) se desconcentrava ao relembrar a terra natal.
+  (B) era levado à depressão por suas memórias.
+  (C) queixava-se de nunca ter se apaixonado.
+  (D) não tinha esperança de ser promovido.
+  (E) considerava impossível amar o trabalho.
+                                                      4
+
+                                        www.pciconcursos.com.br                    www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNiAtMDMwMA==
+
+
+
+
+  09 A regência verbal está em desacordo com a norma culta em
+  (A) Hoje, navegando pela internet, descobri que o grande poeta mineiro Murilo Mendes exerceu a
+      função de bancário durante muitos anos (linhas 1 e 2).
+  (B) Será que aí está a explicação daquele sentimento de inutilidade que nos toma, no exercício das
+      nossas funções? (linhas 17 e 18).
+  (C) Será aí a origem daquela falta de empatia, mesmo atendendo dezenas de pessoas por dia,
+      tornando todas elas cinzas, meros objetos, dos quais queremos nos livrar, ao grito de "próximo"?
+      (linhas 18 a 20).
+  (D) Talvez seja isso; pode ser que, no fundo, as funções meramente burocráticas tenham essa inerente
+      falta de significado, esse vazio profundo (linhas 21 e 22).
+  (E) Drummond, com seu talento, e de uma forma que talvez estudiosos de literatura possam melhor
+      desvendar, consegue transmitir uma tristeza tamanha no seu relato, como se ser funcionário
+      público fosse algo beirando o lúgubre (linhas 30 a 33).
+
+  10 O enunciado em que a(s) vírgula(s) foi/foram empregada(s) para separar elementos de uma
+  enumeração é
+  (A) Hoje, navegando pela internet, descobri que o grande poeta mineiro Murilo Mendes exerceu a
+      função de bancário durante muitos anos (linhas 1 e 2).
+  (B) E o hábito de sofrer, que tanto me diverte, é doce herança Itabirana (linhas 13 e 14).
+  (C) Será que aí está a explicação daquele sentimento de inutilidade que nos toma, no exercício das
+      nossas funções? (linhas 17 e 18).
+  (D) Mais adiante, no mesmo poema (linha 23).
+  (E) Tive ouro, tive gado, tive fazendas (linha 24).
+
+                                          RACIOCÍNIO LÓGICO
+
+  11 Na moldura abaixo há as medidas recomendadas para confecção de uma escada, em que as
+  medidas dos pisos (patamares horizontais) podem variar de 25cm a 35cm e dos espelhos (faces
+  verticais entre um piso e outro) podem medir entre 14cm e 18cm. No lado direito da moldura há o
+  esboço de um projeto de escada, apenas com início e fim, que tem a mesma quantidade de pisos e
+  espelhos uniformes e devem adotar as medidas recomendadas.
+
+
+
+
+  Sabendo-se que 1m equivale a 100cm e que a soma do comprimento e da altura da escada da direita
+  deve variar entre 3m12cm e 4m24cm, então a quantidade de pisos dessa escada deve ser igual a
+  (A) 11.
+  (B) 10.
+  (C) 9.
+  (D) 8.
+  (E) 7.
+
+
+
+
+                                                      5
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNiAtMDMwMA==
+
+
+
+
+  12 Nas agências de um banco, denominadas de Avenida, Bosque e Centro, trabalham Alice, Benedito e
+  Cláudia, que têm idades diferentes e a letra inicial dos seus nomes difere da primeira letra do nome da
+  agência em que trabalham. Benedito, que não trabalha na agência Avenida, é o mais velho dos três e
+  Cláudia não é a mais nova. Com base nessas relações, é correto afirmar que
+  (A) Alice é a mais nova entre os três.
+  (B) Alice trabalha na agência Centro.
+  (C) Cláudia não trabalha na agência Avenida.
+  (D) Benedito não trabalha na agência Centro.
+  (E) Cláudia trabalha na agência Bosque.
+
+  13 Da afirmação “Nem todo magro é saudável e nem todo gordo é doente”, conclui-se que
+  (A) todo gordo é saudável e todo magro é doente.
+  (B) todo gordo é doente e todo magro é saudável.
+  (C) a quantidade de magros saudáveis é superior ao de gordos doentes.
+  (D) a quantidade de gordos doentes é superior ao de magros saudáveis.
+  (E) há pelo menos um gordo saudável e pelo menos um magro doente.
+
+  14 Em uma sala há um técnico bancário que trabalha em uma das quatro áreas: administrativa, técnica,
+  financeira ou operacional. Foram feitas quatro afirmativas a seu respeito, das quais três são
+  verdadeiras:
+         I – ele não é da área operacional;
+         II – ele é da área financeira;
+         III – ele não é da área técnica;
+         IV – ele é da área administrativa.
+  É verdadeiro o enunciado que afirma que o técnico
+  (A) é da área administrativa.
+  (B) é da área financeira.
+  (C) não é da área técnica.
+  (D) é da área operacional.
+  (E) não é da área financeira.
+
+  15 Na carteira de dinheiro de uma pessoa há nove cédulas, similares às do quadro abaixo:
+
+
+
+
+  Utilizando pelo menos uma cédula de cada valor, essa pessoa poderá pagar contas a partir de R$ 17,00
+  (com um exemplar de cada cédula) até R$ 51,00 (usando os três exemplares de cada cédula que tem
+  na carteira). Dos valores apresentados abaixo o único que pode ser pago por essa pessoa, com pelo
+  menos uma cédula de cada valor, exatamente, sem necessitar de troco, é
+  (A) R$ 43,00.
+  (B) R$ 41,00.
+  (C) R$ 38,00.
+  (D) R$ 25,00.
+  (E) R$ 18,00.
+
+
+
+
+                                                      6
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNiAtMDMwMA==
+
+
+
+
+                                      NOÇÕES DE INFORMÁTICA
+
+  16 Sobre segurança no acesso à Internet, analise as afirmativas a seguir.
+  I. Phishing é uma prática utilizada para coletar informações pessoais, como senhas e número de contas
+  bancárias. Uma tentativa de phishing pode acontecer através do contato do usuário com páginas Web
+  construídas para imitar sites de bancos e outras instituições.
+  II. O ataque do homem-do-meio refere-se à forma de ataque em que uma comunicação entre duas
+  pessoas é interceptada por uma terceira. O atacante simplesmente recebe e, opcionalmente, repassa
+  as informações do transmissor para o receptor, sem que ambos percebam que a comunicação não está
+  sendo, de fato, direta.
+  III. Ransomware é um software malicioso que bloqueia o acesso do usuário aos arquivos do
+  computador. Os criminosos exigem alguma forma de recompensa mediante a promessa de que o
+  acesso aos dados será restabelecido.
+
+  Com base na análise realizada, é correto afirmar que
+  (A) somente a afirmativa I é verdadeira.
+  (B) somente a afirmativa II é verdadeira.
+  (C) somente as afirmativas I e III são verdadeiras.
+  (D) somente as afirmativas II e III são verdadeiras.
+  (E) todas as afirmativas são verdadeiras.
+
+  17 Considerando-se o modo de exibição do Microsoft Office Word 2016 e o modo de exibição de
+  apresentação do Microsoft Office Power Point 2016, nas suas verões para área de trabalho, é correto
+  afirmar que
+  (A) o modo de exibição normal no Power Point é utilizado para apresentar os slides em tela cheia, não
+       sendo possível realizar edições.
+  (B) tanto o Word quanto o Power Point possuem o modo de exibição layout web, que permite visualizar
+       como o documento ou slide será apresentado em um navegador de Internet.
+  (C) tanto o Word quanto o Power Point possuem os modos de exibição de leitura e estrutura de tópicos.
+  (D) não é possível ampliar ou reduzir o zoom de um documento no Word, quando o modo de exibição
+       de leitura está habilitado.
+  (E) o modo de exibição classificação de slides no Power Point permite reorganizar a ordem e inserir
+       anotações nos slides.
+
+  18 Considerando-se o aplicativo Microsoft Outlook 2016, versão para área de trabalho, é correto afirmar
+  que
+  (A) o usuário pode anexar arquivos armazenados no computador em suas mensagens, mas não é
+      permitido anexar outra mensagem de e-mail do Outlook.
+  (B) não é disponibilizada ao usuário uma funcionalidade que verifique a ortografia e gramática na
+      língua portuguesa.
+  (C) o texto das mensagens eletrônicas não pode ser formatado, ou seja, não há opção para mudar o
+      tipo, tamanho ou cor da fonte.
+  (D) o usuário pode criar uma nova pasta, mas não pode criá-la dentro das pastas nativas, como Caixa
+      de Entrada, Rascunhos, Itens Enviados e Itens Excluídos.
+  (E) o usuário tem a flexibilidade de trabalhar on-line ou off-line com seu servidor de e-mail.
+
+
+
+
+                                                      7
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNiAtMDMwMA==
+
+
+
+
+  19 Com relação aos conceitos básicos do hardware, periféricos de um microcomputador e software, é
+  correto afirmar que
+  (A) os barramentos de computador podem ser internos à unidade central de processamento (CPU),
+      conectando-a à memória e aos dispositivos de entrada/saída, mas também podem ser usados no
+      exterior da CPU para transportar dados de e para a unidade lógica e aritmética.
+  (B) discos SATA têm uma interface que permite conexão flexível e simultânea de 7 a 15 dispositivos
+      por barramento SATA, já os discos SCSI apresentam uma limitação de conexão de dispositivos,
+      que é de dois periféricos por canal, com dois canais em um sistema no máximo. Isso explica porque
+      os discos SATA apresentam taxas de transferência mais elevadas que os discos SCSI.
+  (C) o sistema básico de entrada e saída (BIOS), para garantir sua integridade, fica gravado dentro de
+      um chip com memória ROM (memória somente de leitura), o que quer dizer que não é possível, por
+      exemplo, desinstalar o BIOS do computador, apenas atualizá-lo ou modificar as opções permitidas.
+  (D) o touchpad de um notebook não é considerado um dispositivo de entrada/saída sensível ao toque.
+      O termo sensível ao toque, ou touch screen, é destinado apenas às telas, por exemplo, de
+      monitores, tablets e smartphones.
+  (E) o ASCII é um código de caracteres de ampla utilização. A ideia que fundamenta o ASCII é designar
+      a cada caractere e símbolo um valor único de 16 bits, denominado ponto de código. A vantagem é
+      que símbolos de 16 bits simplificam a escrita do software.
+
+  20 A respeito dos navegadores e protocolos da Internet, é correto afirmar que
+  (A) um hipertexto representa qualquer forma de informação visual exibida ao usuário em uma página
+      Web que leva à outra página Web. A transferência de hipertextos pela rede é especificada pelo
+      protocolo DHCP.
+  (B) o Localizador Padrão de Recursos (URL) é um protocolo que define um identificador único e
+      particular para cada página Web.
+  (C) o protocolo de Internet (IP) é responsável pela troca confiável de pacotes de informação entre
+      aplicações via rede. O IP possui a mesma função do protocolo UDP, com a diferença que este
+      último não realiza verificação de erros na transmissão.
+  (D) cookies persistentes e cookies de sessão diferem na volatilidade. Enquanto o cookie de sessão é
+      salvo na memória RAM, sendo permanentemente perdido quando o navegador é fechado, o cookie
+      persistente é salvo no disco rígido do computador do cliente com um determinado tempo de
+      expiração.
+  (E) uma das principais diferenças entre os protocolos de comunicação HTTP e HTTPS trata da
+      confiabilidade na troca de informações, já que o protocolo HTTPS, por ser uma solução mais
+      antiga, não criptografa as mensagens.
+
+                                      CONHECIMENTOS GERAIS
+
+  21 Em uma visita internacional inédita, o chefe de Estado norte-coreano, Kim Jong-un, viajou à China
+  para se encontrar com o presidente Xi Jinping. Na reunião oficial, Kim se manifestou disposto a
+  (A) celebrar uma cúpula com os Estados Unidos e discutir a eliminação das armas nucleares da
+      península coreana.
+  (B) atacar os Estados Unidos, no caso de seu país não ser convidado para a cúpula econômica do
+      Oriente.
+  (C) desfazer os acordos comerciais com o Japão e ampliar a importação de minérios e armamentos
+      com a China.
+  (D) solicitar apoio bélico a países da Europa Ocidental, no caso de decidir uma invasão à Coréia do
+      Sul.
+  (E) realizar convênios comerciais com a Mongólia e apoiar a independência de Hong Kong diante da
+      China.
+
+
+
+
+                                                      8
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNiAtMDMwMA==
+
+
+
+
+  22 O recente escândalo envolvendo o uso indevido de dados de cerca de 50 milhões de usuários do
+  Facebook trouxe à tona um dos maiores dilemas da atualidade, que é a falta de proteção das
+  informações das pessoas. Em relação à existência desse problema no Brasil, é correto afirmar que
+  (A) a internet trouxe mais desvantagens do que vantagens à sociedade, ao incorporar-se de forma
+       indelével à vida das pessoas.
+  (B) as pessoas estão se tornando cada vez menos vulneráveis aos ataques à sua esfera privada,
+       apesar da recorrência desse tipo de problema.
+  (C) a garantia de anonimato propiciada pela tecnologia, somada ao amplo conhecimento da legislação
+       atinente ao tema, tem diminuído a prática de ilícitos.
+  (D) a tendência é que, quanto mais avance a tecnologia, mais a privacidade das pessoas seja
+       protegida.
+  (E) está-se diante da necessidade de aprender uma nova etiqueta de comportamento social por meio
+       do mundo eletrônico.
+
+  23 As investigações em torno da veiculação de injúrias e calúnias contra Marielle Franco, vereadora
+  assassinada na cidade do Rio de Janeiro, concluíram que as chamadas “fake news” se originaram no
+  (na)
+  (A) Jornal do Brasil.
+  (B) Movimento Brasil Livre.
+  (C) Folha de São Paulo.
+  (D) Sindicato dos Jornalistas.
+  (E) Tráfico de drogas.
+
+  24 Neste ano de 2018, a Constituição Federal brasileira completa trinta anos de existência. Elaborada
+  por uma Assembleia Nacional Constituinte instalada em 1987, no ocaso da Ditadura Militar,
+  coordenada pelo deputado Ulysses Guimarães, a Carta Magna ainda hoje é lembrada pelo seu apelido
+  de Constituição
+  (A) Transformadora.
+  (B) Transitiva.
+  (C) Cidadã.
+  (D) Civil.
+  (E) Antiautoritária.
+
+  25 A Base Nacional Comum Curricular, recentemente aprovada pelo Conselho Nacional de Educação
+  do Brasil, se constitui em um documento
+  (A) de natureza flexível, norteador do desenvolvimento de matérias, disciplinas e conteúdos,
+      obrigatórios e eletivos, para todos os estabelecimentos da educação básica e superior do país.
+  (B) originado do Ministério da Educação, cujo escopo é determinar e estabelecer diretrizes curriculares
+      dos cursos de licenciatura e bacharelado nas universidades e institutos federais de educação
+      superior.
+  (C) pedagógico de cunho alternativo para estabelecimentos escolares e profissionais docentes que não
+      desejem se submeter às determinações dos sistemas de ensino de estados e municípios.
+  (D) de caráter normativo, que define o conjunto orgânico e progressivo de aprendizagens essenciais
+      que todos os alunos devem desenvolver ao longo das etapas e modalidades da Educação Básica.
+  (E) por meio do qual professores e estudantes da educação superior poderão propor, em comum
+      acordo, atividades curriculares de pesquisa e extensão articuladas com o ensino.
+
+
+
+
+                                                      9
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNiAtMDMwMA==
+
+
+
+
+                                   CONHECIMENTOS ESPECIFÍCOS
+
+                                              MATEMÁTICA
+
+  26 Nove técnicos bancários, com mesmo potencial de trabalho, deveriam arquivar 18.000 documentos
+  em 6 dias, trabalhando 8 horas por dia. Como somente 4 desses técnicos poderiam participar dessa
+  tarefa, e houve reduções para 12.000 documentos, em jornada diária de 4 horas, o arquivamento deve-
+  se dar em
+  (A) 10 dias.
+  (B) 12 dias.
+  (C) 18 dias.
+  (D) 16 dias.
+  (E) 14 dias.
+
+  27 Um investidor emprestou certo valor por um ano, à taxa de juros de 21%a.a, e o aplicou em moeda
+  estrangeira, pelo mesmo período, com taxa de 10%a.a, mais a variação cambial do período. Esse
+  investidor lucrará a partir de quando a variação cambial for superior a
+  (A) 12,5%.
+  (B) 12%.
+  (C) 11,5%.
+  (D) 10,5%.
+  (E) 10%.
+
+  28 No financiamento de R$ 60.000,00 para aquisição de um carro, utilizou-se o Sistema de Amortização
+  Constante (SAC), com taxa de 2% a.m para ser liquidado em 6 parcelas, sem entrada. Os pagamentos
+  ocorreram conforme a tabela abaixo, que se apresenta completa apenas até a terceira parcela.
+         Parcela     Valor da                                  Saldo
+         número      Parcela        Juros     Amortização     Devedor
+            0                                              R$60.000,00
+            1      R$11.200,00 R$1.200,00 R$10.000,00 R$50.000,00
+            2      R$11.000,00 R$1.000,00 R$10.000,00 R$40.000,00
+            3      R$10.800,00 R$ 800,00 R$10.000,00 R$30.000,00
+            4           ?              ?      R$10.000,00 R$20.000,00
+            5           ?              ?      R$10.000,00 R$10.000,00
+            6           ?              ?      R$10.000,00        0
+
+  O valor total das parcelas pagas nesse financiamento foi de
+  (A) R$ 63.400,00.
+  (B) R$ 64.200,00.
+  (C) R$ 65.100,00.
+  (D) R$ 65.800,00.
+  (E) R$ 66.200,00.
+
+
+
+
+                                                     10
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNiAtMDMwMA==
+
+
+
+
+  29 Gisele, Mônica e Roberta fazem parte de uma sociedade, conforme o quadro a seguir:
+
+                  Sócia            Número de                Participação no
+                                   assessores             capital da sociedade
+                  Gisele               1                           25%
+                 Mônica                2                           35%
+                 Roberta               3                           40%
+
+  Um lucro de R$ 67.000,00 foi dividido entre as sócias, de forma diretamente proporcional à participação
+  no capital da sociedade e inversamente proporcional ao número de assessores. Dessa forma, Roberta
+  recebeu
+  (A) R$ 16.000,00.
+  (B) R$ 21.000,00.
+  (C) R$ 26.000,00.
+  (D) R$ 28.000,00.
+  (E) R$ 30.000,00.
+
+  30 Na realização de um empréstimo de R$ 8.000,00 por três meses, havia duas possibilidades de
+  sistema a considerar: juros simples a 5%a.m ou juros compostos a 4%a.m. Comparando os montantes
+  obtidos nesses dois sistemas, é correto afirmar que o de juros simples é, aproximadamente,
+  (A) inferior ao de juros compostos em R$ 300,00.
+  (B) inferior ao de juros compostos em R$ 200,00.
+  (C) igual ao de juros compostos.
+  (D) superior ao de juros compostos em R$ 200,00.
+  (E) superior ao de juros compostos em R$ 300,00.
+
+                                ATENDIMENTO E NOÇÕES DE ÉTICA
+
+  31 O grande objetivo do marketing de relacionamento é fazer com que os clientes se tornem fãs dos
+  produtos e serviços prestados pela empresa. Neste sentido, para criar um plano de marketing de
+  relacionamento, a empresa precisa
+  (A) implantar uma cultura de fidelização de clientes no âmbito de sua diretoria, pois a relação entre a
+       empresa e o cliente se inicia no contato do cliente com sua alta direção.
+  (B) ter um sistema de atendimento que cative e conquiste exclusivamente seu colaborador, de forma
+       que este esteja satisfeito no momento da relação com o cliente.
+  (C) estimular que os clientes falem de seus produtos e serviços de maneira positiva, mostrando a
+       importância de tê-los na sua vida.
+  (D) fazer com que os clientes omitam suas reclamações ou desejos em relação aos seus produtos e
+       serviços, evitando propaganda negativa.
+  (E) promover ações direcionadas para seus gerentes comerciais, fazendo com que eles se sintam a
+       peça mais importante dessa relação comercial.
+
+  32 Um dos deveres fundamentais do servidor público é
+  (A) valorizar o espírito de solidariedade, sendo conivente com erro ou infração de colega ao código de
+      ética da organização.
+  (B) zelar, no exercício do direito de greve, pelas exigências específicas da defesa da vida e da
+      segurança coletiva.
+  (C) procrastinar o exercício regular de direito por pessoa que insista em reclamar um serviço, tendo
+      justificativa plausível.
+  (D) deixar de utilizar os avanços técnicos e científicos ao seu alcance ou do seu conhecimento para
+      atendimento do seu mister.
+  (E) pleitear, solicitar, provocar, sugerir ou receber ajuda financeira diante de grave necessidade
+      pessoal ou familiar.
+
+
+
+
+                                                     11
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNiAtMDMwMA==
+
+
+
+
+  33 Assim como a empresa, seus colaboradores devem nutrir valores essenciais à boa convivência e
+  produtividade. Uma definição adequada de valor diz respeito ao (à)
+  (A) significado de felicidade, esforço, competição, disputa e valentia, na medida em que valores
+      humanos equivalem a interesses materiais que afetam a conduta das pessoas.
+  (B) disciplina, que reflete automaticamente o desejo de crescimento financeiro e material, tendo em
+      vista a melhoria dos padrões da vida familiar.
+  (C) crise de consciência, necessária e saudável, para que o ser humano enfrente seus obstáculos e
+      supere sua humanidade.
+  (D) sentido de força, coragem, eficiência, eficácia, poder e capacidade de luta e vitória sobre seus
+      adversários e concorrentes.
+  (E) conjunto de características de uma determinada pessoa, que determina a forma como ela se
+      comporta e interage com outros indivíduos e com o meio ambiente.
+
+  34 Com base na legislação que trata da proteção do consumidor, é correto afirmar que
+  (A) consumidor é toda pessoa física ou jurídica que adquire ou utiliza produto ou serviço como
+      destinatário final.
+  (B) somente um indivíduo, e não um coletivo, pode ser considerado como consumidor em face da
+      característica unitarista da legislação vigente.
+  (C) apenas a pessoa jurídica privada de origem nacional que desenvolve atividade de produção,
+      montagem ou criação de produtos pode ser considerada como fornecedor.
+  (D) produto é todo e qualquer bem imóvel e material disponível a relações de comercialização e
+      mercado.
+  (E) serviço é a atividade desenvolvida em espaços exclusivos de venda e compra, à exceção das
+      atividades de natureza bancária, financeira, de crédito ou securitária.
+
+  35 Com base na legislação que estabelece normas e critérios para a promoção da acessibilidade nos
+  edifícios públicos ou de uso coletivo a pessoas portadoras de deficiência ou com mobilidade reduzida
+  (Lei 10.098/2000), é correto afirmar que
+  (A) deverão ser reservadas, pelo menos, 10 (dez) vagas próximas dos acessos de circulação de
+       pedestres, nas áreas internas da edificação destinadas a garagem ou estacionamento.
+  (B) pelo menos 3 (três) acessos ao interior da edificação deverão estar livres de barreiras
+       arquitetônicas e de obstáculos.
+  (C) um dos itinerários de comunicação horizontal entre as dependências de uso do público externo
+       deve cumprir rigorosamente os requisitos legais de acessibilidade.
+  (D) os edifícios deverão dispor, pelo menos, de um banheiro acessível, distribuindo-se seus
+       equipamentos e acessórios de maneira adequada para esse público.
+  (E) entre as pessoas que circulam no ambiente, somente os cadeirantes terão direito a rampas, mas
+       devem ser desestimulados ao uso dos elevadores.
+
+                                    CONHECIMENTOS BANCÁRIOS
+  36 As bolsas de mercadorias e futuros (BM&F) são associações privadas civis, com objetivo de efetuar
+  o registro, a compensação e a liquidação, física e financeira, das operações realizadas em pregão ou
+  em sistema eletrônico. Quanto à regulamentação das BM&F, pode-se afirmar que são regulamentadas
+  pela(pelo)
+  (A) Comissão de Valores Mobiliários e pelo Banco Central do Brasil.
+  (B) Comissão de Valores Mobiliários e pela Receita Federal do Brasil.
+  (C) Banco Central do Brasil e pela Receita Federal do Brasil.
+  (D) Banco Central do Brasil e pelo Banco do Brasil.
+  (E) Comissão de Valores Mobiliários, pelo Banco Central do Brasil, pela Receita Federal do Brasil e
+      pelo Banco do Brasil.
+
+
+
+
+                                                     12
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNiAtMDMwMA==
+
+
+
+
+  37 A Central de Liquidação Financeira e de Custódia de Títulos (CETIP) foi criada pelas instituições
+  financeiras em parceria com o Banco Central com o objetivo de garantir mais segurança e agilidade às
+  operações do mercado financeiro nacional. Quanto às normas de segurança de sigilo adotadas pela
+  CETIP, é correto afirmar que o participante tem acesso
+  (A) somente às informações do vendedor, por questão de segurança.
+  (B) somente às informações do comprador, por questão de segurança.
+  (C) apenas às suas próprias operações, por questão de segurança.
+  (D) a todas as informações que desejar conhecer, por questão de transparência.
+  (E) somente às informações de caráter público e a suas próprias operações.
+
+  38 Quanto aos conhecimentos referentes às Associações de Poupança e Empréstimo (APE), é correto
+  afirmar que
+  (A) é uma instituição criada para facilitar aos associados a aquisição da casa própria, bens de consumo
+      e veículo próprio, além captar, incentivar e disseminar a poupança.
+  (B) os associados podem participar da APE de duas formas básicas: ao adquirir financiamento
+      imobiliário ou ao depositar seu dinheiro para formar poupança.
+  (C) suas operações ativas são, além dos depósitos de poupança, constituídas de letras hipotecárias;
+      repasses e refinanciamentos contraídos no País; empréstimos e financiamentos contraídos no
+      exterior; letras de crédito imobiliário, letra financeira e depósitos interfinanceiros, já as operações
+      passivas são, basicamente, direcionadas aos financiamentos imobiliários.
+  (D) esse tipo de entidade, por ter característica de associação, em hipótese alguma pode distribuir
+      dividendos da totalidade dos resultados líquidos a seus associados.
+  (E) os depositantes dessas entidades são considerados acionistas da associação e, por isso, os
+      recursos dos associados são classificados no passivo exigível e não no patrimônio líquido.
+  39 A previdência complementar proporciona um seguro previdenciário adicional ao trabalhador ou seu
+  beneficiário, conforme a necessidade e vontade. Sobre isso, é correto afirmar que
+  (A) existem três modelos de previdência privada no Brasil: a previdência aberta, a previdência fechada
+      e a previdência privada mista, que envolve características da aberta e da fechada simultaneamente.
+  (B) os planos, no modelo de previdência privada aberta, são oferecidos por bancos, entidades ou
+      seguradoras, sendo fiscalizados pela Superintendência de Seguros Privados (SUSEP) e pela
+      Superintendência Nacional de Previdência Complementar (PREVIC).
+  (C) as entidades de previdência fechada funcionam como empresas administradoras da previdência,
+      lucrando com esta atividade, ao cobrar taxas pelos serviços prestados.
+  (D) o modelo de previdência privada mista é administrado por empresas e bancos e dele podem fazer
+      parte funcionários de uma única empresa ou funcionários de empresas diferentes.
+  (E) as entidades de previdência fechada, também chamadas de fundo de pensão, oferecem planos
+      criados por empresas e voltados exclusivamente aos seus funcionários, não podendo ser
+      oferecidos para quem não é funcionário daquela empresa.
+  40 As instituições financeiras podem receber depósitos à vista e depósitos a prazo. As instituições
+  financeiras que não recebem depósitos à vista são
+  (A) bancos comerciais e bancos cooperativos.
+  (B) bancos comerciais e bancos de investimentos.
+  (C) bancos de investimentos e bancos de desenvolvimento.
+  (D) bancos de desenvolvimento e bancos comerciais.
+  (E) bancos cooperativos e cooperativas de crédito.
+
+  41 Em relação ao Recibo de Depósito Bancário (RDB) e ao Certificado de Depósito Bancário (CDB), é
+  correto afirmar que
+  (A) o RDB é considerado um depósito à vista enquanto o CDB é considerado um depósito a prazo.
+  (B) o RDB é considerado um depósito a prazo enquanto o CDB é considerado um depósito à vista.
+  (C) o RDB e o CDB são considerados depósitos à vista.
+  (D) o RDB e o CDB são considerados depósitos a prazo.
+  (E) o RDB e o CDB podem ser tanto depósitos à vista quanto depósitos a prazo.
+
+
+
+
+                                                      13
+
+                                      www.pciconcursos.com.br                       www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNiAtMDMwMA==
+
+
+
+
+  42 Ainda em relação ao Recibo de Depósito Bancário (RDB) e ao Certificado de Depósito Bancário
+  (CDB), é correto afirmar que
+  (A) os CDB e RDB são títulos de renda fixa que servem como captação de recursos dos bancos.
+      Ambos são empréstimos que o banco faz para seus clientes e a rentabilidade vem dos juros pagos
+      pelo cliente à instituição.
+  (B) o RDB é um recibo que pode ser negociado a qualquer momento desde que seja entre correntistas
+      do mesmo banco.
+  (C) o CDB, por ser um depósito à vista, permite negociação do título antes do vencimento.
+  (D) o RDB, por ser um depósito à vista, é inegociável e intransferível.
+  (E) o CDB, por ser considerado um título de crédito, é negociável e pode ser endossável e vendido
+      para outra pessoa.
+
+  43 Somente pessoas físicas podem participar e todos possuem responsabilidade ilimitada e solidária
+  perante as obrigações assumidas pela empresa. Ou seja, cada sócio responde ilimitadamente e
+  isoladamente por qualquer obrigação social da empresa, mesmo que o montante do capital exceda o
+  valor do capital social. Essas características referem-se a(à)
+  (A) sociedades anônimas.
+  (B) sociedades por quotas de responsabilidade limitada.
+  (C) firma individual.
+  (D) sociedades em nome coletivo.
+  (E) sociedade em comandita simples.
+
+  44 O pagamento da dívida é garantido com um bem imóvel. Embora conserve a posse do bem, a
+  empresa só readquire sua propriedade após a quitação integral da dívida. Se a dívida não for paga ou
+  se for paga apenas uma parte dela, ao fim do prazo contratado a instituição pode assumir a propriedade
+  do bem. Essas características referem-se à garantia do tipo
+  (A) aval.
+  (B) fiança.
+  (C) alienação fiduciária.
+  (D) penhora.
+  (E) hipoteca.
+
+  45 Diversas são as regras e procedimentos para disponibilidade de talonário de cheque aos
+  depositantes. Nesse sentido, é correto afirmar que
+  (A) são expressamente proibidos à instituição financeira a abertura, a manutenção ou o encerramento
+      de conta de depósitos à vista cujo titular figure ou tenha figurado no Cadastro de Emitentes de
+      Cheques sem Fundos (CCF).
+  (B) é vedado o fornecimento de talonário de cheques ao depositante enquanto figurar no CCF.
+  (C) é facultado o fornecimento de talonário de cheques ao depositante enquanto não verificadas as
+      informações constantes da ficha-proposta ou quando, a qualquer tempo, forem constatadas
+      irregularidades nos dados de identificação do depositante ou de seu procurador.
+  (D) o talonário de cheques somente poderá ser entregue mediante recibo datado e assinado pelo
+      depositante ou portador expressamente autorizado, o qual deverá ser identificado no ato da
+      entrega.
+  (E) a instituição financeira poderá adotar providências com vistas a retomar os cheques em poder do
+      depositante, caso seja suspenso o fornecimento de talonário de cheques.
+
+  46 As Sociedades Anônimas podem ser classificadas em abertas e fechadas. Pode-se dizer que são
+  características das Sociedades Anônimas Fechadas
+  (A) negociação em bolsas de valores ou mercado de balcão organizado e concentração do capital na
+      mão de poucos acionistas.
+  (B) negociação em bolsas de valores ou mercado de balcão organizado e divisão do capital entre
+      muitos sócios.
+  (C) negociação no balcão das empresas, sem garantia e divisão do capital entre muitos sócios.
+  (D) negociação no balcão das empresas, sem garantia e cumprimento de várias normas exigidas pelo
+      agente regulador.
+  (E) concentração do capital na mão de poucos acionistas e negociação no balcão das empresas, sem
+      garantia.
+                                                     14
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNiAtMDMwMA==
+
+
+
+
+  47 O Mercado Secundário é onde ocorre a negociação contínua dos papéis (ações) emitidos no
+  passado. Sendo assim, um investidor que queira operar nesse mercado deve
+  (A) pedir autorização para Comissão de Valores Mobiliários (CVM).
+  (B) dirigir-se a uma sociedade corretora membro de uma bolsa de valores, na qual receberá
+      orientações e esclarecimentos na seleção dos investimentos.
+  (C) procurar um banco, uma corretora ou uma distribuidora de valores mobiliários, que participem do
+      lançamento das ações pretendidas.
+  (D) solicitar autorização no Banco Central do Brasil, o qual é o responsável pela gestão financeira do
+      mercado de capitais brasileiro.
+  (E) entrar em contato direto com a empresa da qual tenha interesse em adquirir ações.
+
+  48 Considerado um serviço de intermediação que permite ao consumidor adquirir bens e serviços em
+  estabelecimentos comerciais previamente credenciados, mediante a comprovação de sua condição de
+  usuário. Essas características referem-se ao
+  (A) Crédito Rotativo.
+  (B) Crédito Direto ao Consumidor.
+  (C) empréstimo em consignação.
+  (D) Mobile Bank.
+  (E) Cartão de Crédito.
+
+  49 Refere-se a uma operação de crédito bancário com um valor limite. Normalmente é movimentada
+  pelo cliente através de seus cheques, desde que não haja saldo disponível em sua conta corrente de
+  movimentação. À medida que entram recursos na conta corrente do cliente, eles são usados para cobrir
+  o saldo devedor. Essas características dizem respeito ao(às)
+  (A) Hot Money.
+  (B) Crédito Rotativo.
+  (C) Contas Garantidas.
+  (D) Banco Virtual.
+  (E) transferências automáticas de fundos.
+
+  50 A conta poupança é um tipo de conta bancária considerada de baixo risco. Em relação à caderneta
+  de poupança, é correto afirmar que
+  (A) a remuneração da aplicação é mensal e não há incidência de imposto de renda (IR) sobre ganhos
+      de capital para pessoas físicas e jurídicas sem fins lucrativos.
+  (B) a remuneração é mensal e há incidência do imposto de renda (IR) para pessoas jurídicas com fins
+      lucrativos.
+  (C) a remuneração da aplicação é mensal e há incidência de imposto de renda (IR) sobre ganhos de
+      capital para pessoas físicas e jurídicas sem fins lucrativos.
+  (D) a caderneta recebe depósitos tanto de pessoas físicas quanto de pessoas jurídicas, sendo que sua
+      abertura deve ser feita somente no quinto dia útil de cada mês.
+  (E) a remuneração da aplicação é diária e não há incidência de imposto de renda (IR) sobre ganhos de
+      capital para pessoas físicas e jurídicas sem fins lucrativos.
+
+
+
+
+                                                     15
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNiAtMDMwMA==
+
+
+
+
+  51 De acordo com a subdivisão do Sistema Financeiro Nacional (SFN) em entidades normativas,
+  supervisoras e operacionais, pode-se afirmar que:
+  (A) funcionam como entidades normativas: o Banco Central do Brasil (BCB), a Comissão de Valores
+      Mobiliários (CVM), a Superintendência de Seguros Privados (SUSEP) e a Superintendência
+      Nacional de Previdência Complementar (PREVIC).
+  (B) funcionam como entidades supervisoras: o Conselho Monetário Nacional (CMN), o Conselho
+      Nacional de Seguros Privados (CNSP) e o Conselho Nacional de Previdência Complementar
+      (CNPC).
+  (C) funcionam como entidades operacionais: Agências de Fomento, Associações de Poupança e
+      Empréstimo, Bancos de Câmbio, Bancos de Desenvolvimento, Bancos de Investimento,
+      Companhias Hipotecárias, Cooperativas Centrais de Crédito, Sociedades de Crédito,
+      Financiamento e Investimento, Sociedades de Crédito Imobiliário e Sociedades de Crédito ao
+      Microempreendedor.
+  (D) funcionam como entidades supervisoras: entidades operadoras auxiliares, administradores de
+      mercados organizados de valores mobiliários, como os de Bolsa, de Mercadorias e Futuros e de
+      Balcão Organizado, as companhias seguradoras, as sociedades de capitalização, as entidades
+      abertas de previdência complementar e os fundos de pensão.
+  (E) funcionam como entidades operacionais o Banco Central do Brasil (BCB), a Comissão de Valores
+      Mobiliários (CVM), a Superintendência de Seguros Privados (SUSEP) e a Superintendência
+      Nacional de Previdência Complementar – PREVIC.
+
+  52 O Banco Central do Brasil foi criado em 1964 com a promulgação da Lei da Reforma Bancária (Lei
+  nº 4.595, de 31.12.64). Pode-se afirmar que é competência do Banco Central do Brasil
+  (A) estimular a formação de poupança e a sua aplicação em valores mobiliários.
+  (B) assegurar o cumprimento de práticas comerciais equitativas no mercado de valores mobiliários.
+  (C) atuar no sentido de proteger a captação de poupança popular que se efetua através das operações
+       de seguro, previdência privada aberta, de capitalização e resseguro.
+  (D) fortalecer a estrutura de capital das empresas privadas e o desenvolvimento do mercado de
+       capitais.
+  (E) tomar as medidas para garantir a liquidez e solvência das instituições financeiras nacionais.
+
+  53 O Sistema Financeiro Nacional encontra-se estruturado pelo Conselho Monetário Nacional, pelo
+  Banco Central do Brasil, pelo Banco do Brasil, pelo Banco Nacional de Desenvolvimento Econômico e
+  pelas demais instituições financeiras públicas e privadas. Nesse sentido, pode-se afirmar que
+  (A) compete, privativamente ao Banco Central do Brasil e ao Banco do Brasil, a emissão de papel-
+      moeda e moeda metálica, nas condições e nos limites autorizados pelo Conselho Monetário
+      Nacional.
+  (B) o Banco Nacional do Desenvolvimento Econômico opera como agente financeiro do Governo
+      Federal e é o principal executor das políticas de crédito rural e industrial e de banco comercial do
+      governo.
+  (C) as demais instituições financeiras públicas e privadas são responsáveis pela política de
+      investimentos a longo prazo do Governo Federal, necessários ao fortalecimento da empresa
+      privada nacional.
+  (D) o Banco Central do Brasil opera exclusivamente com instituições financeiras públicas e privadas,
+      vedadas operações bancárias de qualquer natureza com outras pessoas de direito público ou
+      privado, salvo as expressamente autorizadas por lei.
+  (E) o Banco Nacional do Desenvolvimento Econômico tem a responsabilidade primordial de formular a
+      política da moeda e do crédito, objetivando a estabilidade da moeda e o desenvolvimento
+      econômico e social do País.
+
+
+
+
+                                                     16
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNiAtMDMwMA==
+
+
+
+
+  54 Quantos às instituições financeiras públicas e privadas, é correto afirmar que
+  (A) os bancos de investimento são instituições financeiras controladas pelos governos estaduais e têm
+      como objetivo precípuo proporcionar o suprimento oportuno e adequado dos recursos necessários
+      ao financiamento, a médio e a longo prazos, de programas e projetos que visem a promover o
+      desenvolvimento econômico e social do respectivo Estado.
+  (B) os bancos de desenvolvimento são instituições privadas especializadas em operações de
+      participação societária de caráter temporário, de financiamento da atividade produtiva para
+      suprimento de capital fixo e de giro e de administração de recursos de terceiros.
+  (C) os bancos comerciais são instituições financeiras privadas ou públicas que têm como objetivo
+      principal proporcionar suprimento de recursos necessários para financiar, a curto e a médio prazos,
+      o comércio, a indústria, as empresas prestadoras de serviços, as pessoas físicas e terceiros em
+      geral.
+  (D) as cooperativas de crédito são instituições financeiras constituídas sob a forma de sociedades
+      cooperativas, tendo por objeto a prestação de serviços financeiros aos associados, porém, por
+      questões éticas, não podem ser dirigidas e controladas pelos próprios associados.
+  (E) os bancos comerciais devem ser constituídos sob a forma de sociedade por quotas de
+      responsabilidade limitada ou sociedade empresária e na sua denominação social deve constar a
+      expressão "Banco".
+
+  55 Partindo-se do pressuposto de que cobrança bancária serve para aumentar o relacionamento
+  instituição financeira x empresa (cliente) e que essa operação gera vantagens para ambos, pode-se
+  afirmar que
+  (A) o fluxo das cobranças bancárias permite aos bancos o aumento dos depósitos à vista pelos créditos
+        das liquidações.
+  (B) a cobrança bancária provoca nas empresas (clientes) o aumento das receitas pela cobrança de
+        tarifas sobre os serviços prestados.
+  (C) ainda existe risco de crédito nesse tipo de operação, apesar das diversas vantagens que promove
+        para os bancos.
+  (D) ainda existe dificuldade quanto ao crédito imediato dos títulos cobrados, apesar das diversas
+        vantagens que promove para as empresas (clientes).
+  (E) a cobrança bancária não possibilita à empresa (cliente) a garantia do processo de cobrança,
+        quando necessário o protesto.
+
+  56 Quanto à rotina do processo de cobrança, pode-se dizer que uma ordem lógica seria:
+  (A) primeiro, o banco credita o valor na conta do cliente (cedente); segundo, o banco emite os
+      bloquetes aos sacados; terceiro, o sacado paga; e, finalmente, os títulos a serem cobrados são
+      passados ao banco.
+  (B) primeiro, os títulos a serem cobrados são passados ao banco; segundo, o banco emite os
+      bloquetes aos sacados; terceiro, o sacado paga; e, finalmente, o banco credita o valor na conta do
+      cliente (cedente).
+  (C) primeiro, os títulos a serem cobrados são passados ao banco; segundo, o banco emite os
+      bloquetes aos sacados; terceiro, o banco credita o valor na conta do cliente (cedente); e,
+      finalmente, o sacado paga.
+  (D) primeiro, os títulos a serem cobrados são passados ao banco; segundo, o banco credita o valor na
+      conta do cliente (cedente); terceiro, o banco emite os bloquetes aos sacados; e, finalmente, o
+      sacado paga.
+  (E) primeiro, o banco credita o valor na conta do cliente (cedente); segundo, o banco emite os
+      bloquetes aos sacados; terceiro, os títulos a serem cobrados são passados ao banco; e, finalmente,
+      o sacado paga.
+
+
+
+
+                                                     17
+
+                                      www.pciconcursos.com.br                         www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNiAtMDMwMA==
+
+
+
+
+  57 Diversos são os documentos comerciais e títulos de créditos que fazem parte das operações das
+  instituições financeiras. Em relação a esses títulos e documentos, é correto afirmar que
+  (A) nota promissória é um título de crédito formal e nominativo, emitido pelo vendedor com a mesma
+        data, valor global e vencimento da fatura que lhe deu origem, e representa um direito de crédito do
+        sacador (vendedor) contra o sacado (comprador).
+  (B) duplicata é um título cambiário em que o emitente assume a obrigação direta e principal de pagar a
+        soma constante no título ao respectivo beneficiário.
+  (C) nota promissória é um documento fiscal, comprovante obrigatório da saída de mercadoria de um
+        estabelecimento comercial ou industrial.
+  (D) duplicata é um documento fiscal, comprovante obrigatório da saída de mercadoria de um
+        estabelecimento comercial ou industrial.
+  (E) fatura é o documento que comprova a existência de uma operação de compra e venda de
+        mercadorias e produtos e nela podem ser incluídas várias notas fiscais.
+
+  58 O Documento de Ordem de Crédito (DOC) e a Transferência Eletrônica Disponível (TED) são
+  importantes formas de transferências de recursos operacionalizadas pelos bancos. Referente a esses
+  dois tipos de transferências bancárias, é correto afirmar que
+  (A) o TED é uma forma de transferência de recursos entre bancos para crédito no mesmo dia, e o valor
+      mínimo para transação é de R$ 4.999,99.
+  (B) o DOC é uma forma de transferência de recursos entre contas de bancos diferentes, e não existe
+      valor mínimo nem máximo para transferência.
+  (C) o crédito, na transferência por DOC, só é liberado na conta de destino no dia útil seguinte da data
+      de efetivação, e não é possível realizar o estorno, porém, se forem detectados dados incorretos
+      inseridos pelo emissor, o DOC pode ser devolvido.
+  (D) o DOC é uma forma de transferência de recursos entre bancos para crédito no mesmo dia, e não
+      existe mais valor mínimo para esse tipo de transferência.
+  (E) o crédito, na transferência por TED, só é liberado na conta de destino no dia útil seguinte da data
+      de efetivação, e não é possível realizar o estorno, porém, se forem detectados dados incorretos
+      inseridos pelo emissor, o TED pode ser devolvido.
+
+  59 Em relação ao leasing financeiro e ao leasing operacional, é correto afirmar que
+  (A) as contraprestações e demais pagamentos devidos pela arrendatária previstos em contrato no
+      leasing financeiro são normalmente suficientes para que a arrendadora recupere o custo do bem
+      arrendado durante o prazo contratual da operação.
+  (B) as despesas de manutenção, assistência técnica e serviços correlatos à operacionalidade do bem
+      arrendado são de responsabilidade da arrendatária no leasing operacional.
+  (C) o leasing operacional, em geral, possibilita ao arrendatário adquirir o bem no final do contrato.
+  (D) existe um intermediário entre o arrendador e o arrendatário no leasing operacional, que é a
+      instituição financeira.
+  (E) não há previsão de pagamento de valor residual garantido no leasing financeiro.
+
+  60 Em relação aos elementos que fazem parte de um contrato de seguro, pode-se afirmar que:
+  (A) a franquia é a importância que o segurado recebe em caso de sinistro.
+  (B) a indenização refere-se à prestação paga pelo segurado.
+  (C) o sinistro é o valor do prejuízo que fica a cargo do segurado.
+  (D) a indenização refere-se à importância que o segurado recebe em caso de sinistro.
+  (E) o prêmio refere-se à importância que o segurado recebe em caso de sinistro.
+
+
+
+
+                                                     18
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNyAtMDMwMA==
+
+
+
+
+                                    BANCO DO ESTADO DO PARÁ
+                              CONCURSO PÚBLICO 2018 – Edital N.º 001/BANPARÁ
+                                   GABARITO OFICIAL PRELIMINAR
+
+                                        NÍVEL MÉDIO – MANHÃ
+                                        PROVA        PROVA       PROVA       PROVA
+                        QUESTÕES          1             2          3           4
+                                       AMARELA        AZUL      BRANCA       ROSA
+
+                                          LÍNGUA PORTUGUESA
+
+                             1              A           E           D           E
+                             2              E           B           B           C
+                             3              B           C           A           D
+                             4              C           E           C           B
+                             5              E           A           E           A
+                             6              E           D           E           A
+                             7              C           B           B           E
+                             8              A           A           C           E
+                             9              B           C           E           B
+                            10              D           E           A           C
+
+                                           RACIOCÍNIO LÓGICO
+
+                            11              A           D           C           B
+                            12              E           A           B           D
+                            13              D           E           D           A
+                            14              B           C           E           C
+                            15              C           B           A           E
+
+                                        NOÇÕES DE INFORMÁTICA
+
+                            16              C           E           C           D
+                            17              E           C           D           E
+                            18              E           E           E           C
+                            19              D           C           E           C
+                            20              C           D           C           E
+
+                                        CONHECIMENTOS GERAIS
+
+                            21              C           A           E           B
+                            22              D           E           B           A
+                            23              A           B           A           E
+                            24              B           C           D           D
+                            25              E           D           C           C
+
+                                                MATEMÁTICA
+
+                            26              E           C           A           D
+                            27              B           E           D           C
+                            28              C           B           C           A
+                            29              D           A           B           B
+                            30              A           D           E           E
+
+                                   ATENDIMENTO E NOÇÕES DE ÉTICA
+
+                            31              B           C           A           D
+                            32              E           B           D           C
+                            33              C           E           C           A
+                            34              D           A           E           E
+                            35              A           D           B           B
+
+                                      www.pciconcursos.com.br                       www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNyAtMDMwMA==
+
+
+
+
+                                        PROVA        PROVA       PROVA       PROVA
+                        QUESTÕES          1             2          3           4
+                                       AMARELA        AZUL      BRANCA       ROSA
+
+                                           TÉCNICO BANCÁRIO
+
+                            36              D           A           C           E
+                            37              E           E           E           C
+                            38              D           B           D           A
+                            39              E           E           C           D
+                            40              B           C           A           A
+                            41              E           D           E           C
+                            42              C           E           B           C
+                            43              A           D           E           E
+                            44              D           E           C           D
+                            45              A           D           D           C
+                            46              C           E           E           A
+                            47              E           B           A           D
+                            48              B           E           B           E
+                            49              A           C           E           B
+                            50              E           A           C           E
+                            51              D           C           A           C
+                            52              C           E           D           D
+                            53              E           D           A           E
+                            54              B           C           C           A
+                            55              E           A           E           B
+                            56              A           B           B           E
+                            57              C           E           E           B
+                            58              D           C           D           E
+                            59              E           A           E           D
+                            60              C           D           D           E
+
+
+                                           Setor Concursos/Fadesp
+                                                  07/05/2018
+
+
+
+
+                                      www.pciconcursos.com.br                       www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNyAtMDMwMA==
+
+
+
+
+                                    BANCO DO ESTADO DO PARÁ
+                              CONCURSO PÚBLICO 2018 – Edital N.º 001/BANPARÁ
+                                   GABARITO OFICIAL PRELIMINAR
+                                         NÍVEL SUPERIOR – MANHÃ
+                                              ASSISTENTE SOCIAL
+                                                          PROVA        PROVA
+                                      QUESTÕES              1             2
+                                                         BRANCA         AZUL
+                                          1                 D           E
+                                          2                 C           C
+                                          3                 A           E
+                                          4                 D           A
+                                          5                 E           C
+                                          6                 C           D
+                                          7                 A           C
+                                          8                 E           A
+                                          9                 C           D
+                                         10                 E           E
+                                                 RACIOCÍNIO LÓGICO
+                                         11                 D           A
+                                         12                 B           E
+                                         13                 B           D
+                                         14                 E           B
+                                         15                 A           B
+                                              NOÇÕES DE INFORMÁTICA
+                                         16                 D           B
+                                         17                 E           B
+                                         18                 A           D
+                                         19                 B           E
+                                         20                 B           A
+                                           CONHECIMENTOS ESPECÍFICOS
+                                         21                 B           D
+                                         22                 A           B
+                                         23                 D           E
+                                         24                 C           A
+                                         25                 C           C
+                                         26                 A           B
+                                         27                 D           D
+                                         28                 A           A
+                                         29                 C           E
+                                         30                 A           C
+                                         31                 B           D
+                                         32                 E           A
+                                         33                 D           C
+                                         34                 B           E
+                                         35                 A           A
+                                         36                 B           D
+                                         37                 E           B
+                                         38                 D           C
+                                         39                 B           A
+                                         40                 A           E
+                                         41                 C           B
+                                         42                 E           B
+                                         43                 A           D
+                                         44                 D           E
+                                         45                 B           B
+                                         46                 C           A
+                                         47                 A           B
+                                         48                 E           D
+                                         49                 B           E
+                                         50                 D           B
+                                         51                 C           A
+                                         52                 E           B
+                                         53                 A           A
+                                         54                 D           D
+                                         55                 B           C
+                                         56                 C           C
+                                         57                 A           A
+                                         58                 E           D
+                                         59                 B           A
+                                         60                 D           C
+                                           Setor Concursos/Fadesp
+                                                  07/05/2018
+
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNyAtMDMwMA==
+
+
+
+
+                                    BANCO DO ESTADO DO PARÁ
+                              CONCURSO PÚBLICO 2018 – Edital N.º 001/BANPARÁ
+                                   GABARITO OFICIAL PRELIMINAR
+                                         NÍVEL SUPERIOR – MANHÃ
+                                                  CONTADOR
+                                                          PROVA        PROVA
+                                      QUESTÕES              1             2
+                                                         BRANCA         AZUL
+                                          1                 D           E
+                                          2                 C           C
+                                          3                 A           E
+                                          4                 D           A
+                                          5                 E           C
+                                          6                 C           D
+                                          7                 A           C
+                                          8                 E           A
+                                          9                 C           D
+                                         10                 E           E
+                                                 RACIOCÍNIO LÓGICO
+                                         11                 D           A
+                                         12                 B           E
+                                         13                 B           D
+                                         14                 E           B
+                                         15                 A           B
+                                              NOÇÕES DE INFORMÁTICA
+                                         16                 D           B
+                                         17                 E           B
+                                         18                 A           D
+                                         19                 B           E
+                                         20                 B           A
+                                           CONHECIMENTOS ESPECÍFICOS
+                                         21                 B           D
+                                         22                 C           E
+                                         23                 D           B
+                                         24                 D           E
+                                         25                 E           C
+                                         26                 C           B
+                                         27                 A           C
+                                         28                 B           B
+                                         29                 A           C
+                                         30                 C           E
+                                         31                 C           A
+                                         32                 E           B
+                                         33                 C           A
+                                         34                 A           B
+                                         35                 C           A
+                                         36                 E           E
+                                         37                 B           C
+                                         38                 A           D
+                                         39                 C           C
+                                         40                 B           B
+                                         41                 A           E
+                                         42                 B           C
+                                         43                 A           A
+                                         44                 E           B
+                                         45                 C           E
+                                         46                 D           C
+                                         47                 C           A
+                                         48                 B           C
+                                         49                 E           E
+                                         50                 A           C
+                                         51                 E           C
+                                         52                 C           B
+                                         53                 B           C
+                                         54                 C           D
+                                         55                 B           D
+                                         56                 C           E
+                                         57                 E           C
+                                         58                 B           A
+                                         59                 E           B
+                                         60                 D           A
+                                           Setor Concursos/Fadesp
+                                                  07/05/2018
+
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNyAtMDMwMA==
+
+
+
+
+                                    BANCO DO ESTADO DO PARÁ
+                              CONCURSO PÚBLICO 2018 – Edital N.º 001/BANPARÁ
+                                   GABARITO OFICIAL PRELIMINAR
+                                         NÍVEL SUPERIOR – MANHÃ
+                                              ENGENHEIRO CIVIL
+                                                          PROVA        PROVA
+                                      QUESTÕES              1             2
+                                                         BRANCA         AZUL
+                                          1                 D           E
+                                          2                 C           C
+                                          3                 A           E
+                                          4                 D           A
+                                          5                 E           C
+                                          6                 C           D
+                                          7                 A           C
+                                          8                 E           A
+                                          9                 C           D
+                                         10                 E           E
+                                                 RACIOCÍNIO LÓGICO
+                                         11                 D           A
+                                         12                 B           E
+                                         13                 B           D
+                                         14                 E           B
+                                         15                 A           B
+                                              NOÇÕES DE INFORMÁTICA
+                                         16                 D           B
+                                         17                 E           B
+                                         18                 A           D
+                                         19                 B           E
+                                         20                 B           A
+                                           CONHECIMENTOS ESPECÍFICOS
+                                         21                 D           D
+                                         22                 A           C
+                                         23                 D           E
+                                         24                 E           D
+                                         25                 C           B
+                                         26                 D           E
+                                         27                 B           D
+                                         28                 E           A
+                                         29                 B           A
+                                         30                 C           D
+                                         31                 B           A
+                                         32                 A           D
+                                         33                 E           C
+                                         34                 D           A
+                                         35                 C           B
+                                         36                 B           A
+                                         37                 E           C
+                                         38                 B           C
+                                         39                 E           A
+                                         40                 D           C
+                                         41                 C           A
+                                         42                 A           E
+                                         43                 B           B
+                                         44                 A           E
+                                         45                 C           B
+                                         46                 C           C
+                                         47                 A           D
+                                         48                 C           E
+                                         49                 A           A
+                                         50                 A           B
+                                         51                 D           C
+                                         52                 A           D
+                                         53                 A           A
+                                         54                 D           D
+                                         55                 E           E
+                                         56                 B           C
+                                         57                 D           D
+                                         58                 E           B
+                                         59                 C           E
+                                         60                 D           B
+                                           Setor Concursos/Fadesp
+                                                  07/05/2018
+
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNyAtMDMwMA==
+
+
+
+
+                                    BANCO DO ESTADO DO PARÁ
+                              CONCURSO PÚBLICO 2018 – Edital N.º 001/BANPARÁ
+                                   GABARITO OFICIAL PRELIMINAR
+                                         NÍVEL SUPERIOR – MANHÃ
+                                        ENGENHEIRO ELETRICISTA
+                                                          PROVA        PROVA
+                                      QUESTÕES              1             2
+                                                         BRANCA         AZUL
+                                          1                 D           E
+                                          2                 C           C
+                                          3                 A           E
+                                          4                 D           A
+                                          5                 E           C
+                                          6                 C           D
+                                          7                 A           C
+                                          8                 E           A
+                                          9                 C           D
+                                         10                 E           E
+                                                 RACIOCÍNIO LÓGICO
+                                         11                 D           A
+                                         12                 B           E
+                                         13                 B           D
+                                         14                 E           B
+                                         15                 A           B
+                                              NOÇÕES DE INFORMÁTICA
+                                         16                 D           B
+                                         17                 E           B
+                                         18                 A           D
+                                         19                 B           E
+                                         20                 B           A
+                                           CONHECIMENTOS ESPECÍFICOS
+                                         21                 A           A
+                                         22                 D           C
+                                         23                 C           B
+                                         24                 D           D
+                                         25                 E           E
+                                         26                 A           B
+                                         27                 C           C
+                                         28                 D           A
+                                         29                 C           E
+                                         30                 E           B
+                                         31                 B           E
+                                         32                 A           B
+                                         33                 E           C
+                                         34                 B           D
+                                         35                 A           D
+                                         36                 B           A
+                                         37                 E           B
+                                         38                 D           C
+                                         39                 C           E
+                                         40                 B           D
+                                         41                 C           A
+                                         42                 D           C
+                                         43                 D           D
+                                         44                 A           E
+                                         45                 B           B
+                                         46                 C           A
+                                         47                 E           B
+                                         48                 D           E
+                                         49                 A           A
+                                         50                 E           B
+                                         51                 B           E
+                                         52                 E           A
+                                         53                 A           D
+                                         54                 C           C
+                                         55                 B           D
+                                         56                 E           E
+                                         57                 D           A
+                                         58                 B           C
+                                         59                 C           D
+                                         60                 A           C
+                                           Setor Concursos/Fadesp
+                                                  07/05/2018
+
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNyAtMDMwMA==
+
+
+
+
+                                    BANCO DO ESTADO DO PARÁ
+                              CONCURSO PÚBLICO 2018 – Edital N.º 001/BANPARÁ
+                                   GABARITO OFICIAL PRELIMINAR
+                                         NÍVEL SUPERIOR – MANHÃ
+                                          ENGENHEIRO MECÂNICO
+                                                          PROVA        PROVA
+                                      QUESTÕES              1             2
+                                                         BRANCA         AZUL
+                                          1                 D           E
+                                          2                 C           C
+                                          3                 A           E
+                                          4                 D           A
+                                          5                 E           C
+                                          6                 C           D
+                                          7                 A           C
+                                          8                 E           A
+                                          9                 C           D
+                                         10                 E           E
+                                                 RACIOCÍNIO LÓGICO
+                                         11                 D           A
+                                         12                 B           E
+                                         13                 B           D
+                                         14                 E           B
+                                         15                 A           B
+                                              NOÇÕES DE INFORMÁTICA
+                                         16                 D           B
+                                         17                 E           B
+                                         18                 A           D
+                                         19                 B           E
+                                         20                 B           A
+                                           CONHECIMENTOS ESPECÍFICOS
+                                         21                 A           A
+                                         22                 C           E
+                                         23                 B           A
+                                         24                 D           C
+                                         25                 B           C
+                                         26                 B           D
+                                         27                 C           A
+                                         28                 A           E
+                                         29                 B           D
+                                         30                 D           E
+                                         31                 A           A
+                                         32                 E           D
+                                         33                 C           E
+                                         34                 D           C
+                                         35                 E           A
+                                         36                 A           D
+                                         37                 B           E
+                                         38                 C           A
+                                         39                 E           E
+                                         40                 D           E
+                                         41                 E           C
+                                         42                 C           C
+                                         43                 A           E
+                                         44                 D           B
+                                         45                 E           A
+                                         46                 A           E
+                                         47                 E           D
+                                         48                 E           C
+                                         49                 C           E
+                                         50                 A           A
+                                         51                 E           D
+                                         52                 D           A
+                                         53                 E           C
+                                         54                 A           B
+                                         55                 D           D
+                                         56                 C           B
+                                         57                 C           B
+                                         58                 A           C
+                                         59                 E           A
+                                         60                 A           B
+                                           Setor Concursos/Fadesp
+                                                  07/05/2018
+
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNyAtMDMwMA==
+
+
+
+
+                                    BANCO DO ESTADO DO PARÁ
+                              CONCURSO PÚBLICO 2018 – Edital N.º 001/BANPARÁ
+                                   GABARITO OFICIAL PRELIMINAR
+                                         NÍVEL SUPERIOR – MANHÃ
+                                          MÉDICO DO TRABALHO
+                                                          PROVA        PROVA
+                                      QUESTÕES              1             2
+                                                         BRANCA         AZUL
+                                          1                 D           E
+                                          2                 C           C
+                                          3                 A           E
+                                          4                 D           A
+                                          5                 E           C
+                                          6                 C           D
+                                          7                 A           C
+                                          8                 E           A
+                                          9                 C           D
+                                         10                 E           E
+                                                 RACIOCÍNIO LÓGICO
+                                         11                 D           A
+                                         12                 B           E
+                                         13                 B           D
+                                         14                 E           B
+                                         15                 A           B
+                                              NOÇÕES DE INFORMÁTICA
+                                         16                 D           B
+                                         17                 E           B
+                                         18                 A           D
+                                         19                 B           E
+                                         20                 B           A
+                                           CONHECIMENTOS ESPECÍFICOS
+                                         21                 E           A
+                                         22                 D           C
+                                         23                 E           E
+                                         24                 A           C
+                                         25                 D           A
+                                         26                 C           B
+                                         27                 A           D
+                                         28                 B           C
+                                         29                 C           B
+                                         30                 A           E
+                                         31                 B           A
+                                         32                 D           A
+                                         33                 D           B
+                                         34                 E           B
+                                         35                 D           C
+                                         36                 E           B
+                                         37                 A           D
+                                         38                 C           A
+                                         39                 A           B
+                                         40                 A           C
+                                         41                 B           D
+                                         42                 B           A
+                                         43                 C           C
+                                         44                 B           A
+                                         45                 D           E
+                                         46                 A           D
+                                         47                 B           E
+                                         48                 C           D
+                                         49                 D           D
+                                         50                 A           B
+                                         51                 E           A
+                                         52                 B           E
+                                         53                 C           D
+                                         54                 D           E
+                                         55                 B           A
+                                         56                 A           D
+                                         57                 C           C
+                                         58                 E           A
+                                         59                 C           B
+                                         60                 A           C
+                                           Setor Concursos/Fadesp
+                                                  07/05/2018
+
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNyAtMDMwMA==
+
+
+
+
+                                    BANCO DO ESTADO DO PARÁ
+                              CONCURSO PÚBLICO 2018 – Edital N.º 001/BANPARÁ
+                                   GABARITO OFICIAL PRELIMINAR
+                                         NÍVEL SUPERIOR – MANHÃ
+  TÉCNICO EM INFORMÁTICA – DESENVOLVIMENTO DE SISTEMAS E ACOMPANHAMENTO DE PROJETOS
+                                                          PROVA        PROVA
+                                      QUESTÕES              1             2
+                                                         BRANCA         AZUL
+                                          1                 D           E
+                                          2                 C           C
+                                          3                 A           E
+                                          4                 D           A
+                                          5                 E           C
+                                          6                 C           D
+                                          7                 A           C
+                                          8                 E           A
+                                          9                 C           D
+                                         10                 E           E
+                                                 RACIOCÍNIO LÓGICO
+                                         11            D                A
+                                         12            B                E
+                                         13            B                D
+                                         14             E               B
+                                         15            A                B
+                                            CONHECIMENTOS GERAIS
+                                         16            D                C
+                                         17            B                E
+                                         18            C                D
+                                         19             E               B
+                                         20            C                C
+                                           CONHECIMENTOS ESPECÍFICOS
+                                         21                 E           D
+                                         22                 B           C
+                                         23                 C           C
+                                         24                 D           E
+                                         25                 A           B
+                                         26                 E           D
+                                         27                 D           E
+                                         28                 B           A
+                                         29                 C           A
+                                         30                 D           A
+                                         31                 A           E
+                                         32                 D           C
+                                         33                 E           C
+                                         34                 A           A
+                                         35                 C           E
+                                         36                 B           C
+                                         37                 D           C
+                                         38                 A           B
+                                         39                 A           E
+                                         40                 C           A
+                                         41                 C           B
+                                         42                 A           A
+                                         43                 E           A
+                                         44                 C           D
+                                         45                 C           B
+                                         46                 B           C
+                                         47                 E           A
+                                         48                 A           E
+                                         49                 B           D
+                                         50                 E           A
+                                         51                 A           D
+                                         52                 A           E
+                                         53                 A           B
+                                         54                 E           C
+                                         55                 D           D
+                                         56                 B           A
+                                         57                 E           E
+                                         58                 C           D
+                                         59                 C           B
+                                         60                 D           C
+                                           Setor Concursos/Fadesp
+                                                  07/05/2018
+
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNyAtMDMwMA==
+
+
+
+
+                                    BANCO DO ESTADO DO PARÁ
+                              CONCURSO PÚBLICO 2018 – Edital N.º 001/BANPARÁ
+                                   GABARITO OFICIAL PRELIMINAR
+                                         NÍVEL SUPERIOR – MANHÃ
+                                  TÉCNICO EM INFORMÁTICA – SUPORTE
+                                                          PROVA        PROVA
+                                      QUESTÕES              1             2
+                                                         BRANCA         AZUL
+                                          1                 D           E
+                                          2                 C           C
+                                          3                 A           E
+                                          4                 D           A
+                                          5                 E           C
+                                          6                 C           D
+                                          7                 A           C
+                                          8                 E           A
+                                          9                 C           D
+                                         10                 E           E
+                                                 RACIOCÍNIO LÓGICO
+                                         11                 D           A
+                                         12                 B           E
+                                         13                 B           D
+                                         14                 E           B
+                                         15                 A           B
+                                              CONHECIMENTOS GERAIS
+                                         16                 D           C
+                                         17                 B           E
+                                         18                 C           D
+                                         19                 E           B
+                                         20                 C           C
+                                           CONHECIMENTOS ESPECÍFICOS
+                                         21                 A           C
+                                         22                 D           E
+                                         23                 D           C
+                                         24                 E           B
+                                         25                 B           C
+                                         26                 A           E
+                                         27                 B           B
+                                         28                 E           D
+                                         29                 C           A
+                                         30                 C           C
+                                         31                 D           E
+                                         32                 E           D
+                                         33                 A           B
+                                         34                 E           E
+                                         35                 C           A
+                                         36                 C           C
+                                         37                 B           C
+                                         38                 D           B
+                                         39                 B           D
+                                         40                 D           A
+                                         41                 B           B
+                                         42                 E           B
+                                         43                 A           D
+                                         44                 C           B
+                                         45                 C           C
+                                         46                 B           C
+                                         47                 D           E
+                                         48                 A           A
+                                         49                 B           E
+                                         50                 E           D
+                                         51                 C           C
+                                         52                 A           A
+                                         53                 D           D
+                                         54                 B           D
+                                         55                 E           E
+                                         56                 C           B
+                                         57                 B           A
+                                         58                 C           B
+                                         59                 E           E
+                                         60                 C           C
+                                           Setor Concursos/Fadesp
+                                                  07/05/2018
+
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+pcimarkpci MjgwNDo0MGE4OjAyMDM6NmIwMDplODVlOmNkZDA6OWZhMDo2NWI5:V2VkLCAwNCBOb3YgMjAyNiAyMjo1NjoxNyAtMDMwMA==
+
+
+
+
+                                    BANCO DO ESTADO DO PARÁ
+                              CONCURSO PÚBLICO 2018 – Edital N.º 001/BANPARÁ
+                                   GABARITO OFICIAL PRELIMINAR
+                                         NÍVEL SUPERIOR – MANHÃ
+                              TÉCNICO EM INFORMÁTICA – BANCO DE DADOS
+                                                          PROVA        PROVA
+                                      QUESTÕES              1             2
+                                                         BRANCA         AZUL
+                                          1                 D           E
+                                          2                 C           C
+                                          3                 A           E
+                                          4                 D           A
+                                          5                 E           C
+                                          6                 C           D
+                                          7                 A           C
+                                          8                 E           A
+                                          9                 C           D
+                                         10                 E           E
+                                                 RACIOCÍNIO LÓGICO
+                                         11                 D           A
+                                         12                 B           E
+                                         13                 B           D
+                                         14                 E           B
+                                         15                 A           B
+                                              CONHECIMENTOS GERAIS
+                                         16                 D           C
+                                         17                 B           E
+                                         18                 C           D
+                                         19                 E           B
+                                         20                 C           C
+                                           CONHECIMENTOS ESPECÍFICOS
+                                         21                 E           E
+                                         22                 B           C
+                                         23                 A           A
+                                         24                 C           C
+                                         25                 D           B
+                                         26                 B           B
+                                         27                 C           C
+                                         28                 E           A
+                                         29                 A           B
+                                         30                 B           C
+                                         31                 A           E
+                                         32                 D           E
+                                         33                 C           D
+                                         34                 D           B
+                                         35                 C           E
+                                         36                 D           A
+                                         37                 A           E
+                                         38                 C           B
+                                         39                 B           B
+                                         40                 E           E
+                                         41                 D           D
+                                         42                 B           B
+                                         43                 E           C
+                                         44                 A           A
+                                         45                 E           D
+                                         46                 B           C
+                                         47                 B           D
+                                         48                 E           C
+                                         49                 D           D
+                                         50                 E           A
+                                         51                 C           B
+                                         52                 B           E
+                                         53                 A           B
+                                         54                 C           A
+                                         55                 B           C
+                                         56                 B           D
+                                         57                 C           B
+                                         58                 A           C
+                                         59                 C           E
+                                         60                 E           A
+                                           Setor Concursos/Fadesp
+                                                  07/05/2018
+
+
+                                      www.pciconcursos.com.br                      www.pciconcursos.com.br
+
