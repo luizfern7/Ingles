@@ -2,7 +2,13 @@
 
 Aplicativo Android nativo em Kotlin/Compose para transformar pequenas pausas em estudo. Este projeto está em `android/`, independente da página de flashcards `../index.html`, que foi preservada.
 
-## Versão revisada 1.0.1
+## Versão 1.1.0 — questão na tela após desbloquear
+
+Agora há uma janela sobre os outros apps, ativada pelo usuário com a permissão **Exibir sobre outros apps** e um foreground service com notificação de parar. Abra Ajustes → Autorizar e ativar janela automática → A cada desbloqueio → Testar janela agora. Depois vá à tela inicial do aparelho, bloqueie e desbloqueie. A janela permite responder e ler explicações sem abrir o app manualmente. Pode ser fechada sem responder.
+
+A atualização preserva os intervalos anteriores de 15/30/60 minutos; selecione A cada desbloqueio se quiser uma questão em cada ciclo. Depois de reiniciar o telefone ou encerrar o serviço, reabra o aplicativo. Veja [ANDROID.md](docs/ANDROID.md) e [UNLOCK_1_1_0.md](docs/UNLOCK_1_1_0.md) para permissões, estratégia, testes e limites.
+
+## Histórico da revisão 1.0.1
 
 Uma detecção `Trojan:Script/Ulthar.A!ml` foi relatada pelo Microsoft Defender para o APK de debug 1.0.0. A revisão e os ajustes pontuais estão em [SECURITY_REVIEW.md](docs/SECURITY_REVIEW.md). A nova versão é compilada como release, sem depuração, ferramentas de inspeção Compose ou Activity de suporte a testes no pacote distribuído. Isso não demonstra que o alerta da Microsoft tenha sido resolvido.
 
@@ -14,8 +20,8 @@ O APK release continua assinado com a chave de desenvolvimento anterior para pre
 - Room com histórico por tentativa, sessões idempotentes e importação transacional de JSON; IDs existentes não são substituídos.
 - Seleção por disciplina, itens inéditos, erros de revisão e tempo desde a última apresentação. Evita repetição imediata se houver outro item elegível.
 - Início, resolução, estatísticas por disciplina e configurações em Jetpack Compose/Material 3, com temas claro, escuro e do sistema.
-- Preferências DataStore: sons locais, feedback tátil, animações, disciplinas, intervalo de 15/30/60 minutos e pausa de uma hora.
-- Lembrete silencioso por desbloqueio **enquanto o processo estiver ativo**, com abertura por toque. O Android pode encerrar o processo. Abra o app novamente após isso ou depois de reiniciar o aparelho. Nenhuma Activity é iniciada automaticamente do background; nenhum serviço permanente é usado.
+- Preferências DataStore: sons locais, feedback tátil, animações, disciplinas, a cada desbloqueio ou intervalo de 15/30/60 minutos e pausa de uma hora.
+- Janela de estudo após desbloquear via permissão de sobreposição, mantida por um serviço em primeiro plano iniciado pelo usuário, com notificação persistente para parar. Há fallback para notificação caso a janela seja recusada. Nenhuma Activity é iniciada automaticamente do background.
 - Estudo manual funciona independentemente dos lembretes. Não há permissão de internet, contas nem backend.
 
 ## Compilar e instalar
@@ -31,7 +37,7 @@ sdkmanager 'platforms;android-35' 'build-tools;34.0.0' 'platform-tools'
 adb install -r app/build/outputs/apk/release/app-release.apk
 ```
 
-Abra **Desbloqueia · Concursos** no aparelho. O APK release desta versão é assinado com a chave de desenvolvimento para manter continuidade com a versão anterior, não é uma versão de produção para publicação. O aplicativo não exige ativar lembretes para estudar. Para ativá-los, use Ajustes e autorize notificações no Android 13+. A função pode ser desligada no mesmo local.
+Abra **Desbloqueia · Concursos** no aparelho. O APK release desta versão é assinado com a chave de desenvolvimento para manter continuidade com a versão anterior, não é uma versão de produção para publicação. O aplicativo não exige ativar lembretes para estudar. Para ativá-los, use Ajustes e autorize notificações e Exibir sobre outros apps. O serviço exige uma notificação visível de controle. A função pode ser desligada no mesmo local.
 
 No ambiente desta tarefa, veja `docs/VALIDATION.md` para caminhos e resultados efetivamente observados. Não há configuração de proxy com credenciais no código. Gradle/Java podem precisar das propriedades padrão de proxy e do truststore corporativo em ambientes gerenciados; preserve a verificação TLS.
 
@@ -42,7 +48,7 @@ Um módulo `app` com pacotes de responsabilidades distintas:
 - `data`: modelo serializável, validação de pacote, entidades/DAO Room, transações do repositório e preferências DataStore.
 - `domain`: política de seleção e elegibilidade de lembretes, separadas do Android.
 - `ui`: ViewModel, estado salvo, telas Compose e feedback local. Resposta fica bloqueada após correção; novas tentativas só em nova sessão.
-- `unlock`: receptor dinâmico e notificações. Ciclos e sessões são persistidos em Room.
+- `unlock`: serviço de estudo em primeiro plano, receptor dinâmico, janela Compose e notificações de controle. Ciclos e sessões são persistidos em Room.
 
 Não há migração destrutiva. Na versão 1, o banco é criado com schema 1; futuras alterações de schema precisam fornecer migração explícita. Importar pacotes não apaga questões nem histórico. O histórico e as preferências permanecem após fechamento, reinício ou atualização do app; desinstalação ou limpeza dos dados pelo Android apaga o armazenamento local. O backup automático do Android está desabilitado, com regras explícitas para backup e transferência de dados nas versões antigas e recentes.
 

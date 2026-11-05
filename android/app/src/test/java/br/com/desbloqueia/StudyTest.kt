@@ -90,7 +90,7 @@ class StudyTest {
     @Test fun unlockFrequencyPauseAndOptIn() {
         val s=UnlockState(cycle=2,handledCycle=1,lastPrompt=1_000_000)
         assertFalse(Selection.due(s,Settings(),10_000_000))
-        assertFalse(Selection.due(s,Settings(unlock=true),1_100_000))
+        assertFalse(Selection.due(s,Settings(unlock=true,frequency=30),1_100_000))
         assertFalse(Selection.due(s,Settings(unlock=true,pausedUntil=20_000_000),10_000_000))
         assertTrue(Selection.due(s,Settings(unlock=true),10_000_000))
         assertFalse(Selection.due(s.copy(handledCycle=2),Settings(unlock=true),10_000_000))

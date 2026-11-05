@@ -11,10 +11,12 @@ class StudyApplication: Application() {
     val database by lazy { Room.databaseBuilder(this,StudyDatabase::class.java,"study.db").build() }
     val repository by lazy { Repository(database,this) }
     val preferences by lazy { Preferences(this) }
+    var activityVisible=false
+    val overlayStatus=kotlinx.coroutines.flow.MutableStateFlow("Desativado")
     lateinit var monitor: UnlockMonitor
     override fun onCreate() {
         super.onCreate()
-        monitor=UnlockMonitor(this,repository,preferences,scope)
+        monitor=UnlockMonitor(this)
         monitor.register()
     }
 }

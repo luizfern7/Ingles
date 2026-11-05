@@ -2,6 +2,11 @@ package br.com.desbloqueia
 
 import android.content.Intent
 import android.os.Bundle
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.repeatOnLifecycle
+import br.com.desbloqueia.unlock.UnlockStudyService
+import kotlinx.coroutines.launch
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
@@ -14,7 +19,22 @@ class MainActivity: ComponentActivity() {
         super.onCreate(savedInstanceState)
         if(savedInstanceState==null) consume(intent)
         setContent { StudyApp(model,onClose={ finish() }) }
+        lifecycleScope.launch {
+            repeatOnLifecycle(Lifecycle.State.RESUMED) {
+                (application as StudyApplication).preferences.settings.collect { settings ->
+                    val app=application as StudyApplication
+                    if(settings.unlock) {
+                        if(app.monitor.canOverlay() && app.monitor.canNotify()) {
+                            try { androidx.core.content.ContextCompat.startForegroundService(this@MainActivity,Intent(this@MainActivity,UnlockStudyService::class.java)) }
+                            catch(e: RuntimeException) { app.overlayStatus.value="Não foi possível ativar. Reabra o app e confira as permissões." }
+                        } else app.overlayStatus.value="Autorize sobreposição e notificações em Ajustes."
+                    } else stopService(Intent(this@MainActivity,UnlockStudyService::class.java))
+                }
+            }
+        }
     }
+    override fun onStart() { super.onStart();(application as StudyApplication).activityVisible=true }
+    override fun onStop() { (application as StudyApplication).activityVisible=false;super.onStop() }
     override fun onNewIntent(intent: Intent) { super.onNewIntent(intent);setIntent(intent);consume(intent) }
     private fun consume(intent: Intent) { intent.getStringExtra(UnlockMonitor.SESSION)?.let { model.notification(it) };intent.removeExtra(UnlockMonitor.SESSION) }
 }

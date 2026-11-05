@@ -13,11 +13,19 @@ assert app.get(ns+'debuggable','false')=='false','Distributed APK must not enabl
 assert app.get(ns+'allowBackup')=='false'
 permissions=[x.get(ns+'name') for x in root.findall('uses-permission')]
 allowed={'android.permission.POST_NOTIFICATIONS','android.permission.VIBRATE','br.com.desbloqueia.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'}
+overlay=int(root.get(ns+'versionCode','0'))>=3
+if overlay: allowed.update({'android.permission.SYSTEM_ALERT_WINDOW','android.permission.FOREGROUND_SERVICE','android.permission.FOREGROUND_SERVICE_SPECIAL_USE'})
 assert set(permissions)==allowed,permissions
 activities=[x.get(ns+'name') for x in app.findall('activity')]
 assert activities==['br.com.desbloqueia.MainActivity'],activities
 services=[x.get(ns+'name') for x in app.findall('service')]
-assert services==['androidx.room.MultiInstanceInvalidationService'],services
+expected_services={'androidx.room.MultiInstanceInvalidationService'}
+if overlay: expected_services.add('br.com.desbloqueia.unlock.UnlockStudyService')
+assert set(services)==expected_services,services
+if overlay:
+    service=next(x for x in app.findall('service') if x.get(ns+'name')=='br.com.desbloqueia.unlock.UnlockStudyService')
+    assert service.get(ns+'foregroundServiceType') in {'specialUse','0x40000000'}
+    assert any(x.get(ns+'name')=='android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE' for x in service.findall('property'))
 assert all(x.get(ns+'exported')=='false' for x in app.findall('service'))
 assert all(x.get(ns+'exported')=='false' for x in app.findall('provider'))
 assert all(x.get(ns+'permission')=='android.permission.DUMP' for x in app.findall('receiver') if x.get(ns+'exported')=='true')

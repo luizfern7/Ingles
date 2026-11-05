@@ -1,19 +1,55 @@
-# Integração com desbloqueio
+# Questão na tela após desbloquear — versão 1.1.0
 
-A versão 1 não abre Activity automaticamente em segundo plano. Usa `ACTION_SCREEN_OFF` e `ACTION_USER_PRESENT` em um `BroadcastReceiver` registrado pelo `Application`, e oferece uma notificação silenciosa, privada e de baixa importância que abre a questão mediante toque do usuário. Não há receiver de desbloqueio no Manifest, acessibilidade, overlay, full-screen intent, acesso a chamadas ou solicitação de exclusão da otimização de bateria.
+## Experiência e ativação
 
-Esse receptor depende de o processo estar vivo. O Android e fabricantes podem encerrá-lo; após morte de processo ou reinicialização do aparelho, abra o aplicativo novamente. A notificação de atalho já publicada pode continuar disponível, mas não mantém o processo vivo. Removê-la não é comando para desativar a preferência: isso é feito em Ajustes. **Não se promete detecção de todos os desbloqueios.** O aplicativo permanece uma ferramenta completa de estudo manual. Não foi adotado foreground service permanente: a observação contínua de desbloqueios não justifica simular outro tipo de serviço em versões recentes do Android.
+As versões 1.0.x publicavam uma notificação para tocar. A versão 1.1.0 acrescenta uma **janela real sobre os outros apps** após o desbloqueio, com alternativas, correção e explicações na própria janela. Não abre Activity arbitrariamente do background e não substitui a tela de bloqueio do Android.
 
-O usuário ativa a função explicitamente. Em Android 13+, há pedido de `POST_NOTIFICATIONS`; se recusado, o estudo manual permanece disponível. Canais podem ser desativados no sistema. Os eventos são protegidos pelo Android; o registro é exportado para recebê-los do sistema, não aceita comandos arbitrários para iniciar Activity.
+No aparelho:
 
-O ciclo avança em `SCREEN_OFF`. Room persiste ciclo, último ciclo atendido, instante do último lembrete e a sessão pendente em transação. O intervalo de 15, 30 ou 60 minutos e a pausa são verificados antes de reservar a sessão. Um ID imutável associa a notificação à questão e só pode ser consumido uma vez. Repetições de `USER_PRESENT` no mesmo ciclo não criam outra sessão. Ao contrário de um processo vivo, esse estado persiste após reinício. Ajustes de relógio para trás podem prolongar conservadoramente o intervalo até o relógio alcançar o instante armazenado.
+1. Atualize o APK sem desinstalar a versão anterior para manter o histórico.
+2. Abra Desbloqueia → Ajustes → **Autorizar e ativar janela automática**.
+3. Autorize notificações e **Exibir sobre outros apps** na tela do Android. Volte ao aplicativo.
+4. Selecione **A cada desbloqueio**. Preferências anteriores de 15/30/60 minutos são preservadas na atualização; nesse caso, troque o intervalo se desejar exibir em todos os ciclos.
+5. Toque **Testar janela agora**. Esse teste é manual e ignora o intervalo, sem simular um desbloqueio.
+6. Feche a janela, vá à tela inicial do aparelho, bloqueie e desbloqueie. Para parar, desative a opção em Ajustes ou use **Parar** na notificação persistente.
 
-Notificações não tocam, não vibram, não acendem uma tela de questão e não usam heads-up por padrão. Não se publica lembrete enquanto o dispositivo ainda está bloqueado ou o áudio está em modo de chamada/comunicação. Não se pede acesso ao estado telefônico. Não há mecanismo capaz de garantir detecção de toda atividade relevante, inclusive alarmes de terceiros; a proteção principal é não assumir a tela nem emitir som/vibração nos lembretes. Sons e vibração de resposta só acontecem após ação na tela do app. Sons respeitam modo silencioso/vibração, volume multimídia e roteamento do sistema. Vibração usa feedback tátil do sistema.
+Há botão de fechar fixo no topo, além de Concluir e fechar na própria resolução. Não é obrigatório responder para usar o aparelho. A janela ocupa 85% da altura e não toma foco do teclado; controles e navegação do sistema continuam disponíveis.
 
-Referências oficiais para as restrições adotadas:
+## Estratégia oficial do Android
+
+`UnlockStudyService` é um foreground service **specialUse**, iniciado da Activity visível após opt-in e permissões. Esse trabalho é contínuo por escolha do usuário: manter o receptor ativo para apresentar uma questão local no evento de desbloqueio. É mantida uma notificação persistente e silenciosa com ação de parar. Não foi usado tipo incorreto como dataSync, mediaPlayback ou location.
+
+Permissões adicionais em 1.1.0:
+
+- `SYSTEM_ALERT_WINDOW`: acesso especial concedido pelo usuário no Android; necessário para `TYPE_APPLICATION_OVERLAY`.
+- `FOREGROUND_SERVICE`: permite o serviço com notificação visível.
+- `FOREGROUND_SERVICE_SPECIAL_USE`: declaração do tipo em Android 14+. O Manifest contém `android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE` com a finalidade do serviço.
+
+Não há acessibilidade, captura de tela, uso de localização, leitura de chamadas, listener de notificações, instalação de outros pacotes, permissão INTERNET ou pedido de exclusão da otimização de bateria. Uma distribuição na Play Store exige declaração e revisão do uso do foreground service e das permissões aplicáveis; não se afirma aprovação pela loja.
+
+O receptor de `SCREEN_OFF` e `USER_PRESENT` é registrado dinamicamente **no serviço**, não no Manifest nem no Application. O serviço não é exportado. Os eventos de tela são broadcasts protegidos pelo Android. Uma fila serializa seu processamento: desligar a tela avança o ciclo persistido em Room, e desbloquear reserva uma única sessão respeitando pausa, disciplinas e frequência. O modo “A cada desbloqueio” usa intervalo zero, mas mantém a deduplicação por ciclo.
+
+A janela é adicionada diretamente via WindowManager como `TYPE_APPLICATION_OVERLAY`, mediante autorização do usuário. Android 11+ usa contexto de janela associado ao display e métricas da janela. A composição tem lifecycle e saved-state owners próprios, descartados ao fechar ou encerrar o serviço. Nenhuma Activity é iniciada automaticamente; a notificação pode abrir o app somente mediante toque.
+
+## Proteções e limitações
+
+- Não exibe questão por cima da tela bloqueada ou com tela apagada.
+- Não abre outra janela se já houver uma, nem cobre o próprio app durante desbloqueio. O botão manual de teste pode exibir a janela enquanto Ajustes está visível.
+- Não exibe durante modo de áudio de chamada/comunicação. Enquanto a janela está aberta, uma verificação a cada 500 ms a remove se houver bloqueio, tela apagada, chamada/comunicação ou revogação da permissão. Essa verificação só roda enquanto a janela existe. Alarmes e peculiaridades de telefonia de fabricantes ainda precisam de testes físicos; não existe garantia universal para toda atividade de terceiros.
+- Apagar a tela remove a janela imediatamente; responder e fechar persistem os dados sem bloquear o acesso ao aparelho.
+- Se adicionar a janela falhar, há fallback para uma notificação silenciosa que abre a sessão mediante toque.
+- O serviço usa `START_NOT_STICKY` e não se inicia no boot. Depois de reiniciar o aparelho, force-stop, interrupção do serviço pelo sistema ou por políticas do fabricante, abra o aplicativo novamente para retomar. Nenhum mecanismo ignora uma parada solicitada pelo usuário.
+- Android Go e alguns aparelhos restringem ou não oferecem sobreposição. Se a permissão não puder ser concedida, o estudo manual continua disponível.
+- Aparelhos podem ocultar sobreposições em telas protegidas, como pagamentos, permissões e outros fluxos de segurança. O app não contorna essa proteção.
+
+## Evidência de validação
+
+Veja `UNLOCK_1_1_0.md` para os resultados da execução desta versão. Os testes simulam Android API 28 e 35 no Robolectric, incluindo a cadeia serviço → receptor → janela e o botão Parar. Isso não substitui testes em um telefone físico. Não é possível garantir comportamento idêntico ao WordBit ou em todos os fabricantes sem validação nos respectivos aparelhos.
+
+Referências oficiais:
+
+- https://developer.android.com/reference/android/provider/Settings#ACTION_MANAGE_OVERLAY_PERMISSION
+- https://developer.android.com/reference/android/view/WindowManager.LayoutParams#TYPE_APPLICATION_OVERLAY
+- https://developer.android.com/develop/background-work/services/fgs/service-types#special-use
+- https://developer.android.com/develop/background-work/services/fgs/restrictions-bg-start
 - https://developer.android.com/develop/background-work/background-tasks/broadcasts
-- https://developer.android.com/guide/components/activities/background-starts
-- https://developer.android.com/develop/background-work/services/fgs/service-types
-- https://developer.android.com/develop/ui/views/notifications/notification-permission
-
-Compatibilidade declarada: Android 8 (API 26) ou posterior; compile/target API 35. Não foi feita validação física de desbloqueio, sons, vibração, chamadas ou particularidades de fabricantes. Não há permissão INTERNET no Manifest: o conteúdo e o histórico funcionam offline.

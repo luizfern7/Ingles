@@ -9,7 +9,7 @@ import java.io.IOException
 private val Context.settingsStore by preferencesDataStore("study_settings")
 data class Settings(
     val sound: Boolean=false, val vibration: Boolean=true, val animations: Boolean=true,
-    val unlock: Boolean=false, val frequency: Int=30, val pausedUntil: Long=0,
+    val unlock: Boolean=false, val frequency: Int=0, val pausedUntil: Long=0,
     val disciplines: Set<String> = emptySet(), val theme: String="auto"
 )
 class Preferences(context: Context) {
@@ -19,7 +19,7 @@ class Preferences(context: Context) {
     private val frequency=intPreferencesKey("frequency"); private val pause=longPreferencesKey("pause")
     private val disciplines=stringSetPreferencesKey("disciplines"); private val theme=stringPreferencesKey("theme")
     val settings=store.data.catch { if(it is IOException) emit(emptyPreferences()) else throw it }.map { p ->
-        Settings(p[sound]?:false,p[vibration]?:true,p[animations]?:true,p[unlock]?:false,p[frequency]?:30,p[pause]?:0,p[disciplines]?:emptySet(),p[theme]?:"auto")
+        Settings(p[sound]?:false,p[vibration]?:true,p[animations]?:true,p[unlock]?:false,p[frequency]?:0,p[pause]?:0,p[disciplines]?:emptySet(),p[theme]?:"auto")
     }
     suspend fun update(s: Settings) { store.edit { p ->
         p[sound]=s.sound;p[vibration]=s.vibration;p[animations]=s.animations;p[unlock]=s.unlock

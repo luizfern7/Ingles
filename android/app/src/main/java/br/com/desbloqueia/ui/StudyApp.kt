@@ -11,6 +11,7 @@ import androidx.compose.animation.core.tween
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -81,7 +82,7 @@ private val Red=Color(0xFFAB303B)
         } }
         item { Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.spacedBy(8.dp)) { Metric("Respostas","$answered",Modifier.weight(1f));Metric("Acertos","$correct",Modifier.weight(1f));Metric("Revisão","$reviews",Modifier.weight(1f)) } }
         item { Text("Aprender, não decorar",style=MaterialTheme.typography.titleLarge,fontWeight=FontWeight.Bold);Text("Cada resposta revela uma explicação e a análise de todas as opções. As questões mantêm a identificação da prova e do gabarito.",Modifier.padding(top=8.dp)) }
-        item { Card { Column(Modifier.padding(16.dp)) { Text(if(settings.unlock) "Lembretes ativados" else "Você controla suas pausas",fontWeight=FontWeight.Bold);Text("A detecção de desbloqueio depende de o processo estar ativo. O Android pode encerrá-lo. O estudo manual continua disponível.") } } }
+        item { Card { Column(Modifier.padding(16.dp)) { Text(if(settings.unlock) "Janela automática ativada" else "Você controla suas pausas",fontWeight=FontWeight.Bold);Text("Ative em Ajustes a janela sobre outros apps para ver questões ao desbloquear. O serviço deve permanecer ativo; se o aparelho encerrar o serviço ou reiniciar, reabra o app.") } } }
         item { Text("Acervo inicial: 25 questões conferidas • BASA 2013. Outros 18 PDFs e os itens restantes aguardam curadoria. Comentários didáticos autorais.",style=MaterialTheme.typography.bodySmall);Spacer(Modifier.height(16.dp)) }
     }
 }
@@ -91,7 +92,9 @@ private val Red=Color(0xFFAB303B)
     if(session==null) { Column(verticalArrangement=Arrangement.spacedBy(16.dp)) { Text(state.error?:"Pronto para uma pequena conquista?");Button(onClick=next,enabled=!state.busy) { Text("Carregar questão") };TextButton(onClick=close) { Text("Fechar e usar o celular") } };return }
     val q=session.question
     var expanded by rememberSaveable(session.id) { mutableStateOf(false) }
-    LazyColumn(verticalArrangement=Arrangement.spacedBy(12.dp)) {
+    val questionScroll=rememberLazyListState()
+    LaunchedEffect(session.id) {questionScroll.scrollToItem(0)}
+    LazyColumn(state=questionScroll,verticalArrangement=Arrangement.spacedBy(12.dp)) {
         item { Text(q.disciplina.uppercase(),style=MaterialTheme.typography.labelLarge,color=MaterialTheme.colorScheme.primary);Text(q.assunto,style=MaterialTheme.typography.headlineSmall,fontWeight=FontWeight.Bold);Text("${q.fonte.concurso} · ${q.fonte.banca} · ${q.fonte.ano}\n${q.fonte.cargo} · Questão ${q.fonte.questao} · ${q.fonte.versao}",style=MaterialTheme.typography.bodySmall) }
         item { Text(q.enunciado,style=MaterialTheme.typography.bodyLarge,modifier=Modifier.padding(vertical=8.dp)) }
         q.alternativas.toSortedMap().forEach { (letter,text) -> item(key=letter) {
@@ -133,21 +136,42 @@ private val Red=Color(0xFFAB303B)
 @Composable private fun SettingsScreen(settings: Settings,disciplines: List<String>,model: StudyViewModel) {
     val context=LocalContext.current
     val app=context.applicationContext as StudyApplication
+    val status by app.overlayStatus.collectAsStateWithLifecycle()
+    val overlayPermission=rememberLauncherForActivityResult(ActivityResultContracts.StartActivityForResult()) {
+        if(app.monitor.canOverlay() && app.monitor.canNotify()) model.update {it.copy(unlock=true)}
+        else model.message.value="Autorize a janela sobre outros apps e as notificações para ativar."
+    }
+    val requestOverlay: ()->Unit = {
+        if(app.monitor.canOverlay()) model.update {it.copy(unlock=true)}
+        else {
+            try {overlayPermission.launch(Intent(AndroidSettings.ACTION_MANAGE_OVERLAY_PERMISSION,android.net.Uri.parse("package:"+context.packageName)))}
+            catch(e: android.content.ActivityNotFoundException) {model.message.value="Este Android não oferece a permissão de sobreposição. O estudo manual continua disponível."}
+        }
+    }
     val permission=rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
-        if(granted) model.update {it.copy(unlock=true)} else model.message.value="Notificações não autorizadas. O estudo manual continua disponível."
+        if(granted) requestOverlay() else model.message.value="Notificações não autorizadas. O estudo manual continua disponível."
+    }
+    val enable: ()->Unit = {
+        if(Build.VERSION.SDK_INT>=33 && androidx.core.content.ContextCompat.checkSelfPermission(context,Manifest.permission.POST_NOTIFICATIONS)!=android.content.pm.PackageManager.PERMISSION_GRANTED) permission.launch(Manifest.permission.POST_NOTIFICATIONS)
+        else if(!app.monitor.canNotify()) model.message.value="Ative as notificações nas configurações do Android."
+        else requestOverlay()
     }
     val importer=rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri -> if(uri!=null) model.import(uri) }
     LazyColumn(verticalArrangement=Arrangement.spacedBy(12.dp)) {
         item { Text("Do seu jeito",style=MaterialTheme.typography.headlineMedium,fontWeight=FontWeight.Bold) }
-        item { Toggle("Questões após desbloquear",settings.unlock) { checked ->
-            if(!checked) model.update { it.copy(unlock=false) }
-            else if(Build.VERSION.SDK_INT>=33 && androidx.core.content.ContextCompat.checkSelfPermission(context,Manifest.permission.POST_NOTIFICATIONS)!=android.content.pm.PackageManager.PERMISSION_GRANTED) permission.launch(Manifest.permission.POST_NOTIFICATIONS)
-            else if(!app.monitor.canNotify()) model.message.value="Ative as notificações nas configurações do Android."
-            else model.update {it.copy(unlock=true)}
+        item { Toggle("Janela automática ao desbloquear",settings.unlock) { checked ->
+            if(!checked) model.update {it.copy(unlock=false)} else enable()
         } }
-        item { Text("O Android limita a abertura de telas em segundo plano. Você receberá uma notificação silenciosa para tocar e responder, somente enquanto o processo do app estiver ativo. Após encerramento ou reinicialização do aparelho, abra o app novamente. Não há serviço permanente, sobreposição ou uso de acessibilidade.",style=MaterialTheme.typography.bodySmall) }
+        item { Text(status,color=MaterialTheme.colorScheme.primary);Text("Autorize ‘Exibir sobre outros apps’ para ver a questão na tela sem precisar tocar em uma notificação. Um serviço com notificação visível mantém a detecção ativa. Você pode fechar a janela sem responder e parar o modo automático a qualquer momento. O app não usa acessibilidade nem substitui a tela de bloqueio.",style=MaterialTheme.typography.bodySmall) }
+        item { OutlinedButton(onClick=enable,modifier=Modifier.fillMaxWidth()) {Text("Autorizar e ativar janela automática")} }
+        item { OutlinedButton(onClick={
+            if(settings.unlock && app.monitor.canOverlay() && app.monitor.canNotify()) {
+                try {androidx.core.content.ContextCompat.startForegroundService(context,Intent(context,br.com.desbloqueia.unlock.UnlockStudyService::class.java).setAction(br.com.desbloqueia.unlock.UnlockStudyService.PREVIEW))}
+                catch(e: RuntimeException) {model.message.value="Não foi possível iniciar. Confira as permissões e tente novamente."}
+            } else model.message.value="Ative a janela automática e autorize as permissões primeiro."
+        },modifier=Modifier.fillMaxWidth()) {Text("Testar janela agora")} }
         item { TextButton(onClick={context.startActivity(Intent(AndroidSettings.ACTION_APP_NOTIFICATION_SETTINGS).putExtra(AndroidSettings.EXTRA_APP_PACKAGE,context.packageName))}) {Text("Configurar notificações no Android")} }
-        item { Text("Intervalo mínimo entre lembretes");Row(horizontalArrangement=Arrangement.spacedBy(8.dp)) { listOf(15,30,60).forEach { minutes -> FilterChip(selected=settings.frequency==minutes,onClick={model.update {it.copy(frequency=minutes)}},label={Text("$minutes min")}) } } }
+        item { Text("Quando mostrar uma questão");FilterChip(selected=settings.frequency==0,onClick={model.update {it.copy(frequency=0)}},label={Text("A cada desbloqueio")});Row(horizontalArrangement=Arrangement.spacedBy(8.dp)) {listOf(15,30,60).forEach { minutes -> FilterChip(selected=settings.frequency==minutes,onClick={model.update {it.copy(frequency=minutes)}},label={Text("$minutes min")})}} }
         item { OutlinedButton(onClick={model.update {it.copy(pausedUntil=if(it.pausedUntil>System.currentTimeMillis()) 0 else System.currentTimeMillis()+60*60_000)}}) {Text(if(settings.pausedUntil>System.currentTimeMillis()) "Retomar lembretes" else "Pausar por 1 hora")} }
         item { HorizontalDivider();Toggle("Sons de resposta",settings.sound) {v->model.update {it.copy(sound=v)}} }
         item { Toggle("Vibração",settings.vibration) {v->model.update {it.copy(vibration=v)}} }
