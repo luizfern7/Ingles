@@ -1,0 +1,74 @@
+Você criará um pacote de questões autorais para o aplicativo Android Desbloqueia · Meu acervo (versão 1.3.0 ou posterior).
+
+O aplicativo importa o JSON e funciona offline. Apresenta uma questão e as alternativas; ao selecionar uma opção, corrige conforme resposta_correta e mostra explicacao e explicacoes_alternativas. Se houver dica com texto, mostra antes da resposta um botão com lâmpada; esse botão apenas revela dica, sem responder nem mostrar o gabarito. O aplicativo não chama uma IA para criar ou conferir conteúdo: a qualidade e a correção dependem do pacote que você produzir.
+
+PARAMETROS DO MEU PEDIDO
+- Disciplina/tema: [PREENCHER]
+- Assuntos e distribuição: [PREENCHER]
+- Quantidade de questões: [PREENCHER]
+- Público e nível de dificuldade: [PREENCHER]
+- Prefixo exclusivo de IDs deste lote: [PREENCHER]
+- Material de referência, quando fornecido: [PREENCHER]
+- Desejo dicas quando forem úteis? [SIM/NAO]
+
+Se faltar um parâmetro essencial para produzir conteúdo adequado, pergunte antes. Não invente uma prova, banca, documento ou referência. Produza questões autorais, sem afirmar que foram extraídas de concursos reais. Se houver referência fornecida, use-a para fundamentar as questões e descreva sua relação com o conteúdo sem fabricar origem oficial.
+
+FORMATO EXATO
+Entregue somente JSON válido, sem Markdown, comentários, prefácio, reticências ou texto fora do JSON. Use UTF-8, aspas duplas e nenhum campo adicional não previsto. Use texto simples nos campos; não dependa de Markdown, HTML ou imagens externas. Não use vírgula após o último item. Quebras de linha dentro de textos devem ser escapadas como \n.
+
+Raiz obrigatória:
+- schema_version: número inteiro 1.
+- questions: array não vazio de objetos, um por questão. Máximo 5.000 questões e 5 MB por arquivo; divida lotes maiores em pacotes, mantendo IDs únicos entre todos eles. Se o pedido ultrapassar seu limite de resposta, combine lotes menores antes de gerar; entregue cada JSON completo, nunca truncado.
+
+Campos OBRIGATORIOS de cada questão:
+1. id: string única, não vazia, com até 160 caracteres. Use o prefixo exclusivo do lote seguido de numeração, por exemplo tema-lote01-0001. Nunca repita IDs entre questões ou arquivos: o app ignora IDs que já existam e não substitui questões importadas.
+2. disciplina: string não vazia; nome livre da matéria. Mantenha a grafia consistente, pois o app cria filtros a partir dela.
+3. assunto: string não vazia com o tópico específico.
+4. enunciado: string com a pergunta integral e todas as informações necessárias. O formato atual suporta texto, não imagens ou anexos indispensáveis à resolução.
+5. alternativas: objeto com 2 a 5 opções textuais não vazias. Use letras maiúsculas A, B, C, D e E; prefira 4 ou 5 opções consecutivas, conforme o pedido. Exatamente uma deve estar correta.
+6. resposta_correta: string com a letra maiúscula de uma alternativa existente, nunca o texto da alternativa.
+7. explicacao: string didática completa, exibida DEPOIS da resposta. Explique o conceito, a lógica e, quando necessário, o cálculo. Evite justificativas circulares como "C está certa porque é a correta".
+8. explicacoes_alternativas: objeto com exatamente as mesmas letras usadas em alternativas, cada uma contendo texto não vazio. Explique individualmente por que cada opção está correta ou incorreta e o erro conceitual de cada distrator.
+9. fonte: objeto com tipo igual a "autoral_ia" e descricao não vazia, por exemplo "Questão autoral gerada com auxílio de IA". Para este tipo, NÃO são exigidos concurso, banca, cargo, ano, arquivo PDF, sha256, páginas, número de prova ou versão de gabarito. Omita esses dados em vez de inventá-los.
+10. status_validacao: use sempre "revisao_pendente" para a geração por IA. Não declare aprovação humana, revisão oficial ou gabarito conferido. O app também aceita "revisado", mas somente o responsável deve atribuí-lo após conferir o conteúdo. Para fonte autoral_ia não use "gabarito_conferido".
+
+Campos OPCIONAIS:
+- autoria_explicacao: string não vazia identificando os comentários, por exemplo "Explicação autoral gerada com auxílio de IA; requer revisão.". Quando omitida, o app usa uma identificação genérica de autoria do pacote.
+- dica: string de apoio ANTES da resposta. Só inclua quando eu desejar dicas e houver uma orientação útil. A dica deve apontar um conceito, método, pergunta-guia ou passo inicial, sem citar a letra correta, repetir apenas a alternativa correta ou entregar diretamente o resultado. Não copie a explicação pós-resposta para esse campo. Exemplo de orientação: "Calcule a fração do valor original e depois aplique o desconto.". Se não houver dica útil, OMITA o campo. O app também aceita null, string vazia ou apenas espaços e nesses casos não mostra ícone nem botão. Não escreva "sem dica", "null" ou "N/A" como texto substituto.
+
+MODELO DE ESTRUTURA (substitua os textos pelos conteúdos completos; não devolva marcadores):
+{
+  "schema_version": 1,
+  "questions": [
+    {
+      "id": "PREFIXO-0001",
+      "disciplina": "DISCIPLINA",
+      "assunto": "ASSUNTO",
+      "enunciado": "PERGUNTA COMPLETA",
+      "alternativas": {
+        "A": "OPCAO A",
+        "B": "OPCAO B",
+        "C": "OPCAO C",
+        "D": "OPCAO D"
+      },
+      "resposta_correta": "C",
+      "dica": "ORIENTACAO UTIL SEM REVELAR A RESPOSTA",
+      "explicacao": "EXPLICACAO DIDATICA COMPLETA",
+      "explicacoes_alternativas": {
+        "A": "JUSTIFICATIVA DE A",
+        "B": "JUSTIFICATIVA DE B",
+        "C": "JUSTIFICATIVA DE C",
+        "D": "JUSTIFICATIVA DE D"
+      },
+      "fonte": {
+        "tipo": "autoral_ia",
+        "descricao": "Questão autoral gerada com auxílio de IA"
+      },
+      "status_validacao": "revisao_pendente",
+      "autoria_explicacao": "Explicação autoral gerada com auxílio de IA; requer revisão."
+    }
+  ]
+}
+
+VERIFICACAO ANTES DE ENTREGAR
+Confira cada resposta independentemente, refaça cálculos, elimine alternativas ambíguas e garanta uma única resposta correta. Não invente leis, datas, fontes ou fatos para completar a quantidade. Prefira casos claros e fundamentados; descarte questões que não possa justificar. Varie o conteúdo sem duplicar enunciados. Confirme que a letra do gabarito coincide com a alternativa e com todas as explicações, que as dicas não revelam a resposta, que os IDs são únicos e que o JSON é sintaticamente válido. A sua autoverificação NÃO muda o status: mantenha revisao_pendente para posterior revisão pelo responsável.

@@ -2,7 +2,15 @@
 
 Aplicativo Android nativo em Kotlin/Compose para transformar pequenas pausas em estudo. Este projeto está em `android/`, independente da página de flashcards `../index.html`, que foi preservada.
 
-## Edição pessoal 1.2.0 — banco inicial vazio
+## Versão 1.3.0 — autoria por IA e dica opcional
+
+Aceita `fonte: {"tipo":"autoral_ia","descricao":"..."}` com `status_validacao: "revisao_pendente"` ou `"revisado"`, sem exigir PDF, hash ou dados de concurso. Questões pendentes são identificadas na tela; a correção segue o gabarito fornecido no JSON, sem verificação por uma IA dentro do aplicativo.
+
+O campo opcional `dica` mostra uma lâmpada com **Ver dica** antes da resposta. Ausente, nulo, vazio ou só espaços: não mostra ícone nem botão. Os pacotes oficiais anteriores continuam compatíveis. Veja [JSON_AUTORAL_IA.md](docs/JSON_AUTORAL_IA.md), o [exemplo importável](docs/examples/autoral-ia.json) e o [prompt para gerar pacotes](docs/PROMPT_GERAR_QUESTOES_IA.txt).
+
+É uma atualização da edição pessoal, mantendo `br.com.desbloqueia.personal`, o banco, as preferências e o histórico. Continua sem questões embarcadas.
+
+## Edição pessoal introduzida em 1.2.0 — banco inicial vazio
 
 Nenhuma questão acompanha o APK. O primeiro uso mostra **Importar meu primeiro JSON**; todo o conteúdo é escolhido e importado pelo usuário. Depois da importação, estudo manual, explicações, estatísticas e janela ao desbloquear funcionam como antes.
 
@@ -64,9 +72,9 @@ Não há migração destrutiva. Na versão 1, o banco é criado com schema 1; fu
 
 O APK não inclui banco de questões. Use a tela inicial → **Importar meu primeiro JSON** → **Importar pacote de questões**, ou acesse esse controle em Ajustes. O formato continua sendo um objeto com `schema_version: 1` e um array `questions` não vazio para pacotes importáveis.
 
-Cada item mantém os campos `id`, `disciplina`, `assunto`, `enunciado`, `alternativas`, `resposta_correta`, `explicacao`, `explicacoes_alternativas`, `fonte`, `status_validacao` e `autoria_explicacao`. Alternativas e explicações são mapas A–E (2 a 5 opções), com a resposta entre as letras presentes. Fonte inclui concurso, banca, cargo, ano, arquivo, SHA-256 real e páginas/número/versão. O status aceito permanece `gabarito_conferido`: não invente origem ou conferência para satisfazer a validação. Disciplina e assunto são livres, sem lista fixa.
+Cada item mantém os campos `id`, `disciplina`, `assunto`, `enunciado`, `alternativas`, `resposta_correta`, `explicacao`, `explicacoes_alternativas`, `fonte`, `status_validacao` e `autoria_explicacao`. Alternativas e explicações são mapas A–E (2 a 5 opções), com a resposta entre as letras presentes. Para origem oficial, Fonte inclui concurso, banca, cargo, ano, arquivo, SHA-256 real e páginas/número/versão, com status `gabarito_conferido`. Para `autoral_ia`, bastam tipo e descricao, com status `revisao_pendente` ou `revisado`; não invente dados de prova. O campo `dica` é opcional e não aparece na tela quando ausente/nulo/vazio. Disciplina e assunto são livres, sem lista fixa.
 
-O importador recusa versão desconhecida, IDs duplicados dentro do pacote, questões não conferidas, textos vazios, hash malformado e explicações incompletas. Limites: 5 MB e 5.000 questões por pacote. IDs que já existem no banco são ignorados para preservar a interpretação do histórico. Uma importação inválida não altera o banco. Arquivos vazios não adicionam conteúdo e são recusados.
+O importador recusa versão desconhecida, IDs duplicados dentro do pacote, status incompatíveis com o tipo de fonte, textos obrigatórios vazios, hash malformado em fonte oficial e explicações incompletas. Limites: 5 MB e 5.000 questões por pacote. IDs que já existem no banco são ignorados para preservar a interpretação do histórico. Uma importação inválida não altera o banco. Arquivos vazios não adicionam conteúdo e são recusados.
 
 As questões que antes vinham embarcadas agora ficam apenas em `app/src/test/resources/questions_fixture.json`, fora do APK. Os materiais e relatórios das primeiras versões são históricos e não representam conteúdo incluído nesta edição.
 

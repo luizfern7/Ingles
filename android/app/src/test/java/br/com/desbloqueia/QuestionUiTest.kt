@@ -45,4 +45,32 @@ class QuestionUiTest {
         }
         scrollTo("Concluir");compose.onNodeWithText("Concluir").assertIsDisplayed()
     }
+    private fun aiQuestion(): Question=checkNotNull(javaClass.classLoader!!.getResourceAsStream("autoral_ia_fixture.json")).bufferedReader().use {PackCodec.decode(it.readText()).single()}
+    @Test fun hintRevealsOnlyHintBeforeAnswerWithoutGrading() {
+        val q=aiQuestion();var answerCount=0
+        compose.setContent {MaterialTheme {QuestionScreen(QuestionUi(Session("hint",q)),Settings(animations=false),{answerCount++},{},{},{})}}
+        compose.onNodeWithText(q.dica!!).assertDoesNotExist()
+        scrollTo("Ver dica");compose.onNodeWithText("Ver dica").performClick()
+        scrollTo(q.dica!!);compose.onNodeWithText(q.dica!!).assertIsDisplayed()
+        compose.onNodeWithText("Entenda a resposta").assertDoesNotExist()
+        compose.runOnIdle {assertEquals(0,answerCount)}
+        scrollTo("Ocultar dica");compose.onNodeWithText("Ocultar dica").performClick()
+        compose.onNodeWithText(q.dica!!).assertDoesNotExist()
+    }
+    private fun noHint(hint: String?) {
+        val q=aiQuestion().copy(dica=hint)
+        compose.setContent {MaterialTheme {QuestionScreen(QuestionUi(Session("no-hint",q)),Settings(animations=false),{},{},{},{})}}
+        compose.onNodeWithText(q.enunciado).assertExists()
+        compose.onNodeWithText("Ver dica").assertDoesNotExist()
+        compose.onNodeWithText("Ocultar dica").assertDoesNotExist()
+    }
+    @Test fun noHintButtonWhenFieldIsAbsentOrNull() {noHint(null)}
+    @Test fun noHintButtonWhenFieldIsEmpty() {noHint("")}
+    @Test fun noHintButtonWhenFieldIsWhitespace() {noHint("   ")}
+    @Test fun pendingAiReviewIsShownBeforeAnswer() {
+        val q=aiQuestion()
+        compose.setContent {MaterialTheme {QuestionScreen(QuestionUi(Session("review",q)),Settings(animations=false),{},{},{},{})}}
+        compose.onNodeWithText(q.reviewNotice()).assertExists()
+    }
+
 }

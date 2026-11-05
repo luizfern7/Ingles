@@ -5,16 +5,18 @@ import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 
 @Serializable data class Source(
-    val concurso: String, val banca: String, val cargo: String, val ano: Int,
-    val arquivo: String, val sha256: String, val pagina: Int, val questao: Int,
-    val pagina_gabarito: Int, val versao: String
+    val concurso: String="", val banca: String="", val cargo: String="", val ano: Int=0,
+    val arquivo: String="", val sha256: String="", val pagina: Int=0, val questao: Int=0,
+    val pagina_gabarito: Int=0, val versao: String="",
+    val tipo: String="oficial", val descricao: String=""
 )
 @Serializable data class Question(
     val id: String, val disciplina: String, val assunto: String, val enunciado: String,
     val alternativas: Map<String,String>, val resposta_correta: String,
     val explicacao: String, val explicacoes_alternativas: Map<String,String>,
     val fonte: Source, val status_validacao: String,
-    val autoria_explicacao: String = "Comentário didático autoral; não é comentário oficial da banca."
+    val autoria_explicacao: String = "Explicação fornecida pelo autor do pacote.",
+    val dica: String? = null
 )
 @Serializable data class QuestionPack(val schema_version: Int, val questions: List<Question>)
 object PackCodec {
@@ -33,9 +35,19 @@ object PackCodec {
             require(q.resposta_correta in q.alternativas)
             require(q.alternativas.values.all { it.isNotBlank() })
             require(q.explicacoes_alternativas.keys == q.alternativas.keys && q.explicacoes_alternativas.values.all { it.isNotBlank() }) { "Justificativas incompletas" }
-            require(q.status_validacao == "gabarito_conferido") { "Questão sem gabarito conferido: ${q.id}" }
-            require(q.fonte.pagina > 0 && q.fonte.pagina_gabarito > 0 && q.fonte.questao > 0)
-            require(q.fonte.sha256.matches(Regex("[0-9a-f]{64}")))
+            when(q.fonte.tipo) {
+                "autoral_ia" -> {
+                    require(q.fonte.descricao.isNotBlank()) {"Descreva a origem autoral por IA: ${q.id}"}
+                    require(q.status_validacao in setOf("revisao_pendente","revisado")) {"Status autoral deve ser revisao_pendente ou revisado: ${q.id}"}
+                }
+                "oficial" -> {
+                    require(q.status_validacao == "gabarito_conferido") { "Questão sem gabarito conferido: ${q.id}" }
+                    require(listOf(q.fonte.concurso,q.fonte.banca,q.fonte.cargo,q.fonte.arquivo,q.fonte.versao).all {it.isNotBlank()} && q.fonte.ano>0) {"Fonte oficial incompleta: ${q.id}"}
+                    require(q.fonte.pagina > 0 && q.fonte.pagina_gabarito > 0 && q.fonte.questao > 0)
+                    require(q.fonte.sha256.matches(Regex("[0-9a-f]{64}")))
+                }
+                else -> throw IllegalArgumentException("Tipo de fonte desconhecido: ${q.fonte.tipo}")
+            }
         }
         return pack.questions
     }

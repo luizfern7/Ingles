@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "questions": [
+    {
+      "id": "mat-porcentagem-001",
+      "disciplina": "Matemática",
+      "assunto": "Porcentagem",
+      "enunciado": "Um produto custa R$ 200,00 e recebe desconto de 15%. Qual é o preço final?",
+      "alternativas": {
+        "A": "R$ 140,00",
+        "B": "R$ 150,00",
+        "C": "R$ 170,00",
+        "D": "R$ 185,00"
+      },
+      "resposta_correta": "C",
+      "dica": "Calcule quanto corresponde a 15% do preço original. Depois subtraia esse desconto do preço inicial.",
+      "explicacao": "15% de 200 corresponde a 0,15 × 200 = 30. O preço final é 200 − 30 = R$ 170,00. O percentual incide sobre o preço original.",
+      "explicacoes_alternativas": {
+        "A": "R$ 140,00 corresponderia a um desconto de R$ 60,00, ou 30%, não 15%.",
+        "B": "R$ 150,00 corresponderia a um desconto de R$ 50,00, ou 25%.",
+        "C": "Correta: o desconto é de R$ 30,00; restam R$ 170,00.",
+        "D": "Subtrai 15 reais, confundindo o percentual com um valor fixo em reais."
+      },
+      "fonte": {
+        "tipo": "autoral_ia",
+        "descricao": "Questão autoral gerada com auxílio de IA"
+      },
+      "status_validacao": "revisao_pendente",
+      "autoria_explicacao": "Explicação autoral gerada com auxílio de IA; requer revisão."
+    }
+  ]
+}

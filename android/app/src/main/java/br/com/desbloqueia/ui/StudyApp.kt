@@ -21,6 +21,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
+import androidx.compose.ui.res.painterResource
+import br.com.desbloqueia.R
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -94,11 +96,25 @@ private val Red=Color(0xFFAB303B)
     if(session==null) { Column(verticalArrangement=Arrangement.spacedBy(16.dp)) { Text(state.error?:"Pronto para uma pequena conquista?");Button(onClick=next,enabled=!state.busy) { Text("Carregar questão") };TextButton(onClick=close) { Text("Fechar e usar o celular") } };return }
     val q=session.question
     var expanded by rememberSaveable(session.id) { mutableStateOf(false) }
+    var hintVisible by rememberSaveable(session.id) { mutableStateOf(false) }
     val questionScroll=rememberLazyListState()
     LaunchedEffect(session.id) {questionScroll.scrollToItem(0)}
     LazyColumn(state=questionScroll,verticalArrangement=Arrangement.spacedBy(12.dp)) {
-        item { Text(q.disciplina.uppercase(),style=MaterialTheme.typography.labelLarge,color=MaterialTheme.colorScheme.primary);Text(q.assunto,style=MaterialTheme.typography.headlineSmall,fontWeight=FontWeight.Bold);Text("${q.fonte.concurso} · ${q.fonte.banca} · ${q.fonte.ano}\n${q.fonte.cargo} · Questão ${q.fonte.questao} · ${q.fonte.versao}",style=MaterialTheme.typography.bodySmall) }
+        item { Text(q.disciplina.uppercase(),style=MaterialTheme.typography.labelLarge,color=MaterialTheme.colorScheme.primary);Text(q.assunto,style=MaterialTheme.typography.headlineSmall,fontWeight=FontWeight.Bold);Text(q.originSummary(),style=MaterialTheme.typography.bodySmall)
+            if(q.fonte.tipo=="autoral_ia") Text(q.reviewNotice(),style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant) }
         item { Text(q.enunciado,style=MaterialTheme.typography.bodyLarge,modifier=Modifier.padding(vertical=8.dp)) }
+        if(!q.dica.isNullOrBlank()) item(key="hint") {
+            Column(verticalArrangement=Arrangement.spacedBy(8.dp)) {
+                if(state.selected==null) OutlinedButton(onClick={hintVisible=!hintVisible}) {
+                    Icon(painterResource(R.drawable.ic_hint),contentDescription=null,modifier=Modifier.size(20.dp))
+                    Spacer(Modifier.width(8.dp));Text(if(hintVisible) "Ocultar dica" else "Ver dica")
+                }
+                if(hintVisible) Card(Modifier.fillMaxWidth()) {Column(Modifier.padding(16.dp),verticalArrangement=Arrangement.spacedBy(6.dp)) {
+                    Text("Dica",style=MaterialTheme.typography.titleSmall,fontWeight=FontWeight.Bold)
+                    Text(q.dica!!)
+                }}
+            }
+        }
         q.alternativas.toSortedMap().forEach { (letter,text) -> item(key=letter) {
             val revealed=state.selected!=null
             val correct=revealed && letter==q.resposta_correta
@@ -116,7 +132,7 @@ private val Red=Color(0xFFAB303B)
                 Card { Column(Modifier.padding(20.dp),verticalArrangement=Arrangement.spacedBy(8.dp)) { Text("Entenda a resposta",style=MaterialTheme.typography.titleMedium,fontWeight=FontWeight.Bold);Text(q.explicacao);Text(q.autoria_explicacao,style=MaterialTheme.typography.bodySmall) } }
                 OutlinedButton(onClick={expanded=!expanded},modifier=Modifier.fillMaxWidth()) { Text(if(expanded) "Recolher alternativas ↑" else "Analisar alternativas ↓") }
                 if(expanded) q.explicacoes_alternativas.toSortedMap().forEach { (letter,text) -> Text("$letter · ${if(letter==q.resposta_correta) "Correta" else "Incorreta"}\n$text",Modifier.padding(vertical=4.dp)) }
-                Text("Fonte: ${q.fonte.arquivo}, página ${q.fonte.pagina}; gabarito na página ${q.fonte.pagina_gabarito}. Gabarito conferido no documento anexado.",style=MaterialTheme.typography.bodySmall)
+                Text(q.originDetails(),style=MaterialTheme.typography.bodySmall)
                 Button(onClick=next,enabled=!state.busy,modifier=Modifier.fillMaxWidth()) {Text("Próxima questão")}
                 OutlinedButton(onClick=done,modifier=Modifier.fillMaxWidth()) {Text("Concluir")}
             }
