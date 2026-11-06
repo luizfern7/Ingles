@@ -8,7 +8,7 @@ import kotlinx.coroutines.*
 
 class StudyApplication: Application() {
     val scope=CoroutineScope(SupervisorJob()+Dispatchers.IO)
-    val database by lazy { Room.databaseBuilder(this,StudyDatabase::class.java,"study.db").build() }
+    val database by lazy { Room.databaseBuilder(this,StudyDatabase::class.java,"study.db").addMigrations(MIGRATION_1_2).build() }
     val repository by lazy { Repository(database) }
     val preferences by lazy { Preferences(this) }
     var activityVisible=false

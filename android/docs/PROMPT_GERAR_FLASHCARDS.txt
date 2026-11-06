@@ -1,0 +1,26 @@
+Crie um pacote JSON de flashcards para Desbloqueia · Meu acervo 1.4.0 ou posterior.
+
+Parâmetros a preencher por mim:
+- Disciplina e assuntos: [PREENCHER]
+- Identificadores estáveis dos assuntos, iguais aos das questões relacionadas: [PREENCHER]
+- Material de referência: [PREENCHER]
+- Quantidade e nível: [PREENCHER]
+- Prefixo exclusivo de IDs deste lote: [PREENCHER]
+
+Entregue somente JSON válido UTF-8, sem Markdown ou comentários, com raiz {"schema_version":2,"flashcards":[...]} e lista não vazia. Não inclua progresso, avaliações, intervalos ou datas: o app controla a revisão offline. Não inclua campos desconhecidos. Limite combinado por arquivo: 5.000 itens e 5 MB. Se o lote ultrapassar seu limite de resposta, combine lotes menores antes, sem devolver JSON truncado.
+
+Cada cartão exige:
+- id: string única de até 160 caracteres, com prefixo e número. IDs já existentes não substituem o conteúdo nem o progresso.
+- disciplina: nome da matéria, não vazio.
+- assunto_id: ID global estável de até 120 caracteres, minúsculas a-z, números e underscores. Exemplo sfn_cmn. Reutilize exatamente o mesmo ID das questões e cartões do conceito. Não relacione itens só pela igualdade textual de nomes e não reutilize ID em conceitos diferentes.
+- frente: pergunta clara, conceito ou termo a recordar, completo em texto e sem depender de imagens.
+- verso: resposta precisa e suficiente, sem ambiguidades e coerente com o material.
+
+Opcionais: explicacao (curta, didática), assunto e subassunto (nomes legíveis), fonte, status_validacao e derivado_de (ID real da questão de origem, quando existir). Para cartões gerados por IA, inclua fonte como {"tipo":"autoral_ia","descricao":"Flashcard autoral gerado com auxílio de IA"} e status_validacao:"revisao_pendente". Não declare revisão humana ou validação oficial. Não invente concurso, banca, PDF, hash, páginas ou número de questão. O aplicativo aceita cartões sem fonte e usa revisão pendente por padrão; isso não autoriza atribuir origem falsa.
+
+Exemplo de estrutura:
+{"schema_version":2,"flashcards":[{"id":"PREFIXO-f0001","disciplina":"DISCIPLINA","assunto_id":"ID_ESTAVEL","frente":"PERGUNTA_COMPLETA","verso":"RESPOSTA_PRECISA","explicacao":"COMPLEMENTO_CURTO","fonte":{"tipo":"autoral_ia","descricao":"Flashcard autoral gerado com auxílio de IA"},"status_validacao":"revisao_pendente"}]}
+
+O usuário vira o cartão antes de marcar Sei ou Não sei. Evite respostas que só façam sentido se alguma alternativa de uma questão omitida estiver visível. Não entregue perguntas vagas como "O que é isso?" nem copie uma explicação fora de contexto. Cada frente deve ter uma resposta inequívoca; se dividir um conceito grande, faça cartões diferentes e complementares, sem repetir frente e verso. O app ignora duplicatas de assunto/frente/verso normalizados.
+
+Confira a correção de cada par, preserve o material de referência e não invente fatos para preencher a quantidade. Essa autoverificação não equivale a revisão humana: mantenha revisao_pendente. As questões podem ser importadas em outro arquivo; não é necessário conhecer seus IDs individuais para a associação pelo assunto_id.

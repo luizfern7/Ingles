@@ -1,0 +1,24 @@
+{
+  "schema_version": 2,
+  "flashcards": [
+    {
+      "id": "f201",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Sistema Financeiro Nacional",
+      "subassunto": "Conselho Monetário Nacional",
+      "assunto_id": "sfn_cmn",
+      "frente": "Qual é a principal função do Conselho Monetário Nacional?",
+      "verso": "Estabelecer diretrizes gerais das políticas monetária, creditícia e cambial.",
+      "explicacao": "O CMN é normativo; a execução das orientações cabe aos órgãos e operadores competentes.",
+      "status_validacao": "revisao_pendente"
+    },
+    {
+      "id": "f202",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto_id": "sfn_cmn",
+      "frente": "O CMN e o Banco Central têm o mesmo papel no SFN?",
+      "verso": "Não. O CMN define diretrizes; o Banco Central executa políticas e supervisiona instituições dentro de suas competências.",
+      "status_validacao": "revisao_pendente"
+    }
+  ]
+}

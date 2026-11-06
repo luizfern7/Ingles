@@ -30,11 +30,11 @@ class UnlockMonitor(private val context: Context) {
         (Build.VERSION.SDK_INT<33 || ContextCompat.checkSelfPermission(context,Manifest.permission.POST_NOTIFICATIONS)==PackageManager.PERMISSION_GRANTED)
     fun foreground(): Notification {
         val stop=PendingIntent.getService(context,3,Intent(context,UnlockStudyService::class.java).setAction(UnlockStudyService.STOP),PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE)
-        return base("Questões automáticas ativas","A questão aparece após desbloquear. Toque em Parar para desativar.",null)
+        return base("Estudo automático ativo","Questões e flashcards após desbloquear. Toque em Parar para desativar.",null)
             .setOngoing(true).addAction(0,"Parar",stop).setForegroundServiceBehavior(NotificationCompat.FOREGROUND_SERVICE_IMMEDIATE).build()
     }
     fun fallback(session: String) {
-        if(canNotify()) notifications.notify(PROMPT,base("Toque para responder uma questão","A sobreposição não pôde ser exibida neste aparelho.",session).setAutoCancel(true).build())
+        if(canNotify()) notifications.notify(PROMPT,base("Toque para estudar","A sobreposição não pôde ser exibida neste aparelho.",session).setAutoCancel(true).build())
     }
     fun clearPrompt() { notifications.cancel(PROMPT) }
     private fun base(title: String,text: String,session: String?): NotificationCompat.Builder {

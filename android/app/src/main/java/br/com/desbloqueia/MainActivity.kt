@@ -23,7 +23,7 @@ class MainActivity: ComponentActivity() {
         lifecycleScope.launch {
             repeatOnLifecycle(Lifecycle.State.RESUMED) {
                 val app=application as StudyApplication
-                combine(app.preferences.settings,app.repository.dao.observeQuestionCount()) { settings,count -> settings to count }.collect { (settings,count) ->
+                combine(app.preferences.settings,app.repository.dao.observeContentCount()) { settings,count -> settings to count }.collect { (settings,count) ->
                     if(settings.unlock && count>0) {
                         if(app.monitor.canOverlay() && app.monitor.canNotify()) {
                             try { androidx.core.content.ContextCompat.startForegroundService(this@MainActivity,Intent(this@MainActivity,UnlockStudyService::class.java)) }

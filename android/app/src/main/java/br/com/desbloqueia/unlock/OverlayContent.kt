@@ -8,10 +8,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import br.com.desbloqueia.data.Settings
-import br.com.desbloqueia.ui.QuestionScreen
+import br.com.desbloqueia.ui.StudyContent
 import br.com.desbloqueia.ui.QuestionUi
 
-@Composable internal fun OverlayContent(state: QuestionUi,settings: Settings,answer: (String)->Unit,next: ()->Unit,close: ()->Unit) {
+@Composable internal fun OverlayContent(state: QuestionUi,settings: Settings,answer: (String)->Unit,next: ()->Unit,close: ()->Unit,flip: ()->Unit,rate: (Boolean)->Unit) {
     val dark=settings.theme=="dark" || (settings.theme=="auto" && isSystemInDarkTheme())
     MaterialTheme(colorScheme=if(dark) darkColorScheme() else lightColorScheme(primary=Color(0xFF286640))) {
         Surface(Modifier.fillMaxSize(),tonalElevation=8.dp) {
@@ -21,7 +21,7 @@ import br.com.desbloqueia.ui.QuestionUi
                     TextButton(onClick=close) {Text("Fechar")}
                 }
                 HorizontalDivider(Modifier.padding(bottom=12.dp))
-                Box(Modifier.weight(1f)) { QuestionScreen(state,settings,answer,next,close,close) }
+                Box(Modifier.weight(1f)) { StudyContent(state,settings,answer,next,close,close,flip,rate) }
             }
         }
     }

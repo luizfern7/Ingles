@@ -23,6 +23,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.compose.ui.res.painterResource
 import br.com.desbloqueia.R
+import kotlin.math.roundToInt
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -39,6 +40,11 @@ private val Red=Color(0xFFAB303B)
     val disciplines by model.disciplines.collectAsStateWithLifecycle()
     val ready by model.ready.collectAsStateWithLifecycle()
     val questionCount by model.questionCount.collectAsStateWithLifecycle()
+    val flashCount by model.flashCount.collectAsStateWithLifecycle()
+    val flashSummary by model.flashSummary.collectAsStateWithLifecycle()
+    val topics by model.topics.collectAsStateWithLifecycle()
+    val daily by model.daily.collectAsStateWithLifecycle()
+    val draft by model.draft.collectAsStateWithLifecycle()
     val message by model.message.collectAsStateWithLifecycle()
     var tab by rememberSaveable { mutableStateOf("Início") }
     val context=LocalContext.current
@@ -46,10 +52,11 @@ private val Red=Color(0xFFAB303B)
     val feedback=remember { Feedback(context) }
     DisposableEffect(feedback) { onDispose { feedback.release() } }
     LaunchedEffect(model) { model.feedback.collect { feedback.play(it,model.settings.value,view) } }
-    LaunchedEffect(state.session?.id) { if(state.session!=null) tab="Questão" }
+    LaunchedEffect(state.itemId) { if(state.itemId!=null) tab="Questão" }
     val dark=settings.theme=="dark" || (settings.theme=="auto" && isSystemInDarkTheme())
     val colors=if(dark) darkColorScheme(primary=Color(0xFF99D5A5),background=Color(0xFF101914),surface=Color(0xFF17231C)) else lightColorScheme(primary=Green,background=Color(0xFFF5F7F1),surface=Color(0xFFFCFDF8),secondary=Color(0xFF506653))
     MaterialTheme(colorScheme=colors) {
+        draft?.let {FlashcardDraftDialog(it,{model.draft.value=null},model::saveDraft)}
         Scaffold(bottomBar={
             NavigationBar { listOf("Início","Estatísticas","Ajustes").forEachIndexed { index,name ->
                 NavigationBarItem(selected=tab==name,onClick={tab=name},icon={ Text(listOf("⌂","▥","⚙")[index]) },label={Text(name)})
@@ -62,38 +69,39 @@ private val Red=Color(0xFFAB303B)
                 }
                 message?.let { text -> Card(Modifier.fillMaxWidth().padding(bottom=8.dp)) { Column(Modifier.padding(12.dp)) { Text(text);TextButton(onClick={model.message.value=null}) {Text("Entendi")} } } }
                 when(tab) {
-                    "Questão" -> QuestionScreen(state,settings,model::answer,model::next,{model.clearQuestion();tab="Início"},onClose)
-                    "Estatísticas" -> StatisticsScreen(stats,reviews)
+                    "Questão" -> StudyContent(state,settings,model::answer,model::next,{model.clearQuestion();tab="Início"},onClose,model::flip,model::rate,model::suggest)
+                    "Estatísticas" -> StatisticsScreen(stats,reviews,flashSummary,topics,daily)
                     "Ajustes" -> SettingsScreen(settings,disciplines,model)
-                    else -> HomeScreen(stats,reviews,ready,questionCount,settings,{model.next()},{tab="Questão"},{tab="Ajustes"})
+                    else -> HomeScreen(stats,reviews,ready,questionCount,flashCount,settings,{model.next()},{tab="Questão"},{tab="Ajustes"},{model.reviewFlashcards();tab="Questão"})
                 }
             }
         }
     }
 }
-@Composable private fun HomeScreen(stats: List<Stats>,reviews: Int,ready: Boolean,questionCount: Int,settings: Settings,start: ()->Unit,resume: ()->Unit,openImport: ()->Unit) {
+@Composable private fun HomeScreen(stats: List<Stats>,reviews: Int,ready: Boolean,questionCount: Int,flashCount: Int,settings: Settings,start: ()->Unit,resume: ()->Unit,openImport: ()->Unit,reviewFlash: ()->Unit) {
     val answered=stats.sumOf { it.answered };val correct=stats.sumOf { it.correct }
     LazyColumn(verticalArrangement=Arrangement.spacedBy(18.dp)) {
         item { Card(colors=CardDefaults.cardColors(containerColor=MaterialTheme.colorScheme.primaryContainer),shape=RoundedCornerShape(24.dp)) {
             Column(Modifier.padding(24.dp),verticalArrangement=Arrangement.spacedBy(12.dp)) {
                 Text("PEQUENAS PAUSAS, GRANDES CONQUISTAS",style=MaterialTheme.typography.labelMedium)
                 Text("Sua próxima\nconquista começa\ncom uma questão.",style=MaterialTheme.typography.headlineMedium,fontWeight=FontWeight.Bold)
-                Text(if(questionCount==0) "Seu acervo começa vazio. Importe um arquivo JSON com suas questões para estudar qualquer assunto, offline." else "Responda, entenda cada alternativa e avance no seu ritmo. Tudo funciona offline.")
-                if(ready && questionCount==0) Button(onClick=openImport,modifier=Modifier.fillMaxWidth()) {Text("Importar meu primeiro JSON")}
-                else Button(onClick=start,enabled=ready && questionCount>0,modifier=Modifier.fillMaxWidth()) { Text(if(ready) "Estudar agora →" else "Preparando banco…") }
-                if(questionCount>0) TextButton(onClick=resume) { Text("Voltar à questão em andamento") }
+                Text(if(questionCount+flashCount==0) "Seu acervo começa vazio. Importe questões e/ou flashcards em JSON para estudar offline." else "Responda, entenda cada alternativa e avance no seu ritmo. Tudo funciona offline.")
+                if(ready && questionCount+flashCount==0) Button(onClick=openImport,modifier=Modifier.fillMaxWidth()) {Text("Importar meu primeiro JSON")}
+                else Button(onClick=start,enabled=ready && questionCount+flashCount>0,modifier=Modifier.fillMaxWidth()) { Text(if(ready) "Estudar agora →" else "Preparando banco…") }
+                if(questionCount+flashCount>0) TextButton(onClick=resume) { Text("Voltar à questão em andamento") }
             }
         } }
+        if(flashCount>0) item {OutlinedButton(onClick=reviewFlash,modifier=Modifier.fillMaxWidth()) {Text("Revisar flashcards")}}
         item { Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.spacedBy(8.dp)) { Metric("Respostas","$answered",Modifier.weight(1f));Metric("Acertos","$correct",Modifier.weight(1f));Metric("Revisão","$reviews",Modifier.weight(1f)) } }
         item { Text("Aprender, não decorar",style=MaterialTheme.typography.titleLarge,fontWeight=FontWeight.Bold);Text("Cada resposta revela uma explicação e a análise de todas as opções. As questões mantêm a identificação da prova e do gabarito.",Modifier.padding(top=8.dp)) }
         item { Card { Column(Modifier.padding(16.dp)) { Text(if(settings.unlock) "Janela automática ativada" else "Você controla suas pausas",fontWeight=FontWeight.Bold);Text("Ative em Ajustes a janela sobre outros apps para ver questões ao desbloquear. O serviço deve permanecer ativo; se o aparelho encerrar o serviço ou reiniciar, reabra o app.") } } }
-        item { Text("$questionCount questões no seu acervo. Nenhuma questão acompanha esta edição; todo o conteúdo é importado por você.",style=MaterialTheme.typography.bodySmall);Spacer(Modifier.height(16.dp)) }
+        item { Text("$questionCount questões e $flashCount flashcards no seu acervo. Todo o conteúdo é importado por você.",style=MaterialTheme.typography.bodySmall);Spacer(Modifier.height(16.dp)) }
     }
 }
 @Composable private fun Metric(label: String,value: String,modifier: Modifier=Modifier) { Card(modifier) { Column(Modifier.padding(14.dp)) { Text(value,style=MaterialTheme.typography.headlineSmall,fontWeight=FontWeight.Bold);Text(label,style=MaterialTheme.typography.labelMedium) } } }
-@Composable internal fun QuestionScreen(state: QuestionUi,settings: Settings,answer: (String)->Unit,next: ()->Unit,done: ()->Unit,close: ()->Unit) {
+@Composable internal fun QuestionScreen(state: QuestionUi,settings: Settings,answer: (String)->Unit,next: ()->Unit,done: ()->Unit,close: ()->Unit,suggest: ((Question)->Unit)?=null) {
     val session=state.session
-    if(session==null) { Column(verticalArrangement=Arrangement.spacedBy(16.dp)) { Text(state.error?:"Pronto para uma pequena conquista?");Button(onClick=next,enabled=!state.busy) { Text("Carregar questão") };TextButton(onClick=close) { Text("Fechar e usar o celular") } };return }
+    if(session==null) { Column(verticalArrangement=Arrangement.spacedBy(16.dp)) { Text(state.error?:"Pronto para uma pequena conquista?");Button(onClick=next,enabled=!state.busy) { Text("Buscar próximo item") };TextButton(onClick=close) { Text("Fechar e usar o celular") } };return }
     val q=session.question
     var expanded by rememberSaveable(session.id) { mutableStateOf(false) }
     var hintVisible by rememberSaveable(session.id) { mutableStateOf(false) }
@@ -101,7 +109,9 @@ private val Red=Color(0xFFAB303B)
     LaunchedEffect(session.id) {questionScroll.scrollToItem(0)}
     LazyColumn(state=questionScroll,verticalArrangement=Arrangement.spacedBy(12.dp)) {
         item { Text(q.disciplina.uppercase(),style=MaterialTheme.typography.labelLarge,color=MaterialTheme.colorScheme.primary);Text(q.assunto,style=MaterialTheme.typography.headlineSmall,fontWeight=FontWeight.Bold);Text(q.originSummary(),style=MaterialTheme.typography.bodySmall)
-            if(q.fonte.tipo=="autoral_ia") Text(q.reviewNotice(),style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant) }
+            if(q.fonte.tipo!="oficial") Text(q.reviewNotice(),style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
+            q.assunto_id?.let {Text("Vínculo: $it",style=MaterialTheme.typography.bodySmall)}
+            q.subassunto?.let {Text(it,style=MaterialTheme.typography.bodySmall)} }
         item { Text(q.enunciado,style=MaterialTheme.typography.bodyLarge,modifier=Modifier.padding(vertical=8.dp)) }
         if(!q.dica.isNullOrBlank()) item(key="hint") {
             Column(verticalArrangement=Arrangement.spacedBy(8.dp)) {
@@ -130,22 +140,29 @@ private val Red=Color(0xFFAB303B)
             Column(verticalArrangement=Arrangement.spacedBy(12.dp)) {
                 Text(if(state.selected==q.resposta_correta) "✓ Resposta correta!" else "Resposta incorreta · Correta: ${q.resposta_correta}",style=MaterialTheme.typography.titleLarge,fontWeight=FontWeight.Bold,color=if(state.selected==q.resposta_correta) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error)
                 Card { Column(Modifier.padding(20.dp),verticalArrangement=Arrangement.spacedBy(8.dp)) { Text("Entenda a resposta",style=MaterialTheme.typography.titleMedium,fontWeight=FontWeight.Bold);Text(q.explicacao);Text(q.autoria_explicacao,style=MaterialTheme.typography.bodySmall) } }
-                OutlinedButton(onClick={expanded=!expanded},modifier=Modifier.fillMaxWidth()) { Text(if(expanded) "Recolher alternativas ↑" else "Analisar alternativas ↓") }
+                if(q.explicacoes_alternativas.isNotEmpty()) OutlinedButton(onClick={expanded=!expanded},modifier=Modifier.fillMaxWidth()) { Text(if(expanded) "Recolher alternativas ↑" else "Analisar alternativas ↓") }
+                else Text("Este pacote não forneceu comentários individuais das alternativas.",style=MaterialTheme.typography.bodySmall)
                 if(expanded) q.explicacoes_alternativas.toSortedMap().forEach { (letter,text) -> Text("$letter · ${if(letter==q.resposta_correta) "Correta" else "Incorreta"}\n$text",Modifier.padding(vertical=4.dp)) }
                 Text(q.originDetails(),style=MaterialTheme.typography.bodySmall)
-                Button(onClick=next,enabled=!state.busy,modifier=Modifier.fillMaxWidth()) {Text("Próxima questão")}
+                if(suggest!=null) OutlinedButton(onClick={suggest(q)},modifier=Modifier.fillMaxWidth()) {Text("Sugerir flashcard desta questão")}
+                Button(onClick=next,enabled=!state.busy,modifier=Modifier.fillMaxWidth()) {Text("Próximo item")}
                 OutlinedButton(onClick=done,modifier=Modifier.fillMaxWidth()) {Text("Concluir")}
             }
         } }
         item { TextButton(onClick=close,modifier=Modifier.fillMaxWidth()) {Text("Fechar e usar o celular")};Spacer(Modifier.height(12.dp)) }
     }
 }
-@Composable private fun StatisticsScreen(stats: List<Stats>,reviews: Int) {
+@Composable private fun StatisticsScreen(stats: List<Stats>,reviews: Int,flash: FlashSummary,topics: List<TopicStats>,daily: List<DailyStats>) {
     val count=stats.sumOf { it.answered };val correct=stats.sumOf { it.correct }
     LazyColumn(verticalArrangement=Arrangement.spacedBy(14.dp)) {
         item { Text("Seu caminho até aqui",style=MaterialTheme.typography.headlineMedium,fontWeight=FontWeight.Bold) }
         item { Row(horizontalArrangement=Arrangement.spacedBy(8.dp)) {Metric("Respostas","$count",Modifier.weight(1f));Metric("Acertos","$correct",Modifier.weight(1f));Metric("Erros","${count-correct}",Modifier.weight(1f))} }
         item { Text("Aproveitamento: ${if(count==0) 0 else correct*100/count}% · $reviews questões para revisar") }
+        item {HorizontalDivider();Text("Flashcards",style=MaterialTheme.typography.titleLarge);Text("${flash.studied} estudados · ${flash.memorized} memorizados · ${flash.due} disponíveis para revisão");Text("${flash.known} avaliações Sei · ${flash.unknown} avaliações Não sei")}
+        if(topics.isNotEmpty()) item {HorizontalDivider();Text("Assuntos com maior dificuldade",style=MaterialTheme.typography.titleLarge)}
+        topics.take(10).forEach {topic -> item {Text("${topic.topicId}: ${topic.answered-topic.correct}/${topic.answered} questões erradas · ${topic.flashUnknown}/${topic.flashReviews} flashcards Não sei")}}
+        if(daily.isNotEmpty()) item {HorizontalDivider();Text("Evolução nos últimos dias de estudo",style=MaterialTheme.typography.titleLarge)}
+        daily.forEach {day -> item {Text("${day.day}: questões ${day.questionCorrect}/${day.questions} · flashcards Sei ${day.flashKnown}/${day.flashcards}")}}
         if(stats.isEmpty()) item {Text("Seu histórico começa com a primeira resposta. Que tal estudar agora?")}
         stats.forEach { stat -> item { Card(Modifier.fillMaxWidth()) {Column(Modifier.padding(16.dp),verticalArrangement=Arrangement.spacedBy(8.dp)) {Text(stat.discipline,fontWeight=FontWeight.Bold);Text("${stat.correct} acertos de ${stat.answered} respostas");LinearProgressIndicator(progress={stat.correct.toFloat()/stat.answered},modifier=Modifier.fillMaxWidth())}} } }
         item { Text("Respostas repetidas contam como novas tentativas. A fila de revisão considera o resultado mais recente de cada questão.",style=MaterialTheme.typography.bodySmall) }
@@ -170,7 +187,7 @@ private val Red=Color(0xFFAB303B)
         if(granted) requestOverlay() else model.message.value="Notificações não autorizadas. O estudo manual continua disponível."
     }
     val enable: ()->Unit = {
-        if(model.questionCount.value==0) model.message.value="Importe um JSON com questões antes de ativar o modo automático."
+        if(model.contentCount.value==0) model.message.value="Importe questões ou flashcards antes de ativar o modo automático."
         else if(Build.VERSION.SDK_INT>=33 && androidx.core.content.ContextCompat.checkSelfPermission(context,Manifest.permission.POST_NOTIFICATIONS)!=android.content.pm.PackageManager.PERMISSION_GRANTED) permission.launch(Manifest.permission.POST_NOTIFICATIONS)
         else if(!app.monitor.canNotify()) model.message.value="Ative as notificações nas configurações do Android."
         else requestOverlay()
@@ -180,16 +197,26 @@ private val Red=Color(0xFFAB303B)
         item { Text("Do seu jeito",style=MaterialTheme.typography.headlineMedium,fontWeight=FontWeight.Bold) }
         item { Card(Modifier.fillMaxWidth()) {Column(Modifier.padding(16.dp),verticalArrangement=Arrangement.spacedBy(8.dp)) {
             Text("Seu acervo, offline",style=MaterialTheme.typography.titleLarge)
-            Text("Esta edição não inclui questões. Importe seus arquivos JSON com alternativas, respostas e explicações. Os IDs existentes e seu histórico são preservados.")
+            Text("Importe questões, flashcards ou pacotes mistos. O acervo inicial é vazio; seu histórico é preservado.")
             Button(onClick={importer.launch(arrayOf("application/json","text/plain"))},modifier=Modifier.fillMaxWidth()) {Text("Importar pacote de questões")}
         }} }
+        item {HorizontalDivider();Text("Métodos de estudo",style=MaterialTheme.typography.titleLarge)
+            listOf("questions" to "Apenas questões","flashcards" to "Apenas flashcards","mixed" to "Modo misto").forEach {(value,label) ->
+                Row(Modifier.fillMaxWidth().clickable {model.update {it.copy(studyMode=value)}},verticalAlignment=Alignment.CenterVertically) {RadioButton(selected=settings.studyMode==value,onClick={model.update {it.copy(studyMode=value)}});Text(label)}
+            }
+            if(settings.studyMode=="mixed") {
+                Text("${100-settings.flashPercent}% questões · ${settings.flashPercent}% flashcards")
+                Slider(value=settings.flashPercent.toFloat(),onValueChange={value ->model.update {it.copy(flashPercent=(value/10).roundToInt()*10)}},valueRange=0f..100f,steps=9)
+                Text("A proporção vale com itens elegíveis dos dois tipos. Entre 10% e 90%, faltando um tipo, usa o outro. Em 0% ou 100%, mantém a modalidade escolhida. Revisões futuras não são antecipadas só para preencher a quota.",style=MaterialTheme.typography.bodySmall)
+            }
+        }
         item { Toggle("Janela automática ao desbloquear",settings.unlock) { checked ->
             if(!checked) model.update {it.copy(unlock=false)} else enable()
         } }
         item { Text(status,color=MaterialTheme.colorScheme.primary);Text("Autorize ‘Exibir sobre outros apps’ para ver a questão na tela sem precisar tocar em uma notificação. Um serviço com notificação visível mantém a detecção ativa. Você pode fechar a janela sem responder e parar o modo automático a qualquer momento. O app não usa acessibilidade nem substitui a tela de bloqueio.",style=MaterialTheme.typography.bodySmall) }
         item { OutlinedButton(onClick=enable,modifier=Modifier.fillMaxWidth()) {Text("Autorizar e ativar janela automática")} }
         item { OutlinedButton(onClick={
-            if(model.questionCount.value==0) model.message.value="Importe seu primeiro JSON em Importar pacote de questões."
+            if(model.contentCount.value==0) model.message.value="Importe seu primeiro JSON em Importar pacote de questões."
             else if(settings.unlock && app.monitor.canOverlay() && app.monitor.canNotify()) {
                 try {androidx.core.content.ContextCompat.startForegroundService(context,Intent(context,br.com.desbloqueia.unlock.UnlockStudyService::class.java).setAction(br.com.desbloqueia.unlock.UnlockStudyService.PREVIEW))}
                 catch(e: RuntimeException) {model.message.value="Não foi possível iniciar. Confira as permissões e tente novamente."}

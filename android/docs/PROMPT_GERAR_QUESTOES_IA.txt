@@ -1,4 +1,4 @@
-Você criará um pacote de questões autorais para o aplicativo Android Desbloqueia · Meu acervo (versão 1.3.0 ou posterior).
+Você criará um pacote de questões autorais para o aplicativo Android Desbloqueia · Meu acervo (versão 1.4.0 ou posterior).
 
 O aplicativo importa o JSON e funciona offline. Apresenta uma questão e as alternativas; ao selecionar uma opção, corrige conforme resposta_correta e mostra explicacao e explicacoes_alternativas. Se houver dica com texto, mostra antes da resposta um botão com lâmpada; esse botão apenas revela dica, sem responder nem mostrar o gabarito. O aplicativo não chama uma IA para criar ou conferir conteúdo: a qualidade e a correção dependem do pacote que você produzir.
 
@@ -33,6 +33,8 @@ Campos OBRIGATORIOS de cada questão:
 10. status_validacao: use sempre "revisao_pendente" para a geração por IA. Não declare aprovação humana, revisão oficial ou gabarito conferido. O app também aceita "revisado", mas somente o responsável deve atribuí-lo após conferir o conteúdo. Para fonte autoral_ia não use "gabarito_conferido".
 
 Campos OPCIONAIS:
+- assunto_id: identificador estável do conceito, recomendado para vincular questões e flashcards. Use letras minúsculas a-z, números e underscores, até 120 caracteres; por exemplo sfn_cmn. Reutilize o mesmo ID para o mesmo conceito em todos os lotes; não deduza vínculos apenas pelo nome do assunto e não use o mesmo ID para conceitos diferentes. Questões antigas sem o campo permanecem sem vínculo.
+- subassunto: descrição textual opcional de um recorte do assunto.
 - autoria_explicacao: string não vazia identificando os comentários, por exemplo "Explicação autoral gerada com auxílio de IA; requer revisão.". Quando omitida, o app usa uma identificação genérica de autoria do pacote.
 - dica: string de apoio ANTES da resposta. Só inclua quando eu desejar dicas e houver uma orientação útil. A dica deve apontar um conceito, método, pergunta-guia ou passo inicial, sem citar a letra correta, repetir apenas a alternativa correta ou entregar diretamente o resultado. Não copie a explicação pós-resposta para esse campo. Exemplo de orientação: "Calcule a fração do valor original e depois aplique o desconto.". Se não houver dica útil, OMITA o campo. O app também aceita null, string vazia ou apenas espaços e nesses casos não mostra ícone nem botão. Não escreva "sem dica", "null" ou "N/A" como texto substituto.
 

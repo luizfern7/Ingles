@@ -65,7 +65,7 @@ class UnlockStudyService: Service(),LifecycleOwner,SavedStateRegistryOwner {
         if(intent?.action==STOP) {
             dismissOverlay()
             scope.launch {
-                try {app.preferences.update(app.preferences.settings.first().copy(unlock=false))}
+                try {app.preferences.modify {it.copy(unlock=false)}}
                 catch(e: CancellationException) {throw e}
                 catch(e: Exception) {android.util.Log.w("UnlockStudyService","Não foi possível salvar a desativação",e)}
                 finally {finishMonitoring()}
@@ -99,8 +99,8 @@ class UnlockStudyService: Service(),LifecycleOwner,SavedStateRegistryOwner {
             try {
             val settings=app.preferences.settings.first()
             if(settings.unlock && !isOverlayShowing && !getSystemService(KeyguardManager::class.java).isKeyguardLocked) {
-                val session=withContext(Dispatchers.IO) {app.repository.initialize();app.repository.next(settings)}
-                if(session!=null && !showOverlay(session,settings)) app.overlayStatus.value="O Android recusou a janela. Confira a permissão."
+                val session=withContext(Dispatchers.IO) {app.repository.initialize();app.repository.nextStudy(settings)}
+                if(session!=null && !showStudyOverlay(session,settings)) app.overlayStatus.value="O Android recusou a janela. Confira a permissão."
             }
             } catch(e: CancellationException) {throw e}
             catch(e: Exception) {app.overlayStatus.value="Não foi possível testar a janela. Confira permissões e disciplinas."}
@@ -112,19 +112,20 @@ class UnlockStudyService: Service(),LifecycleOwner,SavedStateRegistryOwner {
         if(action!=Intent.ACTION_USER_PRESENT) return
         val settings=app.preferences.settings.first()
         if(!OverlayPolicy.mayShow(settings.unlock,app.monitor.canOverlay(),getSystemService(KeyguardManager::class.java).isKeyguardLocked,getSystemService(AudioManager::class.java).mode,isOverlayShowing,app.activityVisible)) return
-        val session=withContext(Dispatchers.IO) {app.repository.initialize();app.repository.unlockPrompt(settings)}?:return
-        if(showOverlay(session,settings)) withContext(Dispatchers.IO) {app.repository.pending(session.id)}
+        val session=withContext(Dispatchers.IO) {app.repository.initialize();app.repository.unlockStudy(settings)}?:return
+        if(showStudyOverlay(session,settings)) withContext(Dispatchers.IO) {app.repository.pendingStudy(session.id)}
         else app.monitor.fallback(session.id)
     }
-    internal fun showOverlay(session: Session,settings: Settings): Boolean {
+    internal fun showOverlay(session: Session,settings: Settings)=showStudyOverlay(StudySession(question=session),settings)
+    internal fun showStudyOverlay(session: StudySession,settings: Settings): Boolean {
         if(!settings.unlock || overlay!=null || !app.monitor.canOverlay() ||
             !getSystemService(PowerManager::class.java).isInteractive ||
             getSystemService(KeyguardManager::class.java).isKeyguardLocked ||
             getSystemService(AudioManager::class.java).mode!=AudioManager.MODE_NORMAL) return false
         val view=ComposeView(windowContext)
         view.setViewTreeLifecycleOwner(this);view.setViewTreeSavedStateRegistryOwner(this)
-        questionUi=QuestionUi(session);overlaySettings=settings
-        view.setContent { OverlayContent(questionUi,overlaySettings,::answer,::next,::dismissOverlay) }
+        questionUi=QuestionUi.from(session);overlaySettings=settings
+        view.setContent { OverlayContent(questionUi,overlaySettings,::answer,::next,::dismissOverlay,::flip,::rate) }
         return try {
             // Ocupa 85% da altura; não toma foco do sistema, status bar, teclado ou navegação.
             val screenHeight=if(Build.VERSION.SDK_INT>=30) windows.currentWindowMetrics.bounds.height() else resources.displayMetrics.heightPixels
@@ -158,14 +159,38 @@ class UnlockStudyService: Service(),LifecycleOwner,SavedStateRegistryOwner {
             catch(e: Exception) {if(questionUi.session?.id==session.id) questionUi=state.copy(error="Não foi possível salvar. Tente novamente.")}
         }
     }
+    private fun flip() {
+        val state=questionUi;val session=state.flash?:return
+        if(state.busy || state.flipped)return
+        questionUi=state.copy(busy=true)
+        scope.launch {try {
+            val revealed=withContext(Dispatchers.IO) {app.repository.reveal(session)}
+            if(questionUi.itemId==session.id && overlay!=null) questionUi=state.copy(flipped=revealed)
+        } catch(e: CancellationException) {throw e}
+        catch(e: Exception) {if(questionUi.itemId==session.id) questionUi=state.copy(error="Não foi possível virar.")}}
+    }
+    private fun rate(known: Boolean) {
+        val state=questionUi;val session=state.flash?:return
+        if(state.busy || !state.flipped || state.flashRating!=null)return
+        questionUi=state.copy(busy=true)
+        scope.launch {try {
+            val result=withContext(Dispatchers.IO) {app.repository.rate(session,known)}
+            val review=app.repository.dao.flashReview(session.id)
+            if(questionUi.itemId==session.id && overlay!=null) {
+                questionUi=state.copy(flashRating=review?.known,nextDue=review?.dueAt?:result.first.nextReviewAt)
+                if(result.second) feedback.play(known,overlaySettings,overlay!!)
+            }
+        } catch(e: CancellationException) {throw e}
+        catch(e: Exception) {if(questionUi.itemId==session.id) questionUi=state.copy(error="Não foi possível salvar a revisão.")}}
+    }
     private fun next() {
         if(questionUi.busy) return
         questionUi=questionUi.copy(busy=true)
         val current=overlay
         scope.launch {
             try {
-                val session=withContext(Dispatchers.IO) {app.repository.next(app.preferences.settings.first())}
-                if(overlay===current && current!=null) questionUi=QuestionUi(session,error=if(session==null) "Nenhuma questão disponível." else null)
+                val session=withContext(Dispatchers.IO) {app.repository.nextStudy(app.preferences.settings.first())}
+                if(overlay===current && current!=null) questionUi=QuestionUi.from(session).copy(error=if(session==null) "Nenhum item elegível agora; confira as datas de revisão." else null)
             } catch(e: CancellationException) {throw e}
             catch(e: Exception) {if(overlay===current) questionUi=questionUi.copy(busy=false,error="Não foi possível carregar.")}
         }

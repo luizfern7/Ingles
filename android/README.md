@@ -2,7 +2,15 @@
 
 Aplicativo Android nativo em Kotlin/Compose para transformar pequenas pausas em estudo. Este projeto está em `android/`, independente da página de flashcards `../index.html`, que foi preservada.
 
-## Versão 1.3.0 — autoria por IA e dica opcional
+## Versão 1.4.0 — questões e flashcards inteligentes
+
+Acrescenta flashcards ao mesmo app, ao estudo manual e à janela após desbloquear. O padrão é **Modo misto, 50% questões e 50% flashcards**, com percentuais configuráveis em passos de 10% em Ajustes → Métodos de estudo. Também há modos exclusivos e botão Revisar flashcards na tela inicial. A quota é aplicada quando há itens elegíveis dos dois tipos; sem um deles, o misto intermediário usa o outro. Revisões futuras não são antecipadas apenas para cumprir a quota.
+
+Questões e cartões são ligados por `assunto_id`, não por igualdade de nomes. Erros priorizam cartões do mesmo assunto na próxima vaga de flashcard. Sei/Não sei alimentam uma agenda determinística de revisão; só é possível avaliar depois de virar. Dados, preferências, dicas, fontes de IA, estatísticas e o serviço de desbloqueio foram preservados. Room migra de 1 para 2 de forma aditiva, sem apagar tabelas antigas.
+
+Veja [FLASHCARDS.md](docs/FLASHCARDS.md), [validação](docs/FLASHCARDS_VALIDATION.md), [JSON misto](docs/examples/estudo-misto.json) e [somente flashcards](docs/examples/somente-flashcards.json). O aplicativo continua sem conteúdo embarcado e sem rede. Os exemplos são importados apenas por decisão do usuário.
+
+## Recursos introduzidos na versão 1.3.0 — autoria por IA e dica opcional
 
 Aceita `fonte: {"tipo":"autoral_ia","descricao":"..."}` com `status_validacao: "revisao_pendente"` ou `"revisado"`, sem exigir PDF, hash ou dados de concurso. Questões pendentes são identificadas na tela; a correção segue o gabarito fornecido no JSON, sem verificação por uma IA dentro do aplicativo.
 
@@ -66,15 +74,17 @@ Um módulo `app` com pacotes de responsabilidades distintas:
 - `ui`: ViewModel, estado salvo, telas Compose e feedback local. Resposta fica bloqueada após correção; novas tentativas só em nova sessão.
 - `unlock`: serviço de estudo em primeiro plano, receptor dinâmico, janela Compose e notificações de controle. Ciclos e sessões são persistidos em Room.
 
-Não há migração destrutiva. Na versão 1, o banco é criado com schema 1; futuras alterações de schema precisam fornecer migração explícita. Importar pacotes não apaga questões nem histórico. O histórico e as preferências permanecem após fechamento, reinício ou atualização do app; desinstalação ou limpeza dos dados pelo Android apaga o armazenamento local. O backup automático do Android está desabilitado, com regras explícitas para backup e transferência de dados nas versões antigas e recentes.
+Não há migração destrutiva. O banco está no schema 2, com MIGRATION_1_2 registrada para preservar as tabelas e dados da versão anterior. Futuras mudanças precisam fornecer migrações explícitas. Importar pacotes não apaga questões nem histórico. O histórico e as preferências permanecem após fechamento, reinício ou atualização do app; desinstalação ou limpeza dos dados pelo Android apaga o armazenamento local. O backup automático do Android está desabilitado, com regras explícitas para backup e transferência de dados nas versões antigas e recentes.
 
 ## Conteúdo e importação
 
-O APK não inclui banco de questões. Use a tela inicial → **Importar meu primeiro JSON** → **Importar pacote de questões**, ou acesse esse controle em Ajustes. O formato continua sendo um objeto com `schema_version: 1` e um array `questions` não vazio para pacotes importáveis.
+O APK não inclui banco de questões. Use a tela inicial → **Importar meu primeiro JSON** → **Importar pacote de questões**, ou acesse esse controle em Ajustes. O formato continua sendo um objeto com `schema_version: 1` e um arrays `questions` e/ou `flashcards` (pelo menos um item no total). Os pacotes novos podem usar `schema_version: 2`; a versão 1 continua aceita.
 
-Cada item mantém os campos `id`, `disciplina`, `assunto`, `enunciado`, `alternativas`, `resposta_correta`, `explicacao`, `explicacoes_alternativas`, `fonte`, `status_validacao` e `autoria_explicacao`. Alternativas e explicações são mapas A–E (2 a 5 opções), com a resposta entre as letras presentes. Para origem oficial, Fonte inclui concurso, banca, cargo, ano, arquivo, SHA-256 real e páginas/número/versão, com status `gabarito_conferido`. Para `autoral_ia`, bastam tipo e descricao, com status `revisao_pendente` ou `revisado`; não invente dados de prova. O campo `dica` é opcional e não aparece na tela quando ausente/nulo/vazio. Disciplina e assunto são livres, sem lista fixa.
+Cada questão completa mantém os campos `id`, `disciplina`, `assunto`, `enunciado`, `alternativas`, `resposta_correta`, `explicacao`, `explicacoes_alternativas`, `fonte`, `status_validacao` e `autoria_explicacao`. Alternativas e explicações são mapas A–E (2 a 5 opções), com a resposta entre as letras presentes. Para origem oficial, Fonte inclui concurso, banca, cargo, ano, arquivo, SHA-256 real e páginas/número/versão, com status `gabarito_conferido`. Para `autoral_ia`, bastam tipo e descricao, com status `revisao_pendente` ou `revisado`; não invente dados de prova. O campo `dica` é opcional e não aparece na tela quando ausente/nulo/vazio. Disciplina e assunto são livres, sem lista fixa.
 
 O importador recusa versão desconhecida, IDs duplicados dentro do pacote, status incompatíveis com o tipo de fonte, textos obrigatórios vazios, hash malformado em fonte oficial e explicações incompletas. Limites: 5 MB e 5.000 questões por pacote. IDs que já existem no banco são ignorados para preservar a interpretação do histórico. Uma importação inválida não altera o banco. Arquivos vazios não adicionam conteúdo e são recusados.
+
+Questões podem acrescentar `assunto_id` e `subassunto`. Também há formato compacto com alternativas em lista e resposta por índice base zero. Para cartões, os campos obrigatórios são `id`, `disciplina`, `assunto_id`, `frente` e `verso`; metadados e explicação são opcionais. Consulte FLASHCARDS.md para exemplos e validação.
 
 As questões que antes vinham embarcadas agora ficam apenas em `app/src/test/resources/questions_fixture.json`, fora do APK. Os materiais e relatórios das primeiras versões são históricos e não representam conteúdo incluído nesta edição.
 

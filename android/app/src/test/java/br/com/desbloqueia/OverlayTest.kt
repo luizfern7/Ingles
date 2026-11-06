@@ -117,6 +117,25 @@ class OverlayTest {
         assertFalse(service.isOverlayShowing)
         controller.destroy()
     }
+    @Test fun flashOnlyUnlockUsesSameOverlayWithoutAnyQuestion(): Unit = runBlocking {
+        val app=ApplicationProvider.getApplicationContext<StudyApplication>()
+        ShadowSettings.setCanDrawOverlays(true)
+        Shadows.shadowOf(app.getSystemService(PowerManager::class.java)).setIsInteractive(true)
+        Shadows.shadowOf(app.getSystemService(KeyguardManager::class.java)).setKeyguardLocked(false)
+        app.activityVisible=false
+        app.preferences.update(br.com.desbloqueia.data.Settings(unlock=true,studyMode="flashcards"))
+        val pack="""{"schema_version":2,"flashcards":[{"id":"overlay-f","disciplina":"Banco","assunto_id":"sfn_cmn","frente":"Função do CMN?","verso":"Diretrizes monetárias."}]}"""
+        app.repository.importStudyPack(pack)
+        assertEquals(0,app.repository.dao.countQuestions())
+        val controller=Robolectric.buildService(UnlockStudyService::class.java).create()
+        val service=controller.get()
+        service.handleEvent(Intent.ACTION_SCREEN_OFF);service.handleEvent(Intent.ACTION_USER_PRESENT)
+        assertTrue(service.isOverlayShowing)
+        assertNull(service.questionUi.session)
+        assertEquals("overlay-f",service.questionUi.flash!!.card.id)
+        service.handleEvent(Intent.ACTION_SCREEN_OFF);assertFalse(service.isOverlayShowing)
+        controller.destroy()
+    }
     @Test fun noOverlayWithoutSpecialPermission(): Unit = runBlocking {
         val app=ApplicationProvider.getApplicationContext<StudyApplication>()
         ShadowSettings.setCanDrawOverlays(false)

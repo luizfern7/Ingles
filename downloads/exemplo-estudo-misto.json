@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "questions": [
+    {
+      "id": "q101",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Sistema Financeiro Nacional",
+      "subassunto": "Conselho Monetário Nacional",
+      "assunto_id": "sfn_cmn",
+      "enunciado": "Qual órgão estabelece as diretrizes gerais da política monetária no Sistema Financeiro Nacional?",
+      "alternativas": [
+        "Banco Central",
+        "Conselho Monetário Nacional",
+        "Comissão de Valores Mobiliários",
+        "Banco do Brasil"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "O Conselho Monetário Nacional estabelece diretrizes gerais de política monetária e creditícia. O Banco Central atua na execução das políticas dentro de suas competências.",
+      "dica": "Diferencie o órgão que estabelece diretrizes daquele que executa políticas.",
+      "fonte": {
+        "tipo": "autoral",
+        "descricao": "Exemplo didático autoral para demonstrar importação e vínculo de assunto; não é questão oficial."
+      },
+      "status_validacao": "revisao_pendente"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f201",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto": "Sistema Financeiro Nacional",
+      "subassunto": "Conselho Monetário Nacional",
+      "assunto_id": "sfn_cmn",
+      "frente": "Qual é a principal função do Conselho Monetário Nacional?",
+      "verso": "Estabelecer diretrizes gerais das políticas monetária, creditícia e cambial.",
+      "explicacao": "O CMN é normativo; a execução das orientações cabe aos órgãos e operadores competentes.",
+      "status_validacao": "revisao_pendente"
+    },
+    {
+      "id": "f202",
+      "disciplina": "Conhecimentos Bancários",
+      "assunto_id": "sfn_cmn",
+      "frente": "O CMN e o Banco Central têm o mesmo papel no SFN?",
+      "verso": "Não. O CMN define diretrizes; o Banco Central executa políticas e supervisiona instituições dentro de suas competências.",
+      "status_validacao": "revisao_pendente"
+    }
+  ]
+}
