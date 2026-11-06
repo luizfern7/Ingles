@@ -34,13 +34,13 @@ object SpacedReview {
         val errors=attempts.filter {!it.correct && it.topicId!=null}.groupBy {it.topicId!!}.mapValues {it.value.maxOf {a->a.answeredAt}}
         val last=shown.maxByOrNull {it.shownAt}
         val seen=shown.groupBy {it.cardId}.mapValues {it.value.maxOf {s->s.shownAt}}
-        fun boosted(f: Flashcard)=(errors[f.assunto_id]?:0)>(p[f.id]?.lastReviewAt?:0)
-        var candidates=cards.filter {(disciplines.isEmpty() || it.disciplina in disciplines) && ((p[it.id]?.nextReviewAt?:0)<=now || boosted(it))}
+        fun boosted(f: Flashcard)=(errors[f.assunto_id]?:0L)>(p[f.id]?.lastReviewAt?:0L)
+        var candidates=cards.filter {(disciplines.isEmpty() || it.disciplina in disciplines) && ((p[it.id]?.nextReviewAt?:0L)<=now || boosted(it))}
         if(last!=null) {
             val other=candidates.filter {it.id!=last.cardId}
             candidates=if(other.isNotEmpty()) other else candidates.filter {it.id!=last.cardId || now-last.shownAt>=MINUTE}
         }
-        return candidates.minWithOrNull(compareBy<Flashcard> {if(boosted(it))0 else if(p[it.id]?.state=="aprendendo")1 else if(it.id in p)2 else 3}.thenBy {p[it.id]?.nextReviewAt?:0}.thenBy {seen[it.id]?:0}.thenBy {it.id})
+        return candidates.minWithOrNull(compareBy<Flashcard> {if(boosted(it))0 else if(p[it.id]?.state=="aprendendo")1 else if(it.id in p)2 else 3}.thenBy {p[it.id]?.nextReviewAt?:0L}.thenBy {seen[it.id]?:0L}.thenBy {it.id})
     }
 }
 

@@ -76,4 +76,19 @@ class FlashLearningTest {
         val invalid="""{"schema_version":2,"questions":[{"id":"q","disciplina":"Banco","assunto_id":"t","enunciado":"Qual?","alternativas":["A","B"],"resposta_correta":2,"explicacao":"Motivo."}]}"""
         try {PackCodec.decodeStudy(invalid);fail()} catch(_: IllegalArgumentException) {}
     }
+    @Test fun seenAndUnseenUnratedCardsUseSameTimestampType() {
+        val a=Flashcard("a","Banco","t","A","Verso A")
+        val b=a.copy(id="b",frente="B");val c=a.copy(id="c",frente="C")
+        val shown=listOf(FlashPresentation("p1","a",1000),FlashPresentation("p2","c",2000))
+        assertEquals("b",SpacedReview.choose(listOf(a,b,c),emptyList(),shown,emptyList(),emptySet(),3000)!!.id)
+    }
+    @Test fun boostedNewAndReviewedCardsUseSameDueTimestampType() {
+        val a=Flashcard("a","Banco","t","A","Verso A")
+        val b=a.copy(id="b",frente="B");val c=a.copy(id="c",assunto_id="other",frente="C")
+        val progress=listOf(FlashProgress("a",lastReviewAt=100,nextReviewAt=1000))
+        val shown=listOf(FlashPresentation("p","c",2000))
+        val error=AttemptEntity("err","q","Banco","A",false,2000,"t")
+        assertEquals("b",SpacedReview.choose(listOf(a,b,c),progress,shown,listOf(error),emptySet(),3000)!!.id)
+    }
+
 }

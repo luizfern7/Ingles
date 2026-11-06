@@ -8,7 +8,7 @@ plugins {
 android {
     namespace = "br.com.desbloqueia"
     compileSdk = 35
-    defaultConfig { applicationId = "br.com.desbloqueia.personal"; minSdk = 26; targetSdk = 35; versionCode = 7; versionName = "1.4.1"; testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner" }
+    defaultConfig { applicationId = "br.com.desbloqueia.personal"; minSdk = 26; targetSdk = 35; versionCode = 8; versionName = "1.4.2"; testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner" }
     compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
     kotlinOptions { jvmTarget = "17" }
     buildFeatures { compose = true }
@@ -24,6 +24,7 @@ android {
     testOptions {
         unitTests.isIncludeAndroidResources = true
         unitTests.all { test ->
+            providers.gradleProperty("regressionPack").orNull?.let { test.systemProperty("regression.pack.path", it) }
             test.systemProperty("robolectric.dependency.repo.url", "https://repo.maven.apache.org/maven2")
             listOf("https.proxyHost", "https.proxyPort", "http.proxyHost", "http.proxyPort", "http.nonProxyHosts", "javax.net.ssl.trustStore").forEach { name ->
                 System.getProperty(name)?.let { test.systemProperty(name, it) }

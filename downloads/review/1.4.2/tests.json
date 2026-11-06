@@ -1,0 +1,34 @@
+{
+  "debug": {
+    "tests": 90,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "release": {
+    "tests": 80,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint_issues": 0,
+  "regression": {
+    "questions": 500,
+    "flashcards": 500,
+    "android_apis": [
+      28,
+      35
+    ],
+    "input": "User-supplied pack, tested locally; not distributed",
+    "cases": [
+      "unrated seen and unseen cards",
+      "reviewed and new cards with topic boost",
+      "repeated sessions and ratings",
+      "next-day selection",
+      "manual review",
+      "unlock cycle deduplication"
+    ],
+    "before_fix": "Two timestamp comparator regressions reproduced Integer cannot be cast to Long",
+    "after_fix": "All tests passed"
+  }
+}

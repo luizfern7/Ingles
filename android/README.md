@@ -2,6 +2,10 @@
 
 Aplicativo Android nativo em Kotlin/Compose para transformar pequenas pausas em estudo. Este projeto está em `android/`, independente da página de flashcards `../index.html`, que foi preservada.
 
+## Versão 1.4.2 — correção da revisão de flashcards
+
+Corrige a conversão Integer/Long que interrompia a seleção depois de apresentar ou avaliar cartões. Atualização sem apagar dados ou reimportar o JSON. [Baixar APK](../downloads/desbloqueia-meu-acervo-1.4.2.apk) · [Detalhes e validação](docs/FIX_1_4_2.md).
+
 ## Versão 1.4.1 — tela limpa e flashcards reversíveis
 
 As telas de estudo mostram o conteúdo didático, sem origem/autoria, avisos de revisão, IDs de vínculo ou mensagens sobre comentários ausentes. Os dados continuam no JSON/banco para validação e associação de assuntos. Sem análise individual, o botão e o aviso não aparecem.
