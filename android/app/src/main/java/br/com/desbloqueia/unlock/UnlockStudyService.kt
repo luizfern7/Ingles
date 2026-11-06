@@ -161,7 +161,8 @@ class UnlockStudyService: Service(),LifecycleOwner,SavedStateRegistryOwner {
     }
     private fun flip() {
         val state=questionUi;val session=state.flash?:return
-        if(state.busy || state.flipped)return
+        if(state.busy)return
+        if(state.flipped) {questionUi=state.copy(flipped=false);return}
         questionUi=state.copy(busy=true)
         scope.launch {try {
             val revealed=withContext(Dispatchers.IO) {app.repository.reveal(session)}

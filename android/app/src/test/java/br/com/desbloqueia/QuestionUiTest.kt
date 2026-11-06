@@ -67,10 +67,24 @@ class QuestionUiTest {
     @Test fun noHintButtonWhenFieldIsAbsentOrNull() {noHint(null)}
     @Test fun noHintButtonWhenFieldIsEmpty() {noHint("")}
     @Test fun noHintButtonWhenFieldIsWhitespace() {noHint("   ")}
-    @Test fun pendingAiReviewIsShownBeforeAnswer() {
-        val q=aiQuestion()
+    @Test fun provenanceAndTechnicalIdsDoNotClutterStudy() {
+        val q=aiQuestion().copy(assunto_id="topic_internal_id")
         compose.setContent {MaterialTheme {QuestionScreen(QuestionUi(Session("review",q)),Settings(animations=false),{},{},{},{})}}
-        compose.onNodeWithText(q.reviewNotice()).assertExists()
+        compose.onNodeWithText(q.reviewNotice()).assertDoesNotExist()
+        compose.onNodeWithText(q.originSummary()).assertDoesNotExist()
+        compose.onNodeWithText("Vínculo: topic_internal_id").assertDoesNotExist()
+        compose.onNodeWithText(q.enunciado).assertExists()
+    }
+
+    @Test fun absentAlternativeAnalysisIsSilentAndExplanationRemains() {
+        val q=aiQuestion().copy(explicacoes_alternativas=emptyMap())
+        compose.setContent {MaterialTheme {QuestionScreen(QuestionUi(Session("clean",q),selected=q.resposta_correta),Settings(animations=false),{},{},{},{})}}
+        scrollTo("Entenda a resposta");compose.onNodeWithText("Entenda a resposta").assertIsDisplayed()
+        scrollTo("Próximo item")
+        compose.onNodeWithText("Analisar alternativas ↓").assertDoesNotExist()
+        compose.onNodeWithText("Este pacote não forneceu comentários individuais das alternativas.").assertDoesNotExist()
+        compose.onNodeWithText(q.autoria_explicacao).assertDoesNotExist()
+        compose.onNodeWithText(q.originDetails()).assertDoesNotExist()
     }
 
 }

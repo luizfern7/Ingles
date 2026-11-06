@@ -2,7 +2,13 @@
 
 Aplicativo Android nativo em Kotlin/Compose para transformar pequenas pausas em estudo. Este projeto está em `android/`, independente da página de flashcards `../index.html`, que foi preservada.
 
-## Versão 1.4.0 — questões e flashcards inteligentes
+## Versão 1.4.1 — tela limpa e flashcards reversíveis
+
+As telas de estudo mostram o conteúdo didático, sem origem/autoria, avisos de revisão, IDs de vínculo ou mensagens sobre comentários ausentes. Os dados continuam no JSON/banco para validação e associação de assuntos. Sem análise individual, o botão e o aviso não aparecem.
+
+Flashcards podem ser virados e desvirados pelo toque no cartão ou pelos botões Virar cartão/Voltar à frente, inclusive após avaliar. A troca de lado não grava nova revisão nem altera a agenda. O progresso e a assinatura da edição Meu acervo são preservados.
+
+## Recursos introduzidos na versão 1.4.0 — questões e flashcards inteligentes
 
 Acrescenta flashcards ao mesmo app, ao estudo manual e à janela após desbloquear. O padrão é **Modo misto, 50% questões e 50% flashcards**, com percentuais configuráveis em passos de 10% em Ajustes → Métodos de estudo. Também há modos exclusivos e botão Revisar flashcards na tela inicial. A quota é aplicada quando há itens elegíveis dos dois tipos; sem um deles, o misto intermediário usa o outro. Revisões futuras não são antecipadas apenas para cumprir a quota.
 

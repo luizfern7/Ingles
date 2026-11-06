@@ -31,4 +31,19 @@ class FlashcardUiTest {
         compose.onNodeWithText("Não sei").performScrollTo().performClick()
         compose.runOnIdle {assertEquals(false,rated)}
     }
+    @Test fun canFlipBackAndForthWithoutRating() {
+        val card=Flashcard("f","Banco","sfn_cmn","Pergunta da frente","Resposta do verso")
+        var state by mutableStateOf(QuestionUi(flash=FlashSession("session",card)))
+        var ratings=0
+        compose.setContent {MaterialTheme {FlashcardScreen(state,Settings(animations=false),{state=state.copy(flipped=!state.flipped)},{ratings++},{},{},{})}}
+        compose.onNodeWithText("Virar cartão").performScrollTo().performClick()
+        compose.onNodeWithText(card.verso).performScrollTo().assertIsDisplayed()
+        compose.onNodeWithText("Voltar à frente").performScrollTo().performClick()
+        compose.onNodeWithText(card.frente).performScrollTo().assertIsDisplayed()
+        compose.onNodeWithText(card.verso).assertDoesNotExist()
+        compose.onNodeWithText("Virar cartão").performScrollTo().performClick()
+        compose.onNodeWithText(card.verso).performScrollTo().assertIsDisplayed()
+        compose.runOnIdle {assertEquals(0,ratings)}
+    }
+
 }

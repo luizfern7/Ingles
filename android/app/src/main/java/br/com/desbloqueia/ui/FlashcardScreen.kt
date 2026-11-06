@@ -28,25 +28,23 @@ fun reviewDate(time: Long): String=DateFormat.getDateTimeInstance(DateFormat.SHO
     val angle by animateFloatAsState(if(state.flipped)180f else 0f,tween(if(settings.animations)350 else 0),label="virar flashcard")
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()),verticalArrangement=Arrangement.spacedBy(14.dp)) {
         Text("FLASHCARD · ${card.disciplina}",style=MaterialTheme.typography.labelLarge,color=MaterialTheme.colorScheme.primary)
-        Text(card.assunto?:card.assunto_id,style=MaterialTheme.typography.titleLarge,fontWeight=FontWeight.Bold)
+        card.assunto?.takeIf {it.isNotBlank() && it!=card.assunto_id}?.let {Text(it,style=MaterialTheme.typography.titleLarge,fontWeight=FontWeight.Bold)}
         card.subassunto?.let {Text(it)}
-        Text("Assunto: ${card.assunto_id} · ${card.id}",style=MaterialTheme.typography.bodySmall)
-        if(card.status_validacao=="revisao_pendente") Text("Revisão pendente · confira o conteúdo do pacote.",style=MaterialTheme.typography.bodySmall)
-        Card(Modifier.fillMaxWidth().heightIn(min=200.dp).graphicsLayer {rotationY=angle;cameraDistance=12*density}.clickable(enabled=!state.flipped && !state.busy,onClick=flip)) {
+        Card(Modifier.fillMaxWidth().heightIn(min=200.dp).graphicsLayer {rotationY=angle;cameraDistance=12*density}.clickable(enabled=!state.busy,onClick=flip)) {
             Column(Modifier.padding(24.dp).graphicsLayer {rotationY=if(angle>90)180f else 0f},verticalArrangement=Arrangement.spacedBy(14.dp)) {
                 Text(if(angle>90)"VERSO" else "FRENTE",style=MaterialTheme.typography.labelMedium)
                 Text(if(angle>90)card.verso else card.frente,style=MaterialTheme.typography.titleLarge)
                 if(angle>90 && !card.explicacao.isNullOrBlank()) Text(card.explicacao!!)
             }
         }
-        if(!state.flipped) Button(onClick=flip,enabled=!state.busy,modifier=Modifier.fillMaxWidth()) {Text("Virar cartão")}
-        else if(state.flashRating==null) {
+        Button(onClick=flip,enabled=!state.busy,modifier=Modifier.fillMaxWidth()) {Text(if(state.flipped) "Voltar à frente" else "Virar cartão")}
+        if(state.flipped && state.flashRating==null) {
             Text("Agora avalie o que lembrou:")
             Row(horizontalArrangement=Arrangement.spacedBy(12.dp)) {
                 OutlinedButton(onClick={rate(false)},enabled=!state.busy && angle>=179.9f,modifier=Modifier.weight(1f)) {Text("Não sei")}
                 Button(onClick={rate(true)},enabled=!state.busy && angle>=179.9f,modifier=Modifier.weight(1f)) {Text("Sei")}
             }
-        } else {
+        } else if(state.flashRating!=null) {
             Text(if(state.flashRating==true)"✓ Conhecimento registrado!" else "Vamos revisar em breve.",fontWeight=FontWeight.Bold)
             state.nextDue?.let {Text("Próxima revisão: ${reviewDate(it)}")}
             Button(onClick=next,modifier=Modifier.fillMaxWidth()) {Text("Próximo item")}

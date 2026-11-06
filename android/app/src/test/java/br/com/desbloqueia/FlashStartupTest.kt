@@ -25,8 +25,17 @@ class FlashStartupTest {
         compose.onNodeWithText("Definir diretrizes.").assertDoesNotExist()
         compose.onNodeWithText("Virar cartão").performScrollTo().performClick()
         compose.waitUntil(15_000) {compose.onAllNodesWithText("VERSO").fetchSemanticsNodes().isNotEmpty()}
+        compose.onNodeWithText("Voltar à frente").performScrollTo().performClick()
+        compose.onNodeWithText("Qual função?").performScrollTo().assertIsDisplayed()
+        runBlocking {assertTrue(app.repository.dao.flashReviews().isEmpty())}
+        compose.onNodeWithText("Virar cartão").performScrollTo().performClick()
+        compose.waitUntil(15_000) {compose.onAllNodesWithText("VERSO").fetchSemanticsNodes().isNotEmpty()}
         compose.onNodeWithText("Sei").performScrollTo().performClick()
         compose.waitUntil(15_000) {compose.onAllNodesWithText("✓ Conhecimento registrado!").fetchSemanticsNodes().isNotEmpty()}
+        compose.onNodeWithText("Voltar à frente").performScrollTo().performClick()
+        compose.onNodeWithText("Qual função?").performScrollTo().assertIsDisplayed()
+        compose.onNodeWithText("Virar cartão").performScrollTo().performClick()
+        compose.waitUntil(15_000) {compose.onAllNodesWithText("VERSO").fetchSemanticsNodes().isNotEmpty()}
         runBlocking {
             assertEquals(0,app.repository.dao.countQuestions())
             assertEquals(1,app.repository.dao.flashReviews().size)

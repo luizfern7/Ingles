@@ -108,10 +108,11 @@ private val Red=Color(0xFFAB303B)
     val questionScroll=rememberLazyListState()
     LaunchedEffect(session.id) {questionScroll.scrollToItem(0)}
     LazyColumn(state=questionScroll,verticalArrangement=Arrangement.spacedBy(12.dp)) {
-        item { Text(q.disciplina.uppercase(),style=MaterialTheme.typography.labelLarge,color=MaterialTheme.colorScheme.primary);Text(q.assunto,style=MaterialTheme.typography.headlineSmall,fontWeight=FontWeight.Bold);Text(q.originSummary(),style=MaterialTheme.typography.bodySmall)
-            if(q.fonte.tipo!="oficial") Text(q.reviewNotice(),style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
-            q.assunto_id?.let {Text("Vínculo: $it",style=MaterialTheme.typography.bodySmall)}
-            q.subassunto?.let {Text(it,style=MaterialTheme.typography.bodySmall)} }
+        item {
+            Text(q.disciplina.uppercase(),style=MaterialTheme.typography.labelLarge,color=MaterialTheme.colorScheme.primary)
+            q.assunto.takeIf {it.isNotBlank() && it!=q.assunto_id}?.let {Text(it,style=MaterialTheme.typography.headlineSmall,fontWeight=FontWeight.Bold)}
+            q.subassunto?.takeIf {it.isNotBlank()}?.let {Text(it,style=MaterialTheme.typography.bodySmall)}
+        }
         item { Text(q.enunciado,style=MaterialTheme.typography.bodyLarge,modifier=Modifier.padding(vertical=8.dp)) }
         if(!q.dica.isNullOrBlank()) item(key="hint") {
             Column(verticalArrangement=Arrangement.spacedBy(8.dp)) {
@@ -139,11 +140,9 @@ private val Red=Color(0xFFAB303B)
         item { AnimatedVisibility(visible=state.selected!=null,enter=fadeIn(tween(if(settings.animations) 220 else 0)),exit=fadeOut(tween(0))) {
             Column(verticalArrangement=Arrangement.spacedBy(12.dp)) {
                 Text(if(state.selected==q.resposta_correta) "✓ Resposta correta!" else "Resposta incorreta · Correta: ${q.resposta_correta}",style=MaterialTheme.typography.titleLarge,fontWeight=FontWeight.Bold,color=if(state.selected==q.resposta_correta) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error)
-                Card { Column(Modifier.padding(20.dp),verticalArrangement=Arrangement.spacedBy(8.dp)) { Text("Entenda a resposta",style=MaterialTheme.typography.titleMedium,fontWeight=FontWeight.Bold);Text(q.explicacao);Text(q.autoria_explicacao,style=MaterialTheme.typography.bodySmall) } }
+                Card { Column(Modifier.padding(20.dp),verticalArrangement=Arrangement.spacedBy(8.dp)) { Text("Entenda a resposta",style=MaterialTheme.typography.titleMedium,fontWeight=FontWeight.Bold);Text(q.explicacao) } }
                 if(q.explicacoes_alternativas.isNotEmpty()) OutlinedButton(onClick={expanded=!expanded},modifier=Modifier.fillMaxWidth()) { Text(if(expanded) "Recolher alternativas ↑" else "Analisar alternativas ↓") }
-                else Text("Este pacote não forneceu comentários individuais das alternativas.",style=MaterialTheme.typography.bodySmall)
                 if(expanded) q.explicacoes_alternativas.toSortedMap().forEach { (letter,text) -> Text("$letter · ${if(letter==q.resposta_correta) "Correta" else "Incorreta"}\n$text",Modifier.padding(vertical=4.dp)) }
-                Text(q.originDetails(),style=MaterialTheme.typography.bodySmall)
                 if(suggest!=null) OutlinedButton(onClick={suggest(q)},modifier=Modifier.fillMaxWidth()) {Text("Sugerir flashcard desta questão")}
                 Button(onClick=next,enabled=!state.busy,modifier=Modifier.fillMaxWidth()) {Text("Próximo item")}
                 OutlinedButton(onClick=done,modifier=Modifier.fillMaxWidth()) {Text("Concluir")}

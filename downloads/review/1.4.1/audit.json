@@ -1,0 +1,37 @@
+{
+  "package": "br.com.desbloqueia.personal",
+  "bundled_question_count": 0,
+  "file": "app-release.apk",
+  "sha256": "aae02a8d08d12f1a76d3c0b924e0aa67f260c3f069d5d8980196860573b9e050",
+  "version": "1.4.1",
+  "version_code": "7",
+  "debuggable": false,
+  "permissions": [
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.VIBRATE",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+    "br.com.desbloqueia.personal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "activities": [
+    "br.com.desbloqueia.MainActivity"
+  ],
+  "internal_services": [
+    "br.com.desbloqueia.unlock.UnlockStudyService",
+    "androidx.room.MultiInstanceInvalidationService"
+  ],
+  "native_libraries": [
+    "lib/arm64-v8a/libandroidx.graphics.path.so",
+    "lib/arm64-v8a/libdatastore_shared_counter.so",
+    "lib/armeabi-v7a/libandroidx.graphics.path.so",
+    "lib/armeabi-v7a/libdatastore_shared_counter.so",
+    "lib/x86/libandroidx.graphics.path.so",
+    "lib/x86/libdatastore_shared_counter.so",
+    "lib/x86_64/libandroidx.graphics.path.so",
+    "lib/x86_64/libdatastore_shared_counter.so"
+  ],
+  "certificate_sha256": "0a480a9497e84aca0637ae4ed4b61c3d32ed2e04e393db62485fc44f71f9abdd",
+  "previous_certificate_matches": true,
+  "malware_scan_performed_by_this_script": false
+}

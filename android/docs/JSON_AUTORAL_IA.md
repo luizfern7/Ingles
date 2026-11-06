@@ -17,7 +17,7 @@ Para autoria de IA, a fonte é somente:
 }
 ```
 
-Não são exigidos PDF, hash, banca, concurso, cargo, ano, páginas, número de prova ou versão. Não preencha esses campos com informações inventadas. O status é `revisao_pendente` ou `revisado`; o segundo é uma declaração do responsável pelo pacote, não uma verificação feita pelo app. A geração por IA deve usar `revisao_pendente`. O aplicativo avisa que resposta e explicações pendentes podem conter erros, antes e depois da resposta.
+Não são exigidos PDF, hash, banca, concurso, cargo, ano, páginas, número de prova ou versão. Não preencha esses campos com informações inventadas. O status é `revisao_pendente` ou `revisado`; o segundo é uma declaração do responsável pelo pacote, não uma verificação feita pelo app. A geração por IA deve usar `revisao_pendente`. O status é mantido no JSON e no banco; desde 1.4.1, não ocupa a tela de estudo. O aplicativo não verifica a verdade das respostas.
 
 ## Opcionais
 

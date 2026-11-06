@@ -47,7 +47,7 @@ class StudyViewModel(application: Application,private val saved: SavedStateHandl
             else if(f!=null) {
                 val id=saved.get<String>("presentation")?:UUID.randomUUID().toString()
                 val presentation=repo.dao.flashPresentation(id);val review=repo.dao.flashReview(id)
-                if(presentation!=null) ui.value=QuestionUi(flash=FlashSession(id,PackCodec.card(f)),flipped=presentation.revealed,flashRating=review?.known,nextDue=review?.dueAt)
+                if(presentation!=null) ui.value=QuestionUi(flash=FlashSession(id,PackCodec.card(f)),flipped=saved.get<Boolean>("flashFaceBack")?:presentation.revealed,flashRating=review?.known,nextDue=review?.dueAt)
             }
             ready.value=true
         } catch(e: Exception) {if(e is CancellationException)throw e;message.value="Falha ao carregar banco: ${e.message}"}
@@ -55,7 +55,7 @@ class StudyViewModel(application: Application,private val saved: SavedStateHandl
     private fun persist() {
         saved["question"]=ui.value.session?.question?.let {PackCodec.encode(it)}
         saved["flash"]=ui.value.flash?.card?.let {PackCodec.encodeCard(it)}
-        saved["presentation"]=ui.value.itemId;saved["selected"]=ui.value.selected
+        saved["presentation"]=ui.value.itemId;saved["selected"]=ui.value.selected;saved["flashFaceBack"]=ui.value.flipped
     }
     fun next()=load(false)
     fun reviewFlashcards()=load(true)
@@ -85,7 +85,8 @@ class StudyViewModel(application: Application,private val saved: SavedStateHandl
     }
     fun flip() {
         val state=ui.value;val session=state.flash?:return
-        if(state.busy || state.flipped)return
+        if(state.busy)return
+        if(state.flipped) {ui.value=state.copy(flipped=false);persist();return}
         ui.value=state.copy(busy=true)
         viewModelScope.launch {try {
             val revealed=withContext(Dispatchers.IO) {repo.reveal(session)}
